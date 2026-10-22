@@ -44,7 +44,8 @@
 | 前處理 | `tools/hd_prepare.py` | 整幅 LANCZOS 縮到 3 倍、不透明 RGBA；動畫只取遮罩外擴 6 像素；前作相同來源直接沿用 |
 | 數值驗收 | `tools/hd_validate.py`（`hd_compare.py`） | 結構分數 ≥ 0.40、色相差中位 < 30 度、尺寸、alpha、遮罩外差異 0 |
 | 目視 | 並列比較頁 | 綁定 PNG SHA-256；未目視或雜湊改變不得接入 |
-| 主題 | 待移植 `hd_theme.py` | `workplace/hd/theme/theme.json` |
+| 主題 | `tools/hd_theme.py` | `workplace/hd/theme/theme.json`（第一階段 89 項） |
+| 審閱頁 | `tools/hd_review_md.py` | `review/hd/README.md`：原版 3 倍與 HD 預覽並列，private repo 審閱用 |
 
 風格參考圖：克萊恩英豪已定版的 `workplace/hd/out/b01/camp.png`（複製到 `workplace/hd/style/krynn-b01-camp.png`），只取筆觸。
 
@@ -65,5 +66,5 @@
 | 批次 | 內容 | 狀態 |
 |---|---|---|
 | b01 | 標題、金庫店員、神殿祭司、BIGPIC1 區塊 112 | 數值與目視通過；使用者 2026-10-23 確認畫風 |
-| b02–b05 | 其餘 PIC 75 狀態（含沿用前作 7）、BIGPIC 7 | r0：69 張通過數值與目視；13 張未過（動畫非第 0 幀結構分數 < 0.40、3 張色相差 ≥ 30 度），r1 重畫中 |
+| b02–b05 | 其餘 PIC 75 狀態（含沿用前作 7）、BIGPIC 7 | r0：69 張通過；13 張未過（動畫非第 0 幀紋路跟著第 0 幀、矮人改成寫實配色），r1 加強提示詞重畫後全過 |
 | b06 | SSI 片頭（TITLE 1）、背景（TITLE 2）、背景＋Forgotten Realms 字樣（TITLE 2＋3 @ (16,40)） | 數值與目視通過；冷開機第 300、800、1500 格為證據 |
