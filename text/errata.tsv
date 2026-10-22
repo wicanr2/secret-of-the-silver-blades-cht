@@ -1,0 +1,114 @@
+key	entry	page	en	zh056	fix	category	reason	evidence	source
+j02-legion	2	28	Oh, to see the Legion again! I never thought it possible.	回頭望望軍團	能再次看見軍團	誤譯	原文是感嘆能再見到軍團，不是回頭看	已證實	英文手札 p.28；珍056 下冊 p.28
+j02-holy	2	28	they fight by our side as brothers	加入我們的聖仗	並肩作戰	錯字	「聖仗」不成詞，原文也沒有聖戰之意	已證實	同上
+j03-garb	3	28	In this stolen Black Circle garb I may succeed. With your help I certainly will.	我一定成功	那就一定成功	誤譯	原文是「單獨或許成功、有你們相助才一定成功」，珍056 把兩句的把握程度顛倒	已證實	英文手札 p.28；珍056 p.28
+j03-men	3	28	As honorable men, will you join me on my quest?	身為一個榮譽軍人	你們都是正直的人	誤譯	honorable men 指隊伍成員為人正直，不是軍人身分	已證實	同上
+j05-monsters	5	29	we extended our lower tunnels — and uncovered the monsters	且避過怪物	結果挖出了怪物	誤譯	意思相反：挖深礦道挖出了怪物，這是怪物出現的原因	已證實	英文手札 p.28；珍056 p.29
+j05-act	5	29	will act only when sure of success	等實驗成功之後才會拿出來施展	等有把握成功時才會出手	誤譯	原文沒有「實驗」，是有把握才行動	強推論	同上
+j08-mouse	8	29	I'm sure that mouse in the corner was glowing.	都已經變成紅面關公了	牆角那隻老鼠真的在發光	誤譯	發光的老鼠是劇情伏筆（第 48 則附身在老鼠身上的泰蘭特拉克斯），珍056 改成喝醉的笑話，線索消失	已證實	英文手札 p.29；珍056 p.29；英文手札第 48 則
+j08-drink	8	29	I didn't drink that much.	我喝不了那麽多	我沒喝那麼多	誤譯	原文是辯稱自己沒喝多，不是酒量不好	已證實	同上
+j09-mages	9	29	They was once mages serving the two brothers	兄弟主的手下	他們曾是法師	漏譯	漏了黑圈幫原本是法師	已證實	英文手札 p.29；珍056 p.29
+j09-serves	9	29	It serves the dark nature of the Well and they hate all others.	統治黑暗世界	侍奉這口井的黑暗本性	誤譯	原文是黑圈幫侍奉井的黑暗本性，沒有統治黑暗世界	已證實	同上
+j05-dealings	5	29	We've had a number of dealings	做過無數次的交易	做過不少交易	誤譯	a number of 是若干次，不是無數次	強推論	英文手札 p.28；珍056 p.29
+j09-hostile	9	29	Them Black Circlers are a hostile bunch	邪惡集團	不好惹的集團	誤譯	hostile 是敵意、不好惹，原文刻意說「別把他們想得太壞」，譯成「邪惡」與下句矛盾	強推論	英文手札 p.29；珍056 p.29
+j10-goodness	10	30	There is an illusion of goodness there	有一尊女神的幻影	看似一片祥和	誤譯	illusion of goodness 是「善良的假象」，不是女神幻影	已證實	英文手札 p.29；珍056 p.30
+j10-ambush	10	30	I was ambushed as soon as I encamped near the altar.	每當我在祭壇附近禁營時	我才在祭壇附近紮營，就中了埋伏	誤譯	只發生一次，不是每次；珍056「禁營」另有錯字	已證實	同上
+j10-peace	10	30	Now that I have passed on my warning I can die in peace.	趁我去世以前，我要警告世人	我可以安心地走了	誤譯	原文是警告已傳出所以能安心死去	已證實	同上
+j11-banite	11	30	Exultant Banite Priest	毒教士	班恩教士	專名	Banite 是班恩（Bane）的信徒，不是「毒教」	已證實	英文手札 p.29；珍056 p.30
+j12-deserve	12	30	He thought the miners was deservin' of Tyr's protection.	均受Tyr的庇祐	應受提爾的庇佑	誤譯	原文是值得庇佑，不是已受庇佑	強推論	英文手札 p.29；珍056 p.30
+j13-ambush	13	30	were nearly to the top when the Black Circle sprung their ambush	幾乎避開黑圈幫所埋設的陷阱而到達頂端	就快到達頂端時，中了黑圈幫的埋伏	誤譯	意思相反：他們中了埋伏	已證實	英文手札 p.29；珍056 p.30–31
+j13-wish	13	31	they prepared an elaborate wish. It traps me in this cell	立下了一個毒誓	許下了一個願望	誤譯	wish 是願望術，困住盲法師的就是這個願望，不是毒誓	已證實	同上
+j13-tower	13	31	I return to my tower now	回到我的城堡	回到我的法師塔	誤譯	tower 是塔	已證實	同上
+j14-captain	14	31	The Captain's Tale	上校的故事	隊長的故事	誤譯	captain 是冒險隊的隊長，不是軍階上校	強推論	英文手札 p.29；珍056 p.31
+j15-generations	15	31	We have held these crevasses for generations. We will not surrender them to the likes of you.	我們已爲後代子孫們保有這些冰隙，所以絕不會像你這樣屈伏於他們	世世代代守著這些冰隙，絕不會交給你們這種人	誤譯	for generations 是世代以來；surrender to the likes of you 是交給你們這種人	已證實	英文手札 p.30；珍056 p.31
+j16-pool	16	32	surrounded by the hatchling pool	被水門掩飾地很好	四周圍著幼龍池	誤譯	hatchling pool 是幼龍池，與下文「讓牠們長大」呼應	已證實	英文手札 p.30；珍056 p.32
+j16-miss	16	32	We hope that the old Red Dragon will not miss the hatchlings; they provide an excellent defense.	最好這隻老紅龍別在水門上失手	希望老紅龍不會發現少了幼龍	誤譯	miss 是察覺幼龍不見，黑圈幫偷了紅龍的幼龍當守衛	已證實	同上
+j16-banite	16	32	the dragon and its Banite allies will fall	毒教戰友	班恩教戰友	專名	Banite 是班恩的信徒	已證實	同上
+j17-fabulous	17	32	The old town was said to be a fabulous place for a time.	只是個傳說的地方	非常繁華	誤譯	fabulous 在此是繁華驚人，不是傳說	已證實	英文手札 p.30；珍056 p.32
+j17-curse	17	32	These new monsters are just more of the valley's curse.	只是中了山谷的詛咒	也只是山谷詛咒的一部分	誤譯	怪物本身就是詛咒的一部分，不是受詛咒的對象	已證實	同上
+j18-blades	18	32	Story of the Silver Blades	銀色七首	銀刃	專名	Silver Blades 是奧斯沃夫組成的團體，Blade 不是匕首；「七」另為「匕」的排印錯字	已證實	英文手札 p.30；珍056 p.32–33
+j18-paladin	18	32	Oswulf, a paladin	遊侠Oswulf	聖騎士奧斯沃夫	誤譯	paladin 是聖騎士，不是遊俠（ranger）	已證實	同上
+j18-fell	18	33	The Dreadlord's forces counterattacked while the spell was being cast and Oswulf fell protecting us.	陷入重圍，自顧不暇	奧斯沃夫為了保護我們而倒下	誤譯	原文是奧斯沃夫為保護眾人而死，珍056 漏了反撲也漏了他的死	已證實	同上
+j18-bound	18	33	I am now bound to this temple and cannot take the battle to them.	因此我現在準備趕到神殿去，避免重啓禍端	我已被束縛在這座神殿，無法親自出戰	誤譯	意思相反：德夫離不開神殿，所以把任務交給隊伍	已證實	同上
+j18-unravel	18	33	The Black Circle is succeeding in unravelling our spell.	黑圈幫成功地解開咒语	黑圈幫正逐步解開我們的咒語	誤譯	是進行中，且咒語指當年冰封山谷的咒語	強推論	同上
+j19-kin	19	33	he fell victim to a red dragon, kin to the one you slew to free me	成了紅龍的午餐	和你們為了救我而殺死的那條是同類	漏譯	漏了這條紅龍與先前被殺的紅龍的關係	已證實	英文手札 p.31；珍056 p.33
+j20-ear	20	34	That old man — south of the mayor's place — can sure talk yer ear off.	能夠割掉你的耳朵	可真能嘮叨個沒完	誤譯	talk your ear off 是很能嘮叨，提示玩家去找這位會講故事的老人	已證實	英文手札 p.31；珍056 p.34
+j22-bane	22	34	Dying Cleric of Bane.	毒教傳教士	班恩教牧師	專名	Bane 是神名班恩，cleric 是牧師	已證實	英文手札 p.31；珍056 p.34
+j22-evil	22	34	The Banite Cleric fades into death.	惡毒的傳教士	這名班恩教牧師	專名	Banite 是班恩的信徒，不是「惡毒」	已證實	同上
+j23-purpose	23	34	It is connected in some way to their whole purpose for being here.		護身符多少和他們來這裏的目的有關	漏譯	漏了護身符與黑圈幫來此目的的關係	已證實	英文手札 p.31；珍056 p.34
+j24-divert	24	34	He dug a small tunnel and has diverted them for centuries. I am certain that the gems are what sustain him.	挖了一個小礦坑儲藏寶石	幾百年來一直把寶石引到自己那裏	誤譯	葛林卓用坑道把井的寶石引走數百年，並靠寶石維生；珍056 漏了時間與維生	已證實	英文手札 p.32；珍056 p.34–35
+j25-awaken	25	35	The mages seek the awakening of the Dreadlord	努力地尋找冰封的「恐怖魔王」	想喚醒冰封的恐怖魔王	誤譯	黑圈幫要喚醒恐怖魔王，不是尋找他	已證實	英文手札 p.32；珍056 p.35
+j25-seek	25	35	Still, seek me out when you have questions. My powers are at your disposal.	只要你救我出來	有疑問時就來找我	誤譯	seek me out 是來找我，知識之井不需要被救出	已證實	同上
+j26-beneath	26	35	bringing the amulet into the dungeons beneath the castle	城堡上方的地下城	城堡下方的地下城	誤譯	beneath 是下方	已證實	英文手札 p.32；珍056 p.35
+j27-maiden	27	36	Rescued Maiden's Story.	被救夫人	被救少女	誤譯	maiden 是未婚少女	已證實	英文手札 p.32；珍056 p.36
+j27-unwitting	27	36	My father is an unwitting servant of the Black Circle.	黑圈幫的奴隸	不知情地替黑圈幫做事	誤譯	unwitting 是不知情，沒有奴隸之意	已證實	同上
+j27-suspicious	27	36	When he became suspicious, they kidnapped me to keep him silent.	他們懷疑他的忠誠	他起了疑心	誤譯	起疑心的是父親，不是黑圈幫	已證實	同上
+j28-throne	28	36	He almost captured a throne out near Waterdeep, but tired of the campaigning.	他早已是Waterdeep的武林盟主	差點在深水城附近奪得王位，可是厭倦了征戰	誤譯	throne 是王位，campaigning 是征戰，不是比武	已證實	英文手札 p.32；珍056 p.36
+j28-myth	28	36	Travelled up to Myth Drannor and stood with elves against a Flight of the Dragons.	Drannor 迷宮與聖教族人	米斯・德瑞納，與精靈並肩擊退龍群	專名	Myth Drannor 是精靈古城米斯・德瑞納，elves 是精靈	已證實	同上；光芒之池說明書譯名
+j28-left	28	36	she left with the other elves and is still alive	跟另一個族人私奔	跟其他精靈一起離開	誤譯	指精靈族集體離開（大撤離），不是私奔	已證實	同上
+j29-alcove	29	36	I don't recall any alcoves. These alcoves along the side were definitely put there by the Dreadlord.	我已想不起每個廳室的模樣	我不記得有這些凹室	誤譯	原文是說以前沒有凹室，所以凹室是恐怖魔王加的	已證實	英文手札 p.33；珍056 p.36
+j31-banite	31	37	Banite Patrol's Story	毒教偵察隊	班恩教巡邏隊	專名	Banite 是班恩的信徒，patrol 是巡邏隊	已證實	英文手札 p.33；珍056 p.37
+j31-offended	31	37	Bane was offended and sent a red dragon in vengeance.	毒教奮力抵抗	班恩大為震怒	誤譯	震怒並派龍的是神祇班恩，不是教團抵抗	已證實	同上
+j31-enemies	31	37	Death to the enemies of Bane!	毒教的敵人	班恩的敵人	專名	Bane 是神名	已證實	同上
+j34-flaming	34	38	Old Man's Tale of the Flaming One	火神	烈焰之主	專名	Flaming One 是泰蘭特拉克斯的稱號，青色枷的詛咒譯烈焰之主；他不是神	強推論	英文手札 p.33；珍056 p.38；/home/anr2/cht/golden_box/curse_of_the_azure_bonds/docs/knowledge/coab-glossary.md
+j34-live	34	38	destined to live as long as man walks the earth	只要人們走到這塊地方	只要世上還有人類	誤譯	as long as man walks the earth 指人類存在多久它就活多久	已證實	英文手札 p.33；珍056 p.38
+j34-possess	34	38	He can possess anything of flesh.	它嗜吃肉類	它能附身在任何血肉之軀上	誤譯	possess 是附身，這是第 48 則老鼠被附身的伏筆	已證實	同上
+j34-skulk	34	38	I think he's skulking the ruins, seeking the power of the Dreadlord.	它可能會向恐怖魔王求助	覬覦恐怖魔王的力量	誤譯	原文是躲在廢墟覬覦恐怖魔王的力量，不是求助	強推論	同上
+j36-storm	36	39	Map Purchased from the Storm Giants	狂暴巨人	風暴巨人	譯名不一致	Storm Giant 珍056 第 66 則作風暴巨人	已證實	英文手札 p.34；珍056 p.39、p.53
+j37-add	37	39	To add to our problems, something has captured the Well of Knowledge.	爲了阻撓我們	雪上加霜的是	誤譯	to add to our problems 是「更糟的是」，沒有阻撓之意	已證實	英文手札 p.34；珍056 p.39
+j37-protected	37	40	Once the Well is protected	一旦深井被控制住	一旦深井得到保護	誤譯	意思相反：井被解放、受保護之後才下礦坑	已證實	英文手札 p.34；珍056 p.40
+j39-paladin	39	40	My grandpappy was a paladin out near Cormyr	武士	聖騎士	誤譯	paladin 是聖騎士	已證實	英文手札 p.35；珍056 p.40
+j39-quests	39	40	she kept trying to attract him, tie him down and so on. In turn, he would go on longer and more dangerous quests.	使得他只愛美人不愛冒險	他反而去冒更久、更危險的險	誤譯	意思相反：她越想綁住他，他越往外冒險	已證實	同上
+j39-use	39	41	I think that it's too useful just to keep as an heirloom — and none of my kids deserve it — so put it to good use.	所以將它束之高閣	所以你們拿去好好使用吧	誤譯	意思相反：老人把斗篷送給隊伍使用	已證實	英文手札 p.35；珍056 p.41
+j39-cloak	39	40	Old Man's Tale of the Cloak	斗蓬	斗篷	錯字	「篷」誤作「蓬」	已證實	珍056 p.40
+j40-ledger	40	41	Ledger from New Verdigris Mining	礦坑的平台	礦場的帳簿	誤譯	ledger 是帳簿，內文就是一份產量紀錄	已證實	英文手札 p.35；珍056 p.41
+j40-strike	40	41	7,8,9,10) General Strike—no work.	一般攻擊—— 無效	全面罷工——停工	誤譯	general strike 是全面罷工，不是攻擊	已證實	同上
+j40-work	40	41	We can't get any work done!	我們爲什麼都使不出力？	我們什麼工作都做不了！	誤譯	原文是無法工作	已證實	同上
+j42-cheated	42	43	We have been cheated of our rightful place in the Dreadlord's hierarchy.	我們已騙取恐怖魔王領土的精華地區	應有的地位被騙走了	誤譯	主客顛倒：被騙的是說話者；hierarchy 是地位階級，不是領土	已證實	英文手札 p.36；珍056 p.43
+j43-managed	43	43	The townsmen managed to reach the Well prior to the red dragon.	都計劃比紅龍先到達智慧之井	搶在紅龍之前到達知識之井	誤譯	managed to 是已經做到，不是計劃	已證實	英文手札 p.36；珍056 p.43
+j43-literal	43	43	Fortunately for us, the wish worked literally and brought only the people.	他們的願望終究達成	願望只照字面實現，只帶來了人	誤譯	漏了關鍵：願望只帶來人、沒有裝備，所以市長要供給他們吃穿	已證實	同上
+j43-waking	43	43	these naked and angry people waking up right in the middle of a town meeting	參加城鎮會議	在城鎮會議中途醒來	誤譯	隊伍是被願望召喚而在會議中醒來，不是來參加會議	已證實	同上
+j44-grabbed	44	43	I was grabbed by those vile Black Circle scum!	黑圈幫的人從不洗澡	就被那些卑鄙的黑圈幫人渣抓住了	漏譯	漏了被黑圈幫抓住這件事	已證實	英文手札 p.36；珍056 p.43
+j44-where	44	43	Anyway, where was I? Oh yes, mauled by filthy beasts.	我現在身處那兒呢	我說到哪兒了	誤譯	where was I 是「說到哪了」，不是問所在位置	已證實	同上
+j44-why	44	43	If he's so powerful, why does he let these disgusting people serve him?	爲什麼不施法讓這些嘔心的傢伙爲他賣命	為什麼會讓這些噁心的傢伙為他賣命	誤譯	意思相反：質疑魔王為何容許這些人侍奉他	已證實	同上
+j44-strange	44	43	The western tunnels and a vorpal something were mentioned. Strange name for a valuable object.	還有一些奇怪名字的物品	拿這種怪名字來稱呼寶物還真奇怪	誤譯	「奇怪的名字」是書記官對 vorpal 一詞的評語，不是另有物品	已證實	英文手札 p.36–37；珍056 p.43
+j46-remember	46	44	Know, oh ancient Dreadlord, that we remember our pledges	哦！古恐怖魔王還記得我們的誓言	我們仍記得我們的誓言	誤譯	記得誓言的是寫信的馬爾瑪斯特一方	已證實	英文手札 p.37；珍056 p.44
+j46-bane	46	44	In Bane's Name	奉毒教之名	奉班恩之名	專名	Bane 是神名	已證實	同上
+j46-typo	46	44	will continue in the same spirit	繼續者	繼續下去	錯字	「者」應為語尾	已證實	珍056 p.44
+j47-redplume	47	45	I served Hillsfar as a Red Plume.	紅巾賊	紅羽衛	專名	Red Plume 是海爾斯法的正規軍，不是盜賊	已證實	英文手札 p.37；珍056 p.45；青色枷的詛咒譯名表
+j47-yulash	47	45	Mayor Relates Yulash Experiences	迦拉敍	尤拉斯	專名	Yulash 音譯首字錯；光芒之池說明書譯尤拉斯	強推論	同上；光芒之池譯名表
+j47-leader	47	45	Here I found my leadership skills in need	在這裏我學會了領導技巧	在這裏發現大家需要我的領導才能	誤譯	in need 是被需要，不是學會	已證實	英文手札 p.37；珍056 p.45
+j48-myth	48	45	You thought that you had defeated me in Myth Drannor and before that in my castle in Phlan.	Drannor迷宮及我的菲蘭城前的城堡	米斯・德瑞納	專名	Myth Drannor 是古城名；before that 指更早在菲蘭城的城堡	已證實	英文手札 p.38；珍056 p.45
+j48-gauntlet	48	45	When the Gauntlet of Moander destroyed the Pool of Radiance	Moander的鐵手戰神摧毀光芒之地	摩安德的鐵護手摧毀光芒之池	誤譯	gauntlet 是鐵護手；Pool of Radiance 是光芒之池	強推論	同上
+j48-possess	48	45	Now that you are here I can take one of you over and be free again.	我可以代替你們其中一位	我可以附身在你們其中一位身上	誤譯	take over 是附身奪取	已證實	同上
+j50-cute	50	46	Derf, you fuzzy old man, you look even cuter with white hair.	你像個老頭子，看起來滿佈白髮	滿頭白髮看起來更可愛了	誤譯	原文是親暱的調侃	已證實	英文手札 p.38；珍056 p.46
+j50-pinch	50	46	She pinches his cheek	摟著他的臉頰	捏捏他的臉頰	誤譯	pinch 是捏	已證實	同上
+j50-lost	50	46	You were lost in the great battle.	妳在這場大戰中失敗呢	妳在那場大戰中失蹤了	誤譯	lost 是失蹤、下落不明	已證實	同上
+j50-speaker	50	46	He looks her in the eyes with a soft expression and says, 'The Legion has returned and is unravelling our spells. The Dreadlord's threat must be ended forever.'	恐怖魔王的威脅將永遠停止了	恐怖魔王的威脅必須永遠終結	誤譯	說話者是德夫，且是「必須終結」不是「將停止」	已證實	同上
+j51-south	51	47	Then south of the mine was the old Government House.	在礦場的角落	在礦場的南邊	誤譯	south of 是南邊，這是找到市政府的方位線索	已證實	英文手札 p.39；珍056 p.47
+j51-typo	51	47	where affairs of state were conducted	在此在決定	在此決定	錯字	多一個「在」	已證實	珍056 p.47
+j51-clerks	51	47	if you can stand the ghosts of clerks and bean counters	牧師和bean counters的鬼魂	書記和帳房的鬼魂	誤譯	clerk 是書記（疑與 cleric 混淆），bean counters 是管帳的人	已證實	英文手札 p.39；珍056 p.47
+j53-tyr	53	48	The signs indicate Tyr is involved with the item	此物品包含了Tyr	此物品與提爾有關	誤譯	involved with 是有關，不是包含	強推論	英文手札 p.40；珍056 p.48
+j53-blades	53	48	The Silver Blades are gone	銀色七首聯盟	銀刃	專名	見第 18 則	已證實	英文手札 p.39；珍056 p.48
+j55-contract	55	49	During the reconquest of the city, I contracted out missions to the many heroes who freed the city.	我廢棄了許多和拯救這個城市英雄所訂下的契約	我把許多任務委託給解放這座城市的英雄們	誤譯	contracted out missions 是委託任務，不是廢棄契約；這是光芒之池書記官發任務的背景	已證實	英文手札 p.40；珍056 p.49
+j55-access	55	49	I had contacts with the Black Circle because of their access to the gems of Verdigris.	由於黑圈幫想要新維地格里城的寶石	黑圈幫取得了維地格里城的寶石	誤譯	黑圈幫掌握寶石來源，所以書記和他們往來	已證實	同上
+j55-goodday	55	49	Good day!	有個美好的一天！	告辭了！	語氣	Good day 在此是不客氣的道別	強推論	同上
+j56-reassured	56	49	I am reassured that it is the Silver Blades who come to finish what we started centuries ago.	是銀色七首結束了我們從數世紀前開始的基礎	看到是銀刃前來完成我們數世紀前開始的事，我放心了	誤譯	奧斯沃夫把隊伍視為新的銀刃，前來完成未竟之事	已證實	英文手札 p.40；珍056 p.49
+j56-giant	56	50	A tear appears in the giant spirit's eye	這個偉人的眼中	這個巨大的靈魂眼中	誤譯	giant spirit 是巨大的鬼魂，奧斯沃夫此時是靈體	強推論	同上
+j57-keep	57	50	We will keep our real target to ourselves.	我們會守住眞正的目標	我們的真正目標不會對外透露	誤譯	keep to ourselves 是不外洩	已證實	英文手札 p.41；珍056 p.50
+j57-clear	57	50	the mayor has brought together a new force to clear the mines and the Well	消除礦坑	清除礦坑	誤譯	clear 是清除怪物，不是消除礦坑	已證實	同上
+j59-mouse	59	51	Valgur laughed when he saw it. That was our downfall. The monsters heard and attacked. As I crawled from the fray badly wounded, I saw the creature in the back of the horde. It was only a glowing mouse!	其實那不過是水落下的聲音罷了，當我受重傷回頭看時，那些怪物只是老鼠	那不過是一隻發光的老鼠	誤譯	珍056 編出「水落下的聲音」，漏了瓦古爾的笑聲與怪物攻擊；發光的老鼠是第 8、48 則的伏筆	已證實	英文手札 p.41；珍056 p.51
+j61-dales	61	51	Hillsfar can take control of the Dalelands and the Moonsea	峽谷地區	谷地	專名	Dalelands 是地區名谷地，不是峽谷	強推論	英文手札 p.41；珍056 p.51
+j62-below	62	51	The dungeon is open to just below the castle	就在城堡下面的地下迷宮已經打開	地下城已經打開到城堡正下方	誤譯	原文是挖通到城堡正下方	強推論	英文手札 p.41；珍056 p.51
+j63-cage	63	52	imprisoned me in that shimmering cage	那監獄	閃著微光的牢籠	漏譯	漏了 shimmering	強推論	英文手札 p.42；珍056 p.52
+j63-blades	63	52	I am Vala of the Silver Blades	銀色七首聯盟	銀刃	專名	見第 18 則	已證實	同上
+j64-mad	64	52	Mad Dwarf's Ramblings	憤怒侏儒	瘋矮人	誤譯	mad 是瘋，dwarf 是矮人，不是侏儒	已證實	英文手札 p.42；珍056 p.52
+j64-nextdoor	64	52	They do strange things to 'em next door.	他們對隔門的人做奇怪的事	他們在隔壁對那些雕像做奇怪的事	誤譯	'em 指雕像，next door 是隔壁房間	已證實	同上
+j64-dash	64	52	Wizards are queer birds — all skin and bones	鳥一全都是	鳥——全都是	錯字	破折號誤排成「一」	已證實	珍056 p.52
+j65-oswulf	65	52	but Oswulf is confident	歐斯畢夫	奧斯沃夫	譯名不一致	同一人在其他則留英文 Oswulf，本則另譯歐斯畢夫，且「畢」與 wulf 音不合	已證實	英文手札 p.42；珍056 p.52
+j67-mad	67	54	Mad Cleric's Ramblings	憤怒牧師	瘋牧師	誤譯	mad 是瘋	已證實	英文手札 p.43；珍056 p.54
+j67-bane	67	54	Questioned the high lord Bane once	毒神	班恩	專名	Bane 是神名	已證實	同上
+j67-madness	67	54	Gods inspire the mad. Madness flows from...	神啓發憤怒，憤怒湧自	神啟發瘋狂，瘋狂湧自	誤譯	mad／madness 是瘋狂	已證實	同上
+j69-clerk	69	56	Clerk's Letter	牧師的信	書記的信	誤譯	clerk 是書記（寫信人是議員，收信人莎夏是書記）	已證實	英文手札 p.43；珍056 p.56
+j69-concerns	69	56	I'm sorry to hear that you have concerns about the Black Circle. However, their continued good will is essential.	我聽到你跟黑圈幫有關感到很遺憾，雖然他們持續的決心是必須的	聽說你擔心黑圈幫的事，我感到很遺憾，不過他們持續的善意是必須的	誤譯	concerns 是擔心，good will 是善意	已證實	同上
+j70-payment	70	56	The Black Circle has collected us as payment to the driders.	聚集起來和牛蜘精靈交易	當作付給半蜘精靈的報酬	誤譯	囚犯本身就是付給半蜘精靈的報酬	已證實	英文手札 p.44；珍056 p.56

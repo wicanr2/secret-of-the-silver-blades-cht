@@ -46,3 +46,11 @@
 - 覆繪驗證暫借克萊恩英豪的 `ui-text.zh-TW.tsv` 與倚天字型，放在 `workplace/text-src/trial/`、`workplace/font/placeholder-*`，不是本作譯文；開場 16 段試譯同放該處。
 - 勘誤：G2 寫「不送鍵時標題後直接進主選單」不成立。當時 #400M 的主選單畫面來自另一次執行：scratch 已有 `blades.cfg`，
   原本要回答設定的 `212\r` 改被標題畫面吃掉而跳過標題。收據改為從標題狀態送 ` p`，主選單雜湊改為 `5fe4bff7…`；docs/re/003 已更正。
+
+## 2026-10-22 G4 手札錯譯校正（#5）
+
+- 查驗題：`START.EXE` 0xDCFC 題目表 30 筆，`tools/quiz_answers.py` 以含標題字序算出 30 題答案，長度全部相符（docs/re/005）。
+- 轉錄分派 4 個子代理：英文第 1–37 則與珍056 第 41–72 則完成逐字轉錄；另兩個子代理以版權為由只交則號、標題與節錄。
+  改由 OCR 補：英文用 `pdftotext -bbox-layout`（`tools/journal_en_ocr.py`），珍056 用黑暗之后的 PaddleOCR 映像與模型快取（唯讀掛載，`tools/ocr_batch.py`、`tools/zh_ocr_journal.py`），再逐頁對圖校讀。
+- 逐則對照 72 則，產出 `text/journal.zh-TW.tsv`、`text/errata.tsv`（113 條）、`text/glossary.tsv`、`text/term-avoid.tsv`；`tools/errata_check.py`、`tools/term_check.py` 通過。
+- 轉錄、OCR 與對照中間檔都在 `workplace/journal/`，含原文，不入 Git。
