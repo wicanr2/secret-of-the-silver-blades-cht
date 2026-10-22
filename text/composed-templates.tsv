@@ -93,3 +93,4 @@ takes {n} point of damage from Poison	受到 {n} 點毒素傷害	本作（demo �
 (from behind) Hitting for {n} points of damage	（背後攻擊）造成 {n} 點傷害	本作背刺傷害（單一空白；跨區盤點蓋加斯 2026-10-19）
 (from behind) Hitting for {n} point of damage	（背後攻擊）造成 {n} 點傷害	單數（推測，未觀測）
 (from behind) and Misses	（背後攻擊）但沒有命中	本作背刺落空（跨區盤點蓋加斯 2026-10-19）
+The party has found treasure!	隊伍找到了寶物！	寶物畫面（The party has found ＋ treasure! 兩段組成；本作 docs/re/007）

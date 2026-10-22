@@ -60,3 +60,12 @@
 - 新增 `text/TRANSLATION-GUIDE.md`（改寫自克萊恩英豪）、`tools/font-dev.sh`（源泉圓體 16／24 格，Unifont 補字）、`tools/ecl_batches.py`；ECL 切成 22 批（`workplace/tr/ecl/`）。
 - 試譯 ECL 第 01、02、06 批共 122 則（開場目標、新維地格里城鎮內、開場劇情），放 `workplace/tr/ecl/done/`；覆繪截圖 `workplace/probe/g5-trial/`，範圍外差異 0。
 - 全量翻譯等使用者確認文風後再派批次。
+
+## 2026-10-22 G5 全量翻譯與 G6 診斷路徑（#6、#7）
+
+- 使用者確認試譯文風。ECL 19 批分給 6 個 sonnet 子代理、UI 4 批 1 個；交回後統一頭尾空白與漂移譯名，`tools/translation_merge.py` 合併 0 錯誤。
+- 術語表併入克萊恩英豪的 AD&D 通用類別 491 筆（排除克萊恩專屬）；Gnome 改用「侏儒」（光芒之池），從禁用表移除「侏儒」。
+- 沿用克萊恩英豪的名稱、選單母串工具、組句模板、前端文字表與音譯資料（CMUdict、維基英語人名譯音表；LICENSE 第 2 條 (d) 已列）。
+- 角色紀錄性別欄判定 +0x11F；名字規則接受大小寫混合（`dosgolem/sosb`）。診斷路徑覆蓋見 `docs/re/007`。
+- 使用者提供《軟體世界》第 21–25 期攻略掃描 22 張（`walkthrough/`），OCR 草稿在 `workplace/walkthrough-ocr/`。
+- 一次等待迴圈用 `pgrep -f` 比對到自己而卡住，已停止；之後用背景通知等待。
