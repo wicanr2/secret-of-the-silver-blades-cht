@@ -2,6 +2,7 @@
 """術語一致性檢查：text/term-avoid.tsv 列出的舊譯不得出現在正式譯文（text/*.zh-TW.tsv）。
 
 用法：python3 -I tools/term_check.py [text 目錄]；有殘留就逐一列出並以結束碼 1 結束。
+題名「銀色匕首之謎」依使用者決定保留，檢查前先從字串中移除。
 """
 import csv
 import sys
@@ -14,7 +15,7 @@ bad = []
 for p in sorted(root.glob('*.zh-TW.tsv')):
     with open(p, encoding='utf-8', newline='') as f:
         for i, r in enumerate(csv.reader(f, delimiter='\t', quoting=csv.QUOTE_NONE), 1):
-            line = '\t'.join(r[1:])
+            line = '\t'.join(r[1:]).replace('銀色匕首之謎', '')
             for a in avoid:
                 if a['avoid'] in line:
                     bad.append(f"{p.name}:{i} 「{a['avoid']}」應改「{a['use']}」（{a['note']}）")

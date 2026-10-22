@@ -46,7 +46,7 @@ Frost Giant	寒霜巨人	monster	zh056
 Beholder	眼魔	monster	zh056
 Drider	半蜘精靈	monster	zh056	
 Red Dragon	紅龍	monster	cok
-Dwarf	矮人	race	cok	珍056 第 64 則作「侏儒」，誤譯
+Dwarf	矮人	race	cok	珍056 第 64 則把 Dwarf 作「侏儒」，誤譯（侏儒是 Gnome）
 Vorpal	斬首	item	sosb	vorpal blade／sword＝斬首劍；珍056 留英文
 Amulet of Eldamar	艾達瑪護身符	item	sosb
 Gramkal	葛蘭卡	person	sosb	珍056 留英文
@@ -61,3 +61,532 @@ Abyss	地下煉獄	place	zh056
 Ashabenford	愛色班佛	place	zh056	
 Valgur	瓦古爾	person	sosb	
 Oswulf's Confession	奧斯沃夫的自白書	item	zh056	
+Half-elf	半精靈	race	cok	
+Mountain Dwarf	高山矮人	race	cok	a23 表縮寫 MTN. DWARVES
+Hill Dwarf	丘陵矮人	race	cok	另見：山陵矮人（a23 表）
+Human	人類	race	cok	
+Elf	精靈	race	cok	手冊未單獨標英文，取自 Silvanesti Elves 等複合詞
+Gnome	侏儒	race	por	光芒之池說明書 p.10；克萊恩英豪的「地侏」是克萊恩設定，不沿用
+Fighter	戰士	class	cok	
+Cleric	牧師	class	cok	
+Mage	魔法師	class	cok	
+Paladin	聖騎士	class	cok	現代通行譯名（使用者 2026-10-15 定案）；手冊作「遊俠」
+Ranger	遊俠	class	cok	現代通行譯名（使用者 2026-10-15 定案）；手冊作「流浪漢」，另見流浪者
+Thief	賊	class	cok	
+Druid	得魯依	class	cok	手冊作「得魯依法術（Druidic spells）」，不作獨立職業
+Lawful Good	嚴守善良	alignment	cok	手冊只列六種陣營，邪惡三種未收
+Lawful Neutral	嚴守中立	alignment	cok	
+Neutral Good	普通善良	alignment	cok	
+True Neutral	真正中立	alignment	cok	
+Chaotic Good	混亂的善良	alignment	cok	
+Chaotic Neutral	混亂的中立	alignment	cok	
+STR	力量	attribute	cok	
+INT	智慧	attribute	cok	
+WIS	睿智	attribute	cok	
+DEX	敏捷	attribute	cok	a22 表作「敏捷度」，b06 內文多作「敏捷度」
+CON	體質	attribute	cok	
+CHA	魅力	attribute	cok	
+Hit Points	生命力	attribute	cok	手冊縮寫 HP
+HP	生命力	attribute	cok	
+Armor Class	防護力	attribute	cok	手冊縮寫 AC
+AC	防護力	attribute	cok	原文只有 2 格的欄位縮寫為「防護」
+THAC0	攻擊命中率	attribute	cok	手冊拼作 THACO（字母 O）；遊戲拼作 THAC0（數字 0）
+Damage	傷害力	attribute	cok	
+Experience	經驗	attribute	cok	手冊縮寫 XP；常作「經驗點數」（a11）
+Level	等級	attribute	cok	情境：人物等級。Alter 選單的 Level 為「遊戲困難度」（a14）
+Encumbrance	負重	attribute	cok	a15 為圖示標註；英文對照與「人物所背負的重量」說明在 a16
+Movement	移動力	attribute	cok	
+Status	人物狀況	attribute	cok	
+Saving Throw	閃避率	attribute	cok	
+XP	經驗	attribute	cok	縮寫；遊戲欄位作 Experience
+Dragon	龍族	monster	cok	
+Undead	不死怪物	monster	cok	手冊無單獨英文標註，取自 Beast, Undead 等；另見：不死族（b23、b31）
+Undead Beast	不死野獸	monster	cok	手冊索引寫法 Beast, Undead
+Death Knight	死亡騎士	monster	cok	
+Black Dragon	黑龍	monster	cok	手冊索引寫法 Dragon, Black；ECL 劇情與 UI 字串未見，英文取自手冊
+Blue Dragon	藍龍	monster	cok	手冊索引寫法 Dragon, Blue
+Silver Dragon	銀龍	monster	cok	
+Undead Dragon	不死龍	monster	cok	手冊索引寫法 Dragon, Undead
+Dread Wolf	恐狼	monster	cok	手冊作「惡狼」；現代通行（使用者 2026-10-15 定案）
+Fire Lizard	火蜥蜴	monster	cok	手冊作「食火獸」；現代通行（使用者 2026-10-15 定案）；ECL 劇情與 UI 字串未見，英文取自手冊
+Fire Minion	火怪	monster	cok	
+Ghast	妖鬼	monster	cok	手冊作「腐屍怪」；現代通行（使用者 2026-10-15 定案）；ECL 劇情與 UI 字串未見，英文取自手冊
+Ghoul	食屍鬼	monster	cok	手冊作「食屍怪」；現代通行（使用者 2026-10-15 定案）；ECL 劇情與 UI 字串未見，英文取自手冊
+Golem	魔像	monster	cok	手冊作「魔法異形」；現代通行（使用者 2026-10-15 定案）
+Flesh Golem	血肉魔像	monster	cok	手冊作「肉體異形」；現代通行（使用者 2026-10-15 定案）；手冊索引寫法 Golem, Flesh
+Iron Golem	鐵魔像	monster	cok	手冊作「鐵異形」；現代通行（使用者 2026-10-15 定案）；手冊索引寫法 Golem, Iron；ECL 劇情與 UI 字串未見，英文取自手冊
+Hellhound	地獄獵犬	monster	cok	
+Kuo-Toa	庫奧托亞人	monster	cok	手冊作「庫塔人」；現代通行（使用者 2026-10-15 定案）；原書拼法不一：b25 作 Kua-Toa，b28 作 Kuo-Toa，b30 作 Kuo-Tao；遊戲劇情作 KUO-TOA
+Lycanthrope	獸化人	monster	cok	手冊作「變形人」；現代通行（使用者 2026-10-15 定案）；ECL 劇情與 UI 字串未見，英文取自手冊
+Wereboar	野豬人	monster	cok	手冊作「類山豬」；現代通行（使用者 2026-10-15 定案）
+Weretiger	虎人	monster	cok	手冊作「類虎」；現代通行（使用者 2026-10-15 定案）
+Nightmare	夢魘	monster	cok	手冊作「夜魔」；現代通行（使用者 2026-10-15 定案）
+Rhino Beetle	犀牛甲蟲	monster	cok	手冊作「大甲蟲」；現代通行（使用者 2026-10-15 定案）；ECL 劇情與 UI 字串未見，英文取自手冊
+Undead Roc	不死巨鵬	monster	cok	手冊作「不死鳥」；現代通行（使用者 2026-10-15 定案）；手冊索引寫法 Roc, Undead
+Skeleton	骷髏	monster	cok	
+Skeleton Giant	骷髏巨人	monster	cok	ECL 劇情與 UI 字串未見，英文取自手冊
+Skeleton Warrior	骷髏戰士	monster	cok	ECL 劇情與 UI 字串未見，英文取自手冊
+Spectral Minion	鬼奴	monster	cok	
+Spectre	幽靈	monster	cok	注意與本作題名「幽靈騎士」同字
+Vampire	吸血鬼	monster	cok	
+Vodyanoi	水怪	monster	cok	ECL 劇情與 UI 字串未見，英文取自手冊
+Whisper Spider	低語蜘蛛	monster	cok	手冊作「蜘蛛」；現代通行（使用者 2026-10-15 定案）
+Wight	屍妖	monster	cok	現代通行譯名（使用者 2026-10-15 定案）；手冊作「古靈精怪」
+Wraith	縛靈	monster	cok	手冊作「死靈」；現代通行（使用者 2026-10-15 定案）
+Zombie	僵屍	monster	cok	
+Zombie Giant	僵屍巨人	monster	cok	ECL 劇情與 UI 字串未見，英文取自手冊
+Zombie Mastodon	僵屍象	monster	cok	ECL 劇情與 UI 字串未見，英文取自手冊
+Zombie Minotaur	僵屍牛頭人	monster	cok	手冊作「人身牛頭僵屍」；現代通行（使用者 2026-10-15 定案）
+Goblin	哥布林	monster	cok	手冊作「妖精」；現代通行（使用者 2026-10-15 定案）
+Hobgoblin	大哥布林	monster	cok	手冊作「鬼怪」；現代通行（使用者 2026-10-15 定案）
+Ogre	食人魔	monster	cok	手冊作「食人族」；現代通行（使用者 2026-10-15 定案）
+Giant	巨人族	monster	cok	手冊作「巨人族（giants）」
+Wand	魔法杖	item	cok	
+Potion	藥劑	item	cok	
+Scroll	卷軸	item	cok	
+Mage Scroll	魔法卷軸	item	cok	
+Solamnic Plate	索蘭尼克鎧甲	item	cok	
+Plate Mail	鎧甲	item	cok	
+Leather Armor	皮甲	item	cok	手冊作「皮甲（leather armor）」
+Bracers	腕甲	item	cok	
+Dragonlance	屠龍槍	item	cok	
+Hoopak	投石杖	item	cok	坎德人專用
+Rod of Omniscience	全知棒	item	cok	
+Sleepstone	夢之石	item	cok	
+Steel	鋼幣	item	cok	手冊未附英文；a21 表把 STEEL PIECES 譯為「金幣」
+Ambush Made Easy	簡易突擊術	item	cok	書名；手冊作「簡易突擊術（Ambush Made Easy）」
+Create New Character	創造新人物	ui	cok	另見：創造人物（a09 初始選單）
+Drop Character	放棄人物	ui	cok	
+Modify Character	調整人物的屬性	ui	cok	
+Train Character	人物訓練	ui	cok	
+Knight Change Order	改變騎士等級	ui	cok	
+View Character	檢視人物資料	ui	cok	
+Add Character to Party	將人物加入隊伍	ui	cok	
+Remove Character from Party	將人物從隊伍中刪除	ui	cok	
+Load Saved Game	載入儲存遊戲	ui	cok	另見：載入儲存的遊戲（a07）
+Save Current Game	儲存目前遊戲進度	ui	cok	
+Begin Adventuring	開始冒險	ui	cok	
+Initialize Mouse/Joystick	啟動滑鼠和搖桿	ui	cok	
+Exit to DOS	離開遊戲	ui	cok	
+Pick Race	選擇種族	ui	cok	
+Pick Gender	選擇性別	ui	cok	
+Pick Class	選擇職業	ui	cok	
+Pick Diety	選擇信仰	ui	cok	遊戲字串拼作 Diety；手冊作 PICK DEITY
+Pick Alignment	選擇陣營	ui	cok	
+Male	男	ui	cok	
+Female	女	ui	cok	
+Move	移動	ui	cok	情境：城內探險選單；戰鬥選單同詞（a19）
+Area	地圖切換	ui	cok	
+Cast	施法	ui	cok	另見：魔法使用（a17 章標題）
+View	檢視人物	ui	cok	
+Encamp	紮營	ui	cok	
+Search	搜尋	ui	cok	
+Look	檢視環境	ui	cok	
+Save	儲存遊戲	ui	cok	
+Magic	魔法	ui	cok	
+Rest	休息	ui	cok	
+Alter	設定	ui	cok	
+Fix	治療	ui	cok	b10 作「恢復 Fix 命令」
+Order	排列次序	ui	cok	
+Icon	人物造形	ui	cok	
+Novice	初學者	ui	cok	
+Squire	隨從	ui	cok	
+Veteran	老手	ui	cok	
+Adept	熟練	ui	cok	
+Champion	優勝者	ui	cok	
+Okay	平安無事	ui	cok	手冊作 OK
+Unconscious	不省人事	ui	cok	
+Dying	垂死	ui	cok	
+Dead	死亡	ui	cok	
+Gone	毀滅	ui	cok	
+Running	逃跑	ui	cok	手冊狀態為 FLED；對應 Running 依遊戲狀態字串順序推定，未實測
+Items	物品	ui	cok	手冊作「物品（[I]tem）」
+Ready	備妥	ui	cok	另見：改變狀態（a16 指令標題）
+Use	使用	ui	cok	
+Trade	交易	ui	cok	
+Drop	丟棄	ui	cok	情境：物品與金錢；Alter 選單的 Drop 為「丟棄隊員」（a14）
+Halve	物品數量分半	ui	cok	
+Join	集合物品	ui	cok	
+Sell	變賣物品	ui	cok	另見：賣出（a18 商店）
+ID	驗証	ui	cok	另見：辨認物品（a16）；手冊用「驗証」，不是「驗證」
+Spells	法術	ui	cok	手冊作「法術（[S]pell）」
+Cure	治病	ui	cok	遊俠專用命令
+Heal	治療	ui	cok	情境：神廟選單與第六級牧師法術（b18）；遊俠命令作「療傷」（a17）
+Memorize	記憶法術	ui	cok	
+Scribe	抄寫法術	ui	cok	
+Display	顯示法術	ui	cok	
+Exit	離開	ui	cok	手冊作「[E]XIT：離開這個項目」
+Buy	購買裝備	ui	cok	
+Take	拾取	ui	cok	
+Pool	集中財物	ui	cok	
+Share	均分	ui	cok	
+Appraise	鑑定	ui	cok	
+Detect	偵測	ui	cok	
+Deposit	存款	ui	cok	
+Withdraw	提款	ui	cok	
+View Balance	查看帳戶	ui	cok	
+Flee	逃跑	ui	cok	
+Attack	攻擊	ui	cok	
+Talk	談話	ui	cok	
+Wait	等待	ui	cok	
+Aim	瞄準	ui	cok	
+Turn	超渡	ui	cok	
+Guard	守衛	ui	cok	
+Quick	電腦控制	ui	cok	
+Delay	延後	ui	cok	
+Bandage	包紮	ui	cok	
+Yell	叫罵	ui	cok	坎德人專用
+Speed	改變遊戲速度	ui	cok	情境：戰鬥選單；Alter 選單的 Speed 為「訊息顯示速度」（a14）
+End	棄權	ui	cok	
+Next	下一個	ui	cok	
+Prev	前一個	ui	cok	
+Manual	手動瞄準	ui	cok	
+Target	選定目標	ui	cok	
+Center	移到畫面中央	ui	cok	
+Play	進入遊戲	ui	cok	手冊作 [P]LAY
+Demo	示範	ui	cok	手冊作 [D]EMO
+Champions	克萊恩英豪	ui	cok	選單項，指《Champions of Krynn》存檔
+Journal Entry	旅行手札	ui	cok	
+Name Character	命名	ui	cok	英文取自手冊 NAME CHARACTER，遊戲字串未核對
+Select Combat Icon	決定戰鬥造形	ui	cok	英文取自手冊 SELECT COMBAT ICON，遊戲字串未核對
+Head	頭部	ui	cok	情境：造形編輯；手冊以說明句「選擇頭部的外形」呈現
+Weapon	武器	ui	cok	情境：造形編輯（外形或顏色）；手冊以說明句呈現
+Body	身體	ui	cok	情境：造形編輯；手冊以說明句「選擇身體的顏色」呈現
+Hair	頭髮	ui	cok	情境：造形編輯；手冊以說明句呈現
+Shield	盾牌	ui	cok	情境：造形編輯；與法術 Shield（魔法盾牌）同字
+Arm	手臂	ui	cok	情境：造形編輯；手冊以說明句呈現
+Leg	腳部	ui	cok	情境：造形編輯；手冊以說明句呈現
+Size	大小	ui	cok	情境：造形編輯；手冊作「設定人物造形的大小」
+Keep	保留	ui	cok	造形編輯、賣出等選單；手冊作「加以保留」
+Word	字數	ui	cok	密碼輸入提示
+Page	頁數	ui	cok	密碼輸入提示
+Answer	答案	ui	cok	密碼輸入提示
+Magic-User	魔法師法術	spell	cok	
+Special	特殊法術	spell	cok	
+Cleric Spells	牧師法術	spell	cok	
+Mage Spells	魔法師法術	spell	cok	b16 標題作「魔法（Mage Spells）」
+Druid Spells	得魯依法術	spell	cok	
+1st Level	第一級	spell	cok	
+2nd Level	第二級	spell	cok	
+3rd Level	第三級	spell	cok	
+4th Level	第四級	spell	cok	
+5th Level	第五級	spell	cok	
+6th Level	第六級	spell	cok	
+7th Level	第七級	spell	cok	
+8th Level	第八級	spell	cok	
+Bless	祝福術	spell	cok	
+Cure Light Wounds	治療輕傷	spell	cok	另見：醫治輕傷（b18 得魯依法術）
+Detect Magic	搜尋魔法物品	spell	cok	另見：偵測魔法（a21）
+Protection From Evil	免受邪惡傷害	spell	cok	另見：不受邪惡傷害（b19 魔法師法術、b17、b14）；兩種寫法並見，b16 牧師條目作免受
+Resist Cold	抗凍術	spell	cok	
+Find Traps	搜尋陷阱	spell	cok	
+Hold Person	束縛術	spell	cok	牧師可縛 3 名，白魔法師可縛 4 名（b20）
+Resist Fire	抗火術	spell	cok	
+Silence, 15' Radius	半徑15呎的沉靜術	spell	cok	另見：半徑15呎內的沉靜術（b14）；手冊拼作 Silence 15' Radius
+Silence 15' radius	半徑15呎的沉靜術	spell	cok	同上，遊戲另一處無逗號字串
+Slow Poison	緩毒術	spell	cok	
+Snake Charm	蛇魅術	spell	cok	
+Spiritual Hammer	心靈之槌	spell	cok	
+Cure Blindness	醫治失明	spell	cok	
+Cure Disease	醫治疾病	spell	cok	另見：治療疾病（a14）
+Dispel Magic	解除法術	spell	cok	
+Prayer	祈禱	spell	cok	
+Remove Curse	解除詛咒	spell	cok	「詛咒」為現代通行字（使用者 2026-10-15 定案）；手冊作「解除咀咒」，另見去除咀咒
+Cure Serious Wounds	治療重傷	spell	cok	
+Neutralize Poison	中和毒性	spell	cok	
+Protection Evil, 10' Radius	半徑10呎內不受邪惡傷害	spell	cok	牧師第4級；遊戲字串漏 From；b14 作「半徑十呎內不受邪惡侵害」
+Protection From Evil, 10' Radius	半徑10呎內免受邪惡傷害	spell	cok	魔法師第3級（白魔法師）；牧師版見上列
+Protection From Evil 10' Radius	半徑10呎內不受邪惡傷害	spell	cok	遊戲另一處無逗號字串，歸屬牧師或魔法師版未核對
+Sticks to Snakes	弄蛇術	spell	cok	
+Cure Critical Wounds	治療致命傷	spell	cok	
+Dispel Evil	解除邪惡	spell	cok	
+Raise Dead	復活術	spell	cok	
+Restoration	恢復術	spell	cok	
+Ressurection	完全復活術	spell	cok	遊戲字串拼作 Ressurection；手冊拼作 Resurrection
+Entangle	糾纏	spell	cok	
+Faerie Fire	魔光	spell	cok	
+Invisibility to Animals	對動物隱形	spell	cok	
+Barkskin	硬皮術	spell	cok	
+Charm Person/Mammal	迷惑人類或哺乳動物	spell	cok	手冊內文作 Charm Person or Mammal
+Burning Hands	燃燒的手	spell	cok	另見：火掌術（b14 西里恩額外法術）；兩處各 1 次，依法術說明章為準
+Charm Person	迷惑術	spell	cok	
+Enlarge	巨大術	spell	cok	
+Friends	友好術	spell	cok	
+Magic Missile	魔法飛彈	spell	cok	
+Read Magic	閱讀魔法	spell	cok	另見：展讀法術（a17）
+Shocking Grasp	電擊術	spell	cok	
+Sleep	催眠術	spell	cok	
+Detect Invisibility	搜尋隱形物品	spell	cok	
+Invisibility	隱形術	spell	cok	
+Knock	踢開術	spell	cok	
+Mirror Image	幻影術	spell	cok	
+Ray of Enfeeblement	衰弱術	spell	cok	
+Stinking Cloud	臭雲術	spell	cok	
+Strength	大力術	spell	cok	
+Blink	閃爍術	spell	cok	
+Fireball	火球	spell	cok	另見：火球術（b23 死亡騎士條目）
+Haste	加倍術	spell	cok	
+Invisibility, 10' Radius	半徑10呎內隱形	spell	cok	手冊作 Invisibility 10' Radius
+Lightning Bolt	閃電術	spell	cok	
+Protection From Normal Missiles	免受一般飛彈傷害	spell	cok	
+Slow	緩慢術	spell	cok	
+Bestow Curse	施以詛咒	spell	cok	「詛咒」為現代通行字（使用者 2026-10-15 定案）；手冊作「施以咀咒」
+Charm Monsters	迷惑怪物	spell	cok	手冊拼作 Charm Monster
+Confusion	混淆術	spell	cok	
+Dimension Door	時空之門	spell	cok	
+Fear	恐懼術	spell	cok	
+Fire Shield	防火盾牌	spell	cok	
+Fumble	笨拙術	spell	cok	
+Ice Storm	冰雪風暴	spell	cok	
+Minor Globe Of Invulnerability	小型魔法防護罩	spell	cok	
+Cloud Kill	殺人雲	spell	cok	手冊拼作 Cloudkill
+Cone of Cold	冰錐術	spell	cok	
+Feeblemind	弱智術	spell	cok	
+Fire Touch	火之吻	spell	cok	
+Hold Monsters	怪物束縛術	spell	cok	手冊拼作 Hold Monster
+Iron Skin	鐵皮術	spell	cok	
+Death Spell	死亡法術	spell	cok	
+Disentegrate	分解術	spell	cok	遊戲字串拼作 Disentegrate；手冊拼作 Disintegrate
+Flesh to Stone	化石術	spell	cok	
+Globe Of Invulnerability	魔法防護罩	spell	cok	
+Stone to Flesh	化石還原術	spell	cok	
+Delay Blast Fireball	延時爆發火球	spell	cok	手冊作 Delayed Blast Fireball；a29 表作 Delayed Blast Fire Ball
+Mass Invisibility	多人隱形術	spell	cok	
+Power Word Stun	暈迷術	spell	cok	手冊作 Power Word, Stun
+Mass Charm	多人迷惑術	spell	cok	
+Mind Blank	心靈防護術	spell	cok	
+Otto's Irresitable Dance	無法抗拒的舞蹈	spell	cok	遊戲字串拼作 Irresitable；手冊作 Otto's Irresistible Dance
+Power Word Blind	失明術	spell	cok	手冊作 Power Word, Blind
+Sir	爵士	other	cok	
+Non-Player Character	非玩者人物	other	cok	
+NPC	特殊隊員	other	cok	另見：非玩者人物（a10、a12）；特殊隊員出現 4 次、非玩者人物 3 次；a 系列操作手冊多直接寫 NPC
+Turn Undead	超渡術	other	cok	手冊拼作 Turn Undeath（Undead 之誤）；馬傑里牧師的力量，與戰鬥選單 Turn 同為「超渡」
+Faeries	仙子	monster	cok	新詞；手冊 b37 作「小仙子」；Fairies 同
+Stocks	木枷	item	cok	新詞，2026-10-15 收斂；取代異譯：示眾枷
+Portcullis	吊閘	item	cok	新詞，2026-10-15 收斂
+Priest	祭司	class	cok	新詞，2026-10-15 收斂；Cleric 仍為牧師；取代異譯：牧師（TOWN PRIEST）
+Priestess	女祭司	class	cok	新詞，2026-10-15 收斂
+Sorcerer	術士	class	cok	新詞，2026-10-15 收斂
+Lady	女士	other	cok	新詞，2026-10-15 收斂
+Imposter	冒牌貨	other	cok	新詞，2026-10-15 收斂
+Geas	咒縛	other	cok	新詞，2026-10-15 收斂；取代異譯：魔咒
+Password	口令	other	cok	新詞，2026-10-15 收斂
+Copper Dragon	銅龍	monster	cok	新詞，2026-10-15 收斂
+Carrion Snake	食腐蛇	monster	cok	新詞，2026-10-15 收斂
+Sprite	小精靈	monster	cok	新詞，2026-10-15 收斂
+Phylactery	命匣	item	cok	新詞，2026-10-15 收斂
+Amulet	護身符	item	cok	新詞，2026-10-15 收斂
+Staff	法杖	item	cok	新詞，2026-10-15 收斂；Wand 魔法杖另列
+Orb	寶珠	item	cok	新詞，2026-10-15 收斂
+Meteor	隕石	item	cok	新詞，2026-10-15 收斂；Meteorite 同
+Wand of Tree Healing	樹木治療魔法杖	item	cok	新詞，2026-10-15 收斂
+Necklace of Revante	瑞凡特項鍊	item	cok	新詞，2026-10-15 收斂；Revante 音譯
+Tracker-Clicker	追蹤喀嗒器	item	cok	新詞，2026-10-15 收斂；地侏發明
+Rutabaga	蕪菁甘藍	item	cok	新詞，2026-10-15 收斂
+Asparagus	蘆筍	item	cok	新詞，2026-10-15 收斂
+Broccoli	青花菜	item	cok	新詞，2026-10-15 收斂
+Rod	全知棒	item	cok	新詞，2026-10-15 收斂；劇情中單稱 THE ROD 指 Rod of Omniscience；取代異譯：杖、棒子
+Tavern Tale	酒店傳聞	ui	cok	新詞，2026-10-15 收斂；取代異譯：酒館傳聞
+Protection From Good	免受善良傷害	spell	cok	新詞，2026-10-15 收斂；比照 Protection From Evil
+Cause Disease	引發疾病	spell	cok	新詞，2026-10-15 收斂；Cure Disease 的反轉
+Cause Blindness	引發失明	spell	cok	新詞，2026-10-15 收斂；取代異譯：造成失明
+Hot Fire Shield	熱火盾牌	spell	cok	新詞，2026-10-15 收斂；Fire Shield 變體
+Cold Fire Shield	冷火盾牌	spell	cok	新詞，2026-10-15 收斂；Fire Shield 變體
+Reduce	縮小術	spell	cok	新詞，2026-10-15 收斂
+Harm	傷害術	spell	cok	新詞，2026-10-15 收斂
+Poison	毒術	spell	cok	新詞，2026-10-15 收斂
+Flame Strike	火焰打擊	spell	cok	新詞，2026-10-15 收斂
+Slay Living	殺生術	spell	cok	新詞，2026-10-15 收斂
+Camouflaged	偽裝	ui	cok	新詞，2026-10-15 收斂；狀態
+Displaced	位移	ui	cok	新詞，2026-10-15 收斂；狀態；取代異譯：移位
+Displacement	位移	item	cok	新詞，2026-10-15 收斂
+Animated	活化	ui	cok	新詞，2026-10-15 收斂；狀態，指被魔法驅動的不死者
+Grimoire	法術書	ui	cok	新詞，2026-10-15 收斂
+Lawful Evil	嚴守邪惡	alignment	cok	新詞，2026-10-15 收斂；依 Lawful Good 類推
+Neutral Evil	普通邪惡	alignment	cok	新詞，2026-10-15 收斂；依 Neutral Good 類推
+Chaotic Evil	混亂的邪惡	alignment	cok	新詞，2026-10-15 收斂；依 Chaotic Good 類推
+Bronze	青銅幣	item	cok	新詞，2026-10-15 收斂
+Platinum	白金幣	item	cok	新詞，2026-10-15 收斂
+Learn	學習	ui	cok	新詞，2026-10-15 收斂
+Gems	寶石	ui	cok	新詞，2026-10-15 收斂
+Jewelry	珠寶	ui	cok	新詞，2026-10-15 收斂
+Parts	部位	ui	cok	新詞，2026-10-15 收斂
+Face	臉部	ui	cok	新詞，2026-10-15 收斂
+9th Level	第九級	spell	cok	新詞，2026-10-15 收斂
+Battle Axe	戰斧	item	cok	新詞，2026-10-15 收斂
+Hand Axe	手斧	item	cok	新詞，2026-10-15 收斂
+Club	棍棒	item	cok	新詞，2026-10-15 收斂
+Dagger	匕首	item	cok	新詞，2026-10-15 收斂
+Dart	飛鏢	item	cok	新詞，2026-10-15 收斂
+Hammer	鐵錘	item	cok	新詞，2026-10-15 收斂
+Javelin	標槍	item	cok	新詞，2026-10-15 收斂
+Mace	釘頭錘	item	cok	新詞，2026-10-15 收斂
+Morning Star	晨星錘	item	cok	新詞，2026-10-15 收斂
+Military Pick	軍用鎬	item	cok	新詞，2026-10-15 收斂
+Awl Pike	錐矛	item	cok	新詞，2026-10-15 收斂
+Quarrel	弩箭	item	cok	新詞，2026-10-15 收斂
+Scimitar	彎刀	item	cok	新詞，2026-10-15 收斂
+Spear	長矛	item	cok	新詞，2026-10-15 收斂
+Quarter Staff	長棍	item	cok	新詞，2026-10-15 收斂
+Bastard Sword	手半劍	item	cok	新詞，2026-10-15 收斂
+Broad Sword	寬刃劍	item	cok	新詞，2026-10-15 收斂
+Long Sword	長劍	item	cok	新詞，2026-10-15 收斂
+Short Sword	短劍	item	cok	新詞，2026-10-15 收斂
+Two-Handed Sword	雙手劍	item	cok	新詞，2026-10-15 收斂
+Trident	三叉戟	item	cok	新詞，2026-10-15 收斂
+Composite Long Bow	複合長弓	item	cok	新詞，2026-10-15 收斂
+Composite Short Bow	複合短弓	item	cok	新詞，2026-10-15 收斂
+Long Bow	長弓	item	cok	新詞，2026-10-15 收斂
+Short Bow	短弓	item	cok	新詞，2026-10-15 收斂
+Light Crossbow	輕弩	item	cok	新詞，2026-10-15 收斂
+Sling	投石索	item	cok	新詞，2026-10-15 收斂
+Arrow	箭	item	cok	新詞，2026-10-15 收斂
+Flail	連枷	item	cok	新詞，2026-10-15 收斂
+Halberd	戟	item	cok	新詞，2026-10-15 收斂
+Ring	戒指	item	cok	2026-10-16 改：單獨的 Ring 是戒指；Ring Mail 另收詞組「環甲」（物品名逐詞拼接，貪婪先取詞組）
+Scale	鱗甲	item	cok	新詞，2026-10-15 收斂
+Chain	鎖甲	item	cok	新詞，2026-10-15 收斂
+Banded	帶甲	item	cok	新詞，2026-10-15 收斂
+Elven Chain	精靈鎖甲	item	cok	新詞，2026-10-15 收斂
+Mail	甲	item	cok	新詞，2026-10-15 收斂；後綴
+Armor	護甲	item	cok	新詞，2026-10-15 收斂
+Helm	頭盔	item	cok	新詞，2026-10-15 收斂
+Belt	腰帶	item	cok	新詞，2026-10-15 收斂
+Robe	長袍	item	cok	新詞，2026-10-15 收斂
+Cloak	斗篷	item	cok	新詞，2026-10-15 收斂
+Boots	靴	item	cok	新詞，2026-10-15 收斂
+Gauntlets	護手	item	cok	新詞，2026-10-15 收斂
+Girdle	束帶	item	cok	新詞，2026-10-15 收斂
+Periapt	護符	item	cok	新詞，2026-10-15 收斂
+Necklace	項鍊	item	cok	新詞，2026-10-15 收斂
+Mirror	鏡	item	cok	新詞，2026-10-15 收斂
+Bag	袋	item	cok	新詞，2026-10-15 收斂
+Holy Water	聖水	item	cok	新詞，2026-10-15 收斂
+Ruby	紅寶石	item	cok	新詞，2026-10-15 收斂
+Saphire	藍寶石	item	cok	新詞，2026-10-15 收斂；原文拼法
+Emerald	綠寶石	item	cok	新詞，2026-10-15 收斂
+Diamond	鑽石	item	cok	新詞，2026-10-15 收斂
+Boulder	巨石	item	cok	新詞，2026-10-15 收斂
+Dragon Breath	龍息	item	cok	新詞，2026-10-15 收斂
+Hornet's Nest	黃蜂巢	item	cok	新詞，2026-10-15 收斂
+Elixir Of Youth	青春靈藥	item	cok	新詞，2026-10-15 收斂
+Eyes Of Charming	魅惑之眼	item	cok	新詞，2026-10-15 收斂
+Proof vs Poison	抗毒	item	cok	新詞，2026-10-15 收斂
+Disruption	粉碎	item	cok	新詞，2026-10-15 收斂
+Ogre Power	食人魔之力	item	cok	新詞，2026-10-15 收斂；Ogre 改譯食人魔後同步（使用者 2026-10-15 定案）；手冊作「食人族之力」
+Giant Strength	巨人之力	item	cok	新詞，2026-10-15 收斂
+Frost Giant Strength	霜巨人之力	item	cok	新詞，2026-10-15 收斂
+Frost Brand	寒霜之刃	item	cok	新詞，2026-10-15 收斂
+vs Reptiles	對爬蟲類	item	cok	新詞，2026-10-15 收斂
+Wizardry	巫術	item	cok	新詞，2026-10-15 收斂
+Berserker	狂戰士	item	cok	新詞，2026-10-15 收斂
+Vulnerability	易傷	item	cok	新詞，2026-10-15 收斂
+Paralyzation	麻痺	item	cok	新詞，2026-10-15 收斂
+Olin's	歐林的	item	cok	新詞，2026-10-15 收斂；片段
+Footman's	步兵用	item	cok	新詞，2026-10-15 收斂
+Fine	精良	item	cok	新詞，2026-10-15 收斂；用途不確定
+Drow	黑暗精靈	race	cok	新詞，2026-10-15 收斂
+Skel Warrior	骷髏戰士	monster	cok	遊戲畫面縮寫（Skeleton Warrior），2026-10-15 demo 戰鬥
+Evil Warlord	邪惡軍閥	monster	cok	新詞，2026-10-15 demo 戰鬥
+Chain Mail	鎖甲	item	cok	2026-10-16 G3b：物品名詞組，避免前綴詞與 Mail 逐詞拼成重複
+Ring Mail	環甲	item	cok	2026-10-16 G3b：物品名詞組，避免前綴詞與 Mail 逐詞拼成重複
+Scale Mail	鱗甲	item	cok	2026-10-16 G3b：物品名詞組，避免前綴詞與 Mail 逐詞拼成重複
+Banded Mail	帶甲	item	cok	2026-10-16 G3b：物品名詞組，避免前綴詞與 Mail 逐詞拼成重複
+Solamnic Plate Mail	索蘭尼克鎧甲	item	cok	2026-10-16 G3b：物品名詞組，避免與 Mail／Armor 逐詞拼成重複
+Elven Chain Mail	精靈鎖甲	item	cok	2026-10-16 G3b：物品名詞組，避免與 Mail／Armor 逐詞拼成重複
+Kuo-Toa Monitor	庫奧托亞人監督	monster	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Undead Rat	不死老鼠	monster	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Wrestle	扭打	ui	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Chant	咒語	other	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Chanting	吟誦聲	other	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Ward	結界	other	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Silver	銀幣	item	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Earring	耳環	item	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Mace of Disruption	粉碎釘頭錘	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Ring of Protection	防護戒指	item	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Potion of Speed	速度藥劑	item	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Potion of Extra Healing	額外治療藥劑	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Potion of Healing	治療藥劑	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Potion of Invisibility	隱形藥劑	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Wand of Fireball	火球魔法杖	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Wand of Lightning	閃電魔法杖	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Wand of Ice Storm	冰雪風暴魔法杖	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Wand of Paralyzation	麻痺魔法杖	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Necklace of Missiles	飛彈項鍊	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Periapt Proof vs Poison	抗毒護符	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Girdle of Frost Giant Strength	霜巨人之力束帶	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Gauntlets of Ogre Power	食人魔之力護手	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Boots of Speed	速度之靴	item	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Cloak of Displacement	位移斗篷	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Staff Sling	杖投石索	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Dart of the Hornet's Nest	黃蜂巢飛鏢	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Scroll of Protection from Dragon Breath	防龍息卷軸	item	cok	新詞，2026-10-16 提示書；提示書譯名
+White Mage Scroll	白魔法師卷軸	item	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Red Mage Scroll	紅魔法師卷軸	item	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Clerical Scroll	牧師卷軸	item	cok	新詞，2026-10-16 提示書；依手冊 b14.md
+Olin's Quarterstaff	歐林的長棍	item	cok	新詞，2026-10-16 提示書；依遊戲詞素組合
+Faerie	仙子	monster	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Skeletal Giant	骷髏巨人	monster	cok	新詞，2026-10-16 提示書；提示書譯名
+Charm Snakes	蛇魅術	spell	cok	新詞，2026-10-16 提示書；同 Snake Charm，提示書拼法
+Experience Points	經驗值	other	cok	新詞，2026-10-16 提示書；依遊戲譯文
+Kuo Toa	庫奧托亞人	monster	cok	遊戲印 KUO TOA（無連字號），同 Kuo-Toa；跨區盤點 2026-10-18
+Kuo Toa Cleric	庫奧托亞人牧師	monster	cok	遊戲印 KUO TOA CLERIC；手冊沒有，自譯；跨區盤點 2026-10-18
+High Wizard	大魔法師	monster	cok	遊戲印 HIGH WIZARD；手冊沒有，自譯（Mage 譯魔法師）；跨區盤點 2026-10-18
+Black Wizard	黑魔法師	monster	cok	遊戲印 BLACK WIZARD；同提示書譯文 black wizards；戰鬥盤點 2026-10-18
+Evil Warrior	邪惡戰士	monster	cok	遊戲印 EVIL WARRIOR；同提示書譯文 evil warriors；戰鬥盤點 2026-10-18
+Patriarch	大祭司	monster	cok	遊戲印 PATRIARCH；手冊沒有，自譯；戰鬥盤點 2026-10-18
+Vampire Mage	吸血鬼魔法師	monster	cok	遊戲印 VAMPIRE MAGE；手冊沒有，自譯（Vampire 吸血鬼、Mage 魔法師）；小地圖盤點 2026-10-18
+Vampire Cleric	吸血鬼牧師	monster	cok	遊戲印 VAMPIRE CLERIC；手冊沒有，自譯（Vampire 吸血鬼、Cleric 牧師）；戴夫的挑戰強制觸發 2026-10-18
+Mobat	魔蝠	monster	cok	新詞，2026-10-19 全量翻譯收斂
+Minotaur	牛頭人	monster	cok	新詞，2026-10-19 全量翻譯收斂
+Green Dragon	綠龍	monster	cok	新詞，2026-10-19 全量翻譯收斂
+White Dragon	白龍	monster	cok	新詞，2026-10-19 全量翻譯收斂
+Gold Dragon	金龍	monster	cok	新詞，2026-10-19 全量翻譯收斂
+Brass Dragon	黃銅龍	monster	cok	新詞，2026-10-19 全量翻譯收斂
+Cause Light Wounds	引發輕傷	spell	cok	新詞，2026-10-19 全量翻譯收斂
+Cause Serious Wounds	引發重傷	spell	cok	新詞，2026-10-19 全量翻譯收斂
+Cause Critical Wounds	引發致命傷	spell	cok	新詞，2026-10-19 全量翻譯收斂
+Animate Dead	活化死者	spell	cok	新詞，2026-10-19 全量翻譯收斂
+Giant Rat	巨鼠	monster	cok	新詞，跨區盤點蓋加斯 2026-10-19
+Evil Fighter	邪惡鬥士	monster	cok	新詞，跨區盤點蓋加斯 2026-10-19；與 Evil Warrior（邪惡戰士）區分
+Warrior	戰士	monster	cok	遊戲印 WARRIOR（怪物名）；同職業 Fighter 譯法；跨區盤點斯拉托 2026-10-19
+Hobgoblin Ldr	大哥布林首領	monster	cok	遊戲印 HOBGOBLIN LDR（Leader 縮寫）；跨區盤點斯拉托 2026-10-19
+Giant Centipede	巨型蜈蚣	monster	cok	新詞，跨區盤點斯拉托 2026-10-19
+Umber Hulk	土巨怪	monster	sosb	批次曾作掘地怪、赭巨怪，統一
+Basilisk	八腳蜥蜴	monster	por	光芒之池說明書；批次曾作蛇怪
+Hydra	九頭蛇	monster	sosb	批次曾作多頭蛇
+Pyro-Hydra	火焰九頭蛇	monster	sosb	
+Pyrohydra	火焰九頭蛇	monster	sosb	
+Gyno-Sphinx	女獅身人面獸	monster	sosb	
+Sphinx	獅身人面獸	monster	sosb	
+Remorhaz	雷莫哈茲	monster	sosb	
+Mastodon	乳齒象	monster	sosb	
+Cloud Giant	雲巨人	monster	sosb	
+Fire Giant	火巨人	monster	por	
+Ettin	雙頭巨魔	monster	coab	
+Worg	座狼	monster	coab	
+Purple Worm	紫蟲	monster	sosb	手札第 62 則
+Aerial Servant	風靈僕役	monster	sosb	
+Lizard King	蜥蜴王	monster	sosb	
+Lizard Man	蜥蜴人	monster	cok	
+Strongarm	強臂	person	sosb	Derf Strongarm＝德夫・強臂
+Stiffbeard	硬鬚	person	sosb	矮人名
+Laslixa	拉斯莉莎	person	sosb	上下文不足，待實機確認
+Priam	普里安	person	sosb	新維地格里城鎮長
+Staff of Oswulf	奧斯沃夫的法杖	item	sosb	
+Ring of Tyr	提爾之戒	item	sosb	
+Holy Symbol	聖徽	item	sosb	
+Wheel Lift	輪式升降機	other	sosb	
+Gond	剛德	god	coab	
+Inner Circle	內圈	group	sosb	
+Lions of Courage	勇氣之獅	other	sosb	
+Hell Hound	地獄獵犬	monster	cok	同 Hellhound
+Sargatha	薩加莎	person	sosb	蛇髮女妖，恐怖魔王的城守
+Ymir	伊米爾	person	sosb	
+Cockatrice	雞蛇獸	monster	sosb	
+Ballista	弩砲	item	sosb	
+Magic Mouth	魔法之口	spell	sosb	
+Halfling	半身人	race	por	光芒之池說明書 p.11
+Monk	武僧	class	sosb	
+Electrum	金銀合金幣	item	por	
+Platinum	白金幣	item	por	

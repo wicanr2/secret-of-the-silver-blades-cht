@@ -12,7 +12,7 @@ done
 mkdir -p "$ROOT/workplace/font"
 cats=()
 for f in "$ROOT"/text/*.tsv; do
-  case "$(basename "$f")" in *-events.tsv|errata.tsv|glossary.tsv|term-avoid.tsv|quiz-answers.tsv) continue ;; esac
+  case "$(basename "$f")" in *-events.tsv|errata.tsv|glossary.tsv|term-avoid.tsv|quiz-answers.tsv|translit-arpabet.tsv|translit-table.tsv|translit-names.tsv) continue ;; esac
   cats+=("/text/$(basename "$f")")
 done
 while IFS= read -r f; do cats+=("/w/${f#"$ROOT/workplace/"}"); done < <(find "$ROOT/workplace/tr" "$ROOT/workplace/text-src/trial" -name '*.tsv' -path '*done*' -o -name '*.zh-TW.tsv' -path '*trial*' 2>/dev/null | sort)
