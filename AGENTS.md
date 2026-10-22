@@ -35,7 +35,7 @@
 | 手札 | 修正後的說明書手札全部放進遊戲，劇情引用時自動彈出，另以前端鍵（F5）翻閱已觸發的手札。說明書有酒店傳聞等其他引用段落時一併處理 |
 | 手冊查驗題 | 問句後顯示答案，預設開啟、可關閉（F9）；玩家仍要作答，判定照原版 |
 | HD | HD 圖以 3 倍（960×600）為準，風格 B（奇幻插畫），配色照原版。預設 2 倍顯示原版，F2 切 3 倍，HD 圖只在 3 倍顯示 |
-| HD 分工 | HD 整條（抽樣、來源辨識、請求、重繪、驗收、接入）交 Codex，以 Issue 追蹤；使用者另行指派時 Claude 才接手。介面見第 6 節 |
+| HD 分工 | 2026-10-23 起 HD 整條由 Claude 處理，不啟用 Codex（使用者指示）；畫風取捨以 Artifact 並列原型請使用者決定。第 6 節的 Codex 介面保留作歷史，不再使用 |
 | 切換列 | 視窗最上方，平常隱藏，滑鼠移到頂端時出現；HD 與擴充功能切換放這裡。沒有 HD 素材時停用 HD 切換並顯示原因。F12 切回英文原版 |
 | 字型 | 繁中源泉圓體（2 倍 Medium、3 倍 Bold），比照克萊恩英豪現行版本 |
 | 多語系 | 繁中先交付，之後比照克萊恩英豪規格 015：简中由繁中 OpenCC 轉換加詞彙表，日、韓以英文為底機器翻譯並標註，英文以新字型重繪；第一次執行依系統語言，F8 切換 |
@@ -75,7 +75,7 @@
 | [G6 繁中接入／#7](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/7) | G3、G5 | 每條路徑 READY 規格、覆繪、A/B 收據與正常玩家路徑；含組句、英數半形、玩家名音譯 |
 | [G7 手札與查驗題／#8](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/8) | G3、G4 | 手札引用與查驗題的輸出證據、修正後譯文、自動彈出與翻閱、答案顯示的收據 |
 | [G8 攻略面板與地圖疊層／#9](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/9) | G6、使用者提供掃描或提示書 | 攻略轉錄、術語對齊、面板與地圖疊層收據 |
-| [G9 HD 與切換列／#10](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/10) | G6、G7 | 交 Codex：來源與遮擋證據、批次重繪、接入、F2 與切換列收據 |
+| [G9 HD 與切換列／#10](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/10) | G6、G7 | Claude：來源與遮擋證據、畫風原型、批次產圖、接入、F2 與切換列收據、規格 021 不露原版圖 |
 | [G10 配樂、多語系、作弊、推廣片／#11](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/11) | G6、G9 | 各自規格與收據；配樂經使用者試聽 |
 | [G11 封包驗收／#12](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/12) | G6、G9 | 乾淨目錄啟動、manifest 與 SHA-256、存檔位置；明列未驗平台 |
 
