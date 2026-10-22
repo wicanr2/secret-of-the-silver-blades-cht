@@ -43,3 +43,8 @@ dosbox.conf
 *.log
 .DS_Store
 Thumbs.db
+
+# G1 盤點後補的原版檔案型態。
+*.[dD][aA][tT]
+*.[sS][fF][xX]
+/ITEMS

@@ -15,3 +15,14 @@
   `CONTEXT.md`、`WORKLOG.md`、`README.md`。
 - GitHub：`gh auth status` 為 `wicanr2`；同名 repo 不存在；建立 private repo 並推送，回讀 PRIVATE、Issues 啟用；建立 #1–#12（G0–G11），連結回填 AGENTS.md 第 2 節。
 - 清理：容器皆 `--rm`，未寫入本目錄。
+
+## 2026-10-22 G1 原始輸入盤點（#2）
+
+- 新增 `tools/docker/tools.Dockerfile`（Debian bookworm 固定 digest，加 python3、unzip、unar、poppler-utils、curl），建 `sosb-tools:bookworm-r1`
+  （`sha256:b9b6c754…`）。建置時開網路。
+- 新增 `tools/inventory.py`：兩個 PKSFX 用 implode，`zipfile` 不支援，改用 Info-ZIP `unzip`；展開 49 檔到 `workplace/input/dos/sosb/`。
+  結果見 `docs/re/001-input-baseline.md`：v1.30，`START.EXE`＋`GAME.OVR`（`TPOV`），設定檔 `blades.cfg`，查驗題問手札字與規則書頁碼。
+- 珍056 以 `unar -e cp950` 展開；PDF 24 頁、無文字層，旅行手札第 1–72 則在下冊 p.27–57；第 24 頁是英文同人地圖。見 `docs/re/002`。
+- 依使用者授權從 mocagh.org 下載 journal、manual、refcard、hintbook、errata（容器開網路一次），`pdftotext -layout` 轉文字。
+- LICENSE 灰色地帶補上「為辨識版本與查驗題引用的少量原版英文字串」與檔名清單；`.gitignore` 補 `*.DAT`、`*.SFX`、`ITEMS`。
+- 清理：容器皆 `--rm`；`workplace/` 無 root 擁有檔（見下行檢查）。

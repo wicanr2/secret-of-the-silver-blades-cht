@@ -44,9 +44,9 @@
 
 | 檔案 | 狀態 |
 |---|---|
-| `secret-of-the-silver-blades.zip` | SHA-256 `b3147db0…29f7`；成員為安裝器（`install.com`、`secret1.exe`、`secret2.exe`）與兩個 txt；未解壓 |
-| `珍056-銀色匕首之謎.rar` | SHA-256 `5ac3f9c9…c7dc`；說明書 PDF、4 張 JPG、補完計劃 txt；未解壓 |
-| 英文手冊與手札 | 未取得 |
+| `secret-of-the-silver-blades.zip` | DOS v1.30，兩個 PKSFX 展開 49 檔；入口 `START.EXE`＋`GAME.OVR`（`TPOV`）；附預建隊伍；查驗題問手札字與規則書頁碼。見 [docs/re/001](docs/re/001-input-baseline.md) |
+| `珍056-銀色匕首之謎.rar` | 24 頁掃描 PDF，上冊規則、下冊含旅行手札第 1–72 則（下冊 p.27–57）；無文字層。見 [docs/re/002](docs/re/002-reference-sources.md) |
+| 英文手冊與手札 | mocagh.org 的 journal、manual、refcard、hintbook、errata，OCR 品質中等。見 [docs/re/002](docs/re/002-reference-sources.md) |
 
 ## Glossary
 
