@@ -25,15 +25,22 @@ def load_terms(path):
     """雜誌譯名 → 術語表譯名（text/walkthrough-terms.tsv：from、to、en、reason）。轉錄檔保留原貌，只在產生面板文字時換。
 
     from 等於 to 的列用來保護較長的字串（例「奧斯沃夫」不再被「奧斯沃」換成「奧斯沃夫夫」）。
+    reason 以「雜誌誤植」開頭的列另成一組（第二個回傳值），在換譯名之前整段直接替換，括號內的英文也修。
     """
     if not path or not path.exists():
-        return {}
-    out = {}
+        return {}, {}
+    out, typos = {}, {}
     for line in path.read_text(encoding='utf-8').splitlines()[1:]:
         c = line.split('\t')
         if len(c) >= 2 and c[0]:
-            out[c[0].translate(NORM)] = c[1]
-    return out
+            (typos if len(c) >= 4 and c[3].startswith('雜誌誤植') else out)[c[0].translate(NORM)] = c[1]
+    return out, typos
+
+
+def fix_typos(text, typos):
+    for k in sorted(typos, key=len, reverse=True):
+        text = text.replace(k, typos[k])
+    return text
 
 
 def apply_terms(text, terms):
@@ -147,19 +154,19 @@ def main():
     ap.add_argument('--out', required=True, type=Path)
     ap.add_argument('--terms', type=Path, help='雜誌譯名對照（text/walkthrough-terms.tsv）')
     a = ap.parse_args()
-    terms = load_terms(a.terms)
+    terms, typos = load_terms(a.terms)
     plan = [(f'softworld-{i}.md', i, set()) for i in range(21, 26)]
     rows = ['chapter\ttitle\tbody\tsource']
     n = 0
     for name, issue, map_pages in plan:
         for s in build(a.src / name, issue, map_pages):
-            body = apply_terms('\\n'.join(p.replace('\t', ' ') for p in s.paras if p).translate(NORM), terms)
+            body = apply_terms(fix_typos('\\n'.join(p.replace('\t', ' ') for p in s.paras if p).translate(NORM), typos), terms)
             if not body:
                 continue
             n += 1
             # 章號與章名分開換詞：譯名前的空白不是英數字旁的空白，整段換會被吃掉
             head, sep, rest = s.title.partition('　')
-            title = f'{head} {apply_terms(rest.translate(NORM), terms)}' if sep else apply_terms(head.translate(NORM), terms)
+            title = f'{head} {apply_terms(fix_typos(rest.translate(NORM), typos), terms)}' if sep else apply_terms(head.translate(NORM), terms)
             rows.append(f'{n}\t{title}\t{body}\t{s.source()}')
     a.out.write_text('\n'.join(rows) + '\n', encoding='utf-8')
     print(f'{n} 段寫到 {a.out}')

@@ -53,7 +53,11 @@ docker run --rm ... sosb-tools:bookworm-r1 python3 -I tools/walkthrough_build.py
 
 字型由 `tools/font-dev.sh` 重建，攻略的 `source` 欄也收字（頁尾顯示出處）。三組合都沒有缺字。
 
+遊戲中（新維地格里城）開關面板、與手札互斥的收據在 [007](007-g6-diagnostic-coverage.md) 的正常玩家路徑一節。
+
+雜誌錯字（例「要霧巨人」「寒寒巨人村」「Forgotton Realm」）在 `walkthrough-terms.tsv` 以 reason「雜誌誤植」標記，
+產生時先整段替換，括號內的英文也修。
+
 ## 未做
 
-- 正常玩家路徑上（進入遊戲之後）開關面板、與手札、地圖互斥的收據。
 - 各章對應的遊戲地區（克萊恩英豪規格 009 地圖疊層的攻略點）。
