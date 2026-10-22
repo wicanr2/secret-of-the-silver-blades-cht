@@ -35,7 +35,7 @@ docker run --rm ... sosb-tools:bookworm-r1 python3 -I tools/walkthrough_build.py
 | 長毛象 | 乳齒象 | 原文 `giants and mastodons` | 強推論 |
 | 火焰蟲 | 雷莫哈茲 | 原文 `remorhaz burst through the walls`；雜誌寫一口吞下隊員 | 強推論 |
 | 地底熊 | 土巨怪 | 原文 `umber hulks burst from the walls`；礦坑圖例代號 U | 強推論 |
-| 12頭龍、十二頭龍、十六頭龍 | 火焰九頭蛇 | 原文只出現 `pyro-hydras` 與一次 `hydra` | 強推論 |
+| 12頭龍、十二頭龍、十六頭龍 | 十二頭九頭蛇、十六頭九頭蛇 | 怪物資料 `MON1CHA.DAX` 區塊 24、25 的名字是 `12 HEADED HYDRA`、`16 HEADED HYDRA` | 已證實 |
 | 莎迦莎 | 薩加莎 | 原文 `the medusa Sargatha` | 已證實 |
 
 雜誌的「巫師」與「魔法師」在同一句並列（例「七名雙頭怪，三名魔法師和一名巫師」），不合併。

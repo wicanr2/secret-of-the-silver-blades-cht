@@ -590,3 +590,43 @@ Halfling	半身人	race	por	光芒之池說明書 p.11
 Monk	武僧	class	sosb	
 Electrum	金銀合金幣	item	por	
 Platinum	白金幣	item	por	
+Giant Crocodile	巨鱷	monster	sosb	怪物資料 MON1CHA.DAX 區塊 2；Crocodile 依青色枷譯「鱷魚」
+Displacer Beast	移位獸	monster	coab	怪物資料 MON1CHA.DAX 區塊 3
+Red Hatchling	紅幼龍	monster	sosb	怪物資料 MON1CHA.DAX 區塊 4；知識之井外圍的幼龍
+Ancient Dragon	遠古巨龍	monster	sosb	怪物資料 MON1CHA.DAX 區塊 6、8；demo 戰鬥
+Gargoyle	石像鬼	monster	sosb	怪物資料 MON1CHA.DAX 區塊 11
+Griffon	獅鷲	monster	coab	怪物資料 MON1CHA.DAX 區塊 18
+Gynosphinx	女獅身人面獸	monster	sosb	怪物資料 MON1CHA.DAX 區塊 19；同 Gyno-Sphinx
+Hippogriff	鷹馬	monster	coab	怪物資料 MON1CHA.DAX 區塊 21
+12 Headed Hydra	十二頭九頭蛇	monster	sosb	怪物資料 MON1CHA.DAX 區塊 24；雜誌攻略「12頭龍」
+16 Headed Hydra	十六頭九頭蛇	monster	sosb	怪物資料 MON1CHA.DAX 區塊 25；雜誌攻略「十六頭龍」
+12HD Pyrohydra	十二頭火焰九頭蛇	monster	sosb	怪物資料 MON1CHA.DAX 區塊 27
+Margoyle	大石像鬼	monster	sosb	怪物資料 MON1CHA.DAX 區塊 31
+Centipede	蜈蚣	monster	sosb	怪物資料 MON1CHA.DAX 區塊 34；Giant Centipede 為巨型蜈蚣
+Neo Otyugh	新奧提尤格	monster	coab	怪物資料 MON1CHA.DAX 區塊 37
+Otyugh	奧提尤格	monster	coab	怪物資料 MON1CHA.DAX 區塊 39
+Giant Slug	巨鼻涕蟲	monster	coab	怪物資料 MON1CHA.DAX 區塊 42
+Giant Snake	巨蛇	monster	sosb	怪物資料 MON1CHA.DAX 區塊 43
+Giant Spider	巨蜘蛛	monster	coab	怪物資料 MON1CHA.DAX 區塊 44
+Phase Spider	相位蜘蛛	monster	coab	怪物資料 MON1CHA.DAX 區塊 45
+Bugbear	熊地精	monster	sosb	怪物資料 MON1CHA.DAX 區塊 49
+Sieglinda	齊格琳達	person	sosb	怪物資料 MON1CHA.DAX 區塊 50；女性名
+Capet	卡佩	person	sosb	怪物資料 MON1CHA.DAX 區塊 51
+Averoes	阿維羅斯	person	sosb	怪物資料 MON1CHA.DAX 區塊 52
+BC Warlock	黑圈幫術士	monster	sosb	怪物資料 MON1CHA.DAX 區塊 64；BC 為 Black Circle
+BC Necromancer	黑圈幫死靈法師	monster	sosb	怪物資料 MON1CHA.DAX 區塊 65
+BC Wizard	黑圈幫魔法師	monster	sosb	怪物資料 MON1CHA.DAX 區塊 66
+BC Trooper	黑圈幫士兵	monster	sosb	怪物資料 MON1CHA.DAX 區塊 67
+BC Veteran	黑圈幫老兵	monster	sosb	怪物資料 MON1CHA.DAX 區塊 68
+BC Lord	黑圈幫領主	monster	sosb	怪物資料 MON1CHA.DAX 區塊 69
+Banite Cleric	班恩教牧師	monster	sosb	怪物資料 MON1CHA.DAX 區塊 70
+Banite Priest	班恩教祭司	monster	sosb	怪物資料 MON1CHA.DAX 區塊 71
+Fire Knife	火刀	monster	coab	怪物資料 MON1CHA.DAX 區塊 72；刺客組織
+Dread Guard	恐怖守衛	monster	sosb	怪物資料 MON1CHA.DAX 區塊 73；雜誌攻略同名
+Rogue	流氓	monster	sosb	怪物資料 MON1CHA.DAX 區塊 74；克萊恩英豪的 Rogue 是職業「淘氣法師」，本作是怪物
+Swashbuckler	劍客	monster	sosb	怪物資料 MON1CHA.DAX 區塊 75
+Townsman	鎮民	monster	sosb	怪物資料 MON1CHA.DAX 區塊 76
+Sir Deric	德瑞克爵士	person	sosb	怪物資料 MON1CHA.DAX 區塊 78
+Golden Warrior	黃金戰士	monster	sosb	怪物資料 MON1CHA.DAX 區塊 79
+Legionaire	軍團兵	monster	sosb	怪物資料 MON1CHA.DAX 區塊 96；恐怖軍團的士兵，原文拼法如此
+Legion Wizard	軍團魔法師	monster	sosb	怪物資料 MON1CHA.DAX 區塊 97
