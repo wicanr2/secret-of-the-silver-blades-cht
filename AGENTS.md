@@ -62,7 +62,7 @@
 | 雜誌攻略 | 尚未提供 |
 | 程式與驗證 | 沒有本作程式、執行收據或中文化證據 |
 
-初始工作已登錄為 [#1–#12](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues)，狀態只在遠端維護。規格編號以克萊恩英豪 `docs/spec/001`–`017` 為對照，本作規格另行編號。
+初始工作已登錄為 [#1–#12](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues)，狀態只在遠端維護。之後使用者新增的需求另開 Issue（#13 demo 中止、#14 CPU 速度、#15 切換列字級、#16 閃爍、#17 無敵位址驗證），不改下表。規格編號以克萊恩英豪 `docs/spec/001`–`017` 為對照，本作規格另行編號。
 
 | 階段 | 依賴 | 完成條件 |
 |---|---|---|

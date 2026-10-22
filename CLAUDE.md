@@ -17,17 +17,20 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 常用指令
 
-產品工具尚未建立，G2 完成 dosgolem 基線後補上。目前唯一驗證過的操作是在 Docker 內唯讀
-盤點原始輸入：
+全部在 Docker 內執行，腳本開頭的註解說明前置條件。
 
-```sh
-test -f secret-of-the-silver-blades.zip && timeout 120 docker run --rm --network none -u "$(id -u):$(id -g)" --memory 512m --cpus 1 --pids-limit 64 \
-  --log-opt max-size=10m --log-opt max-file=3 -v "$PWD:/in:ro" python:3.13-slim \
-  python3 -I -c 'import zipfile; [print(i.file_size, i.filename) for i in zipfile.ZipFile("/in/secret-of-the-silver-blades.zip").infolist()]'
-```
+| 用途 | 指令 |
+|---|---|
+| 重建字型（含切換列 12、22 像素） | `tools/font-dev.sh` |
+| 開繁中視窗試玩（需主機 X11） | `tools/play.sh` |
+| 無頭冒煙：冷開機到主選單 | `tools/play-smoke.sh` |
+| 建角到開場、存讀檔、手札與面板收據 | `tools/g6-create-receipt.sh`、`tools/g6-saveload-receipt.sh`、`tools/g7-journal-receipt.sh` |
+| 攻略面板、demo、切換列、速度等價性 | `tools/g8-guide-receipt.sh`、`tools/g13-demo-receipt.sh`、`tools/g14-toolbar-receipt.sh`、`tools/g14-delay-equiv.sh` |
+| 閃爍逐格量測 | `FROM=… TO=… tools/g16-flicker-probe.sh`，再以 `tools/g16_flicker_scan.py` 掃描 |
+| 文字檢查 | `tools/term_check.py`、`tools/errata_check.py`（在 `sosb-tools:bookworm-r1` 內以 `python3 -I` 執行） |
 
-dosgolem 的通用入口是其 clone 內的 `tools/go.sh run ./cmd/probe ...`；參數與 scratch 層用法參考
-克萊恩英豪 `CLAUDE.md`，本作設定檔名與入口 EXE 待 G1、G2 確認。
+dosgolem 的建置與測試走其 clone 內的 `tools/go.sh`（例：`tools/go.sh test ./apps/sosb/`；需要 X 的套件加
+`DOSGOLEM_GO_CMD=xvfb-run tools/go.sh -a go test …`）；自動模式跑 sosb-play 時 `docker run` 要帶 `--init`。
 
 ## 資料索引
 

@@ -9,7 +9,7 @@
 | 網址 | <https://github.com/wicanr2/secret-of-the-silver-blades-cht> | `gh repo view --json url` |
 | owner | `wicanr2` | `gh auth status`、`gh repo view --json owner` |
 | 可見性 | PRIVATE | `gh repo view --json visibility` |
-| Issues | 啟用；初始 G0–G11 為 #1–#12 | `gh repo view --json hasIssuesEnabled` |
+| Issues | 啟用；初始 G0–G11 為 #1–#12；之後的需求 #13–#17 | `gh issue list` |
 | git 身分 | repo-local `wicanr2` <wicanr2@gmail.com> | `git config user.email` |
 | 授權 | RRSAL-1.0（[LICENSE](LICENSE)） | |
 
@@ -27,6 +27,10 @@
 | 2026-10-22 | 攻略來源：使用者提供《軟體世界》第 21–25 期掃描 22 張，放 `walkthrough/`（不進 Git） | 使用者提供 |
 | 2026-10-22 | 譯文文風依試譯 122 則確認，全量翻譯 | 使用者回答 |
 | 2026-10-22 | HD 可由 Codex 輔助，比照克萊恩英豪整條交 Codex | 使用者指示 |
+| 2026-10-22 | demo 中止與 CPU 速度照幽靈騎士規格 015、016 | 使用者回答 |
+| 2026-10-22 | 切換列字級小中大（3 倍 16／22／24、2 倍 12／16／16）；倍率合成一項、速度只顯示倍率 | 使用者回答 |
+| 2026-10-22 | 必要時可修改原版 EXE 降低閃爍；目前以覆繪層處理即可，未改原版 | 使用者指示（#16） |
+| 2026-10-22 | 收據截圖抽樣即可，不逐張全看 | 使用者指示 |
 
 ## 待定
 
@@ -37,7 +41,7 @@
 
 | 項目 | 值 |
 |---|---|
-| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `9112c61`，推到本 repo 的 `dosgolem/sosb` |
+| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `d7f1600`，推到本 repo 的 `dosgolem/sosb` |
 | Go／image | go1.24.13；`dosgolem-go-ebiten:1.24-r1` `sha256:8ed6bdee2bce…` |
 | 冷啟動 | 0 種缺服務；mode 0Dh；首次執行回答 EGA、AdLib、MOUSE、預設存檔路徑，`-program-path 'C:\SECRET\START.EXE'`；空白鍵跳過標題、`p` 進主選單，見 [docs/re/003](docs/re/003-dosgolem-startup.md) |
 
@@ -50,7 +54,10 @@
 | 譯文 | UI 891、ECL 1,498、名稱 788 筆；字型源泉圓體 2,245 字（`tools/font-dev.sh`） |
 | 玩家名音譯 | 性別欄 +0x11F（強推論），預建 6 人全部音譯 |
 | 查驗題 | 字序含標題，已證實 2 題（docs/re/004） |
-| 手札引用 | 觸發機制沿用可行（第 37 則）；面板未接 |
+| 手札引用 | 鎮長對白後手札第 37 則自動彈出、F5 翻閱已有收據（docs/re/007） |
+| 攻略與地圖 | 攻略 40 段、F6 面板收據（docs/re/008）；地圖疊層 F7 位址已證實、17 塊地區名，攻略點未做（docs/re/009） |
+| 前端功能 | sosb-play 冷開機、存讀檔、demo 中止、CPU 速度 1x–32x、切換列字級；無敵停用待驗（#17） |
+| 閃爍 | 手札路徑逐格量測，三類英文閃現已以覆繪層修正（docs/re/010） |
 | 手札譯文 | 第 1–72 則修正譯文 `text/journal.zh-TW.tsv`；錯譯表 113 條通過 `tools/errata_check.py`（docs/re/006） |
 | 查驗題答案 | 30 題 `text/quiz-answers.tsv`，長度全與題目表相符（docs/re/005） |
 | catalog | ui 1,453 筆（658 筆與克萊恩英豪雜湊相同）、ECL 1,528 筆 |
