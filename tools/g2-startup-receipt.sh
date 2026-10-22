@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # G2 冷啟動收據：原版 START.EXE 由 dosgolem 冷啟動，走玩家第一次執行的設定問答
 # （顯示卡 [2] EGA、音效 [1] AdLib、輸入 [2] MOUSE、存檔路徑按 Enter 用預設），
-# 寫出 scratch 層的 blades.cfg，過標題後到建立隊伍主選單。
-# 冷啟動到 #300,000,000（標題畫面）存狀態，再從狀態重播兩次到 #399,000,000 比對主選單色號雜湊。
+# 寫出 scratch 層的 blades.cfg，到標題畫面。送空白鍵跳過標題到 PLAY DEMO 選單，再送 p 進建立隊伍主選單。
+# 冷啟動到 #300,000,000（標題畫面）存狀態，再從狀態送鍵、重播兩次到 #399,000,000 比對主選單色號雜湊。
 # -program-path 給安裝程式的預設目錄 C:\SECRET，預設存檔路徑才會是 C:\SECRET\SAVE\。
 # 注意：-save-state／-dump-at 的步數須小於 -steps，等於上限時不會觸發。
 # 前置：workplace/input/dos/sosb（G1 展開）、workplace/dosgolem（固定 commit 的隔離 clone）。
@@ -26,6 +26,7 @@ run -exe /orig/START.EXE -steps 300001000 \
   -save-state 300000000:/out/title-300m.state -dump-at "300000000:/out/title.png" > "$OUT/cold.log" 2>&1
 for tag in a b; do
   run -load-state /out/title-300m.state -steps 400001000 \
+    -bios-keys ' p' -bios-key-from 305000000 -bios-key-every 50000000 \
     -dump-at "399000000:/out/menu-$tag.png" > "$OUT/menu-$tag.log" 2>&1
 done
 sha256sum "$OUT/scratch/blades.cfg" "$OUT/title-300m.state" "$OUT/menu-a.bin" "$OUT/menu-b.bin"

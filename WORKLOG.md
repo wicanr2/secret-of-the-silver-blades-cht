@@ -35,3 +35,14 @@
 - 首次執行在文字模式問設定；`-dump-mem-at` 傾印 B8000 讀出各題。存檔路徑預設帶出 `C:\RICH2\SAVE\`，
   追到 `cmd/probe` 的 `-program-path` 被覆寫，修正為 `9112c61`，推到本 repo 的 `dosgolem/sosb`。
 - 新增 `tools/g2-startup-receipt.sh`：冷啟動到標題存狀態，重播兩次到主選單，雜湊一致。見 `docs/re/003`。
+
+## 2026-10-22 G3 輸出路徑盤點（#4）
+
+- 以克萊恩英豪簽章在 `START.EXE` 找到路徑 A（0x571D）、逐字（0x55A7）、路徑 B（0x5879）；執行期段 `0650`。`fn_diff` 顯示同函式，DS 位移整體平移。
+- dosgolem `apps/sosb` 由 `apps/cok` 複製，`cmd/sosb-play`、`sosb-overlay-shot`、`sosb-explore` 由對應 cok 指令複製；
+  換簽章、游標 DS、逐字程序位移 `01E7`、pad 呼叫樣式 `9A 32 00`、`defaultDS 0EF2`；未驗常數標「克萊恩英豪值」。刪除只驗克萊恩英豪 HD 夾具的 4 個測試。
+- 新增 `tools/ui_text_catalog.py`、`tools/ecl_text_catalog.py`、`tools/eten_font.py`、`tools/re/`（移植自克萊恩英豪），產生 `text/ui-text-events.tsv`、`text/ecl-text-events.tsv`。
+- 新增 `tools/probe.sh` 與 `tools/g3-party-receipt.sh`。查驗題 2 題證實字序含標題（`SILVER`、`YULASH`），與克萊恩英豪不同。
+- 覆繪驗證暫借克萊恩英豪的 `ui-text.zh-TW.tsv` 與倚天字型，放在 `workplace/text-src/trial/`、`workplace/font/placeholder-*`，不是本作譯文；開場 16 段試譯同放該處。
+- 勘誤：G2 寫「不送鍵時標題後直接進主選單」不成立。當時 #400M 的主選單畫面來自另一次執行：scratch 已有 `blades.cfg`，
+  原本要回答設定的 `212\r` 改被標題畫面吃掉而跳過標題。收據改為從標題狀態送 ` p`，主選單雜湊改為 `5fe4bff7…`；docs/re/003 已更正。

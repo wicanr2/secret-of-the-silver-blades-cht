@@ -38,11 +38,17 @@
 |---|---|
 | commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `9112c61`，推到本 repo 的 `dosgolem/sosb` |
 | Go／image | go1.24.13；`dosgolem-go-ebiten:1.24-r1` `sha256:8ed6bdee2bce…` |
-| 冷啟動 | 0 種缺服務；mode 0Dh；首次執行回答 EGA、AdLib、MOUSE、預設存檔路徑，`-program-path 'C:\SECRET\START.EXE'`；不送鍵到建立隊伍主選單，見 [docs/re/003](docs/re/003-dosgolem-startup.md) |
+| 冷啟動 | 0 種缺服務；mode 0Dh；首次執行回答 EGA、AdLib、MOUSE、預設存檔路徑，`-program-path 'C:\SECRET\START.EXE'`；空白鍵跳過標題、`p` 進主選單，見 [docs/re/003](docs/re/003-dosgolem-startup.md) |
 
 ## 中文化進度
 
-尚未開始。沒有本作的執行收據。
+| 路徑 | 狀態 |
+|---|---|
+| 印字程序 | resident 段 `0650`：路徑 A `035D`、逐字 `01E7`、路徑 B `04B9`，與克萊恩英豪同函式（docs/re/004） |
+| 路徑 A／B／C | 已接通（暫借克萊恩英豪譯文與字型驗證）：主選單、隊伍選單、開場劇情、冒險與營地選單，範圍外差異 0；正式譯文未開始 |
+| 查驗題 | 字序含標題，已證實 2 題（docs/re/004） |
+| 手札引用 | 觸發機制沿用可行（第 37 則）；面板內容未做 |
+| catalog | ui 1,453 筆（658 筆與克萊恩英豪雜湊相同）、ECL 1,528 筆 |
 
 ## 原始輸入
 
@@ -58,6 +64,7 @@
 - 珍056：軟體世界珍藏版第 56 號，本作的官方繁中說明書，錯譯修正的對象。
 - 錯譯表：`text/errata.tsv`，記錄珍056 譯文與修正譯文的對照與證據。
 - 手札：說明書中 Adventurer's Journal 的段落，遊戲內以編號引用。_Avoid_：日誌、日記
+- 字序含標題：本作查驗題「第 N 則第 M 個字」從手札標題第一個字算起（docs/re/004）。
 - sosb：本作遊戲短名，用於 dosgolem `apps/sosb/` 與程式識別。
 - 克萊恩英豪：第一參考專案，本機 `/home/anr2/cht/golden_box/champions_of_krynn/`，短名 `cok`。
 - 覆繪：在原版已輸出的畫面上清除原文墨跡、重畫中文。_Avoid_：替換、打字串補丁

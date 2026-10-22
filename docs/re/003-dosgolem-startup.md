@@ -46,21 +46,25 @@ module cache 由克萊恩英豪 clone 的 `workplace/gomodcache` 複製，未開
 | #59,000,000 | SSI／AD&D 標誌 |
 | #150,000,000 | 標題圖（冰封城堡） |
 | #299,000,000 | 標題字「A Forgotten Realms Fantasy Role-Playing Epic Vol. III」 |
-| #399,000,000 | 建立隊伍主選單 CREATE NEW CHARACTER、ADD CHARACTER TO PARTY、LOAD SAVED GAME、INITIALIZE MOUSE/JOYSTICK、EXIT TO DOS，底列 `CHOOSE A FUNCTION SELECT` |
+| #459,000,000 | 不送鍵時仍在標題動畫（「Secret of the Silver Blades」字樣） |
+
+標題動畫不會在 #460M 內自己結束。從 #300M 的狀態送空白鍵（#305M）跳過標題，出現底列
+`SECRET OF THE SILVER BLADES VERSION 1.30 MAY 18,1990` 與 `PLAY DEMO`；再送 `p`（#355M），
+#399M 是建立隊伍主選單 CREATE NEW CHARACTER、ADD CHARACTER TO PARTY、LOAD SAVED GAME、INITIALIZE MOUSE/JOYSTICK、EXIT TO DOS，
+底列 `CHOOSE A FUNCTION SELECT`。
 
 - 沒實作的服務：0 種。寫過的 I/O 埠：040、043、061、0C0、388、389、3C4、3C5、3CE、3CF、3D4、3D5。
-- 不送鍵時標題後直接進主選單，沒有 demo 選單。
 - 程式以讀寫模式開 DAX，dosgolem 把它們複製到 scratch 層（`009-scratch-writes`）；原版目錄唯讀不變。
 
 ## 收據
 
-[`tools/g2-startup-receipt.sh`](../../tools/g2-startup-receipt.sh)：冷啟動並回答設定到 #300,000,000 存狀態，從狀態重播兩次到 #399,000,000。
+[`tools/g2-startup-receipt.sh`](../../tools/g2-startup-receipt.sh)：冷啟動並回答設定到 #300,000,000 存狀態，從狀態送 ` p` 重播兩次到 #399,000,000。
 
 | 產物 | SHA-256 |
 |---|---|
 | `scratch/blades.cfg` | `00cbd89ee14e59022941a6a5fe3c5107cf8d26b27dc60c096174a091d55923b3` |
 | `title-300m.state` | `16a0bc0f67c66f9fd53b8a6976cfdf58d28dd733d799e379e89ef84b65a43be0` |
-| 主選單色號陣列 `menu-*.bin` | `f3215354429d04c7ae82cf96c73bafd17ab43dd471a526fb51c3b686e5ec1dcd`（重播 a、b 相同） |
+| 主選單色號陣列 `menu-*.bin` | `5fe4bff7bb9b38aeb4a8aaf599da9c27244497206f3fe53653e051aa25b6b761`（重播 a、b 相同） |
 
 ## 與克萊恩英豪的對照
 
@@ -69,7 +73,7 @@ module cache 由克萊恩英豪 clone 的 `workplace/gomodcache` 複製，未開
 | 視訊模式 | 0Dh | 0Dh |
 | overlay 魔數 | `TPOV` | `FBOV` |
 | 設定檔 | 首次執行建立 `blades.cfg` | 原版附 `KRYNN.CFG`，需改 AdLib |
-| 進主選單 | 不需按鍵 | 送 `p` |
+| 進主選單 | 空白鍵跳過標題，再送 `p` | 送 `p` |
 
 ## 未知
 
