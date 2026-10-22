@@ -41,7 +41,21 @@
 
 adapter 的名字規則改為接受大小寫混合，音譯一律以大寫查（dosgolem `dosgolem/sosb`）。
 
+## 冷開機路徑（`cmd/sosb-play`）
+
+無頭執行：`xvfb-run` 包 `sosb-play -frames N -shot`，`docker run` 要帶 `--init`，否則 xvfb-run 當 PID 1 等不到 Xvfb 就緒訊號會一直卡住。
+
+| 項目 | 結果 | 等級 |
+|---|---|---|
+| 首次執行寫出的 `blades.cfg` | 71 bytes，SHA-256 `00cbd89e…`，與原版首次設定（[003](003-dosgolem-startup.md)）相同 | 已證實 |
+| 第 900 畫格 | 標題圖 | 已證實 |
+| 第 3200 畫格送空白、3700 畫格送 `p`，第 4400 畫格 | 主選單以繁中覆繪（路徑 A 覆繪 29 次） | 已證實 |
+
+路徑 A 未命中 4 次：製作群最後一行人名 `erik flom,james young,larry webber`、START.EXE 執行期組出的標題列
+`Secret of the Silver Blades` 與版本列 `Version 1.30 May 18,1990`、一行空白。前三項是英文題名、版本與人名，維持原文；
+它們不在 `text/ui-text-events.tsv`（只收執行檔裡的完整字串），要加譯得另建事件來源。
+
 ## 未做
 
-- 正常玩家路徑（建角、存讀檔不殘字）、戰鬥、商店、神殿、訓練、地下城與其他地區的盤點。
+- 存讀檔不殘字、戰鬥、商店、神殿、訓練、地下城與其他地區的盤點。
 - 手札面板的地圖則圖面。
