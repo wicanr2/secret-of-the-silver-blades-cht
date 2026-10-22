@@ -1,6 +1,6 @@
 # 019 CPU 模擬速度
 
-狀態：READY（§4 第 1–3 項通過；第 4 項互動模式量測待做）。Issue：[#14](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/14)。
+狀態：READY（§4 第 1–3 項通過；第 4 項已量測，主機負載高，數字偏保守）。Issue：[#14](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/14)。
 由幽靈騎士規格 016 移植（`/home/anr2/cht/golden_box/death_knight_of_krynn/docs/spec/016-cpu-speed-draft.md`）；
 通用層契約見 dosgolem `docs/spec/429-runtime-clock-and-idle-skip-draft.md`。
 
@@ -38,4 +38,14 @@
    這條路徑牆鐘 262 秒對 251 秒，差距在主機負載誤差內。
 3. 切換列收據 `tools/g14-toolbar-receipt.sh`（2026-10-22 通過目視）：速度項顯示「8x」「32x」；下拉第一列灰色實際倍率、
    目前設定青色；3 倍 32x 時選單在右緣往左移、完整顯示。log 記「TP Delay 登記 true」。
-4. 互動模式量測（HD 3 倍、1x／8x／32x 調節模式的模擬耗時、畫出 fps、平均實際倍率）：待做。
+4. 調節模式量測（`tools/g14-perf.sh`，2026-10-23）：自動模式加 `-speed-adaptive`，3 倍、開場 demo 6700 格，Docker＋Xvfb 2 核，序跑。
+   當時本作還沒有 HD 主題，3 倍只放大原版。
+
+   | 設定 | 模擬平均 / p50 / p90 | 每秒畫格 | 平均實際倍率 | 牆鐘 | 主機負載（開始 → 結束） |
+   |---|---|---|---|---|---|
+   | 1x | 11.6 / 11.4 / 22.1 ms | 47.1 | 1.00x | 142 秒 | 6.5 → 19.3 |
+   | 8x | 21.3 / 17.3 / 45.7 ms | 24.2 | 3.54x | 277 秒 | 19.3 → 46.8 |
+   | 32x | 26.4 / 18.7 / 58.5 ms | 18.7 | 11.91x | 359 秒 | 46.8 → 33.3 |
+
+   - 每秒畫格是自動模式的更新次數（`updatefps`）。自動模式在 Xvfb 下不呼叫 Draw，`drawfps` 為 0，畫出 fps 沒有量到。
+   - 8x、32x 執行時主機負載升到 30–47（其他專案的工作），實際倍率受主機限制；空閒主機與實體顯示卡未量測。

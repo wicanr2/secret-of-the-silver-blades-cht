@@ -1,6 +1,6 @@
 # 010 HD 重繪主題
 
-狀態：DRAFT（2026-10-23；首批 b01 原型待使用者確認畫風）。Issue：[#10](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/10)。
+狀態：READY（2026-10-23；使用者確認 b01 畫風後全量；第一階段 TITLE、PIC、BIGPIC）。Issue：[#10](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/10)。
 架構沿用克萊恩英豪規格 010（`/home/anr2/cht/golden_box/champions_of_krynn/docs/spec/010-hd-theme.md`）§1、§5；
 來源、位置與色號以本作原版重驗。
 
@@ -51,8 +51,8 @@
 ## 4. 接入與不露原版圖
 
 - dosgolem `apps/sosb/hd.go` 的圖面 watcher（由克萊恩英豪移植，已在本作分支）：整塊原版色號吻合才畫 HD，只在 3 倍。
-- 整塊吻合才換圖，原版分幾幀畫完一張圖時前幾幀會露原版。接入時一併接 dosgolem 規格 202 §2.8 `Hold`：
-  主題項目的畫面範圍內、內容正在變、尚未吻合的格子保留上一次呈現（規格 021 §4.1）。
+- 主題圖 watcher 設 `Sticky`（dosgolem 規格 204 §6），並以 `Hold`（202 §2.8）保留正在畫的已知圖，見規格 021 §4.1。
+- 主題由 `tools/hd_theme.py` 組成 `workplace/hd/theme/`，sosb-play `-hd` 載入。
 
 ## 5. 驗收
 
@@ -64,4 +64,6 @@
 
 | 批次 | 內容 | 狀態 |
 |---|---|---|
-| b01 | 標題、金庫店員、神殿祭司、BIGPIC1 區塊 112 | Codex 各生一次；數值閘門全過（結構 0.59–0.75、色相 11–22 度）；目視構圖對位；待使用者確認畫風 |
+| b01 | 標題、金庫店員、神殿祭司、BIGPIC1 區塊 112 | 數值與目視通過；使用者 2026-10-23 確認畫風 |
+| b02–b05 | 其餘 PIC 75 狀態（含沿用前作 7）、BIGPIC 7 | r0：69 張通過數值與目視；13 張未過（動畫非第 0 幀結構分數 < 0.40、3 張色相差 ≥ 30 度），r1 重畫中 |
+| b06 | SSI 片頭（TITLE 1）、背景（TITLE 2）、背景＋Forgotten Realms 字樣（TITLE 2＋3 @ (16,40)） | 數值與目視通過；冷開機第 300、800、1500 格為證據 |

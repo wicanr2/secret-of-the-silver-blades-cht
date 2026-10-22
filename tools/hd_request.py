@@ -116,6 +116,8 @@ def main():
                 mask = bytes(int(p != q) for p, q in zip(px, base_px))
                 rgb_png(out / f'{key}-mask-x3.png', mask, w, h, 3, [(0, 0, 0), (255, 255, 255)])
                 it['animation'] = dict(rule='第 0 幀 XOR 原始幀', frame=k, base=f'{stem}@0', mask=f'{key}-mask-x3.png')
+                it['prompt'] += (' Image 3 is the already painted HD of this picture\'s first animation frame: render every '
+                                 'region that is identical to it exactly as image 3 does; only the changed parts differ.')
             items.append(it)
             print(key, it['runtime_evidence'], ','.join(seen), '前作:' + ','.join(r['prior']) if r['prior'] else '')
     for spec in a.composite:
