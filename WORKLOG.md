@@ -13,5 +13,5 @@
   `san5-mixer` `f79eab6`。
 - 變更：新增 `AGENTS.md`、`CLAUDE.md`、`.gitignore`、`LICENSE`（由克萊恩英豪 RRSAL-1.0 改填本作名稱、網址、權利人與灰色地帶）、
   `CONTEXT.md`、`WORKLOG.md`、`README.md`。
-- GitHub：`gh auth status` 為 `wicanr2`；同名 repo 不存在。
+- GitHub：`gh auth status` 為 `wicanr2`；同名 repo 不存在；建立 private repo 並推送，回讀 PRIVATE、Issues 啟用；建立 #1–#12（G0–G11），連結回填 AGENTS.md 第 2 節。
 - 清理：容器皆 `--rm`，未寫入本目錄。

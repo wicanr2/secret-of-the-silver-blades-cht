@@ -62,22 +62,22 @@
 | 雜誌攻略 | 尚未提供 |
 | 程式與驗證 | 沒有本作程式、執行收據或中文化證據 |
 
-初始工作範圍如下。規格編號以克萊恩英豪 `docs/spec/001`–`017` 為對照，本作規格另行編號。
+初始工作已登錄為 [#1–#12](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues)，狀態只在遠端維護。規格編號以克萊恩英豪 `docs/spec/001`–`017` 為對照，本作規格另行編號。
 
 | 階段 | 依賴 | 完成條件 |
 |---|---|---|
-| G0 協作治理 | 本檔 | `.gitignore`、`LICENSE`、`CONTEXT.md`、`WORKLOG.md`、`CLAUDE.md` 就位；private 與 Issues 回讀 |
-| G1 原始輸入 | G0 | 壓縮檔與成員 SHA-256；安裝器展開方式、完整版或試玩版、版本、入口 EXE 與啟動參數；珍056 頁序與缺頁；英文手冊與手札的來源網址、取得日期、SHA-256 |
-| G2 dosgolem 基線 | G1 | 選定並固定 dosgolem 基底（第 5 節）；正常入口到第一個可操作畫面；缺服務與重播收據 |
-| G3 輸出路徑 | G2 | 印字、清除、捲動與選單掛勾的原始定位與證據等級；驗證第 4 節的待驗假說 |
-| G4 說明書轉錄與錯譯校正 | G1 | 珍056 逐頁轉錄；與英文原文逐段對照；錯譯表（第 3.2 節）與檢查腳本 |
-| G5 譯文與字型 | G3、G4 | 術語表、TSV catalog、字型與檢查工具；先試譯一批給使用者看文風再全量 |
-| G6 繁中接入 | G3、G5 | 每條路徑 READY 規格、覆繪、A/B 收據與正常玩家路徑；含組句、英數半形、玩家名音譯 |
-| G7 手札與查驗題 | G3、G4 | 手札引用與查驗題的輸出證據、修正後譯文、自動彈出與翻閱、答案顯示的收據 |
-| G8 攻略面板與地圖疊層 | G6、使用者提供掃描或提示書 | 攻略轉錄、術語對齊、面板與地圖疊層收據 |
-| G9 HD 與切換列 | G6、G7 | 交 Codex：來源與遮擋證據、批次重繪、接入、F2 與切換列收據 |
-| G10 配樂、多語系、作弊、推廣片 | G6、G9 | 各自規格與收據；配樂經使用者試聽 |
-| G11 封包驗收 | G6、G9 | 乾淨目錄啟動、manifest 與 SHA-256、存檔位置；明列未驗平台 |
+| [G0 協作治理／#1](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/1) | 本檔 | `.gitignore`、`LICENSE`、`CONTEXT.md`、`WORKLOG.md`、`CLAUDE.md` 就位；private 與 Issues 回讀 |
+| [G1 原始輸入／#2](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/2) | G0 | 壓縮檔與成員 SHA-256；安裝器展開方式、完整版或試玩版、版本、入口 EXE 與啟動參數；珍056 頁序與缺頁；英文手冊與手札的來源網址、取得日期、SHA-256 |
+| [G2 dosgolem 基線／#3](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/3) | G1 | 選定並固定 dosgolem 基底（第 5 節）；正常入口到第一個可操作畫面；缺服務與重播收據 |
+| [G3 輸出路徑／#4](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/4) | G2 | 印字、清除、捲動與選單掛勾的原始定位與證據等級；驗證第 4 節的待驗假說 |
+| [G4 說明書轉錄與錯譯校正／#5](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/5) | G1 | 珍056 逐頁轉錄；與英文原文逐段對照；錯譯表（第 3.2 節）與檢查腳本 |
+| [G5 譯文與字型／#6](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/6) | G3、G4 | 術語表、TSV catalog、字型與檢查工具；先試譯一批給使用者看文風再全量 |
+| [G6 繁中接入／#7](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/7) | G3、G5 | 每條路徑 READY 規格、覆繪、A/B 收據與正常玩家路徑；含組句、英數半形、玩家名音譯 |
+| [G7 手札與查驗題／#8](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/8) | G3、G4 | 手札引用與查驗題的輸出證據、修正後譯文、自動彈出與翻閱、答案顯示的收據 |
+| [G8 攻略面板與地圖疊層／#9](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/9) | G6、使用者提供掃描或提示書 | 攻略轉錄、術語對齊、面板與地圖疊層收據 |
+| [G9 HD 與切換列／#10](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/10) | G6、G7 | 交 Codex：來源與遮擋證據、批次重繪、接入、F2 與切換列收據 |
+| [G10 配樂、多語系、作弊、推廣片／#11](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/11) | G6、G9 | 各自規格與收據；配樂經使用者試聽 |
+| [G11 封包驗收／#12](https://github.com/wicanr2/secret-of-the-silver-blades-cht/issues/12) | G6、G9 | 乾淨目錄啟動、manifest 與 SHA-256、存檔位置；明列未驗平台 |
 
 ## 3. 原始輸入與資料保護
 

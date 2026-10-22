@@ -9,7 +9,7 @@
 | 網址 | <https://github.com/wicanr2/secret-of-the-silver-blades-cht> | `gh repo view --json url` |
 | owner | `wicanr2` | `gh auth status`、`gh repo view --json owner` |
 | 可見性 | PRIVATE | `gh repo view --json visibility` |
-| Issues | 啟用 | `gh repo view --json hasIssuesEnabled` |
+| Issues | 啟用；初始 G0–G11 為 #1–#12 | `gh repo view --json hasIssuesEnabled` |
 | git 身分 | repo-local `wicanr2` <wicanr2@gmail.com> | `git config user.email` |
 | 授權 | RRSAL-1.0（[LICENSE](LICENSE)） | |
 
