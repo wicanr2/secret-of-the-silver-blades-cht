@@ -48,3 +48,6 @@ Thumbs.db
 *.[dD][aA][tT]
 *.[sS][fF][xX]
 /ITEMS
+
+# HD 審閱頁的 HD 預覽（AGENTS.md 第 3 節例外；轉公開前連同歷史移除）。
+!/review/hd/img/*.jpg
