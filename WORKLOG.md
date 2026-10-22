@@ -54,3 +54,9 @@
   改由 OCR 補：英文用 `pdftotext -bbox-layout`（`tools/journal_en_ocr.py`），珍056 用黑暗之后的 PaddleOCR 映像與模型快取（唯讀掛載，`tools/ocr_batch.py`、`tools/zh_ocr_journal.py`），再逐頁對圖校讀。
 - 逐則對照 72 則，產出 `text/journal.zh-TW.tsv`、`text/errata.tsv`（113 條）、`text/glossary.tsv`、`text/term-avoid.tsv`；`tools/errata_check.py`、`tools/term_check.py` 通過。
 - 轉錄、OCR 與對照中間檔都在 `workplace/journal/`，含原文，不入 Git。
+
+## 2026-10-22 G5 試譯（#6）
+
+- 新增 `text/TRANSLATION-GUIDE.md`（改寫自克萊恩英豪）、`tools/font-dev.sh`（源泉圓體 16／24 格，Unifont 補字）、`tools/ecl_batches.py`；ECL 切成 22 批（`workplace/tr/ecl/`）。
+- 試譯 ECL 第 01、02、06 批共 122 則（開場目標、新維地格里城鎮內、開場劇情），放 `workplace/tr/ecl/done/`；覆繪截圖 `workplace/probe/g5-trial/`，範圍外差異 0。
+- 全量翻譯等使用者確認文風後再派批次。
