@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # G7 手札自動彈出收據（克萊恩英豪規格 007）：sosb-play 自動模式走診斷路徑（tools/g3-party-receipt.sh 的按鍵，步數換成畫格，
 # 一畫格 96,250 步）：讀預建隊伍 → 開始冒險 → 查驗題 → 開場 → 鎮長對白 → 新維地格里城。
-# 第一趟跑到查驗題，從印字盤點讀題目、查 text/quiz-answers.tsv；第二趟作答並沿路每 208 畫格截圖（腳本動作 shot）。
+# 第一趟跑到查驗題，從印字盤點讀題目、查 text/quiz-answers.tsv；第二趟作答，只在關鍵時點截圖（腳本動作 shot）。
 # 到鎮上之後依序開攻略（F6）、手札翻閱（F5）、地圖（F7）、再開攻略，各截一張，看面板互斥（克萊恩英豪規格 007 §2.1、008、009 §2.3）。
 # docker run 帶 --init：xvfb-run 當 PID 1 時等不到 Xvfb 的就緒訊號會一直卡住。
 set -euo pipefail
@@ -40,7 +40,7 @@ echo "查驗題：第 $p 頁第 $e 則第 $w 字 → $a"
 answer=(); for ((i = 0; i < ${#a}; i++)); do answer+=("${a:i:1}"); done
 script="${base#,}$(keys 7540 52 "${answer[@]}" Enter)$(keys 8730 416 Enter Enter Enter Enter Enter Enter Enter Enter)"
 script+="$(keys 12570 416 Enter E N Enter Enter Enter)"
-for ((f = 7500; f < END; f += 208)); do script+=",$f:shot"; done
+script+=",11036:shot,$((END - 12)):shot"  # 抽樣（使用者 2026-10-22）：手札第 37 則自動彈出、到鎮上
 script+=",$((END + 50)):guide,$((END + 100)):shot,$((END + 150)):journal,$((END + 200)):shot"
 script+=",$((END + 250)):map,$((END + 300)):shot,$((END + 350)):guide,$((END + 400)):shot"
 play "$OUT/run" "$PANEL_END" "$script" -shot-dir /out/shots -inventory /out/inventory.tsv
