@@ -11,10 +11,12 @@ PROBE="$ROOT/workplace/probe"
 (cd "$DG" && DOSGOLEM_TIMEOUT=10m tools/go.sh build -o /src/workplace/bin/sosb-play ./cmd/sosb-play)
 keys() { local f=$1 every=$2; shift 2; for k in "$@"; do printf ',%d:%s' "$f" "$k"; f=$((f + every)); done; }
 walk="$(keys 15100 104 M Left Up Right Up Up Up Up Up Left Up Up Up Up)$(keys 17100 208 Enter M Right Up)"
-ROUTE=demo NAME=receipt-demo FROM=4500 TO=4500 FRAMES=9000 TIMEOUT=40m "$ROOT/tools/g16-flicker-probe.sh" > "$PROBE/g16-receipt-demo.out" 2>&1 &
+# 序跑：共用主機負載高時並行會互搶 CPU；開頭與結尾記負載
+echo "開始：負載 $(cut -d' ' -f1-3 /proc/loadavg)"
+ROUTE=demo NAME=receipt-demo FROM=4500 TO=4500 FRAMES=9000 TIMEOUT=40m "$ROOT/tools/g16-flicker-probe.sh" > "$PROBE/g16-receipt-demo.out" 2>&1
 NAME=receipt-bank EXTRA="${walk#,}" FROM=17000 TO=19500 STEP=1250 FRAMES=19501 TIMEOUT=70m \
-  "$ROOT/tools/g16-flicker-probe.sh" > "$PROBE/g16-receipt-bank.out" 2>&1 &
-wait
+  "$ROOT/tools/g16-flicker-probe.sh" > "$PROBE/g16-receipt-bank.out" 2>&1
+echo "結束：負載 $(cut -d' ' -f1-3 /proc/loadavg)"
 fail=0
 for n in demo bank; do
   line=$(grep -m1 '閃現 [0-9]* 次' "$PROBE/g16-flicker/receipt-$n/log.txt" || echo '沒有量尺紀錄')
