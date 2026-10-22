@@ -104,3 +104,12 @@
   教訓：共用層的新機制要先列出哪些呼叫端繞過了它的狀態機（Frozen、直接改 `Layer.Stamps`）。
 - 勘誤：背景收據跑的期間改了同一支腳本，bash 邊讀邊執行，結束時讀到半行，log 被截斷。之後背景跑中的腳本不改。
 - HD：本作還沒有 HD 主題，HD 的閃現無法量測；保留呈現元件以合成資料測過，接進 sosb 等 G9。
+
+## 2026-10-23 G9 HD 起步（#10）
+
+- 使用者看過濾鏡比較頁後指示：不用濾鏡，依原版手繪重畫；生圖交 Codex，其餘由 Claude。規格 010 DRAFT。
+- 盤點：TITLE 4、PIC 77 狀態（38 區塊）、BIGPIC 8；PIC4 區塊 6 的 7 幀與克萊恩英豪 `pic3-022@0..6` 逐位元組相同，可沿用。
+- 證據：金庫店員 PIC1 區塊 83、神殿祭司 PIC1 區塊 82 在 (24,24)；標題 ＝ TITLE 2 背景＋TITLE 4 字樣 (40,40)，全幅逐色號相同。
+- 工具：`tools/hd_inventory.py`、`hd_request.py`、`hd_prepare.py`，自克萊恩英豪複製 `dax_pics.py`、`hd_compare.py`、`hd_validate.py`。
+- b01 四張由 Codex 內建 image_gen 各生一次，數值閘門全過，比較頁給使用者確認畫風。
+- 一次 ffmpeg 濾鏡原型在 `--pids-limit 32` 下建立執行緒失敗（EAGAIN 顯示成濾鏡設定錯誤）；改 `-threads 1` 並放寬到 128。
