@@ -23,18 +23,22 @@
 | 2026-10-22 | 錯譯修正對象是珍056 軟體世界說明書；英文手冊與手札授權上網取得 | 使用者回答 |
 | 2026-10-22 | 修正後的說明書手札放進遊戲，比照克萊恩英豪自動彈出與翻閱 | 使用者指示 |
 | 2026-10-22 | repo `secret-of-the-silver-blades-cht`；遊戲短名 `sosb`，adapter 在 dosgolem `apps/sosb/`，分支推到本 repo 的 `dosgolem/sosb` | 使用者回答 |
+| 2026-10-22 | dosgolem 基底選克萊恩英豪 `dosgolem/cok`（`8742fa9`），理由見 docs/re/003 | G2 |
 | 2026-10-22 | HD 可由 Codex 輔助，比照克萊恩英豪整條交 Codex | 使用者指示 |
 
 ## 待定
 
 | 項目 | 何時決定 |
 |---|---|
-| dosgolem 基底（`dosgolem/cok` 或 dosgolem `main` 線），AGENTS.md 第 5 節 | G2 |
 | 攻略來源：雜誌掃描是否提供，或以 SSI 提示書補 | G8 開工前 |
 
 ## dosgolem 基線
 
-尚未建立。
+| 項目 | 值 |
+|---|---|
+| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `9112c61`，推到本 repo 的 `dosgolem/sosb` |
+| Go／image | go1.24.13；`dosgolem-go-ebiten:1.24-r1` `sha256:8ed6bdee2bce…` |
+| 冷啟動 | 0 種缺服務；mode 0Dh；首次執行回答 EGA、AdLib、MOUSE、預設存檔路徑，`-program-path 'C:\SECRET\START.EXE'`；不送鍵到建立隊伍主選單，見 [docs/re/003](docs/re/003-dosgolem-startup.md) |
 
 ## 中文化進度
 

@@ -26,3 +26,12 @@
 - 依使用者授權從 mocagh.org 下載 journal、manual、refcard、hintbook、errata（容器開網路一次），`pdftotext -layout` 轉文字。
 - LICENSE 灰色地帶補上「為辨識版本與查驗題引用的少量原版英文字串」與檔名清單；`.gitignore` 補 `*.DAT`、`*.SFX`、`ITEMS`。
 - 清理：容器皆 `--rm`；`workplace/` 無 root 擁有檔（見下行檢查）。
+
+## 2026-10-22 G2 dosgolem 基線（#3）
+
+- 由克萊恩英豪工作 clone 的 `champions-of-krynn-cht`（`8742fa9`，等於其遠端 `dosgolem/cok`）本機 clone 到 `workplace/dosgolem/`，
+  開分支 `secret-of-the-silver-blades-cht`，repo-local 身分 `wicanr2@gmail.com`；歷史含前作的 `codex@openai.com` commit，未改寫。
+  module cache 由克萊恩英豪 clone 複製，未開網路。
+- 首次執行在文字模式問設定；`-dump-mem-at` 傾印 B8000 讀出各題。存檔路徑預設帶出 `C:\RICH2\SAVE\`，
+  追到 `cmd/probe` 的 `-program-path` 被覆寫，修正為 `9112c61`，推到本 repo 的 `dosgolem/sosb`。
+- 新增 `tools/g2-startup-receipt.sh`：冷啟動到標題存狀態，重播兩次到主選單，雜湊一致。見 `docs/re/003`。
