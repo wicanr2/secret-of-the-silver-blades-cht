@@ -14,11 +14,11 @@ adapter 是由 `apps/cok` 複製的 `apps/sosb`。本表的狀態只算本作已
 | 005 中文句中的半形英數 | DRAFT | #7 | 未在本作單獨驗證 | — |
 | 006 手冊查驗題 | READY | #8 | 題目表 `START.EXE` 0xDCFC、30 筆；字序含標題 | docs/re/004、005 |
 | 007 手札面板 | DRAFT | #8 | 72 則珍056 修正譯文；地圖則 12 則的圖面未定；酒店傳聞不適用 | docs/re/006 |
-| 008 攻略面板 | DRAFT | #9 | 來源《軟體世界》第 21–25 期 | — |
+| 008 攻略面板 | READY | #9 | 來源《軟體世界》第 21–25 期，40 段；雜誌譯名依 `text/walkthrough-terms.tsv` 換成遊戲譯名 | docs/re/008 |
 | 009 地圖疊層 | DRAFT | #9 | `geoPtrOff`、`partyXOff` 仍是克萊恩英豪值 | — |
 | 010 HD 主題 | DRAFT | #10 | 未開工 | — |
 | 011 切換列 | DRAFT | #10 | 未在本作驗證 | — |
-| 012 發行包 | DRAFT | #12 | `cmd/sosb-play` 的安裝步驟仍是克萊恩英豪的 KRYNN.CFG 邏輯，要改成建立 `blades.cfg` | docs/re/003 |
+| 012 發行包 | DRAFT | #12 | `cmd/sosb-play` 首次執行寫 `blades.cfg`（冷開機冒煙通過）；打包未開工 | docs/re/003、007 |
 | 013 玩家名音譯 | READY | #7 | 性別欄 +0x11F（強推論）；名字接受大小寫混合 | docs/re/007 |
 | 014 配樂 | DRAFT | #11 | 未開工 | — |
 | 015 多語系 | DRAFT | #11 | 英文手札第 38–72 則仍是 OCR 草稿 | docs/re/006 |

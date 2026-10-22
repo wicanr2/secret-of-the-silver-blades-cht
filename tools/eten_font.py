@@ -66,7 +66,7 @@ def glyph(ch, asc, spc, std):
 
 
 # 會畫到畫面上的欄：譯文、手札與攻略的標題與正文、地圖攻略點的名稱與說明
-SHOWN = ('translation', 'title', 'body', 'label', 'summary')
+SHOWN = ('translation', 'title', 'body', 'label', 'summary', 'source')  # source：攻略面板頁尾顯示出處（軟體世界 N 期）
 
 
 def charset(paths, extra):
