@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """圓體點陣字型：源泉圓體（GenSenRounded2 TW，SIL OFL 1.1）轉 GOLEMFNT（主專案使用者 2026-10-21 指示）。
 
---cell 16 給 2 倍畫面（16×16），--cell 24 給 3 倍（24×24）。字集同 eten_font.py（譯文表要顯示的欄加可列印 ASCII）。
+--cell 16 給 2 倍畫面（16×16），--cell 24 給 3 倍（24×24）；12、22 只給切換列字級（主專案規格 020，字集只收 host-text）。字集同 eten_font.py（譯文表要顯示的欄加可列印 ASCII）。
 - 全形字：以字面框（ascender 880、descender 120 單位）對齊，字級等於格高，水平置中，50% 門檻轉 1 bit。
 - ASCII：畫進半格（16 格墨跡在 x=4..11，24 格在 x=6..17），同倚天的半形位置，讓組合字（規格 005 §2）成立；
   太寬的字母水平壓縮到半格。
@@ -77,7 +77,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('catalogs', nargs='*')
     ap.add_argument('--otf', required=True)
-    ap.add_argument('--cell', type=int, choices=(16, 24), required=True)
+    ap.add_argument('--cell', type=int, choices=(12, 16, 22, 24), required=True)
     ap.add_argument('--threshold', type=int, default=128)
     ap.add_argument('--fallback', help='Unifont hex（字型沒有的字）')
     ap.add_argument('--out')

@@ -33,3 +33,8 @@ toolbar.music	配樂	克萊恩英豪規格 014 切換列：遊戲中配樂開關
 toolbar.shot	截圖	克萊恩英豪規格 011 切換列：截圖（同 F10）
 toolbar.fullscreen	全螢幕	克萊恩英豪規格 011 切換列：全螢幕（同 F11）
 lang.name	繁中	克萊恩英豪規格 015 切換列語言項：載入兩種以上語言時顯示目前語言
+toolbar.speed	{speed}	主專案規格 019 切換列速度項；{speed} 為設定倍率（例 8x），使用者 2026-10-22 定案只顯示倍率
+toolbar.barfont	字{size}	主專案規格 020 切換列字級項；{size} 為 barfont.* 的目前字級
+barfont.small	小	主專案規格 020 字級選單
+barfont.medium	中	主專案規格 020 字級選單
+barfont.large	大	主專案規格 020 字級選單

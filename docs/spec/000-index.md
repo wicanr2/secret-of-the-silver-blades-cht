@@ -24,5 +24,8 @@ adapter 是由 `apps/cok` 複製的 `apps/sosb`。本表的狀態只算本作已
 | 015 多語系 | DRAFT | #11 | 英文手札第 38–72 則仍是 OCR 草稿 | docs/re/006 |
 | 016 推廣影片 | DRAFT | #11 | 未開工 | — |
 | 017 作弊：我方無敵 | DRAFT | #11 | `partyHead DS:609A` 與紀錄位移仍是克萊恩英豪值 | — |
+| 018 開場 demo 控制 | CONFORMED | #13 | 選單逾時 `DS:8A63`、demo 旗標 `67E9`、ECL 停止 `59B4`、存活數 `87CC`；比照幽靈騎士規格 015 | `tools/g13-demo-receipt.sh` |
+| 019 CPU 模擬速度 | READY | #14 | 本作是 TP5 版 CRT Delay（`DS:A6E4`）；比照幽靈騎士規格 016 | `tools/g14-delay-equiv.sh`、`g14-toolbar-receipt.sh`；互動量測待做 |
+| 020 切換列字級 | CONFORMED | #15 | 小、中、大；12、22 像素字模由源泉圓體渲染 | `tools/g14-toolbar-receipt.sh` |
 
 升到 CONFORMED 的條件：本作正常玩家路徑（建角、存讀檔）的同狀態收據覆蓋該規格的行為。
