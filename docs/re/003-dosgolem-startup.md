@@ -33,7 +33,7 @@ module cache 由克萊恩英豪 clone 的 `workplace/gomodcache` 複製，未開
 | 3 | `ALTERNATE INPUT TYPE: [1] JOYSTICK [2] MOUSE [3] NEITHER` | `2` |
 | 4 | `PATH TO SAVE DATA (DEFAULT - <目前目錄>\SAVE):` | Enter |
 
-寫出的 `blades.cfg` 前四行 `E`、`A`、`M`、`C:\SECRET\SAVE\`，其後 `F` 與 13 行 `0`，格式同克萊恩英豪的 `KRYNN.CFG`。
+寫出的 `blades.cfg` 前四行 `E`、`A`、`M`、`C:\SECRET\SAVE\`，其後 `F` 與 14 行 `0`，共 71 bytes，格式同克萊恩英豪的 `KRYNN.CFG`。
 預設存檔路徑由目前目錄組成；不給 `-program-path` 時 dosgolem 的預設目錄是 `C:\RICH2`，會得到 `C:\RICH2\SAVE\`。
 
 ## 冷啟動觀察（已證實）
