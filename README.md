@@ -87,6 +87,47 @@
 
 ![原版與 HD](docs/screenshots/hd-04-street.png)
 
+### 大圖與事件圖
+
+劇情事件出現的大圖（BIGPIC，304×120）與事件圖（PIC，88×88）全部依原版逐張重繪。每組左為原版（3 倍最近鄰放大），右為 HD 重繪；
+圖取自正式 HD 主題 `hd/theme/` 與審閱頁 `review/hd/`（[規格 010](docs/spec/010-hd-theme.md)），遊戲中只在 3 倍畫面顯示。
+
+![bigpic1-112](docs/screenshots/bigpic1-112.jpg)
+
+洞窟深處的門口，黑袍身影站在火光與魔物之間（BIGPIC1 區塊 112）
+
+![bigpic1-113](docs/screenshots/bigpic1-113.jpg)
+
+木樑撐住、往下延伸的礦坑豎井（BIGPIC1 區塊 113）
+
+![bigpic2-114](docs/screenshots/bigpic2-114.jpg)
+
+鐘乳石洞窟裡發光的岩壁破口（BIGPIC2 區塊 114）
+
+![bigpic2-119](docs/screenshots/bigpic2-119.jpg)
+
+開場的山谷、小鎮與冰河（BIGPIC2 區塊 119，遊戲中的樣子見上方山谷截圖）
+
+![bigpic3-115](docs/screenshots/bigpic3-115.jpg)
+
+冰洞與冰裡浮現的巨大臉孔（BIGPIC3 區塊 115）
+
+![bigpic3-116](docs/screenshots/bigpic3-116.jpg)
+
+封在冰牆裡、持盾的戰士（BIGPIC3 區塊 116）
+
+![bigpic3-117](docs/screenshots/bigpic3-117.jpg)
+
+冰座上的骷髏巫妖（BIGPIC3 區塊 117）
+
+![bigpic3-118](docs/screenshots/bigpic3-118.jpg)
+
+星空中飛升的兩個靈體（BIGPIC3 區塊 118）
+
+事件圖 38 個區塊，每個區塊取第 0 幀（動畫的其他幀也有 HD，共 77 幀）：
+
+![事件圖](docs/screenshots/hd-07-pics.jpg)
+
 同一段鎮長對白的简中、日文、韓文、英文。日文、韓文沒有隊員名音譯表，名字顯示原文：
 
 ![四種語言](docs/screenshots/hd-06-langs.png)
