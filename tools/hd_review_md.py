@@ -12,9 +12,14 @@ import shutil
 from pathlib import Path
 from PIL import Image
 
-FAMILY = [('TITLE', '標題畫面'), ('BIGPIC', '大圖'), ('PIC', '肖像與場景')]
-# 目視時記下、仍核可的差異
-NOTES = {'pic3-016@1': '原版這一幀人物被閃光照成青白色；HD 保留閃電，人物維持正常膚色'}
+FAMILY = [('TITLE', '標題畫面'), ('BIGPIC', '大圖'), ('PIC', '肖像與場景'), ('terrain', '戰鬥地形'),
+          ('actor', '戰鬥怪物與人物'), ('encounter', '3D 遭遇圖'), ('effect', '戰鬥效果'), ('head', '頭像組件'),
+          ('body', '身體組件')]
+COMPACT = {'terrain', 'actor', 'encounter', 'effect', 'head', 'body'}  # 小圖：一列三組
+# 目視時記下的差異與不收入主題的原因
+NOTES = {'pic3-016@1': '原版這一幀人物被閃光照成青白色；HD 保留閃電，人物維持正常膚色',
+         'sprit1-001-00-00': '前景低於呈現器下限（至少 16 點、3 色），不收入主題，維持原版'}
+SKIP = {'sprit1-001-00-00'}  # 數值與目視通過，但 tools/hd_battle.py guard_ok 不收入主題
 
 
 def main():
@@ -42,15 +47,21 @@ def main():
             if hd.exists():
                 Image.open(hd).convert('RGB').save(img / f'{k}-hd.jpg', quality=90)
             ok = v.get('target_met') and r.get('approved')
-            status = '通過' if ok else ('重畫中' if not v.get('target_met') else '待目視')
-            if it.get('prior_theme_keys'):
+            status = '通過' if ok and k not in SKIP else ('維持原版' if r.get('approved') is False or k in SKIP else
+                                       '重畫中' if not v.get('target_met') else '待目視')
+            if it.get('prior_theme_keys') or str(it.get('generation', '')).startswith('沿用'):
                 status += '（沿用克萊恩英豪）'
-            rows.append(dict(batch=b, key=k, family=it['family'], desc=it['description'], w=it['size'][0] * 3,
+            if r.get('reason'):
+                NOTES.setdefault(k, r['reason'])
+            fam = it.get('family') or it.get('kind')
+            rows.append(dict(batch=b, key=k, family=fam, desc=it['description'],
+                             w=it['size'][0] * (6 if fam in COMPACT else 3),
                              evidence=it['runtime_evidence'], status=status, hd=hd.exists(),
                              structure=v.get('structural_edge_overlap'), hue=v.get('median_hue_difference_degrees')))
     n_ok = sum(r['status'].startswith('通過') for r in rows)
     lines = ['# HD 重繪審閱', '',
-             '《銀色匕首之謎》HD 第一階段（標題、大圖、肖像與場景）。左為原版（最近鄰 3 倍），右為依原版手繪重畫的 HD。',
+             '《銀色匕首之謎》HD：第一階段（標題、大圖、肖像與場景）與第二階段（戰鬥地形、怪物、遭遇圖、效果、頭身組件）。',
+             '每組左為原版（最近鄰放大），右為依原版手繪重畫的 HD；小圖以 6 倍顯示。',
              '生圖由 Codex 內建 image_gen；請求、驗收與接入見 [規格 010](../../docs/spec/010-hd-theme.md)。', '',
              f'共 {len(rows)} 項，通過 {n_ok} 項。數值閘門：結構分數 ≥ 0.40、色相差中位 < 30 度；另逐張目視。',
              'HD 圖為 JPEG 預覽，正式主題是無損 PNG。', '',
@@ -58,6 +69,21 @@ def main():
     for fam, title in FAMILY:
         part = [r for r in rows if r['family'] == fam]
         if not part:
+            continue
+        if fam in COMPACT:
+            lines += [f'## {title}', '', f'{len(part)} 項。', '', '| 項目 | 原版 | HD ' * 3 + '|', '|---' * 9 + '|']
+            for i in range(0, len(part), 3):
+                cells = []
+                for r in part[i:i + 3]:
+                    w = min(r['w'], 288)
+                    score = f"<br>結構 {r['structure']:.2f}、色相 {r['hue']:.0f}°" if r['structure'] is not None else ''
+                    note = f"<br>{NOTES[r['key']]}" if r['key'] in NOTES else ''
+                    hd = f'<img src="img/{r["key"]}-hd.jpg" width="{w}">' if r['hd'] else '（尚無）'
+                    cells.append(f"`{r['key']}`{score}<br>**{r['status']}**{note} | "
+                                 f'<img src="img/{r["key"]}-orig.png" width="{w}"> | {hd}')
+                cells += [' | | '] * (3 - len(cells))
+                lines.append('| ' + ' | '.join(cells) + ' |')
+            lines.append('')
             continue
         lines += [f'## {title}', '', '| 項目 | 原版 | HD |', '|---|---|---|']
         for r in part:

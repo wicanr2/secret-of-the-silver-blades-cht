@@ -45,7 +45,7 @@
 
 | 項目 | 值 |
 |---|---|
-| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `5e9a961`，推到本 repo 的 `dosgolem/sosb` |
+| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `a6e0254`，推到本 repo 的 `dosgolem/sosb` |
 | Go／image | go1.24.13；`dosgolem-go-ebiten:1.24-r1` `sha256:8ed6bdee2bce…` |
 | 冷啟動 | 0 種缺服務；mode 0Dh；首次執行回答 EGA、AdLib、MOUSE、預設存檔路徑，`-program-path 'C:\SECRET\START.EXE'`；空白鍵跳過標題、`p` 進主選單，見 [docs/re/003](docs/re/003-dosgolem-startup.md) |
 
