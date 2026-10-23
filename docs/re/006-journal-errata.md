@@ -75,7 +75,7 @@
 ### 遊戲內指涉查證（下冊怪物 p.9–14、法術 p.14–25）
 
 `tools/zh056_names.py` 抽出條目行首的「中文名（English）」，OCR 錯字依頁面圖更正後與 `text/glossary.tsv` 比對，
-結果在 `text/zh056-names.tsv`（只有名稱）：131 組，同名 54、異名 63、術語表沒有 14（多為本作遊戲裡不出現的法術）。
+結果在 `text/zh056-names.tsv`（只有名稱）：131 組，同名 54、異名 63、術語表沒有 14。術語表沒有的 14 筆中，8 筆在遊戲文字來源找得到（法術選單字串，如 Hold Monster、Charm Monster、Find Traps；ECL 的 Lizard Men），是術語表缺列；4 筆是珍056 的英文拼法與遊戲不同（Protect From Good、Disintigrate、Fresh to Stone、Charm Person or Mammel）；Megalo-Centipede、Warg 在遊戲文字來源裡查不到。
 
 異名的來源：遊戲內譯名多數沿用克萊恩英豪（法術是共通機制）或光芒之池、青色枷，當時下冊章節還沒轉錄。
 珍056 譯名本身有明顯錯誤的：
