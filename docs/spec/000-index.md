@@ -15,7 +15,7 @@ adapter 是由 `apps/cok` 複製的 `apps/sosb`。本表的狀態只算本作已
 | 006 手冊查驗題 | READY | #8 | 題目表 `START.EXE` 0xDCFC、30 筆；字序含標題 | docs/re/004、005 |
 | 007 手札面板 | READY | #8 | 72 則珍056 修正譯文；自動彈出與翻閱已在正常玩家路徑驗證；地圖則 12 則改顯示圖面（規格 022）；『』字形以較低門檻重畫；酒店傳聞不適用 | docs/re/006、007 |
 | 008 攻略面板 | READY | #9 | 來源《軟體世界》第 21–25 期，40 段；雜誌譯名依 `text/walkthrough-terms.tsv` 換成遊戲譯名 | docs/re/008 |
-| 009 地圖疊層 | READY | #9 | GEO 指標 `DS:89CE`、位置 `DS:89D7`（已證實）；17 塊地區名稱依同號 ECL 區塊；攻略點未做 | docs/re/007、009 |
+| 009 地圖疊層 | READY | #9 | GEO 指標 `DS:89CE`、位置 `DS:89D7`（已證實）；17 塊地區名稱依同號 ECL 區塊；攻略點 8 張地圖 298 點（鎮上與知識之井已在遊戲內核對）；礦坑與地下城待分層 | docs/re/007、009、`tools/g8-map-guide-receipt.sh` |
 | 010 HD 主題 | READY | #10 | 生圖交 Codex，其餘 Claude；第一階段 89、戰鬥 394、牆面與天空 1,252（共 3 項維持原版）；demo 與鎮上 3 倍＋HD 閃現 0；審閱頁 `review/hd/`；標題流程 3 倍＋HD 閃現 0 | `tools/hd_*.py`、`g16-flicker-probe.sh`（`HD=1 SCALE=3`） |
 | 011 切換列 | DRAFT | #10 | 未在本作驗證 | — |
 | 012 發行包 | DRAFT | #12 | `cmd/sosb-play` 首次執行寫 `blades.cfg`（冷開機冒煙通過）；打包未開工 | docs/re/003、007 |
