@@ -1,0 +1,42 @@
+key	translation	note
+quiz.entry	Journal entry {entry}	克萊恩英豪英文表
+quiz.word	(journal page {page}) word {word}?	克萊恩英豪英文表
+quiz.answer	Answer: {answer}	克萊恩英豪英文表
+journal.title	{title}	克萊恩英豪英文表
+journal.page	Page {page}/{pages}	克萊恩英豪英文表
+journal.none	No journal entries yet (F5 closes)	克萊恩英豪英文表
+guide.title	Guide: {title}	本作補
+guide.page	{source} page {page}/{pages}	本作補
+guide.toc	Secret of the Silver Blades walkthrough	本作補
+guide.tocline	{n}. {title}	本作補
+guide.tochint	Left/Right chapter, PgDn/PgUp page, Esc or F6 closes. Contains spoilers.	本作補
+map.unknown	(Unknown map)	克萊恩英豪英文表
+map.nodata	No guide points for this map.	克萊恩英豪英文表
+map.pos	{x},{y} facing {dir}	克萊恩英豪英文表
+map.dirs	NESW	克萊恩英豪英文表
+map.hint	V all  F7 close	克萊恩英豪英文表
+map.all	V visited  F7 close	克萊恩英豪英文表
+map.more	{page}/{pages} PgDn next	克萊恩英豪英文表
+toolbar.scale2	2x	克萊恩英豪英文表
+toolbar.scale3	3x	克萊恩英豪英文表
+toolbar.scale3hd	3xHD	克萊恩英豪英文表
+toolbar.nohd	No HD	克萊恩英豪英文表
+toolbar.chinese	EN	克萊恩英豪英文表
+toolbar.original	Orig	克萊恩英豪英文表
+toolbar.journal	Jrnl	克萊恩英豪英文表
+toolbar.guide	Guide	克萊恩英豪英文表
+toolbar.map	Map	克萊恩英豪英文表
+toolbar.answers	Ans	克萊恩英豪英文表
+toolbar.cheat	God	克萊恩英豪英文表
+toolbar.mute	Mute	克萊恩英豪英文表
+toolbar.music	Music	克萊恩英豪英文表
+toolbar.shot	Shot	克萊恩英豪英文表
+toolbar.fullscreen	Full	克萊恩英豪英文表
+lang.name	EN	克萊恩英豪英文表
+toolbar.speed	{speed}	本作補
+toolbar.barfont	Font {size}	本作補
+barfont.small	S	本作補
+barfont.medium	M	本作補
+barfont.large	L	本作補
+journal.ref	%d%s	規格 015：英文原文已有空白，不補
+journal.refdot	.	規格 015

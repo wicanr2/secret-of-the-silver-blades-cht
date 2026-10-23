@@ -1,0 +1,936 @@
+key	translation	source
+ui.00008bd766f0	受祈祷影响	batch-editorial
+ui.002c9650368c	双方按兵不动。	cok
+ui.00813b28c9bc	查看人物 瞄准	cok
+ui.00d0fa5542f1	选择法术：	cok
+ui.0101e4ce36f7	无法在这里施放……	cok
+ui.015d99b7535a	使用预设路径：	cok
+ui.0224e7c79995	选择阵营	cok
+ui.02492c9d09d4	移到画面中央 离开	cok
+ui.02e90ab0a441	Cyrus Lum	batch-editorial
+ui.0323473424f1	守卫中	cok
+ui.038686f70c2d	-背刺-	cok
+ui.03f8c1273e3d	男	cok
+ui.0443f86fd865	为失去如此德高望重的伙伴而哭泣。	batch-editorial
+ui.0485df8c54f4	逃走了	cok
+ui.05800e70aa10	箭	cok
+ui.05816dcff51e	受到诅咒	batch-editorial
+ui.059e3425ec44	硬皮术	batch-editorial
+ui.0653216d8920	施放	cok
+ui.067ef9857799	。请检查安装。	cok
+ui.06d4756679e5	中毒麻痹	g6-static
+ui.071557ce168d	变成了石头	g6-static
+ui.072f005fc3f2	西南	cok
+ui.07467b84a7ed	短剑	cok
+ui.07d4f0d9ade4	将永远消失	cok
+ui.07ed6ccf6bf6	甲	cok
+ui.088721ec6d4a	你们的休息被突然打断了！	cok
+ui.08bd7cbf4b13	狂暴	batch-editorial
+ui.08fc07e88648	全队覆没！	cok
+ui.099d027ca3b5	内存不足，程序结束。	cok
+ui.0a3e37409aa4	最后这场战斗的重担压垮了	batch-editorial
+ui.0a4cdf9d9ee0	只对上了锁的门有用。	batch-editorial
+ui.0a4cf17cc327	金币	batch-editorial
+ui.0aac4f3d8041	连枷	cok
+ui.0ae630e4f1dd	恭喜	cok
+ui.0b05e966e945	否	cok
+ui.0b0d77b244a3	银色匕首之谜	batch-editorial
+ui.0b99edb6aef7	你们已经在抄写那个法术了	batch-editorial
+ui.0befe68474e9	你想接受训练吗？	cok
+ui.0c55eaf2db39	中和毒性	cok
+ui.0c68bd226716	看得见了！	g6-static
+ui.0c874f581a45	伤害力	cok
+ui.0d0ae56ee488	投降了	cok
+ui.0d20c6ca62b0	治疗	cok
+ui.0d3f5e18425a	成交吗？	cok
+ui.0d54be0b4ca6	医治了没有病的人	g6-static
+ui.0d841497863f	延迟爆炸火球	batch-editorial
+ui.0dc5be426a8c	摇杆打开	cok
+ui.0df3981e1d69	无法读取摇杆。	batch-editorial
+ui.0e04961c51ea	队伍次序：	cok
+ui.0e3dfc592d73	无法复活。	cok
+ui.0ec329bcd4dc	我看不出更多有关你的	cok
+ui.0f2958102b8f	撬锁	cok
+ui.0f7b79cee0ba	备妥物品	cok
+ui.0ff3d2b8d663	字节。	cok
+ui.1073293033b1	没有可以集合的相同物品。	batch-editorial
+ui.107da4c02a25	当场死亡	g6-static
+ui.108040ac289a	红宝石	cok
+ui.10be2c6fd6de	具有抗冻能力	batch-editorial
+ui.10e51a565fd3	中毒了	cok
+ui.1116c3efebb0	已包扎	cok
+ui.111a74afc067	魔法飞弹	cok
+ui.11261a05f7cd	众神介入！	cok
+ui.114e33ca7930	对我毫无价值。	batch-editorial
+ui.11507a0e2f5e	新	cok
+ui.12ca55d7e7e9	待记忆	cok
+ui.12e9a0c0cda7	完成	cok
+ui.1303d3de9773	待选择	cok
+ui.1325fc582bac	全队已治愈	cok
+ui.1360f8e01924	改变游戏速度 离开	batch-editorial
+ui.136ef4431c42	4级	batch-editorial
+ui.140262b32b0c	恐惧	cok
+ui.14bb0ecaa729	惊吓	batch-editorial
+ui.14d67424e599	横扫	cok
+ui.150040557337	施法	cok
+ui.1520b330a354	变卖物品	cok
+ui.15834b2c3777	火焰所致	cok
+ui.15bc3680bd9a	不在这里	batch-editorial
+ui.1624e5bc418d	幻影术	cok
+ui.16584052fd33	平安无事	cok
+ui.16d4625e4e14	购买 查看人物 集中财物 鉴定 离开	cok
+ui.16f2764960c6	心智衰弱	batch-editorial
+ui.16ff676853e2	（手札，页	cok
+ui.1709305c9fa9	等级	cok
+ui.188cac7e138b	吗？	cok
+ui.1922ea761b22	防护力 2	cok
+ui.199dbea375a6	显卡种类：  [1] CGA  [2] EGA  [3] Tandy	cok
+ui.19dd0c4eb6b7	军用镐	cok
+ui.19fee74864a2	笨拙术	cok
+ui.1a4b1e57ec5a	队伍逃走了。	cok
+ui.1a587084469f	于标题之后	cok
+ui.1a794bb3020f	查看人物 拾取 集中财物	cok
+ui.1a82b7ad5db1	那一份。	cok
+ui.1b060046c58b	你可以：	cok
+ui.1b68fd1cf54c	人类转职	batch-editorial
+ui.1b7842e88a0a	治疗致命伤	cok
+ui.1b9adc638021	银币	cok
+ui.1c893adcd5ec	件珠宝	cok
+ui.1d174814bac2	输入	cok
+ui.1d1c7913869b	拿走并藏起了	cok
+ui.1d271a92430d	你要卖掉	batch-editorial
+ui.1d60a3338962	游戏速度 =	cok
+ui.1d7961e4ed0d	选择	cok
+ui.1d992b785bf9	长棍	cok
+ui.1d9f00d3365b	臭云术	cok
+ui.1e3a955bd202	攻击	cok
+ui.1ed8f78de4b4	买了一个	cok
+ui.1f7133c21072	选择	cok
+ui.204a2f952b3e	免费训练关闭	cok
+ui.205c9cf60516	严守善良	cok
+ui.20691bd0739f	糟糕！	cok
+ui.20a26081e1d6	已抄写	cok
+ui.2139983332ad	金银合金币	batch-editorial
+ui.218e607c02c8	战斧	cok
+ui.221db9db7556	半径10呎内免受善良伤害	g6-static
+ui.2246705b46f3	来自已保存的游戏	cok
+ui.22536f0953cf	牧师/战士/魔法师	batch-editorial
+ui.22cd189987e0	杀生术	cok
+ui.23542cb0bb46	要拿多少？	cok
+ui.23e3e052927b	免受邪恶伤害	cok
+ui.23ffe2ed4c9b	只能在战斗中使用……	cok
+ui.246a64eabf86	人物姓名：	cok
+ui.2512c909e60d	将摇杆 #1 推到最右下角位置，然后按下按钮 #1。	batch-editorial
+ui.253d86335438	抗火（法术）	batch-editorial
+ui.254153c4b85f	按 <Enter> 键继续	cok
+ui.254d82b0f10c	束带	cok
+ui.255c5316c6a8	Rick White,Don Mc Clure,	batch-editorial
+ui.25d16d4516b5	黄蜂巢	cok
+ui.263bc44ae6ee	抗冻术	cok
+ui.26e53d2410e1	化石还原术	cok
+ui.271c24e9ae7b	心灵	cok
+ui.274814f1a96f	得鲁依	cok
+ui.278253d44e93	要失去人物吗？	cok
+ui.27a554699cf3	金币。	batch-editorial
+ui.27f004b67f24	原本打算从那张卷轴抄写法术，	cok
+ui.282cac63534b	请插入覆盖档磁片。	cok
+ui.28391d3bc64e	之	cok
+ui.288ad67af0d2	校正中止。	batch-editorial
+ui.291873e31ccb	卷轴	cok
+ui.29e2eea5436f	枚金币收购你的	batch-editorial
+ui.29ea779dcb6a	那件物品	cok
+ui.2a78025de6aa	选择	cok
+ui.2aaf9bfd20c4	物品	cok
+ui.2c063fc99025	以残酷的一击	cok
+ui.2c234a550746	空气稍微清新了一些……	cok
+ui.2c9e0d734b01	将摇杆 #1 推到最右下角位置，然后按下按钮 #1。	cok
+ui.2cef23028b6d	把他们压扁了	cok
+ui.2e2018a16770	9级	batch-editorial
+ui.2e433cd6427d	覆盖档错误，程序中止！	cok
+ui.2e4aaf05df1c	额外	cok
+ui.2ec1e2815946	变卖物品	cok
+ui.2f7a8de1fa06	解体了	g6-static
+ui.2f7b8cbc24de	可爱的黄色金丝雀	batch-editorial
+ui.2fa787bb6baf	下一个	cok
+ui.2fabd8091e1d	虚弱	batch-editorial
+ui.2fd478c88ca0	贼	cok
+ui.304afc32b7ff	脸部	cok
+ui.304ec16e7502	个卷轴。	batch-editorial
+ui.30efdfb52ff6	他	batch-editorial
+ui.311f423fde0b	放置 离开	cok
+ui.323d3bd94dc3	记忆中	cok
+ui.32679609640d	向你告别	cok
+ui.32c9fd9a0415	本来要从那卷轴抄写	cok
+ui.32e5d942458f	保存游戏 查看人物 魔法 休息 设置 治疗 离开	cok
+ui.32f6c2ed53d7	锥矛	cok
+ui.3331d5456d2d	标枪	cok
+ui.33a625e899e8	我会把它送给我的一个儿子。	batch-editorial
+ui.3411c79aeedd	得鲁依法术：	cok
+ui.3439f5849c6c	晕迷术	batch-editorial
+ui.34695f140781	找不到物品文件	cok
+ui.35023ac32083	游戏尚未保存。仍要离开吗？	cok
+ui.351beff47541	治疗 查看人物 拾取 集中财物 均分 鉴定 离开	cok
+ui.354888db7e7a	受到	cok
+ui.354cbfc81426	她的	cok
+ui.355ecd318242	等级	batch-editorial
+ui.356e7e8add97	牧师	cok
+ui.35dc00703dc4	燃烧的手	cok
+ui.3636595bb3c5	有诅咒！	batch-editorial
+ui.366dc8f46f54	每位人物获得	cok
+ui.36851157efde	圣骑士不与邪恶的渣滓为伍。	cok
+ui.36ba3f71ad6e	珠宝	cok
+ui.36d83f00858a	要丢掉它们吗？	batch-editorial
+ui.37193853a694	敲门	cok
+ui.373447f83c3b	宝石	cok
+ui.379385551034	无法抄写这个法术。	cok
+ui.37aa87a44f5f	引发疾病	cok
+ui.38301f8e6c25	覆写	cok
+ui.3836f8c4efdd	休息时间：	cok
+ui.38d9edf514a9	热焰 冷焰	cok
+ui.397423500c32	友善	batch-editorial
+ui.3995fd69e31b	请将磁片 3 插入磁盘机	cok
+ui.39bea64dc385	你们离开时，一位祭司说：	batch-editorial
+ui.39ce92102d66	于标题之后	cok
+ui.39f4e6fa7359	本作 青色枷 离开	batch-editorial
+ui.3a2157e63ae3	……请稍候	cok
+ui.3a241d59687b	怪物	cok
+ui.3a3bf7a09be2	下一个 前一个 保留 离开	cok
+ui.3aaab8a73c8f	须先解除备妥	cok
+ui.3abbd69ed48b	祝福术	cok
+ui.3b3a7629d93f	毒发身亡	cok
+ui.3b439567997b	龙息	cok
+ui.3b7cf1876cf3	人物训练	cok
+ui.3c52f3edbe94	要医治谁？	batch-editorial
+ui.3c89010ac384	多人隐形术	batch-editorial
+ui.3cf3aa82aeb1	请问字序 #	cok
+ui.3cfa88873404	松了一口气。	cok
+ui.3d07afbdb11d	但没有命中	cok
+ui.3dd4009a9b56	治疗 查看人物 集中财物 鉴定 离开	cok
+ui.3dd5d43f43a7	警告：内存不足	cok
+ui.3e7962d21cc5	魔法杖	cok
+ui.3eb4db249b6e	休息 天 时 分 增加 减少 离开	cok
+ui.3f0c88ea43ad	半径10呎内免受邪恶伤害	cok
+ui.3f4e1e037f4c	不需要治疗	batch-editorial
+ui.3faa383606fc	较慢	cok
+ui.40bb3baaf5d0	获得	batch-editorial
+ui.410a081b2ab7	牧师/魔法师	batch-editorial
+ui.418b784a860f	集合物品	cok
+ui.41be5e6c59e0	欢欣雀跃。诅咒已解除！	batch-editorial
+ui.41e4ae984c22	药剂	cok
+ui.41e68f2cdb38	闪电	cok
+ui.4219be8c1840	受到	cok
+ui.421acf13c1cb	治疗	cok
+ui.42412678202e	缩小术	cok
+ui.42809b6ddb16	现在 18 岁了	batch-editorial
+ui.42b745650343	治病	cok
+ui.430ea16f1ff6	包扎	cok
+ui.431f23d55810	恶心得干呕窒息	cok
+ui.4391105bd3a7	惊慌逃走	cok
+ui.43ae65428a8f	增加 减少 保留 离开	cok
+ui.443204696da2	丢弃队员？	cok
+ui.44592af7565b	此处不可	cok
+ui.44bc3799892c	治疗	cok
+ui.45983975e321	Ken Nicholson   Mark Johnson	batch-editorial
+ui.45f3b27f0f45	时空之门	cok
+ui.45fe07b35406	纠缠	cok
+ui.466738c48568	战斗 等待 逃跑 前进	cok
+ui.46d70e7d2926	锁住了。	cok
+ui.46e50b3cdce8	这样行不通。	cok
+ui.472d834bd07f	被沉静	batch-editorial
+ui.472e73d796e2	防护	cok
+ui.47624c4da274	银色匕首之谜	batch-editorial
+ui.47e1a40ec961	生命力	cok
+ui.480d4be7d61f	盾牌	cok
+ui.4844cec572c9	无法加载 COM 档	batch-editorial
+ui.4994cb288152	正在咳嗽	cok
+ui.49961ed14ea8	仍要医治：	batch-editorial
+ui.49ba63e89af6	移动力	cok
+ui.4a24b8af9cec	要丢掉吗？	cok
+ui.4abb1289fa79	前一个	cok
+ui.4b2bebbf33ae	缓慢术	cok
+ui.4b7899783330	不受影响	cok
+ui.4bebe28dca57	你拥有一批精美的收藏：	cok
+ui.4bf12cf910d9	不再中毒	batch-editorial
+ui.4c07a5e27143	并且垂死	cok
+ui.4c644b040133	攻击命中率	cok
+ui.4cf2381cda99	记忆法术 抄写法术 显示法术 休息 离开	cok
+ui.4cf469d6ea54	长弓	cok
+ui.4d09b992377b	丢到后面去了。	cok
+ui.4d8cb257b560	集中财物 离开	batch-editorial
+ui.4dc5cfc054ce	2 个法术	cok
+ui.4dd7612e9230	被迫逃跑	cok
+ui.4e53dd2d48a7	拾取	batch-editorial
+ui.4ea2afcc4ab2	侏儒	batch-editorial
+ui.4ebb4dbf49e1	将人物从队伍中删除	cok
+ui.4edef56e55f3	战士/魔法师	batch-editorial
+ui.4f29e753c12e	不再是雕像	batch-editorial
+ui.4f4ab16743c0	数量？	cok
+ui.4fbac6d75981	移动 地图切换 施法 查看人物 扎营 搜索 查看环境	cok
+ui.4fc604e34605	闪烁中	batch-editorial
+ui.4ff3dca3f52c	反射回去了！	batch-editorial
+ui.5021111cfddc	免受善良伤害	cok
+ui.50522ed6b01a	抱歉，CGA 模式无此功能。	cok
+ui.50e28de96686	你的队员垂死了。	cok
+ui.50eab20d5328	被迷惑	batch-editorial
+ui.5108a0f0dc36	宝石	cok
+ui.525016e81f39	已巨大化	batch-editorial
+ui.5250b5de07b3	新文件名：	cok
+ui.5253705f15ab	带甲	cok
+ui.5263293fc202	小	cok
+ui.528e6cd82712	离开时，店主说：「不好意思，你们把一些钱留在这里了。」	cok
+ui.52b785e40b86	战士/贼	cok
+ui.52eb569301da	免疫疾病	batch-editorial
+ui.5356f95d42cb	看起来非常老迈	batch-editorial
+ui.53916d1113a3	混乱的善良	cok
+ui.5392c12fa251	恭喜……	cok
+ui.53ec87881fd7	捆中	batch-editorial
+ui.5403b1a56d38	阅读魔法	batch-editorial
+ui.542599d6762b	无法读取摇杆	cok
+ui.543df38bbe50	傲慢 狡诈 友善 谦卑 辱骂	cok
+ui.546fc10be49b	寒冰所致	cok
+ui.54b6b6331136	丢弃	cok
+ui.55898449eb74	健康	batch-editorial
+ui.55f6a88dc025	毁灭	cok
+ui.560c5f3c8b5b	命中，伤害	cok
+ui.562e21500575	只有石匠能治疗	batch-editorial
+ui.5672c76c7da3	若这些是原版磁片，请用 DISKCOPY 拷贝备份。	cok
+ui.5679daa7c55d	匕首	cok
+ui.5684b8c34548	深深吸了最后一口气，倒在地上。	batch-editorial
+ui.56d88a11d595	弄蛇术	cok
+ui.57cf485824df	内存不足$内存不足，程序结束。	cok
+ui.5806c79980ac	半身人	batch-editorial
+ui.58814d4cbc04	变得狂暴	cok
+ui.58851b8fac82	牧师	cok
+ui.58f6ffe741db	扎营中	cok
+ui.59023abea680	崩解术	batch-editorial
+ui.594ae1732541	惊恐地逃走	g6-static
+ui.595ba83def48	发送了	cok
+ui.5971145b42aa	超出负重，金钱将放入集中财物。	cok
+ui.59b74e17ac37	解除邪恶	cok
+ui.59d6cf4f638f	我们只训练神智清醒的人	cok
+ui.59e2e535d844	Fred Butts	batch-editorial
+ui.59e74f11c96a	普通邪恶	cok
+ui.5a0009478568	火焰打击	cok
+ui.5a5c3f75ebce	飞镖	cok
+ui.5a61e98fa546	将留在金库里	batch-editorial
+ui.5a7dff7cd74c	还有宝藏没有拿完。	cok
+ui.5a98505ed913	白金币	cok
+ui.5af65b05298f	移动／攻击，剩余移动力 =	cok
+ui.5b18381b1906	遭遇设计：	batch-editorial
+ui.5b3fdf6febd0	音效类型： [1] AdLib	batch-editorial
+ui.5b7ea832e1b1	卷轴上	cok
+ui.5c4b9d1c89bd	把棍子变成蛇	batch-editorial
+ui.5c4efffc1a54	已记忆	cok
+ui.5d14d08deb37	一件物品	g6-static
+ui.5d8c80c09ab0	麻痹了	g6-static
+ui.5db98e7af406	保存中……请稍候	cok
+ui.5e88d3982ab7	游戏速度：	cok
+ui.5e9fc445ff43	（用方向键）	cok
+ui.5fa7aac5375c	备妥	cok
+ui.60135e8f5cbb	睡着了	batch-editorial
+ui.6024329694ab	宝石	cok
+ui.60c397046c19	戟	cok
+ui.61622162cdb3	踢开术	cok
+ui.618ae3799df9	（从背后）	cok
+ui.61bbff73e058	记忆法术	batch-editorial
+ui.61e52adc2174	魔法所致	cok
+ui.61e932cd1783	引发重伤	cok
+ui.622af18ec40b	离开游戏	cok
+ui.6249df4367d0	金币	batch-editorial
+ui.624a5b72859b	法术已中止	cok
+ui.62620037164a	不受影响	batch-editorial
+ui.629ffe46b6a0	魔法关闭	cok
+ui.62a468d8a087	持有心灵之槌	batch-editorial
+ui.637308e94973	变得笨拙	g6-static
+ui.63783b1ec102	是 否	cok
+ui.637c8ce00e81	逃跑：	cok
+ui.63b579c5009b	被缩小了	cok
+ui.63ee3a1b965a	大力术	cok
+ui.64b9370e4ffa	超载	cok
+ui.64bc55f61b77	放弃人物	cok
+ui.64c82aaed1b4	失明	batch-editorial
+ui.64e3cb0e4960	购买	cok
+ui.6501d6e4ac16	闪电术	cok
+ui.6503fd1bd5d2	被诅咒了！	cok
+ui.65705bcc0861	白金币	batch-editorial
+ui.65832451b31e	Russ Brown   Laura Bowen	batch-editorial
+ui.65a45b3db080	睿智	cok
+ui.65a856807cd8	牧师/贼	cok
+ui.65cb8bc4d032	全部禁用	cok
+ui.6659c4ca6420	钉头锤	cok
+ui.668f8131b2e8	巨人之力	cok
+ui.669cfb5fcba6	的遗体，寻找值钱的东西。	g6-static
+ui.670293c75557	位于小型魔法防护罩内	g6-static
+ui.6713d8d20402	安宁突然被打断了！	batch-editorial
+ui.67927b5fa959	受到祝福	batch-editorial
+ui.67abe0afb7d7	部位 第一色 第二色 大小 离开	cok
+ui.681927e34b77	法杖	cok
+ui.6852e524971b	已在使用	cok
+ui.688449dc6f1d	去路被挡住了	cok
+ui.6891a569c292	防护力 10	cok
+ui.68945ce37c83	力量	cok
+ui.68a99f8cb6b4	必须先复活	batch-editorial
+ui.68ed6b741540	侦测魔法	batch-editorial
+ui.690ce08a1484	金银合金币	batch-editorial
+ui.69686409f3e8	心灵之槌	cok
+ui.698d9ad03b1a	精灵	batch-editorial
+ui.69ec6af313aa	半径10呎内隐形	cok
+ui.6a88445bbf65	项链	cok
+ui.6ac8fcdfb8e4	完全痊愈	cok
+ui.6ae066ae37be	要永远放弃	cok
+ui.6af2bad77d57	治疗轻伤	cok
+ui.6b19f0a49196	防护力 6	cok
+ui.6b7573221b4f	解除诅咒	cok
+ui.6bd1127b18aa	下一个 前一个 手动瞄准	cok
+ui.6bdc33eef062	中止施法吗？	cok
+ui.6be7135d9f6f	变笨了	batch-editorial
+ui.6bed4a4b0f2d	保留 离开	cok
+ui.6c45feb33639	6级	batch-editorial
+ui.6c5db1c72d96	好吧，我收下了。	batch-editorial
+ui.6c8e3155e463	真正中立	cok
+ui.6ca94c9f8a62	配乐：	cok
+ui.6d152f07d42a	若这些是您的原版磁片，请用 DISKCOPY 制作复本。	cok
+ui.6d88eb730ffb	混乱的邪恶	cok
+ui.6ddb1b49d365	精灵锁甲	cok
+ui.6e399f2787a0	祈祷	cok
+ui.6e8761a253a7	3 个法术	batch-editorial
+ui.6e9423cdd7c0	延时爆发火球爆炸了	g6-static
+ui.6ea2acf442bd	已解毒	batch-editorial
+ui.6eac636b81bf	保存哪个游戏：	cok
+ui.6f19a5aaf6ae	携带魔法石	batch-editorial
+ui.6f5a60034172	这些法术吗？	batch-editorial
+ui.6f5f6a7876cf	松了一口气	cok
+ui.6f7418045e72	防护	cok
+ui.6fac432d6b5a	笨蛋！你得先把它们从捆里拿出来！	batch-editorial
+ui.6fbc8cc1750a	穿着魔法靴	batch-editorial
+ui.6ffa6b8b1c9f	石	g6-static
+ui.700ceab2be74	鼠标打开	cok
+ui.7040944fe0f6	产生一团杀人云	g6-static
+ui.7084340de831	半径10呎内免受善良伤害	cok
+ui.70b0849a1046	满足地打了个嗝	batch-editorial
+ui.714a926c9269	经验：	batch-editorial
+ui.7186aedb5e7e	死亡法术	batch-editorial
+ui.71bf3eb8b628	觉得好多了	batch-editorial
+ui.71c095b134e2	三叉戟	cok
+ui.72114d9f7221	分半	cok
+ui.723749294549	灵药	batch-editorial
+ui.72403cdf00a1	点伤害。	cok
+ui.72505b0ff17d	变年轻了	g6-static
+ui.72839726ec25	开始咳嗽	cok
+ui.7298a246841d	不受影响	g6-static
+ui.729dccf7638c	超出负重，金钱将放入集中财物。	cok
+ui.72e81feaa8a1	棍棒	cok
+ui.72f5a9907af4	交易给谁？	cok
+ui.73017b67c80b	按任意键继续	cok
+ui.7308fcc58956	请将存盘磁片放入磁盘机	cok
+ui.7313f57bf6d1	点经验。	cok
+ui.733a7885c841	调整人物的属性	cok
+ui.735b03a3f745	魅力	cok
+ui.735b64972b07	确定 换另一片磁片	cok
+ui.73967b10f229	继续战斗：	cok
+ui.73aacaa0a21a	鼠标关闭	cok
+ui.73c9c98668a3	他的	cok
+ui.73dc206813c0	自 WALLDEF	batch-editorial
+ui.73dda53255f5	火球	cok
+ui.7425046ea84b	这个造形可以吗？	cok
+ui.746ea349ca6f	电击所致	cok
+ui.74bc11c5490c	买了	cok
+ui.7558c8476131	要回去取回你们的钱吗？	cok
+ui.755c8b2a9fb1	状况：	cok
+ui.75c0ba1cdca8	被电到了	cok
+ui.762226aafd83	宝石	cok
+ui.77bf07480400	抄写法术	cok
+ui.787dad0cf8a3	解除了诅咒	batch-editorial
+ui.7935c6648824	要交易多少？	cok
+ui.796642c29190	医治失明	cok
+ui.7996af070c23	交易	cok
+ui.79b1697b494f	免受一般飞弹伤害	batch-editorial
+ui.79ecd2d19bfb	它们吗？	batch-editorial
+ui.7a0aca93697c	只要 100 枚金币，我就替你验证你的	batch-editorial
+ui.7ac6561f7ff4	严守中立	cok
+ui.7ad26b16df8b	魔法师	batch-editorial
+ui.7afde2cf9e6c	珠宝	cok
+ui.7b682d92b448	严守邪恶	cok
+ui.7bd75e5bf8f3	队伍中的游侠太多了。	cok
+ui.7bfdfa1353ed	普通善良	cok
+ui.7c0376ae0ea9	负重	cok
+ui.7c2da26ef6e0	确定吗？	cok
+ui.7c6cfd76225a	备妥   动作	cok
+ui.7cbba619e3ba	状况不佳，无法	cok
+ui.7d08b2536e65	记忆法术	cok
+ui.7d0be6a006b9	虚弱了	g6-static
+ui.7d16eda386e1	恶心	batch-editorial
+ui.7e4f7d7e6c00	搜索隐形物品	cok
+ui.7e94675ff2de	头盔	cok
+ui.7f7a297e2c31	是	cok
+ui.7f94b4b11a1d	地图切换 施法 查看人物 扎营 搜索 查看环境	cok
+ui.7fbe1537394e	弩箭	cok
+ui.7fcc28d85231	不再失明	batch-editorial
+ui.7ffbeb7f1164	加载保存游戏	cok
+ui.803a155fcf80	以及等级	cok
+ui.80a02596ee54	死亡。	cok
+ui.812d570d8988	已经学会这个法术了。	cok
+ui.814d608d6c4d	失去它也没关系吗？	cok
+ui.8150079a1a3c	免受邪恶伤害	batch-editorial
+ui.817a55f2a393	无效类型	batch-editorial
+ui.81910caf6e3a	怪物束缚术	cok
+ui.81a66e3516e8	日 时 分 加 减 离开	cok
+ui.81b7c32128bd	不符合资格。	batch-editorial
+ui.834647b290ad	隐形（戒指）	batch-editorial
+ui.836016c0616b	隐形（法术）	batch-editorial
+ui.838bb792ae73	请问	cok
+ui.840bee47957d	点	cok
+ui.842c3f9a9151	复合长弓	cok
+ui.846ceffa185d	要从哪里加入？	batch-editorial
+ui.84e79ec5c06b	金钱不足	cok
+ui.84efb3405723	伤害术	batch-editorial
+ui.851048823b87	被减速	g6-static
+ui.8533e0f4e54f	驱散邪恶	batch-editorial
+ui.85508313b762	法术书中	cok
+ui.858cd61e5d1e	复活术	cok
+ui.85cd61f8c3c8	被束缚	batch-editorial
+ui.86d864d10977	没有宝石或珠宝	cok
+ui.8738105bdd25	吐出，但没有命中	g6-static
+ui.87d6ec410a8b	小型魔法防护罩	cok
+ui.87e376689f8a	蓝宝石	cok
+ui.8879ab4f6391	较慢	cok
+ui.88b3d8eed54f	诅咒术	cok
+ui.892b3e482474	投石索	cok
+ui.89db952e6b66	恢复为血肉之躯	g6-static
+ui.8a1e48f5104a	队伍已被消灭	batch-editorial
+ui.8a21969b3d68	防护力 4	cok
+ui.8a72bfdf9031	不受影响	g6-static
+ui.8ab8ccf1ae88	毛球	batch-editorial
+ui.8b4c3701309d	飞弹	cok
+ui.8b862ba45dce	拾取	cok
+ui.8be704dd2de1	，有什么需要帮忙的吗？	cok
+ui.8be91414fd53	颗宝石	cok
+ui.8cd68723841c	施放法术	cok
+ui.8d06f22a0748	要使用吗？	cok
+ui.8d77768365dd	斗篷	cok
+ui.8d89e4a829ae	加入	cok
+ui.8e31ecbb1dab	被下咒	batch-editorial
+ui.8e3e8d7a009c	，并且垂死	cok
+ui.8e9f93a3bf57	Dave Shelley   Susan Manley	batch-editorial
+ui.8eaa4fbfbbfa	电击术	cok
+ui.8ed9a61e8db6	用户：请确认 NUMLOCK 已打开。	batch-editorial
+ui.8f17aeef225d	失去一个幻影	cok
+ui.8f24e7e793e7	其他输入设备：  [1] 摇杆  [2] 鼠标  [3] 无	cok
+ui.8f4a0aaa62c4	法术	cok
+ui.8fd1000fb601	本来要从那一捆抄写	g6-static
+ui.901bc8dfb280	铜币	cok
+ui.9031d5840eea	抵抗了驱散邪恶	g6-static
+ui.908881ec8eb9	智能	cok
+ui.90d8d6de638c	轻弩	cok
+ui.90fade6fb78e	镜	cok
+ui.912567158776	瞬间被消化了	g6-static
+ui.914120b2375c	变成了石头	g6-static
+ui.91eb2681ef61	石化	batch-editorial
+ui.925f9d446890	选择功能	cok
+ui.929433e4be1d	靴	cok
+ui.92cefa5523a8	没有染病	g6-static
+ui.93022dfd9b34	缓毒	cok
+ui.9305d3a8e566	查看人物 拾取 集中财物 均分	cok
+ui.9349e8fa6cf6	被魔法防护罩包覆	g6-static
+ui.934fc6d174a1	要治疗谁？	batch-editorial
+ui.939473c4290e	迷惑术	cok
+ui.93f97649cdeb	侦测 离开	cok
+ui.93fe3ac0ddb8	巨石	cok
+ui.94205b0aec0b	抗火（戒指）	batch-editorial
+ui.94390fc2be66	购买 查看人物 拾取 集中财物 均分 鉴定 离开	cok
+ui.94be0417569f	这把武器办不到	cok
+ui.94c736fde0c8	已卖出！	cok
+ui.94ecaa4b2354	项目小组   Dave Shelley	batch-editorial
+ui.9507ad17d71f	混淆术	cok
+ui.9571965c2381	无法加载	batch-editorial
+ui.9596e8d6030b	岁	cok
+ui.95a0c6cfd7d2	已被选取	cok
+ui.963a606aee50	迷惑怪物	cok
+ui.964c6bc07bca	已痊愈	batch-editorial
+ui.9656bebfdf14	要我帮你处理掉它吗？	batch-editorial
+ui.967a6bde0596	无法读取摇杆。校正中止。	cok
+ui.9760e90581ce	手半剑	cok
+ui.978354db0c00	选定目标	cok
+ui.97b83b7e68be	有一件物品解除了诅咒	cok
+ui.988078bad6b1	已解毒	batch-editorial
+ui.990efc96febb	受蛇骚扰	batch-editorial
+ui.99c4cc7855b7	牧师/游侠	cok
+ui.9a1cce7fcc35	职业不符	cok
+ui.9a4078ebe058	半精灵	batch-editorial
+ui.9a5253015a01	较快	cok
+ui.9ab184b85e05	将会消失	cok
+ui.9acf34320531	没有中毒	g6-static
+ui.9ae5a4479a81	无法保存。磁片空间不足。	cok
+ui.9b2bbce6c72d	受到保护	batch-editorial
+ui.9c87350ca200	法术	cok
+ui.9ce61a439558	魔法师法术：	cok
+ui.9d6a11309ab7	冰锥术	cok
+ui.9d8e4869a5ce	件珠宝	cok
+ui.9e2bbca238ae	无法调整。	cok
+ui.9e5d3472e05f	（施法中）	cok
+ui.9ed60d1a8871	迷惑人类或哺乳动物	batch-editorial
+ui.9fc3eff8f2ea	长袍	cok
+ui.9ffa865f2bc6	人类	cok
+ui.a0110bf32cd0	原本打算从那张卷轴抄写法术，	batch-editorial
+ui.a0323615baef	绝不容忍邪恶！	cok
+ui.a08b81501003	吐出……	batch-editorial
+ui.a0b43df06f52	银币	cok
+ui.a10cae1e9c04	免疫龙息	batch-editorial
+ui.a123dd728a7a	易伤	cok
+ui.a1c1212619a3	巨大术	cok
+ui.a1e592fecee5	金钱 物品 离开	cok
+ui.a214ce0a26eb	茫然地凝视	g6-static
+ui.a24f89fb7eb3	防护力	cok
+ui.a26d873b3d51	抱歉，A 磁盘机不能有写保护。	cok
+ui.a29e9feca009	将摇杆 #1 推到最左上角位置，然后按下按钮读取摇杆	cok
+ui.a2dc69ccc8c9	5级	batch-editorial
+ui.a3237f49325a	验证	cok
+ui.a37430e22cd0	闪烁术	cok
+ui.a384eabeb450	动作加倍	batch-editorial
+ui.a39e9d9816a9	双眼	batch-editorial
+ui.a3bf67830817	我出	cok
+ui.a3c6a0e36a49	逃脱了	cok
+ui.a3d5382fff70	正与蛇搏斗	cok
+ui.a3e0b6a1c528	黑暗精灵	cok
+ui.a3ef91cb4236	护手	cok
+ui.a47214d1d511	队伍扎营了……	cok
+ui.a4d9c62a66cc	选择 离开	cok
+ui.a56df8de4062	我们这里不训练那个职业。	cok
+ui.a592855d0508	护甲	cok
+ui.a62660f5a402	解除诅咒	batch-editorial
+ui.a670c8d297ce	武僧	batch-editorial
+ui.a719751ac171	停止休息吗？	cok
+ui.a7290a044b25	杀人云	cok
+ui.a793518be0c2	敏捷	cok
+ui.a79781522d3d	已痊愈	batch-editorial
+ui.a7cd5d8f8422	铠甲	cok
+ui.a7d973a732d0	圣骑士	cok
+ui.a824f34f6cbe	施以诅咒	cok
+ui.a83c73379750	好运	batch-editorial
+ui.a8accc8cbc98	你们把一些钱留在这里了。」	batch-editorial
+ui.a95140d02db9	被杀死了	cok
+ui.aa433e0ea3c6	免受善良伤害	cok
+ui.aa537527975c	中止施法吗？	cok
+ui.aa67752cdcbc	选择人物	cok
+ui.aabda3b2731b	恢复视力	g6-static
+ui.ab741ba7a7a6	查看人物数据	cok
+ui.ab80540d98d2	大	cok
+ui.ababed4823ab	头发	cok
+ui.ac08bed00d4d	（无力反抗）	cok
+ui.ac2798d7e85b	被杀死了	g6-static
+ui.ac461667a825	创造新人物	cok
+ui.ac7104fc4031	没有可抄写的卷轴	cok
+ui.accf5e41d3a8	受到1点伤害	cok
+ui.ad1096e9f7c3	记忆法术	cok
+ui.ad945ef0220b	Graeme Bayless	batch-editorial
+ui.add58d08294b	此处无法施法	cok
+ui.adfe0feb6f39	加入人物：	cok
+ui.ae48de661444	它看起来像是某种	cok
+ui.aee3b8154004	保存时发生意外错误：	cok
+ui.aeeabe9647b6	内存不足，无法运行游戏。需要	cok
+ui.af1ccb31304d	绿宝石	cok
+ui.afd29fe703f8	防火盾牌，热焰	batch-editorial
+ui.afdd55851bbe	7级	batch-editorial
+ui.b0a3e9daee9d	被丢进沟里	cok
+ui.b0b21f129832	保存目前游戏进度	cok
+ui.b0b3678b4c63	点伤害	cok
+ui.b0ed26337336	受到保护	batch-editorial
+ui.b11529a1854f	队伍已被消灭，怪物欢呼雀跃。	cok
+ui.b131c4ae30ff	对动物隐形	batch-editorial
+ui.b156b926dc3a	调整：	cok
+ui.b17ae4e8dd75	感到混乱	cok
+ui.b1c605cbc7e2	免受善良伤害	batch-editorial
+ui.b1daf7d8771a	护符	cok
+ui.b1edfd1bc6f9	加载哪个游戏：	cok
+ui.b21d60d3c86e	治疗 离开	cok
+ui.b26af6d5c21a	被拷贝	batch-editorial
+ui.b3063dda39ee	这件珠宝价值	cok
+ui.b38102de71ef	躲过了	cok
+ui.b3f952e8b678	戒指	cok
+ui.b3fe34614a71	宝藏！	batch-editorial
+ui.b46fe55938ec	你的	cok
+ui.b4acd500851a	防火盾牌，冷焰	batch-editorial
+ui.b4eb600e2bd2	搜索陷阱	cok
+ui.b507eb205317	你们把	cok
+ui.b528f9d1a283	矮人	batch-editorial
+ui.b55d3062e7db	复合短弓	cok
+ui.b59528a9bc9f	宽刃剑	cok
+ui.b639c243cebd	钻石	cok
+ui.b67514c6d13f	抗火术	cok
+ui.b6a899371ceb	免受	batch-editorial
+ui.b6e7d327076f	请插入另一张磁片。	g6-static
+ui.b75af7ef6c4d	隐形了	g6-static
+ui.b7a1040b39ad	你要存多少？	batch-editorial
+ui.b84f45ad29b0	存款	batch-editorial
+ui.b9267e64e341	丢弃吗？	cok
+ui.b970634c8409	防火盾牌	cok
+ui.b97410f97c75	请将磁片 2 插入磁盘机	cok
+ui.b979617559ad	鉴定：	cok
+ui.b991604729c6	超载	cok
+ui.b9d05f332634	守卫	cok
+ui.b9ec2686588d	是 否	cok
+ui.ba24b7992d5d	变老了	cok
+ui.ba77b08db988	看得见了	cok
+ui.ba7ebb6c0b12	选择职业	cok
+ui.baa3e9b41f45	治疗重伤	cok
+ui.bb33dbdb2f21	使用	cok
+ui.bb4e56df6695	使用	cok
+ui.bbe963c645f0	龙族	cok
+ui.bc0f80620ba6	短弓	cok
+ui.bc15529dc7b3	经验不足	cok
+ui.bc4ac4b84ba5	队伍获胜。	cok
+ui.bc78aafbc3ac	对抗巨人	batch-editorial
+ui.bc7c40542c40	老死	batch-editorial
+ui.bce9e63c661b	查看人物 集中财物 离开	cok
+ui.bcf47e35fc5f	倒下了	cok
+ui.bd104d1b98d0	友好术	cok
+ui.bd89d0b81174	要回去取走你们的宝藏吗？	cok
+ui.be547a8c19df	的位置，然后按下1号按钮。	cok
+ui.bec2538a4c67	战斗 等待 逃跑 谈判	cok
+ui.bed9952c236e	零	g6-static
+ui.bf2b55855742	没有失明	batch-editorial
+ui.bf3654a9a3dd	迷惑	batch-editorial
+ui.c031b229eabd	找不到	cok
+ui.c03e83a9774a	扎营专用法术	cok
+ui.c08b2b9e8fbd	点	cok
+ui.c08fa66506c8	你们离开时，店主说：「	batch-editorial
+ui.c0d751710cfb	3级	batch-editorial
+ui.c141faa80e43	火焰	cok
+ui.c157cbf647f5	铁锤	cok
+ui.c1fcf83e875d	西北	cok
+ui.c210bfdf28ce	保存	cok
+ui.c21365c7ea5b	2级	batch-editorial
+ui.c2144e87fdf4	较快	cok
+ui.c2322227f700	医治疾病	cok
+ui.c2498a142a32	恢复了智力	g6-static
+ui.c2753bcb60bc	交易	cok
+ui.c2dc3b498d2c	能看见隐形物	batch-editorial
+ui.c35ed1964164	生命力	cok
+ui.c372fee9b456	速度	cok
+ui.c38a51535885	离开游戏	cok
+ui.c46f278027d6	摇杆关闭	cok
+ui.c471f9cdb247	Rick White	batch-editorial
+ui.c4774fc6d0d8	被激怒了	cok
+ui.c48d9d9a455d	被魔法标亮	batch-editorial
+ui.c4e0e1d86094	开始冒险	cok
+ui.c4ff4a77d890	不能去那里	cok
+ui.c5031dcec9ef	搜索中	cok
+ui.c5432cc858f5	已选为目标	cok
+ui.c56d8db72d8b	没有染病	batch-editorial
+ui.c5e3a704d58f	一捆	batch-editorial
+ui.c600613067cb	手斧	cok
+ui.c60b2fd627f7	物品指针为空……	batch-editorial
+ui.c6263aa6c40c	被驱散了	batch-editorial
+ui.c701560fa2f4	开发：	batch-editorial
+ui.c71c66ea7e4c	长矛	cok
+ui.c83cfaf4080c	魔法飞弹	cok
+ui.c848bff204f4	移动	cok
+ui.c8c487bf9b56	颗宝石	cok
+ui.c8d3812485c0	使用物品	cok
+ui.c8ed26fc0fb3	测试人员：	cok
+ui.c9e47f12e274	免受一般飞弹伤害	cok
+ui.ca14b7c00b29	青春	batch-editorial
+ui.ca4d5dab9791	头部 武器 离开	cok
+ui.ca82600f30f3	离开时，一名祭司说：「不好意思，你们把一些钱留在这里了。」	cok
+ui.ca949ab43e76	晨星锤	cok
+ui.cab923a670e4	长剑	cok
+ui.caf6af5f6996	半径10呎内免受邪恶伤害	batch-editorial
+ui.cb96521ce500	麻痹	cok
+ui.cba06b5736fa	旧	cok
+ui.cbefa25e9f4e	怪物逃走了。	cok
+ui.cc15607b461e	（规则书，页	cok
+ui.cc173df6702c	火球	cok
+ui.cd29a99041b6	属于旅行手札 #	cok
+ui.cd5a2e8ededf	凝视……	batch-editorial
+ui.cdbf2aad986c	金钱不足。	cok
+ui.ce732dd1274e	存盘数据路径（预设 -	cok
+ui.ce73dcfe30dd	被整个吞下	batch-editorial
+ui.ce78afd0e6a2	学习	cok
+ui.cf0a9a5f4ab6	设下延时爆发火球。	g6-static
+ui.cf360b345efa	已治愈	batch-editorial
+ui.d004ff3c3b43	解除法术	cok
+ui.d0068ba429ec	Michael Mancuso   Mike Provenza	batch-editorial
+ui.d0291caff432	这颗宝石价值	cok
+ui.d04d143601b3	受到影响	batch-editorial
+ui.d119669b1a25	产生一团毒云	cok
+ui.d17044a2f3d3	法术：	cok
+ui.d17d84a60499	离开	cok
+ui.d1965cb2d2e5	防护力 3	cok
+ui.d1d632796f8a	活化	cok
+ui.d1e9567da9a8	猛击	cok
+ui.d28b15c6a6d9	变卖物品 保留	cok
+ui.d2c838f79473	抱歉，A 磁盘不能有写保护。	cok
+ui.d2e8c55edc30	毫无价值。	batch-editorial
+ui.d3298bdbb939	将人物加入队伍	cok
+ui.d32caeb5b3b0	其余队员悲痛不已，并开始搜索	batch-editorial
+ui.d35b0efe2128	铜币	cok
+ui.d3e4217f335c	选择钱币种类	cok
+ui.d466bcf52eb6	催眠术	cok
+ui.d46a1f205204	能搜索陷阱	batch-editorial
+ui.d4769daf9f05	向你告别。	cok
+ui.d47ed503f924	8级	batch-editorial
+ui.d4ed6a5b7f23	<无魔法效果>	batch-editorial
+ui.d520d4a25f73	要丢弃多少？	cok
+ui.d52b96d2ce02	引发轻伤	cok
+ui.d53895c6eb78	隐形	cok
+ui.d539cd97ca1a	东北	cok
+ui.d5a78b996fe6	毒术	cok
+ui.d5cc133735e7	珠宝	cok
+ui.d5eb90184aff	对动物隐形	cok
+ui.d602e91d93c8	她	batch-editorial
+ui.d60cd2e0bb8c	防护 生命力	cok
+ui.d61160238799	施法	cok
+ui.d6186a504f76	阅读魔法	cok
+ui.d6359f6ff9fc	选择性别	cok
+ui.d69eecab2f76	搜索魔法物品	cok
+ui.d6be94e808f0	必须先备妥	cok
+ui.d6d123e2e8ce	免费训练打开	cok
+ui.d70f9fe84763	启动鼠标和摇杆	cok
+ui.d88ade772ab3	要重掷属性吗？	cok
+ui.d91e43895d60	战斗开始了……	cok
+ui.d9325e0936a5	已复活	g6-static
+ui.d9b72c6c8ed6	Dave Lucca,Cliff Mann,Rick Wilson,	batch-editorial
+ui.dae0896cbc2c	锁甲	cok
+ui.daf064fe39bd	不省人事	cok
+ui.db3810c531fd	它吗？	batch-editorial
+ui.db3fef5c15fb	已痊愈	batch-editorial
+ui.dbcc0fc54744	中毒	batch-editorial
+ui.dc0c1dbcae76	将成为：	cok
+ui.dcc839a4015c	查看	batch-editorial
+ui.dcd1d5223f73	姓名	cok
+ui.dcd379d4ed4a	现在是 1 级的	batch-editorial
+ui.dcddc47e957c	弱智术	cok
+ui.dcf150e2e4e5	电脑控制 完成	batch-editorial
+ui.dd6b632301cc	无法加载怪物数据	cok
+ui.dddde79baf4c	抄写任何卷轴。	cok
+ui.de1e334ce4b4	按下按钮或 <Enter> 键继续。	cok
+ui.de3b46da4da8	加倍术	cok
+ui.de4bc87fb5fb	疾病已愈	batch-editorial
+ui.de5a971d55c5	离开游戏	cok
+ui.deca3b342a9f	选择新职业	batch-editorial
+ui.df0cc1721459	没有石化。	batch-editorial
+ui.df4f6c72ae34	警告：保存人物时发生问题	cok
+ui.dfc5d1c129a5	混乱的中立	cok
+ui.dfccfbed6a52	冰雪风暴	cok
+ui.e00b7065984d	腕甲	cok
+ui.e01ae25b03ab	巫术	cok
+ui.e01ddf6594a4	1级	batch-editorial
+ui.e06849281b5e	游戏制作：   故事与	batch-editorial
+ui.e07f87e5bf6f	垂死	cok
+ui.e0cf46fc6a62	卷轴上	cok
+ui.e155361c7f5d	牧师法术：	cok
+ui.e181bc015be0	魔法师	cok
+ui.e188d7831c07	弯刀	cok
+ui.e1e5a4931ff6	瞄准：	cok
+ui.e1f3cf2badbf	吐出	cok
+ui.e23621e57725	抗火	cok
+ui.e2491eec6c44	游戏速度（	cok
+ui.e26c6f94d702	恭喜，队伍获得经验！	cok
+ui.e272deecde72	寒冰	cok
+ui.e292a18dd0b9	无法	batch-editorial
+ui.e31eff32369f	魔法防护罩	batch-editorial
+ui.e3e1e619a1c8	双手剑	cok
+ui.e420dd994483	选定目标	cok
+ui.e49c25426bd9	编程：   美术：	batch-editorial
+ui.e4cba1c76c15	的位置，然后按下1号按钮。	cok
+ui.e5282f4df0a5	不能选自己为目标	cok
+ui.e52a3fb722bd	拾取：	cok
+ui.e57bab47cfc9	初学者 随从 老手 熟练 优胜者	cok
+ui.e6174370bafa	已复活	g6-static
+ui.e66ad0bcb4ad	引发失明	cok
+ui.e6cd637f954b	游侠	cok
+ui.e6f16936a01e	失去一个法术	cok
+ui.e718fa37db3b	半径10呎内不受邪恶伤害	cok
+ui.e7f0b1d7f250	战士/魔法师/贼	batch-editorial
+ui.e864a8c0c782	半径15呎的沉静术	cok
+ui.e8cca808ae5a	女	cok
+ui.e8e775159a57	皮甲	cok
+ui.e90f751cffd5	爆炸延迟几段 (1-50)？	batch-editorial
+ui.e913d0b16469	范围 =	cok
+ui.e920b38b45dd	加载中……请稍候	cok
+ui.e932f4664fa9	选择种族	cok
+ui.e948f1f230fc	杀死无助的	cok
+ui.e9f29f8907ff	队伍发现了	batch-editorial
+ui.ea41abe045db	混乱	cok
+ui.ea6e0b2c854d	Ken Humphries   Tom Wahl	batch-editorial
+ui.eadd361adaa7	物品：	cok
+ui.eb0b6be42cae	查看人物 拾取 集中财物 均分 鉴定 离开	cok
+ui.eb45597f7b2c	攻击盟友：	cok
+ui.eb5ce7d3c9df	与谁交易？	cok
+ui.ebac393d44b1	染病	batch-editorial
+ui.ebb4cacf2286	获得经验！	cok
+ui.ebc583583e1a	按 <Enter> 键继续	cok
+ui.ebe2888cf1da	待抄写	cok
+ui.ec1d85c28e73	（0=最快 9=最慢）	cok
+ui.ec21c8afa7ed	次序 剔除 速度 造形 难度 离开	g6-static
+ui.ec56ff1c91f1	力量增强	batch-editorial
+ui.ec9b10a4a79c	死亡	cok
+ui.eca1db49d76e	SSI 特别	batch-editorial
+ui.ecf6a38963dc	已复活	batch-editorial
+ui.ed044e582700	蛇魅术	cok
+ui.ed695f1dd60f	Tandy 1000 用户：请确认 NUMLOCK 已打开。	cok
+ui.edb9de30ada2	你的双手已满！	cok
+ui.ee34c92a04df	没有石化	batch-editorial
+ui.eed1d1805f7c	存款	batch-editorial
+ui.eeebd533ebee	腰带	cok
+ui.ef2bec0e5f42	神智混乱	batch-editorial
+ui.ef64ecdd8805	魔法师/贼	g6-static
+ui.efa20443d02e	变回血肉之躯	batch-editorial
+ui.efb9cda48d9d	开始施法	cok
+ui.eff933a07fd2	已治愈	batch-editorial
+ui.effd09803c06	叩叩	cok
+ui.f001f74893f6	可惜队伍中没有人目睹这位勇士的辞世。	batch-editorial
+ui.f005dc729cc9	牧师/战士	cok
+ui.f031b70a2653	东南	cok
+ui.f06c19b93b2c	火焰种类：	cok
+ui.f088d9e3a744	晕迷	batch-editorial
+ui.f0d155c43ee0	请将存盘磁片放入磁盘机	cok
+ui.f0d35390cb24	束缚术	cok
+ui.f0e791ada740	要回去拿你们的钱吗？	cok
+ui.f102986b39ef	鳞甲	cok
+ui.f11aa46e52cb	衰弱术	cok
+ui.f24d5c357740	将摇杆 #1 推到最左上角位置，然后按下按钮 #1。	batch-editorial
+ui.f2fbdfd7c100	等级	cok
+ui.f348fb4839ff	位移	cok
+ui.f34a08403165	离开游戏：	cok
+ui.f3dfbc1acc94	没有受到诅咒	g6-static
+ui.f499c0e6f8ea	请将磁片 4 插入磁盘机	cok
+ui.f4ccae29e1bb	逃跑	cok
+ui.f528273db22b	请将磁片 5 放入磁盘机	batch-editorial
+ui.f5312298209e	没有记忆任何法术	cok
+ui.f5a329b998d9	无法分半	cok
+ui.f5e1d63728c2	点伤害	cok
+ui.f5e208dde74f	John Halbleib	batch-editorial
+ui.f5f25c5769e6	保存	cok
+ui.f6410fb009d4	魔法打开	cok
+ui.f64329361c6f	施法 记忆法术 抄写法术 显示法术 休息 离开	cok
+ui.f64fa5018db4	魔光	cok
+ui.f65f10298556	离开	cok
+ui.f77a2cc8468f	将摇杆 #1 推到最左上角位置，然后按下按钮 #1。	cok
+ui.f791fef558be	引发致命伤	cok
+ui.f7fcd1e393fb	一捆最多只能有	batch-editorial
+ui.f8d716681ef6	还没死	batch-editorial
+ui.f8e1a5e2c265	部分痊愈	cok
+ui.f8e9641e3a5a	武器 身体 xxxx 盾牌 手臂 脚部 离开	cok
+ui.f9137bd3fdae	酸液所致	cok
+ui.f99222122177	仍要施展治疗术：	cok
+ui.f9b8e202385e	延后 弃权	cok
+ui.fa23d2522252	施展任何法术	cok
+ui.fa4925ece175	进入游戏 示范	cok
+ui.fa67303aecda	精良	cok
+ui.fada519693b7	有护盾	batch-editorial
+ui.faee4715888d	将摇杆 #1 推到最右下角位置，然后按下按钮读取摇杆	cok
+ui.fb0d083b55a8	吓坏了	cok
+ui.fb2a3e111cff	化石术	batch-editorial
+ui.fb8e7a1a3cb7	物品	cok
+ui.fbcb3b194ad0	穿着魔法斗篷	batch-editorial
+ui.fbd6007fa4e6	对谁施法	cok
+ui.fc0615ed1942	体质	cok
+ui.fcdfcb21ab14	1 个法术	cok
+ui.fcfe1a334f70	食人魔之力	cok
+ui.fd5464131c57	请稍候 警告：保存人物时发生问题	batch-editorial
+ui.fd5da56f78ed	倒下了	cok
+ui.fe3cf5b60934	喷出火焰	g6-static
+ui.fe5b48644212	战士	cok
+ui.fe6c9d4d8e5b	启动鼠标和摇杆：	cok
+ui.fe95d23deff6	物品：	cok

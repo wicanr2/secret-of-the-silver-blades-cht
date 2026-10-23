@@ -160,3 +160,23 @@
   教訓：沿用通用探針的位址格式前，先讀它的解析函式。
 - sosb-explore 跑約 200 步被容器 OOM 殺掉：dos 層每次滑鼠輪詢、machine 每次埠寫入都留紀錄。加 `LogKeep`／`PortLogKeep` 上限（預設不變），session 與 sosb 工具開啟（dosgolem `4dd38d2`）。
   sosb-play 長時間遊玩同樣受影響，這是發行前必修的問題。
+
+## 2026-10-23 G6 跨畫面盤點（#7）
+
+- `tools/g6-service.sh`（鎮上服務，sosb-overlay-shot 送鍵）、`tools/g6-explore.sh`（sosb-explore 自動探索）、`tools/g6-misses.sh`（彙整未命中），結果在 docs/re/011。
+- 補譯介面字串 44 筆、組句模板到 187 條（神殿問候、取錢提示、治療對象、戰鬥傷害、50 條 `is <狀態>`）；補譯後同路線重跑未命中 0。
+- 勘誤：well1 在戰鬥子選單反覆選 Exit 原地打轉，探索器預設離開選項不適用戰鬥；從戰鬥狀態改 `-pick Quit` 重跑（well2）。
+- 勘誤：重跑 temple2 時取錢那段沒走到，回頭查舊盤點才發現按鍵版本不同；另開 temple-take 專走金錢池。教訓：收據的按鍵序列存進輸出目錄，不靠對話紀錄回找。
+
+## 2026-10-23 G10 多語系與配樂（#11）
+
+- 多語系依克萊恩英豪規格 015 移植：简中由 `tools/zhcn_convert.py`（OpenCC tw2sp，專名保護、`text/zhcn-fixes.tsv`）從繁中產生；
+  日文、韓文 14 批由 sonnet 譯者照 `workplace/tr-jako/PROMPT.md` 翻譯，`tools/jako_merge.py` 合併，前作同 key 的譯文直接沿用；
+  英文是原文加 Courier Prime 字型。手札與攻略面板只有繁中、简中（日韓沒有譯本，面板停用）。
+- `tools/g10-lang-receipt.sh`：四種語言同一組按鍵走到鎮上，記憶體雜湊一致（`a786f…`），ja、ko、en 缺字 0。
+- 勘誤：zh-CN 缺「埃、柴、迪、•」4 字，都來自玩家名音譯表；`tools/font-dev.sh` 沒收 `text/translit-zh-CN/` 的字集（前作在 `package.sh` 才收），已補。
+- 勘誤：日韓的手札編號接句（`AND YOU RECORD IT IN JOURNAL ENTRY`）譯成「旅の手記の項目」「여행 일지 번호」，接上補字後成了「項目37項」。
+  前段改收在「第／제」（4 個 key），`jako_merge.py` 的 `JOURNAL_REF` 註解就是這個約定。教訓：補字規則寫進譯者提示，不只寫在合併工具。
+- 配樂（規格 014）：原版標題曲三個聲道同一組音色；以 4 個動機新編 13 首（`tools/music_compose.py`，架構移植前作），
+  `music.tsv` 增益對齊標題曲 RMS 的 0.7 倍。使用者試聽通過。選曲表 `text/music-cues.tsv` 的字串取自本作盤點，
+  `cmd/sosb-music-cues`（dosgolem `4db8341`）重播確認戰鬥、全滅、營地、神殿切曲；勝利與強敵只有靜態字串。

@@ -1,0 +1,188 @@
+template	translation	note
+Move/Attack, Move Left = {n} 	移动／攻击，剩余移动力 {n}	戰鬥指令列
+move/attack, move left = {n}	移动／攻击，剩余移动力 {n}	戰鬥指令列（小寫版）
+Hitting for {n} points  of damage	造成 {n} 点伤害	戰鬥結果（原文兩個空白）
+Hitting for {n} point  of damage	造成 {n} 点伤害	單數（推測，未觀測）
+takes {n} points of damagefrom fire	受到 {n} 点火焰伤害	原文 damage 與 from 相連
+takes {n} points of damagefrom cold	受到 {n} 点寒冷伤害	同上（推測）
+takes {n} points of damagefrom electricity	受到 {n} 点电击伤害	同上
+takes {n} points of damagefrom acid	受到 {n} 点酸液伤害	同上（推測）
+takes {n} points of damagefrom magic	受到 {n} 点魔法伤害	同上（推測）
+{n},{n} N {n}:{n}	{1},{2} 北 {3}:{4}	座標、方位、時間
+{n},{n} E {n}:{n}	{1},{2} 东 {3}:{4}	同上
+{n},{n} S {n}:{n}	{1},{2} 南 {3}:{4}	同上
+{n},{n} W {n}:{n}	{1},{2} 西 {3}:{4}	同上
+ of journal entry # {n}     	在旅行手札第 {n} 则	手冊查驗題第二行
+ (journal, page {n})?      	（手札第 {n} 页）？	手冊查驗題第三行
+This is recorded as journal entry {n}.	此事记为旅行手札第 {n} 则。	規格 007 手札訊息
+{n} years	{n} 岁	角色檢視年齡（片段 ` years`）
+Experience {n}	经验值 {n}	角色檢視（片段 `Experience `）
+Game Speed ({n}=fastest {n}=slowest) = {n}	游戏速度（{1}＝最快 {2}＝最慢）＝{3}	營地調整速度；0、9 也是數字
+{n},{n} N {n}:{n} camping	{1},{2} 北 {3}:{4} 扎营中	座標列加狀態（片段 ` camping`）
+{n},{n} E {n}:{n} camping	{1},{2} 东 {3}:{4} 扎营中	同上
+{n},{n} S {n}:{n} camping	{1},{2} 南 {3}:{4} 扎营中	同上
+{n},{n} W {n}:{n} camping	{1},{2} 西 {3}:{4} 扎营中	同上
+{n},{n} N {n}:{n} search	{1},{2} 北 {3}:{4} 搜索中	座標列加狀態（片段 ` search`；2026-10-16 前哨站觀測到南向）
+{n},{n} E {n}:{n} search	{1},{2} 东 {3}:{4} 搜索中	同上
+{n},{n} S {n}:{n} search	{1},{2} 南 {3}:{4} 搜索中	同上
+{n},{n} W {n}:{n} search	{1},{2} 西 {3}:{4} 搜索中	同上
+Spells in Grimoire	法术书中的法术	法術顯示標題（片段 `Spells ` ＋ `in Grimoire`）
+Spells in Memory	记忆中的法术	同上（推測，未觀測）
+Spells on Scroll	卷轴上的法术	同上（推測，未觀測）
+Spells on Scrolls	卷轴上的法术	同上（推測，未觀測）
+Spells to Choose	可选择的法术	同上（推測，未觀測）
+Spells to Memorize	可记忆的法术	同上（推測，未觀測）
+Spells to Scribe	可抄写的法术	同上（推測，未觀測）
+'s	的	名字後的所有格（物品、法術畫面標題）
+Knight of the Crown	皇冠骑士	角色檢視職業（片段 Knight ＋ ` of the Crown`；術語表）
+Knight of the Sword	圣剑骑士	同上
+Knight of the Rose	玫瑰骑士	同上
+{name} is hit FOR {n} points of Damage.	{name} 受到 {n} 点伤害。	陷阱傷害（名字模板，規格 004 §2.1.1；跨區盤點 2026-10-18）
+wants to kill {name}	想杀死 {name}	戰鬥中怪物名之後另起一頁（名字模板）
+{name}, how can we help yo	{name}，需要什么帮助？	神殿招呼（原文在 yo 截斷；名字模板）
+each character receives {n}	每人获得 {n}	戰後經驗值，下一列「點經驗。」
+Each character receives {n}	每人获得 {n}	本作開頭大寫（docs/re/008 商隊戰），下一列「點經驗。」
+(from behind)Hitting for {n} points  of damage	（背后攻击）造成 {n} 点伤害	背刺傷害（跨區盤點第 2 輪 2026-10-18；原文兩個空白）
+(from behind)Hitting for {n} point  of damage	（背后攻击）造成 {n} 点伤害	單數（推測，未觀測）
+a level {n} {name}	{n} 级{name}	訓練升級「將成為：」下一列，{name} 為職業（介面詞表）；2026-10-18 升級盤點
+and a level {n} {name}	以及 {n} 级{name}	多職業第二段（推測，未觀測）
+{name} may become a	{name} 可以晋升为	騎士升級時的騎士團晉階提示（名字模板）；2026-10-18 升級盤點
+knight of the sword	圣剑骑士	晉階提示下一列（術語表 Knight of the Sword）
+knight of the crown	皇冠骑士	同上（術語表 Knight of the Crown；推測，未觀測）
+knight of the rose	玫瑰骑士	同上（術語表 Knight of the Rose；推測，未觀測）
+goes down, and is dying	倒下了，且已垂死	我方生命力歸零時的整句（片段 goes down、, and is dying 的既有譯法合併）；戰鬥盤點 2026-10-18
+congratulations...{name} gains experience!	恭喜……{name}获得经验值！	發現秘門等的個人經驗（路徑 B 單行；3/63 實測）
+Move/Attack, Move Left = {n}	移动／攻击，剩余移动力 {n}	本作戰鬥指令列（無尾端空白，overland1 盤點）
+Range = {n}  	距离 {n}  	本作瞄準距離（overland1 盤點）
+Steel            {n}	钢币               {n}	本作金錢列，總寬 18、1 位數靠右（overland1 盤點）
+Steel           {n}	钢币              {n}	本作金錢列，總寬 18、2 位數靠右（overland1 盤點）
+Steel          {n}	钢币             {n}	本作金錢列，總寬 18、3 位數靠右（overland1 盤點）
+Steel         {n}	钢币            {n}	本作金錢列，總寬 18、4 位數靠右（overland1 盤點）
+Steel        {n}	钢币           {n}	本作金錢列，總寬 18、5 位數靠右（overland1 盤點）
+Steel       {n}	钢币          {n}	本作金錢列，總寬 18、6 位數靠右（overland1 盤點）
+How much steel will you drop? 	要丢下多少钢币？	本作丟錢提示（overland1 盤點）
+Gems             {n}	宝石               {n}	本作金錢列，總寬 18、1 位數靠右（overland1 盤點）
+Gems            {n}	宝石              {n}	本作金錢列，總寬 18、2 位數靠右（overland1 盤點）
+Gems           {n}	宝石             {n}	本作金錢列，總寬 18、3 位數靠右（overland1 盤點）
+Gems          {n}	宝石            {n}	本作金錢列，總寬 18、4 位數靠右（overland1 盤點）
+Gems         {n}	宝石           {n}	本作金錢列，總寬 18、5 位數靠右（overland1 盤點）
+Gems        {n}	宝石          {n}	本作金錢列，總寬 18、6 位數靠右（overland1 盤點）
+How much gems will you drop? 	要丢下多少宝石？	本作丟錢提示（overland1 盤點）
+Jewelry          {n}	珠宝               {n}	本作金錢列，總寬 18、1 位數靠右（overland1 盤點）
+Jewelry         {n}	珠宝              {n}	本作金錢列，總寬 18、2 位數靠右（overland1 盤點）
+Jewelry        {n}	珠宝             {n}	本作金錢列，總寬 18、3 位數靠右（overland1 盤點）
+Jewelry       {n}	珠宝            {n}	本作金錢列，總寬 18、4 位數靠右（overland1 盤點）
+Jewelry      {n}	珠宝           {n}	本作金錢列，總寬 18、5 位數靠右（overland1 盤點）
+Jewelry     {n}	珠宝          {n}	本作金錢列，總寬 18、6 位數靠右（overland1 盤點）
+How much jewelry will you drop? 	要丢下多少珠宝？	本作丟錢提示（overland1 盤點）
+Hitting for {n} points of damage	造成 {n} 点伤害	本作戰鬥結果（單一空白，demo 盤點）
+Hitting for {n} point of damage	造成 {n} 点伤害	本作單數（推測）
+Goes Down, and is Dying	倒下了，濒临死亡	本作戰鬥結果（demo 盤點）
+takes {n} points of damage from Magic	受到 {n} 点魔法伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} point of damage from Magic	受到 {n} 点魔法伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} points of damage from Electricity	受到 {n} 点电击伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} point of damage from Electricity	受到 {n} 点电击伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} points of damage from Fire	受到 {n} 点火焰伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} point of damage from Fire	受到 {n} 点火焰伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} points of damage from Cold	受到 {n} 点寒冷伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} point of damage from Cold	受到 {n} 点寒冷伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} points of damage from Acid	受到 {n} 点酸液伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} point of damage from Acid	受到 {n} 点酸液伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} points of damage from Poison	受到 {n} 点毒素伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+takes {n} point of damage from Poison	受到 {n} 点毒素伤害	本作（demo 盤點 Magic、Electricity；其餘推測）
+(from behind) Hitting for {n} points of damage	（背后攻击）造成 {n} 点伤害	本作背刺傷害（單一空白；跨區盤點蓋加斯 2026-10-19）
+(from behind) Hitting for {n} point of damage	（背后攻击）造成 {n} 点伤害	單數（推測，未觀測）
+(from behind) and Misses	（背后攻击）但没有命中	本作背刺落空（跨區盤點蓋加斯 2026-10-19）
+The party has found treasure!	队伍找到了宝物！	寶物畫面（The party has found ＋ treasure! 兩段組成；本作 docs/re/007）
+takes {n} points of damage	受到 {n} 点伤害	本作龍息等沒有 from 的傷害（demo 盤點 2026-10-23）
+takes {n} point of damage	受到 {n} 点伤害	單數（推測，未觀測）
+breathes Fire	喷出火焰	本作戰鬥訊息接在名字後首字變小寫（demo 盤點 2026-10-23；字串表為 Breathes Fire）
+{name} , how can we help you?	{name}，有什么需要帮忙的吗？	神殿招呼（名字與問句整串印出，城鎮服務盤點 2026-10-23）
+How much Copper  will you take? 	要拿多少铜币？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Copper will you trade? 	要交易多少铜币？	同上，交易（推測）
+How much Copper will you deposit? 	要存多少铜币？	同上，金庫存錢（推測）
+How much Copper will you drop? 	要丢弃多少铜币？	同上，丟錢（推測）
+Copper {n}	铜币 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Silver  will you take? 	要拿多少银币？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Silver will you trade? 	要交易多少银币？	同上，交易（推測）
+How much Silver will you deposit? 	要存多少银币？	同上，金庫存錢（推測）
+How much Silver will you drop? 	要丢弃多少银币？	同上，丟錢（推測）
+Silver {n}	银币 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Electrum  will you take? 	要拿多少金银合金币？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Electrum will you trade? 	要交易多少金银合金币？	同上，交易（推測）
+How much Electrum will you deposit? 	要存多少金银合金币？	同上，金庫存錢（推測）
+How much Electrum will you drop? 	要丢弃多少金银合金币？	同上，丟錢（推測）
+Electrum {n}	金银合金币 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Gold  will you take? 	要拿多少金币？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Gold will you trade? 	要交易多少金币？	同上，交易（推測）
+How much Gold will you deposit? 	要存多少金币？	同上，金庫存錢（推測）
+How much Gold will you drop? 	要丢弃多少金币？	同上，丟錢（推測）
+Gold {n}	金币 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Platinum  will you take? 	要拿多少白金币？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Platinum will you trade? 	要交易多少白金币？	同上，交易（推測）
+How much Platinum will you deposit? 	要存多少白金币？	同上，金庫存錢（推測）
+How much Platinum will you drop? 	要丢弃多少白金币？	同上，丟錢（推測）
+Platinum {n}	白金币 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Gems  will you take? 	要拿多少宝石？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Gems will you trade? 	要交易多少宝石？	同上，交易（推測）
+How much Gems will you deposit? 	要存多少宝石？	同上，金庫存錢（推測）
+How much Gems will you drop? 	要丢弃多少宝石？	同上，丟錢（推測）
+Gems {n}	宝石 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Jewelry  will you take? 	要拿多少珠宝？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Jewelry will you trade? 	要交易多少珠宝？	同上，交易（推測）
+How much Jewelry will you deposit? 	要存多少珠宝？	同上，金庫存錢（推測）
+How much Jewelry will you drop? 	要丢弃多少珠宝？	同上，丟錢（推測）
+Jewelry {n}	珠宝 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+Heal whom?  	要治疗谁？	本作治療提示後補一格空白（檢視人物盤點 2026-10-23；字串表為 Heal whom? 單一空白）
+Cure whom?  	要医治谁？	同上
+{name}  feels better	{name}觉得好多了	本作治療結果（名字與 feels better 整串印出，檢視人物盤點 2026-10-23）
+is Healed	已治愈	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Affected	受到影响	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Unaffected	不受影响	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected	受到保护	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Blessed	受到祝福	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Cursed	受到诅咒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Harrassed by Snakes	受蛇骚扰	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Dispelling Evil	驱散邪恶	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Detecting Magic	侦测魔法	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Evil	免受邪恶伤害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Good	免受善良伤害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Resistant to Cold	具有抗冻能力	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Charmed	被迷惑	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Enlarged	已巨大化	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Barkskin	硬皮术	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Friendly	友善	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Slow Poison	缓毒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Reading Magic	阅读魔法	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Shielded	有护盾	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Able to Find Traps	能搜索陷阱	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Fire Resistant (spell)	抗火（法术）	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Silenced	被沉静	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Carries Spiritual Hammer	持有心灵之槌	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Sees Invisible	能看见隐形物	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Invisible (spell)	隐形（法术）	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Befuddled	神智混乱	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Duplicated	被拷贝	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Weakened	虚弱	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Nauseated	恶心	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Blind	失明	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Diseased	染病	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Confused	混乱	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Accursed	被下咒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Blinking	闪烁中	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Strengthened	力量增强	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Hastened	动作加倍	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Normal Missiles	免受一般飞弹伤害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Slowed	被减速	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Evil, 10' Radius	半径10呎内免受邪恶伤害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Good, 10' Radius	半径10呎内免受善良伤害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Affected by Prayer	受祈祷影响	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Fire Shield, Hot flames	防火盾牌，热焰	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Held	被束缚	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Asleep	睡着了	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Fire Shield, Cold flames	防火盾牌，冷焰	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is POISONED	中毒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Invisible (ring)	隐形（戒指）	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Enveloped in Globe of Invulnerability	被魔法防护罩包覆	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Fire Resistant (ring)	抗火（戒指）	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Within Minor Globe of Invulnerability	位于小型魔法防护罩内	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）

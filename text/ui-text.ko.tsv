@@ -1,0 +1,936 @@
+key	translation	source
+ui.00008bd766f0	기도의 영향	machine
+ui.002c9650368c	양측 모두 대기한다.	cok
+ui.00813b28c9bc	보기 조준	cok
+ui.00d0fa5542f1	주문 선택:	cok
+ui.0101e4ce36f7	여기서는 시전할 수 없다...	cok
+ui.015d99b7535a	기본 경로 사용:	cok
+ui.0224e7c79995	성향 선택	cok
+ui.02492c9d09d4	중앙 나감	cok
+ui.02e90ab0a441	Cyrus Lum	machine
+ui.0323473424f1	경계 중	cok
+ui.038686f70c2d	-뒤에서 찌름-	cok
+ui.03f8c1273e3d	남	cok
+ui.0443f86fd865	존경받던 동료를 잃고 눈물을 흘렸다.	machine
+ui.0485df8c54f4	달아났다	cok
+ui.05800e70aa10	화살	cok
+ui.05816dcff51e	저주받음	machine
+ui.059e3425ec44	나무껍질 피부	machine
+ui.0653216d8920	시전:	cok
+ui.067ef9857799	. 설치를 확인하십시오.	cok
+ui.06d4756679e5	독으로 마비됨	machine
+ui.071557ce168d	돌로 변했다	machine
+ui.072f005fc3f2	남서	cok
+ui.07467b84a7ed	숏소드	cok
+ui.07d4f0d9ade4	영원히 사라진다	cok
+ui.07ed6ccf6bf6	메일	cok
+ui.088721ec6d4a	휴식이 갑자기 방해받았다!	cok
+ui.08bd7cbf4b13	광폭화	machine
+ui.08fc07e88648	일행이 전멸했다!	cok
+ui.099d027ca3b5	메모리 부족. 프로그램 종료.	cok
+ui.0a3e37409aa4	마지막 전투의 중압이 무겁게 짓누른 이는	machine
+ui.0a4cdf9d9ee0	잠긴 문에만 쓸모가 있다.	machine
+ui.0a4cf17cc327	금화	machine
+ui.0aac4f3d8041	플레일	cok
+ui.0ae630e4f1dd	축하한다,	cok
+ui.0b05e966e945	아니오	cok
+ui.0b0d77b244a3	실버 블레이즈의 비밀	machine
+ui.0b99edb6aef7	이미 그 주문을 필사하고 있다	machine
+ui.0befe68474e9	훈련을 받겠는가?	cok
+ui.0c55eaf2db39	독 중화	cok
+ui.0c68bd226716	보이게 됐다!	machine
+ui.0c874f581a45	피해	cok
+ui.0d0ae56ee488	항복했다	cok
+ui.0d20c6ca62b0	회복	cok
+ui.0d3f5e18425a	이 가격에 거래하겠는가?	cok
+ui.0d54be0b4ca6	건강한 사람을 치료했다	machine
+ui.0d841497863f	지연 폭발 화염구	machine
+ui.0dc5be426a8c	조이스틱 켜짐	cok
+ui.0df3981e1d69	조이스틱을 읽을 수 없다.	machine
+ui.0e04961c51ea	파티 순서:	cok
+ui.0e3dfc592d73	소생시킬 수 없다	cok
+ui.0ec329bcd4dc	다음 물품은 더 알아낼 것이 없습니다:	cok
+ui.0f2958102b8f	따기	cok
+ui.0f7b79cee0ba	소지품 장비	cok
+ui.0ff3d2b8d663	바이트입니다.	cok
+ui.1073293033b1	합칠 수 있는 같은 물건이 없다.	machine
+ui.107da4c02a25	쓰러져 죽었다	machine
+ui.108040ac289a	루비	cok
+ui.10be2c6fd6de	냉기 저항	machine
+ui.10e51a565fd3	중독되었다	cok
+ui.1116c3efebb0	붕대를 감았다	cok
+ui.111a74afc067	마법 화살	cok
+ui.11261a05f7cd	신들이 개입했다!	cok
+ui.114e33ca7930	내게는 쓸모가 없다.	machine
+ui.11507a0e2f5e	신규	cok
+ui.12ca55d7e7e9	준비 대기	cok
+ui.12e9a0c0cda7	완료	cok
+ui.1303d3de9773	선택 대기	cok
+ui.1325fc582bac	일행 전원이 회복되었다	cok
+ui.1360f8e01924	속도 나감	machine
+ui.136ef4431c42	4레벨	machine
+ui.140262b32b0c	공포	cok
+ui.14bb0ecaa729	겁먹음	machine
+ui.14d67424e599	휩쓸었다	cok
+ui.150040557337	시전	cok
+ui.1520b330a354	판매	cok
+ui.15834b2c3777	원인: 화염	cok
+ui.15bc3680bd9a	여기 없다	machine
+ui.1624e5bc418d	거울 분신	cok
+ui.16584052fd33	정상	cok
+ui.16d4625e4e14	구입 보기 모음 감정 나감	cok
+ui.16f2764960c6	정신 쇠약	machine
+ui.16ff676853e2	(일지, 쪽	cok
+ui.1709305c9fa9	레벨	cok
+ui.188cac7e138b	삭제하겠는가?	cok
+ui.1922ea761b22	AC 2	cok
+ui.199dbea375a6	그래픽 어댑터 종류:  [1] CGA  [2] EGA  [3] Tandy	cok
+ui.19dd0c4eb6b7	밀리터리 픽	cok
+ui.19fee74864a2	헛손질	cok
+ui.1a4b1e57ec5a	일행이 도주했다.	cok
+ui.1a587084469f	제목 다음	cok
+ui.1a794bb3020f	보기 줍기 모음	cok
+ui.1a82b7ad5db1	몫.	cok
+ui.1b060046c58b	할 수 있는 일:	cok
+ui.1b68fd1cf54c	인간 클래스 변경	machine
+ui.1b7842e88a0a	치명상 치료	cok
+ui.1b9adc638021	은화	cok
+ui.1c893adcd5ec	장신구	cok
+ui.1d174814bac2	입력:	cok
+ui.1d1c7913869b	몰래 챙겨 숨겼다:	cok
+ui.1d271a92430d	팔겠는가:	machine
+ui.1d60a3338962	게임 속도 =	cok
+ui.1d7961e4ed0d	선택	cok
+ui.1d992b785bf9	쿼터스태프	cok
+ui.1d9f00d3365b	악취 구름	cok
+ui.1e3a955bd202	공격	cok
+ui.1ed8f78de4b4	한 개 구입:	cok
+ui.1f7133c21072	선택	cok
+ui.204a2f952b3e	무료 훈련 꺼짐	cok
+ui.205c9cf60516	질서 선	cok
+ui.20691bd0739f	이런!	cok
+ui.20a26081e1d6	필사했다	cok
+ui.2139983332ad	호박금화	machine
+ui.218e607c02c8	배틀액스	cok
+ui.221db9db7556	반경 10ft 선으로부터 보호	machine
+ui.2246705b46f3	저장된 게임에서	cok
+ui.22536f0953cf	클레릭/파이터/마법사	machine
+ui.22cd189987e0	생명 말살	cok
+ui.23542cb0bb46	가져가겠는가?	cok
+ui.23e3e052927b	악으로부터의 보호	cok
+ui.23ffe2ed4c9b	전투 전용이다...	cok
+ui.246a64eabf86	캐릭터 이름:	cok
+ui.2512c909e60d	조이스틱 #1을 우하단 끝으로 밀고 버튼 #1을 누른다	machine
+ui.253d86335438	화염 저항 (주문)	machine
+ui.254153c4b85f	<Enter>를 눌러 계속	cok
+ui.254d82b0f10c	요대	cok
+ui.255c5316c6a8	Rick White,Don Mc Clure,	machine
+ui.25d16d4516b5	말벌집	cok
+ui.263bc44ae6ee	냉기 저항	cok
+ui.26e53d2410e1	석화 해제	cok
+ui.271c24e9ae7b	영체	cok
+ui.274814f1a96f	드루이드	cok
+ui.278253d44e93	캐릭터를 잃겠는가?	cok
+ui.27a554699cf3	금화.	machine
+ui.27f004b67f24	이 두루마리에서 필사하려던 참인데,	cok
+ui.282cac63534b	오버레이 디스크를 넣어 주십시오.	cok
+ui.28391d3bc64e	의	cok
+ui.288ad67af0d2	보정을 중단한다.	machine
+ui.291873e31ccb	두루마리	cok
+ui.29e2eea5436f	금화를 줄 테니 당신의	machine
+ui.29ea779dcb6a	그 물품	cok
+ui.2a78025de6aa	선택	cok
+ui.2aaf9bfd20c4	소지품	cok
+ui.2c063fc99025	잔혹한 일격으로	cok
+ui.2c234a550746	공기가 조금 맑아졌다...	cok
+ui.2c9e0d734b01	조이스틱 #1을 맨 오른쪽 아래로 밀고 버튼 #1을 누르십시오.	cok
+ui.2cef23028b6d	납작하게 짓눌렀다	cok
+ui.2e2018a16770	9레벨	machine
+ui.2e433cd6427d	오버레이 오류, 프로그램 중단!	cok
+ui.2e4aaf05df1c	상급	cok
+ui.2ec1e2815946	판매	cok
+ui.2f7a8de1fa06	분해되었다	machine
+ui.2f7b8cbc24de	귀여운 노란 카나리아	machine
+ui.2fa787bb6baf	다음	cok
+ui.2fabd8091e1d	약화됨	machine
+ui.2fd478c88ca0	도적	cok
+ui.304afc32b7ff	얼굴	cok
+ui.304ec16e7502	개의 두루마리.	machine
+ui.30efdfb52ff6	그	machine
+ui.311f423fde0b	배치 나감	cok
+ui.323d3bd94dc3	준비됨	cok
+ui.32679609640d	작별 인사를 건넸다	cok
+ui.32c9fd9a0415	이 두루마리에서 필사하려던 참인데	cok
+ui.32e5d942458f	저장 보기 마법 휴식 설정 치료 나감	cok
+ui.32f6c2ed53d7	아울 파이크	cok
+ui.3331d5456d2d	자벨린	cok
+ui.33a625e899e8	내 아들 중 한 명에게 주겠다.	machine
+ui.3411c79aeedd	드루이드 주문:	cok
+ui.3439f5849c6c	권능어: 충격	machine
+ui.34695f140781	물품 파일을 찾을 수 없다	cok
+ui.35023ac32083	게임이 저장되지 않았다. 그래도 종료하겠는가?	cok
+ui.351beff47541	회복 보기 줍기 모음 분배 감정 나감	cok
+ui.354888db7e7a	에게 명중!	cok
+ui.354cbfc81426	그녀의	cok
+ui.355ecd318242	레벨	machine
+ui.356e7e8add97	클레릭	cok
+ui.35dc00703dc4	타오르는 손길	cok
+ui.3636595bb3c5	저주받았다!	machine
+ui.366dc8f46f54	각 캐릭터가 얻은 경험치:	cok
+ui.36851157efde	팔라딘은 사악한 쓰레기와 함께하지 않는다	cok
+ui.36ba3f71ad6e	장신구	cok
+ui.36d83f00858a	버리겠는가?	machine
+ui.37193853a694	문열기	cok
+ui.373447f83c3b	보석	cok
+ui.379385551034	그 주문은 필사할 수 없다.	cok
+ui.37aa87a44f5f	질병 부여	cok
+ui.38301f8e6c25	덮어쓰기	cok
+ui.3836f8c4efdd	휴식 시간:	cok
+ui.38d9edf514a9	열기 냉기	cok
+ui.397423500c32	우호적	machine
+ui.3995fd69e31b	디스크 3을 넣으십시오. 드라이브:	cok
+ui.39bea64dc385	일행이 떠나자 사제가 말했다:	machine
+ui.39ce92102d66	제목 다음	cok
+ui.39f4e6fa7359	본작 푸른 속박 나감	machine
+ui.3a2157e63ae3	...잠시 대기	cok
+ui.3a241d59687b	괴물	cok
+ui.3a3bf7a09be2	다음 이전 유지 나감	cok
+ui.3aaab8a73c8f	먼저 장비 해제 필요	cok
+ui.3abbd69ed48b	축복	cok
+ui.3b3a7629d93f	독으로 죽었다	cok
+ui.3b439567997b	드래곤 브레스	cok
+ui.3b7cf1876cf3	캐릭터 훈련	cok
+ui.3c52f3edbe94	누구를 치료할까?	machine
+ui.3c89010ac384	집단 투명화	machine
+ui.3cf3aa82aeb1	단어 번호 #	cok
+ui.3cfa88873404	안도의 한숨을 쉬었다.	cok
+ui.3d07afbdb11d	그러나 빗나갔다	cok
+ui.3dd4009a9b56	회복 보기 모음 감정 나감	cok
+ui.3dd5d43f43a7	경고: 메모리 부족	cok
+ui.3e7962d21cc5	완드	cok
+ui.3eb4db249b6e	휴식 일 시 분 증가 감소 나감	cok
+ui.3f0c88ea43ad	반경 10ft 악으로부터의 보호	cok
+ui.3f4e1e037f4c	치료가 필요 없다	machine
+ui.3faa383606fc	느리게	cok
+ui.40bb3baaf5d0	획득	machine
+ui.410a081b2ab7	클레릭/마법사	machine
+ui.418b784a860f	합침	cok
+ui.41be5e6c59e0	환호했다. 저주가 풀렸다!	machine
+ui.41e4ae984c22	물약	cok
+ui.41e68f2cdb38	번개	cok
+ui.4219be8c1840	피해 입음:	cok
+ui.421acf13c1cb	회복	cok
+ui.42412678202e	축소화	cok
+ui.42809b6ddb16	이제 18세다	machine
+ui.42b745650343	완치	cok
+ui.430ea16f1ff6	붕대	cok
+ui.431f23d55810	메스꺼움에 숨이 막혀 켁켁거렸다	cok
+ui.4391105bd3a7	공포에 질려 도주했다	cok
+ui.43ae65428a8f	증가 감소 유지 나감	cok
+ui.443204696da2	파티에서 제외하겠는가?	cok
+ui.44592af7565b	여기선 안 된다	cok
+ui.44bc3799892c	치유	cok
+ui.45983975e321	Ken Nicholson   Mark Johnson	machine
+ui.45f3b27f0f45	차원문	cok
+ui.45fe07b35406	얽혀듬	cok
+ui.466738c48568	전투 대기 도주 전진	cok
+ui.46d70e7d2926	잠겨 있다.	cok
+ui.46e50b3cdce8	소용없다.	cok
+ui.472d834bd07f	침묵당함	machine
+ui.472e73d796e2	AC	cok
+ui.47624c4da274	실버 블레이즈의 비밀	machine
+ui.47e1a40ec961	히트 포인트	cok
+ui.480d4be7d61f	방패	cok
+ui.4844cec572c9	COM 파일을 불러올 수 없음	machine
+ui.4994cb288152	기침하고 있다	cok
+ui.49961ed14ea8	그래도 치료:	machine
+ui.49ba63e89af6	이동력	cok
+ui.4a24b8af9cec	잃어도 되겠는가?	cok
+ui.4abb1289fa79	이전	cok
+ui.4b2bebbf33ae	저속화	cok
+ui.4b7899783330	영향받지 않았다	cok
+ui.4bebe28dca57	훌륭한 수집품을 지녔다:	cok
+ui.4bf12cf910d9	더 이상 중독 상태가 아니다	machine
+ui.4c07a5e27143	빈사 상태가 되었다	cok
+ui.4c644b040133	THAC0	cok
+ui.4cf2381cda99	준비 필사 표시 휴식 나감	cok
+ui.4cf469d6ea54	롱보우	cok
+ui.4d09b992377b	(뒤뜰로)	cok
+ui.4d8cb257b560	모음 나감	machine
+ui.4dc5cfc054ce	주문 2개	cok
+ui.4dd7612e9230	어쩔 수 없이 도주했다	cok
+ui.4e53dd2d48a7	줍기	machine
+ui.4ea2afcc4ab2	노움	machine
+ui.4ebb4dbf49e1	파티에서 제외	cok
+ui.4edef56e55f3	파이터/마법사	machine
+ui.4f29e753c12e	더 이상 석상이 아니다	machine
+ui.4f4ab16743c0	몇 개	cok
+ui.4fbac6d75981	이동 지역 시전 보기 야영 수색 관찰	cok
+ui.4fc604e34605	점멸 중	machine
+ui.4ff3dca3f52c	반사했다!	machine
+ui.5021111cfddc	선으로부터의 보호	cok
+ui.50522ed6b01a	죄송, CGA 모드에서는 불가	cok
+ui.50e28de96686	동료가 빈사 상태다.	cok
+ui.50eab20d5328	매혹됨	machine
+ui.5108a0f0dc36	보석	cok
+ui.525016e81f39	거대화됨	machine
+ui.5250b5de07b3	새 파일 이름:	cok
+ui.5253705f15ab	밴디드	cok
+ui.5263293fc202	작음	cok
+ui.528e6cd82712	떠나려는데 상점 주인이 말했다. "실례지만 돈을 두고 가셨습니다."	cok
+ui.52b785e40b86	파이터/도적	cok
+ui.52eb569301da	질병 면역	machine
+ui.5356f95d42cb	몹시 늙어 보인다	machine
+ui.53916d1113a3	혼돈 선	cok
+ui.5392c12fa251	축하한다...	cok
+ui.53ec87881fd7	묶음 속	machine
+ui.5403b1a56d38	마법 판독 중	machine
+ui.542599d6762b	조이스틱을 읽을 수 없다	cok
+ui.543df38bbe50	오만 교활 친절 공손 욕설	cok
+ui.546fc10be49b	원인: 냉기	cok
+ui.54b6b6331136	버림	cok
+ui.55898449eb74	건강	machine
+ui.55f6a88dc025	소멸	cok
+ui.560c5f3c8b5b	명중!	cok
+ui.562e21500575	석공만 치료할 수 있다	machine
+ui.5672c76c7da3	DISKCOPY로 복사본을 만드십시오.	cok
+ui.5679daa7c55d	대거	cok
+ui.5684b8c34548	마지막으로 깊이 숨을 내쉬고 땅에 쓰러졌다.	machine
+ui.56d88a11d595	막대기를 뱀으로	cok
+ui.57cf485824df	메모리 부족$메모리 부족. 프로그램 종료.	cok
+ui.5806c79980ac	하플링	machine
+ui.58814d4cbc04	광폭해졌다	cok
+ui.58851b8fac82	클레릭	cok
+ui.58f6ffe741db	야영 중	cok
+ui.59023abea680	분해	machine
+ui.594ae1732541	공포에 질려 도주했다	machine
+ui.595ba83def48	순간이동했다	cok
+ui.5971145b42aa	무게 초과. 돈은 모음에 넣는다.	cok
+ui.59b74e17ac37	악 퇴치	cok
+ui.59d6cf4f638f	의식이 있는 사람만 훈련한다	cok
+ui.59e2e535d844	Fred Butts	machine
+ui.59e74f11c96a	중립 악	cok
+ui.5a0009478568	화염 직격	cok
+ui.5a5c3f75ebce	다트	cok
+ui.5a61e98fa546	금고에 남겨진다	machine
+ui.5a7dff7cd74c	아직 보물이 남아 있다.	cok
+ui.5a98505ed913	백금화	cok
+ui.5af65b05298f	이동/공격, 남은 이동력 =	cok
+ui.5b18381b1906	조우 설계:	machine
+ui.5b3fdf6febd0	사운드 종류: [1] AdLib	machine
+ui.5b7ea832e1b1	두루마리	cok
+ui.5c4b9d1c89bd	막대기를 뱀으로 바꿨다	machine
+ui.5c4efffc1a54	준비했다	cok
+ui.5d14d08deb37	물건 하나	machine
+ui.5d8c80c09ab0	마비되었다	machine
+ui.5db98e7af406	저장 중... 잠시 대기	cok
+ui.5e88d3982ab7	게임 속도:	cok
+ui.5e9fc445ff43	(방향키 사용)	cok
+ui.5fa7aac5375c	장비	cok
+ui.60135e8f5cbb	수면 중	machine
+ui.6024329694ab	보석	cok
+ui.60c397046c19	할버드	cok
+ui.61622162cdb3	문열기	cok
+ui.618ae3799df9	(뒤에서)	cok
+ui.61bbff73e058	준비	machine
+ui.61e52adc2174	원인: 마법	cok
+ui.61e932cd1783	중상 가해	cok
+ui.622af18ec40b	DOS로 종료	cok
+ui.6249df4367d0	금화	machine
+ui.624a5b72859b	주문이 중단되었다	cok
+ui.62620037164a	영향 없음	machine
+ui.629ffe46b6a0	마법 꺼짐	cok
+ui.62a468d8a087	영체 망치 소지	machine
+ui.637308e94973	둔해졌다	machine
+ui.63783b1ec102	예 아니오	cok
+ui.637c8ce00e81	도주:	cok
+ui.63b579c5009b	축소되었다	cok
+ui.63ee3a1b965a	괴력	cok
+ui.64b9370e4ffa	무게 초과	cok
+ui.64bc55f61b77	캐릭터 삭제	cok
+ui.64c82aaed1b4	실명	machine
+ui.64e3cb0e4960	구입	cok
+ui.6501d6e4ac16	번개	cok
+ui.6503fd1bd5d2	저주받았다!	cok
+ui.65705bcc0861	백금화	machine
+ui.65832451b31e	Russ Brown   Laura Bowen	machine
+ui.65a45b3db080	지혜	cok
+ui.65a856807cd8	클레릭/도적	cok
+ui.65cb8bc4d032	모두 끄기	cok
+ui.6659c4ca6420	메이스	cok
+ui.668f8131b2e8	거인의 힘	cok
+ui.669cfb5fcba6	의 시신에서 값진 물건을 찾았다.	machine
+ui.670293c75557	하급 무적의 구체 안	machine
+ui.6713d8d20402	안식이 갑자기 방해받았다!	machine
+ui.67927b5fa959	축복받음	machine
+ui.67abe0afb7d7	부위 첫째색 둘째색 크기 나감	cok
+ui.681927e34b77	지팡이	cok
+ui.6852e524971b	이미 사용 중:	cok
+ui.688449dc6f1d	퇴로가 막혔다	cok
+ui.6891a569c292	AC 10	cok
+ui.68945ce37c83	근력	cok
+ui.68a99f8cb6b4	먼저 소생시켜야 한다	machine
+ui.68ed6b741540	마법 탐지 중	machine
+ui.690ce08a1484	호박금화	machine
+ui.69686409f3e8	영체 망치	cok
+ui.698d9ad03b1a	엘프	machine
+ui.69ec6af313aa	반경 10ft 투명화	cok
+ui.6a88445bbf65	목걸이	cok
+ui.6ac8fcdfb8e4	완전히 회복되었다	cok
+ui.6ae066ae37be	영구히	cok
+ui.6af2bad77d57	경상 치료	cok
+ui.6b19f0a49196	AC 6	cok
+ui.6b7573221b4f	저주 해제	cok
+ui.6bd1127b18aa	다음 이전 수동	cok
+ui.6bdc33eef062	주문을 중단하겠는가?	cok
+ui.6be7135d9f6f	멍청해졌다	machine
+ui.6bed4a4b0f2d	유지 나감	cok
+ui.6c45feb33639	6레벨	machine
+ui.6c5db1c72d96	좋소. 받아 두겠소.	machine
+ui.6c8e3155e463	중립	cok
+ui.6ca94c9f8a62	음악:	cok
+ui.6d152f07d42a	원본 디스크라면 DISKCOPY로 복사본을 만드십시오.	cok
+ui.6d88eb730ffb	혼돈 악	cok
+ui.6ddb1b49d365	엘프 체인	cok
+ui.6e399f2787a0	기도	cok
+ui.6e8761a253a7	주문 3개	machine
+ui.6e9423cdd7c0	지연 폭발 화염구가 터졌다	machine
+ui.6ea2acf442bd	해독되었다	machine
+ui.6eac636b81bf	저장할 게임:	cok
+ui.6f19a5aaf6ae	마법 돌 소지	machine
+ui.6f5a60034172	이 주문들이 맞는가?	machine
+ui.6f5f6a7876cf	안도의 한숨을 쉬었다	cok
+ui.6f7418045e72	보호의	cok
+ui.6fac432d6b5a	바보 같으니! 먼저 묶음에서 꺼내라!	machine
+ui.6fbc8cc1750a	마법 장화 착용	machine
+ui.6ffa6b8b1c9f	석화	machine
+ui.700ceab2be74	마우스 켜짐	cok
+ui.7040944fe0f6	독 구름을 만든다	machine
+ui.7084340de831	반경 10ft 선으로부터의 보호	cok
+ui.70b0849a1046	만족스럽게 트림했다	machine
+ui.714a926c9269	경험치:	machine
+ui.7186aedb5e7e	죽음의 주문	machine
+ui.71bf3eb8b628	기분이 나아졌다	machine
+ui.71c095b134e2	트라이던트	cok
+ui.72114d9f7221	분할	cok
+ui.723749294549	영약	machine
+ui.72403cdf00a1	점의 피해.	cok
+ui.72505b0ff17d	젊어졌다	machine
+ui.72839726ec25	기침하기 시작했다	cok
+ui.7298a246841d	영향받지 않았다	machine
+ui.729dccf7638c	무게 초과. 돈은 모음에 넣는다.	cok
+ui.72e81feaa8a1	클럽	cok
+ui.72f5a9907af4	교환 상대는?	cok
+ui.73017b67c80b	계속하려면 아무 키나 누르십시오	cok
+ui.7308fcc58956	저장 디스크가 있는 드라이브:	cok
+ui.7313f57bf6d1	점.	cok
+ui.733a7885c841	캐릭터 수정	cok
+ui.735b03a3f745	매력	cok
+ui.735b64972b07	확인 다른 디스크	cok
+ui.73967b10f229	전투 계속:	cok
+ui.73aacaa0a21a	마우스 꺼짐	cok
+ui.73c9c98668a3	그의	cok
+ui.73dc206813c0	WALLDEF 출처	machine
+ui.73dda53255f5	화염구	cok
+ui.7425046ea84b	이 외형으로 하겠는가?	cok
+ui.746ea349ca6f	원인: 전기	cok
+ui.74bc11c5490c	구입:	cok
+ui.7558c8476131	돌아가서 돈을 되찾겠는가?	cok
+ui.755c8b2a9fb1	상태:	cok
+ui.75c0ba1cdca8	전격에 맞았다	cok
+ui.762226aafd83	보석	cok
+ui.77bf07480400	필사	cok
+ui.787dad0cf8a3	저주에서 풀려났다	machine
+ui.7935c6648824	교환하겠는가?	cok
+ui.796642c29190	실명 치료	cok
+ui.7996af070c23	교환	cok
+ui.79b1697b494f	일반 투사체로부터 보호	machine
+ui.79ecd2d19bfb	그것들을?	machine
+ui.7a0aca93697c	100금화에 식별해 주겠소. 대상은 당신의	machine
+ui.7ac6561f7ff4	질서 중립	cok
+ui.7ad26b16df8b	마법사	machine
+ui.7afde2cf9e6c	장신구	cok
+ui.7b682d92b448	질서 악	cok
+ui.7bd75e5bf8f3	파티에 레인저가 너무 많다	cok
+ui.7bfdfa1353ed	중립 선	cok
+ui.7c0376ae0ea9	무게	cok
+ui.7c2da26ef6e0	정말인가?	cok
+ui.7c6cfd76225a	장비   동작	cok
+ui.7cbba619e3ba	몸 상태가 나빠	cok
+ui.7d08b2536e65	주문을 준비할 수 없다	cok
+ui.7d0be6a006b9	약해졌다	machine
+ui.7d16eda386e1	메스꺼움	machine
+ui.7e4f7d7e6c00	투명체 감지	cok
+ui.7e94675ff2de	투구	cok
+ui.7f7a297e2c31	예	cok
+ui.7f94b4b11a1d	지역 시전 보기 야영 수색 관찰	cok
+ui.7fbe1537394e	쿼럴	cok
+ui.7fcc28d85231	실명이 풀렸다	machine
+ui.7ffbeb7f1164	불러오기	cok
+ui.803a155fcf80	및 레벨	cok
+ui.80a02596ee54	죽었다.	cok
+ui.812d570d8988	이미 아는 주문이다.	cok
+ui.814d608d6c4d	잃어도 괜찮겠는가?	cok
+ui.8150079a1a3c	악으로부터 보호	machine
+ui.817a55f2a393	잘못된 유형	machine
+ui.81910caf6e3a	괴물 포박	cok
+ui.81a66e3516e8	일 시 분 증가 감소 나감	cok
+ui.81b7c32128bd	자격이 없다.	machine
+ui.834647b290ad	투명 (반지)	machine
+ui.836016c0616b	투명 (주문)	machine
+ui.838bb792ae73	얼마나	cok
+ui.840bee47957d	점	cok
+ui.842c3f9a9151	컴포지트 롱보우	cok
+ui.846ceffa185d	어디에서 추가할까?	machine
+ui.84e79ec5c06b	돈이 부족하다	cok
+ui.84efb3405723	가해	machine
+ui.851048823b87	감속됨	machine
+ui.8533e0f4e54f	악 퇴치 중	machine
+ui.85508313b762	마도서 수록	cok
+ui.858cd61e5d1e	사자 소생	cok
+ui.85cd61f8c3c8	포박됨	machine
+ui.86d864d10977	보석도 장신구도 없음	cok
+ui.8738105bdd25	뱉었으나 빗나갔다	machine
+ui.87d6ec410a8b	하급 무적의 구체	cok
+ui.87e376689f8a	사파이어	cok
+ui.8879ab4f6391	느리게	cok
+ui.88b3d8eed54f	저주	cok
+ui.892b3e482474	슬링	cok
+ui.89db952e6b66	육신으로 돌아왔다	machine
+ui.8a1e48f5104a	일행이 전멸했다	machine
+ui.8a21969b3d68	AC 4	cok
+ui.8a72bfdf9031	영향받지 않았다	machine
+ui.8ab8ccf1ae88	트리블	machine
+ui.8b4c3701309d	투사체	cok
+ui.8b862ba45dce	줍기	cok
+ui.8be704dd2de1	, 무엇을 도와드릴까요?	cok
+ui.8be91414fd53	보석	cok
+ui.8cd68723841c	주문을 시전했다	cok
+ui.8d06f22a0748	사용하겠는가?	cok
+ui.8d77768365dd	망토	cok
+ui.8d89e4a829ae	추가	cok
+ui.8e31ecbb1dab	저주에 걸림	machine
+ui.8e3e8d7a009c	, 빈사 상태가 되었다	cok
+ui.8e9f93a3bf57	Dave Shelley   Susan Manley	machine
+ui.8eaa4fbfbbfa	전격의 손아귀	cok
+ui.8ed9a61e8db6	사용자: NUMLOCK이 켜져 있는지 확인하라.	machine
+ui.8f17aeef225d	분신 하나를 잃었다	cok
+ui.8f24e7e793e7	보조 입력 장치:  [1] 조이스틱  [2] 마우스  [3] 없음	cok
+ui.8f4a0aaa62c4	주문	cok
+ui.8fd1000fb601	그 묶음에서 필사하려 했다	machine
+ui.901bc8dfb280	구리화	cok
+ui.9031d5840eea	악 퇴치에 저항했다	machine
+ui.908881ec8eb9	지능	cok
+ui.90d8d6de638c	라이트 크로스보우	cok
+ui.90fade6fb78e	거울	cok
+ui.912567158776	순식간에 소화되었다	machine
+ui.914120b2375c	돌로 변했다	machine
+ui.91eb2681ef61	석화	machine
+ui.925f9d446890	기능을 선택하라	cok
+ui.929433e4be1d	장화	cok
+ui.92cefa5523a8	질병에 걸리지 않았다	machine
+ui.93022dfd9b34	독 지연	cok
+ui.9305d3a8e566	보기 줍기 모음 분배	cok
+ui.9349e8fa6cf6	무적의 구체에 감싸임	machine
+ui.934fc6d174a1	누구를 회복할까?	machine
+ui.939473c4290e	인간형 매혹	cok
+ui.93f97649cdeb	탐지 나감	cok
+ui.93fe3ac0ddb8	바위	cok
+ui.94205b0aec0b	화염 저항 (반지)	machine
+ui.94390fc2be66	구입 보기 줍기 모음 분배 감정 나감	cok
+ui.94be0417569f	그 무기로는 안 된다	cok
+ui.94c736fde0c8	팔렸다!	cok
+ui.94ecaa4b2354	프로젝트팀   Dave Shelley	machine
+ui.9507ad17d71f	혼란	cok
+ui.9571965c2381	불러올 수 없음:	machine
+ui.9596e8d6030b	세	cok
+ui.95a0c6cfd7d2	선택되었다	cok
+ui.963a606aee50	괴물 매혹	cok
+ui.964c6bc07bca	치료되었다	machine
+ui.9656bebfdf14	대신 처분해 주겠소?	machine
+ui.967a6bde0596	조이스틱을 읽을 수 없습니다.  보정을 중단합니다.	cok
+ui.9760e90581ce	바스타드 소드	cok
+ui.978354db0c00	목표	cok
+ui.97b83b7e68be	물품 하나의 저주가 풀렸다	cok
+ui.988078bad6b1	해독됨	machine
+ui.990efc96febb	뱀에게 시달림	machine
+ui.99c4cc7855b7	클레릭/레인저	cok
+ui.9a1cce7fcc35	클래스 불일치	cok
+ui.9a4078ebe058	하프 엘프	machine
+ui.9a5253015a01	빠르게	cok
+ui.9ab184b85e05	사라진다	cok
+ui.9acf34320531	중독되지 않았다	machine
+ui.9ae5a4479a81	저장할 수 없다. 디스크 공간이 없다.	cok
+ui.9b2bbce6c72d	보호받았다	machine
+ui.9c87350ca200	주문	cok
+ui.9ce61a439558	마법사 주문:	cok
+ui.9d6a11309ab7	냉기 분사	cok
+ui.9d8e4869a5ce	장신구	cok
+ui.9e2bbca238ae	수정할 수 없다.	cok
+ui.9e5d3472e05f	(시전 중)	cok
+ui.9ed60d1a8871	인간/포유류 매혹	machine
+ui.9fc3eff8f2ea	로브	cok
+ui.9ffa865f2bc6	인간	cok
+ui.a0110bf32cd0	그 두루마리에서 필사하려 했으나,	machine
+ui.a0323615baef	악을 용납하지 않는다!	cok
+ui.a08b81501003	뱉는다...	machine
+ui.a0b43df06f52	은화	cok
+ui.a10cae1e9c04	드래곤 브레스 면역	machine
+ui.a123dd728a7a	취약	cok
+ui.a1c1212619a3	거대화	cok
+ui.a1e592fecee5	금전 물품 나감	cok
+ui.a214ce0a26eb	멍하니 응시했다	machine
+ui.a24f89fb7eb3	방어도	cok
+ui.a26d873b3d51	디스크 A는 쓰기 방지 상태이면 안 됩니다.	cok
+ui.a29e9feca009	조이스틱 #1을 맨 왼쪽 위 끝까지	cok
+ui.a2dc69ccc8c9	5레벨	machine
+ui.a3237f49325a	식별	cok
+ui.a37430e22cd0	점멸	cok
+ui.a384eabeb450	가속됨	machine
+ui.a39e9d9816a9	눈	machine
+ui.a3bf67830817	제시가:	cok
+ui.a3c6a0e36a49	도망쳤다	cok
+ui.a3d5382fff70	뱀과 싸우고 있다	cok
+ui.a3e0b6a1c528	드로우	cok
+ui.a3ef91cb4236	건틀릿	cok
+ui.a47214d1d511	일행이 야영을 시작했다...	cok
+ui.a4d9c62a66cc	선택 나감	cok
+ui.a56df8de4062	우리는 그 클래스를 훈련하지 않는다.	cok
+ui.a592855d0508	갑옷	cok
+ui.a62660f5a402	저주 해제됨	machine
+ui.a670c8d297ce	몽크	machine
+ui.a719751ac171	휴식을 멈추겠는가?	cok
+ui.a7290a044b25	죽음구름	cok
+ui.a793518be0c2	민첩	cok
+ui.a79781522d3d	치료되었다	machine
+ui.a7cd5d8f8422	판금	cok
+ui.a7d973a732d0	팔라딘	cok
+ui.a824f34f6cbe	저주 부여	cok
+ui.a83c73379750	행운을 빈다	machine
+ui.a8accc8cbc98	일행이 돈을 조금 두고 갔군."	machine
+ui.a95140d02db9	살해되었다	cok
+ui.aa433e0ea3c6	선으로부터의 보호	cok
+ui.aa537527975c	주문을 중단하겠는가?	cok
+ui.aa67752cdcbc	캐릭터 선택	cok
+ui.aabda3b2731b	시력을 되찾았다	machine
+ui.ab741ba7a7a6	캐릭터 보기	cok
+ui.ab80540d98d2	큼	cok
+ui.ababed4823ab	모발	cok
+ui.ac08bed00d4d	(무력)	cok
+ui.ac2798d7e85b	살해당했다	machine
+ui.ac461667a825	캐릭터 생성	cok
+ui.ac7104fc4031	필사할 수 있는 두루마리가 없다	cok
+ui.accf5e41d3a8	피해 입음: 1점	cok
+ui.ad1096e9f7c3	준비	cok
+ui.ad945ef0220b	Graeme Bayless	machine
+ui.add58d08294b	이곳에서는 주문을 시전할 수 없다	cok
+ui.adfe0feb6f39	캐릭터 추가:	cok
+ui.ae48de661444	언뜻 보기에 일종의	cok
+ui.aee3b8154004	저장 중 예기치 않은 오류:	cok
+ui.aeeabe9647b6	게임을 실행하기에 메모리가 부족합니다.  필요한 추가 용량은	cok
+ui.af1ccb31304d	에메랄드	cok
+ui.afd29fe703f8	화염 방패, 뜨거운 불꽃	machine
+ui.afdd55851bbe	7레벨	machine
+ui.b0a3e9daee9d	도랑에 버려졌다	cok
+ui.b0b21f129832	저장하기	cok
+ui.b0b3678b4c63	피해	cok
+ui.b0ed26337336	보호받음	machine
+ui.b11529a1854f	일행이 전멸하자 괴물들이 환호했다.	cok
+ui.b131c4ae30ff	동물에게 투명	machine
+ui.b156b926dc3a	수정:	cok
+ui.b17ae4e8dd75	혼란에 빠졌다	cok
+ui.b1c605cbc7e2	선으로부터 보호	machine
+ui.b1daf7d8771a	부적	cok
+ui.b1edfd1bc6f9	불러올 게임:	cok
+ui.b21d60d3c86e	회복 나감	cok
+ui.b26af6d5c21a	복제됨	machine
+ui.b3063dda39ee	이 장신구의 가치:	cok
+ui.b38102de71ef	피했다	cok
+ui.b3f952e8b678	링	cok
+ui.b3fe34614a71	보물!	machine
+ui.b46fe55938ec	일행의	cok
+ui.b4acd500851a	화염 방패, 차가운 불꽃	machine
+ui.b4eb600e2bd2	함정 탐지	cok
+ui.b507eb205317	내다 버림:	cok
+ui.b528f9d1a283	드워프	machine
+ui.b55d3062e7db	컴포지트 숏보우	cok
+ui.b59528a9bc9f	브로드소드	cok
+ui.b639c243cebd	다이아몬드	cok
+ui.b67514c6d13f	화염 저항	cok
+ui.b6a899371ceb	다음으로부터 보호:	machine
+ui.b6e7d327076f	다른 디스크를 넣으세요.	machine
+ui.b75af7ef6c4d	투명해졌다	machine
+ui.b7a1040b39ad	얼마를 입금할까?	machine
+ui.b84f45ad29b0	입금	machine
+ui.b9267e64e341	버리겠는가?	cok
+ui.b970634c8409	화염 방패	cok
+ui.b97410f97c75	디스크 2를 넣으십시오. 드라이브:	cok
+ui.b979617559ad	감정:	cok
+ui.b991604729c6	무게 초과	cok
+ui.b9d05f332634	경계	cok
+ui.b9ec2686588d	예 아니오	cok
+ui.ba24b7992d5d	늙었다	cok
+ui.ba77b08db988	보이게 되었다	cok
+ui.ba7ebb6c0b12	클래스 선택	cok
+ui.baa3e9b41f45	중상 치료	cok
+ui.bb33dbdb2f21	사용	cok
+ui.bb4e56df6695	사용	cok
+ui.bbe963c645f0	드래곤	cok
+ui.bc0f80620ba6	숏보우	cok
+ui.bc15529dc7b3	경험치 부족	cok
+ui.bc4ac4b84ba5	일행이 승리했다.	cok
+ui.bc78aafbc3ac	대 거인	machine
+ui.bc7c40542c40	늙어 죽었다	machine
+ui.bce9e63c661b	보기 모음 나감	cok
+ui.bcf47e35fc5f	쓰러졌다	cok
+ui.bd104d1b98d0	친밀화	cok
+ui.bd89d0b81174	돌아가서 보물을 가져오겠는가?	cok
+ui.be547a8c19df	밀고 1번 버튼을 눌러라.	cok
+ui.bec2538a4c67	전투 대기 도주 협상	cok
+ui.bed9952c236e	0	machine
+ui.bf2b55855742	눈이 멀지 않았다	machine
+ui.bf3654a9a3dd	매혹 중	machine
+ui.c031b229eabd	찾지 못함:	cok
+ui.c03e83a9774a	야영 전용 주문	cok
+ui.c08b2b9e8fbd	점	cok
+ui.c08fa66506c8	일행이 떠나자 가게 주인이 말했다: "	machine
+ui.c0d751710cfb	3레벨	machine
+ui.c141faa80e43	화염	cok
+ui.c157cbf647f5	해머	cok
+ui.c1fcf83e875d	북서	cok
+ui.c210bfdf28ce	저장	cok
+ui.c21365c7ea5b	2레벨	machine
+ui.c2144e87fdf4	빠르게	cok
+ui.c2322227f700	질병 치료	cok
+ui.c2498a142a32	지능을 되찾았다	machine
+ui.c2753bcb60bc	교환	cok
+ui.c2dc3b498d2c	투명체를 본다	machine
+ui.c35ed1964164	히트 포인트	cok
+ui.c372fee9b456	속도	cok
+ui.c38a51535885	DOS로 종료	cok
+ui.c46f278027d6	조이스틱 꺼짐	cok
+ui.c471f9cdb247	Rick White	machine
+ui.c4774fc6d0d8	분노했다	cok
+ui.c48d9d9a455d	마법으로 강조됨	machine
+ui.c4e0e1d86094	모험 시작	cok
+ui.c4ff4a77d890	갈 수 없다	cok
+ui.c5031dcec9ef	수색 중	cok
+ui.c5432cc858f5	이미 목표다	cok
+ui.c56d8db72d8b	질병에 걸리지 않았다	machine
+ui.c5e3a704d58f	한 묶음	machine
+ui.c600613067cb	핸드액스	cok
+ui.c60b2fd627f7	물품 포인터 없음...	machine
+ui.c6263aa6c40c	해제되었다	machine
+ui.c701560fa2f4	개발:	machine
+ui.c71c66ea7e4c	스피어	cok
+ui.c83cfaf4080c	마법 화살	cok
+ui.c848bff204f4	이동	cok
+ui.c8c487bf9b56	보석	cok
+ui.c8d3812485c0	물품을 사용했다	cok
+ui.c8ed26fc0fb3	플레이테스트:	cok
+ui.c9e47f12e274	일반 투사체로부터의 보호	cok
+ui.ca14b7c00b29	청춘	machine
+ui.ca4d5dab9791	머리 무기 나감	cok
+ui.ca82600f30f3	떠나려는데 사제가 말했다. "실례지만 돈을 두고 가셨습니다."	cok
+ui.ca949ab43e76	모닝스타	cok
+ui.cab923a670e4	롱소드	cok
+ui.caf6af5f6996	반경 10ft 악으로부터 보호	machine
+ui.cb96521ce500	마비	cok
+ui.cba06b5736fa	기존	cok
+ui.cbefa25e9f4e	괴물들이 도주했다.	cok
+ui.cc15607b461e	(규칙서, 쪽	cok
+ui.cc173df6702c	화염구	cok
+ui.cd29a99041b6	해당 일지 #	cok
+ui.cd5a2e8ededf	노려봤다...	machine
+ui.cdbf2aad986c	돈이 부족하다.	cok
+ui.ce732dd1274e	저장 데이터 경로 (기본값 -	cok
+ui.ce73dcfe30dd	통째로 삼켜졌다	machine
+ui.ce78afd0e6a2	습득	cok
+ui.cf0a9a5f4ab6	지연 폭발 화염구를 설치한다.	machine
+ui.cf360b345efa	회복되었다	machine
+ui.d004ff3c3b43	마법 무효화	cok
+ui.d0068ba429ec	Michael Mancuso   Mike Provenza	machine
+ui.d0291caff432	이 보석의 가치:	cok
+ui.d04d143601b3	영향받음	machine
+ui.d119669b1a25	유독 구름을 만들었다	cok
+ui.d17044a2f3d3	주문:	cok
+ui.d17d84a60499	나감	cok
+ui.d1965cb2d2e5	AC 3	cok
+ui.d1d632796f8a	활성	cok
+ui.d1e9567da9a8	부수기	cok
+ui.d28b15c6a6d9	판매 유지	cok
+ui.d2c838f79473	죄송합니다. 디스크 A는 쓰기 방지 상태이면 안 됩니다.	cok
+ui.d2e8c55edc30	가치가 없다.	machine
+ui.d3298bdbb939	파티에 추가	cok
+ui.d32caeb5b3b0	남은 일행은 슬픔을 가누지 못한 채	machine
+ui.d35b0efe2128	구리화	cok
+ui.d3e4217f335c	동전 종류 선택	cok
+ui.d466bcf52eb6	수면	cok
+ui.d46a1f205204	함정 탐지 가능	machine
+ui.d4769daf9f05	작별 인사를 건넸다.	cok
+ui.d47ed503f924	8레벨	machine
+ui.d4ed6a5b7f23	<마법 효과 없음>	machine
+ui.d520d4a25f73	버리겠는가?	cok
+ui.d52b96d2ce02	경상 가해	cok
+ui.d53895c6eb78	투명화	cok
+ui.d539cd97ca1a	북동	cok
+ui.d5a78b996fe6	독	cok
+ui.d5cc133735e7	장신구	cok
+ui.d5eb90184aff	동물 대상 투명화	cok
+ui.d602e91d93c8	그녀	machine
+ui.d60cd2e0bb8c	AC HP	cok
+ui.d61160238799	시전	cok
+ui.d6186a504f76	마법 판독	cok
+ui.d6359f6ff9fc	성별 선택	cok
+ui.d69eecab2f76	마법 탐지	cok
+ui.d6be94e808f0	먼저 장비해야 한다	cok
+ui.d6d123e2e8ce	무료 훈련 켜짐	cok
+ui.d70f9fe84763	마우스/조이스틱 설정	cok
+ui.d88ade772ab3	능력치를 다시 굴리겠는가?	cok
+ui.d91e43895d60	전투가 시작됐다...	cok
+ui.d9325e0936a5	소생했다	machine
+ui.d9b72c6c8ed6	Dave Lucca,Cliff Mann,Rick Wilson,	machine
+ui.dae0896cbc2c	체인	cok
+ui.daf064fe39bd	무의식	cok
+ui.db3810c531fd	그것을?	machine
+ui.db3fef5c15fb	치료되었다	machine
+ui.dbcc0fc54744	중독	machine
+ui.dc0c1dbcae76	성장 후:	cok
+ui.dcc839a4015c	보기	machine
+ui.dcd1d5223f73	이름	cok
+ui.dcd379d4ed4a	이제 1레벨	machine
+ui.dcddc47e957c	저능화	cok
+ui.dcf150e2e4e5	자동 완료	machine
+ui.dd6b632301cc	괴물 데이터 로드 실패	cok
+ui.dddde79baf4c	두루마리를 필사할 수 없다.	cok
+ui.de1e334ce4b4	버튼이나 <Enter>를 눌러 계속.	cok
+ui.de3b46da4da8	가속	cok
+ui.de4bc87fb5fb	질병이 치료되었다	machine
+ui.de5a971d55c5	DOS로 종료	cok
+ui.deca3b342a9f	새 클래스 선택	machine
+ui.df0cc1721459	석화되지 않았다.	machine
+ui.df4f6c72ae34	경고: 캐릭터 저장 중 문제 발생	cok
+ui.dfc5d1c129a5	혼돈 중립	cok
+ui.dfccfbed6a52	얼음 폭풍	cok
+ui.e00b7065984d	브레이서	cok
+ui.e01ae25b03ab	마력	cok
+ui.e01ddf6594a4	1레벨	machine
+ui.e06849281b5e	게임 제작:   스토리 및	machine
+ui.e07f87e5bf6f	빈사	cok
+ui.e0cf46fc6a62	두루마리들	cok
+ui.e155361c7f5d	클레릭 주문:	cok
+ui.e181bc015be0	마법사	cok
+ui.e188d7831c07	시미터	cok
+ui.e1e5a4931ff6	조준:	cok
+ui.e1f3cf2badbf	내뿜음:	cok
+ui.e23621e57725	화염 저항	cok
+ui.e2491eec6c44	게임 속도 (	cok
+ui.e26c6f94d702	축하한다, 일행이 경험치를 얻었다!	cok
+ui.e272deecde72	냉기	cok
+ui.e292a18dd0b9	불가:	machine
+ui.e31eff32369f	무적의 구체	machine
+ui.e3e1e619a1c8	투핸디드 소드	cok
+ui.e420dd994483	목표	cok
+ui.e49c25426bd9	프로그래밍:   그래픽 아트:	machine
+ui.e4cba1c76c15	밀고 1번 버튼을 눌러라.	cok
+ui.e5282f4df0a5	자신을 목표로 할 수 없다	cok
+ui.e52a3fb722bd	줍기:	cok
+ui.e57bab47cfc9	초보 종자 고참 달인 용사	cok
+ui.e6174370bafa	부활했다	machine
+ui.e66ad0bcb4ad	실명 부여	cok
+ui.e6cd637f954b	레인저	cok
+ui.e6f16936a01e	주문 하나를 잃었다	cok
+ui.e718fa37db3b	반경 10ft 악으로부터의 보호	cok
+ui.e7f0b1d7f250	파이터/마법사/도적	machine
+ui.e864a8c0c782	반경 15ft 침묵	cok
+ui.e8cca808ae5a	여	cok
+ui.e8e775159a57	가죽	cok
+ui.e90f751cffd5	폭발 지연 세그먼트 수 (1-50)?	machine
+ui.e913d0b16469	사거리 =	cok
+ui.e920b38b45dd	불러오는 중... 잠시 대기	cok
+ui.e932f4664fa9	종족 선택	cok
+ui.e948f1f230fc	무력한 자를 죽였다:	cok
+ui.e9f29f8907ff	일행이 발견했다:	machine
+ui.ea41abe045db	혼란	cok
+ui.ea6e0b2c854d	Ken Humphries   Tom Wahl	machine
+ui.eadd361adaa7	물품:	cok
+ui.eb0b6be42cae	보기 줍기 모음 분배 감정 나감	cok
+ui.eb45597f7b2c	아군 공격:	cok
+ui.eb5ce7d3c9df	누구와 교환하겠는가?	cok
+ui.ebac393d44b1	질병	machine
+ui.ebb4cacf2286	경험치를 얻었다!	cok
+ui.ebc583583e1a	<Enter>를 눌러 계속	cok
+ui.ebe2888cf1da	필사 대기	cok
+ui.ec1d85c28e73	(0=가장 빠름 9=가장 느림)	cok
+ui.ec21c8afa7ed	순서 버림 속도 외형 난이도 나감	machine
+ui.ec56ff1c91f1	근력 증가	machine
+ui.ec9b10a4a79c	사망	cok
+ui.eca1db49d76e	SSI 특별	machine
+ui.ecf6a38963dc	되살아났다	machine
+ui.ed044e582700	뱀 매혹	cok
+ui.ed695f1dd60f	TANDY 1000 사용자: NUMLOCK을 켜십시오.	cok
+ui.edb9de30ada2	양손이 이미 찼다!	cok
+ui.ee34c92a04df	석화되지 않았다	machine
+ui.eed1d1805f7c	입금	machine
+ui.eeebd533ebee	허리띠	cok
+ui.ef2bec0e5f42	혼미	machine
+ui.ef64ecdd8805	마법사/도적	machine
+ui.efa20443d02e	다시 육신으로 돌아왔다	machine
+ui.efb9cda48d9d	시전을 시작했다	cok
+ui.eff933a07fd2	회복됨	machine
+ui.effd09803c06	똑똑	cok
+ui.f001f74893f6	안타깝게도 용사의 임종을 지켜본 일행은 없다.	machine
+ui.f005dc729cc9	클레릭/파이터	cok
+ui.f031b70a2653	남동	cok
+ui.f06c19b93b2c	불꽃 종류:	cok
+ui.f088d9e3a744	기절	machine
+ui.f0d155c43ee0	저장 디스크를 넣을 드라이브:	cok
+ui.f0d35390cb24	인간형 포박	cok
+ui.f0e791ada740	돌아가서 돈을 가져오겠는가?	cok
+ui.f102986b39ef	스케일	cok
+ui.f11aa46e52cb	무력화 광선	cok
+ui.f24d5c357740	조이스틱 #1을 좌상단 끝으로 밀고 버튼 #1을 누른다	machine
+ui.f2fbdfd7c100	레벨	cok
+ui.f348fb4839ff	변위	cok
+ui.f34a08403165	DOS로 종료:	cok
+ui.f3dfbc1acc94	저주받지 않았다	machine
+ui.f499c0e6f8ea	디스크 4를 넣으십시오. 드라이브:	cok
+ui.f4ccae29e1bb	도주 중	cok
+ui.f528273db22b	디스크 5를 넣으세요, 드라이브	machine
+ui.f5312298209e	준비한 주문이 없다	cok
+ui.f5a329b998d9	분할할 수 없다	cok
+ui.f5e1d63728c2	점	cok
+ui.f5e208dde74f	John Halbleib	machine
+ui.f5f25c5769e6	저장	cok
+ui.f6410fb009d4	마법 켜짐	cok
+ui.f64329361c6f	시전 준비 필사 표시 휴식 나감	cok
+ui.f64fa5018db4	요정 불꽃	cok
+ui.f65f10298556	나감	cok
+ui.f77a2cc8468f	조이스틱 #1을 맨 왼쪽 위로 밀고 버튼 #1을 누르십시오.	cok
+ui.f791fef558be	치명상 가해	cok
+ui.f7fcd1e393fb	한 묶음은 최대	machine
+ui.f8d716681ef6	아직 죽지 않았다	machine
+ui.f8e1a5e2c265	일부 회복되었다	cok
+ui.f8e9641e3a5a	무기 몸통 xxxx 방패 팔 다리 나감	cok
+ui.f9137bd3fdae	원인: 산	cok
+ui.f99222122177	그래도 완치 시전:	cok
+ui.f9b8e202385e	지연 포기	cok
+ui.fa23d2522252	주문을 시전할 수 없다	cok
+ui.fa4925ece175	시작 데모	cok
+ui.fa67303aecda	고급	cok
+ui.fada519693b7	보호막	machine
+ui.faee4715888d	조이스틱 #1을 맨 오른쪽 아래 끝까지	cok
+ui.fb0d083b55a8	몹시 겁먹었다	cok
+ui.fb2a3e111cff	육신 석화	machine
+ui.fb8e7a1a3cb7	소지품	cok
+ui.fbcb3b194ad0	마법 망토 착용	machine
+ui.fbd6007fa4e6	누구에게 시전하겠는가	cok
+ui.fc0615ed1942	건강	cok
+ui.fcdfcb21ab14	주문 1개	cok
+ui.fcfe1a334f70	오우거의 힘	cok
+ui.fd5464131c57	잠시 기다리세요 경고: 캐릭터 저장 중 문제 발생	machine
+ui.fd5da56f78ed	쓰러졌다	cok
+ui.fe3cf5b60934	화염을 내뿜음	machine
+ui.fe5b48644212	파이터	cok
+ui.fe6c9d4d8e5b	마우스/조이스틱 설정:	cok
+ui.fe95d23deff6	물품:	cok

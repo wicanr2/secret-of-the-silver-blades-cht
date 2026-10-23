@@ -2,7 +2,7 @@
 # G6 城鎮服務盤點（#7，docs/re/011）：sosb-overlay-shot 從狀態檔（預設 g3-receipt/town.state，新維地格里城 3,3 面南）
 # 依序送鍵，每個鍵之前截一張 2 倍原版與覆繪畫面，全程記印字盤點（inventory.tsv，含原文，只留工作區）。
 # 用法：tools/g6-service.sh <名稱> "<鍵 鍵 …>"；鍵名同 sosb-overlay-shot（Up、Left、Return、Esc、單一字母…）。
-# 環境變數：EVERY（鍵距步數，預設 15000000，約 156 畫格）、STATE（狀態檔，要在 workplace/probe/ 底下、同目錄有 scratch/）、
+# 輸出目錄另存 keys.txt（狀態檔、鍵距、按鍵序列）。環境變數：EVERY（鍵距步數，預設 15000000，約 156 畫格）、STATE（狀態檔，要在 workplace/probe/ 底下、同目錄有 scratch/）、
 #   SHOTS=0 只記盤點不截圖。輸出 workplace/probe/g6-service/<名稱>/：inventory.tsv、kNN-base／overlay.png、run.log。
 set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -17,6 +17,7 @@ EVERY=${EVERY:-15000000}
 T=${T0:-1720001000}
 OUT="$ROOT/workplace/probe/g6-service/$name"
 rm -rf "$OUT"; mkdir -p "$OUT"; cp -r "$(dirname "$state")/scratch" "$OUT/scratch"; test -d "$OUT/scratch"
+printf 'STATE=%s EVERY=%s T0=%s\n%s\n' "$state" "$EVERY" "$T" "$keys" > "$OUT/keys.txt"  # 重跑同一條路線用
 at=$((T + EVERY)) ka="" sh="" i=0
 for k in $keys; do
   i=$((i + 1))
