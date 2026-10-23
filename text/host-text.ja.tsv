@@ -7,7 +7,7 @@ journal.page	{page}/{pages} 頁	克萊恩英豪規格 007 面板頁碼
 journal.none	記録された手記はまだない（F5 で閉じる）	克萊恩英豪規格 007 翻閱模式沒有已讀手札時
 guide.title	攻略：{title}	克萊恩英豪規格 008 面板第 1 列
 guide.page	{source} {page}/{pages} 頁	克萊恩英豪規格 008 面板末列
-guide.toc	クリンの勇者たち 攻略（ソフトワールド誌）	克萊恩英豪規格 008 目錄頁標題
+guide.toc	シークレット・オブ・ザ・シルバー・ブレイズ 攻略（ソフトワールド誌）	克萊恩英豪規格 008 目錄頁標題
 guide.tocline	{n}. {title}	克萊恩英豪規格 008 目錄每章一列
 guide.tochint	→/← で章切替、PgDn/PgUp で頁送り、Esc か F6 で閉じる。内容に物語の展開と謎の答えを含むため、読む際は注意。	克萊恩英豪規格 008 目錄頁說明
 map.unknown	（未対応の地図）	克萊恩英豪規格 009 地圖名稱查不到時

@@ -46,7 +46,7 @@
 
 | 項目 | 值 |
 |---|---|
-| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `4db8341`，推到本 repo 的 `dosgolem/sosb` |
+| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `41f6c7f`，推到本 repo 的 `dosgolem/sosb` |
 | Go／image | go1.24.13；`dosgolem-go-ebiten:1.24-r1` `sha256:8ed6bdee2bce…` |
 | 冷啟動 | 0 種缺服務；mode 0Dh；首次執行回答 EGA、AdLib、MOUSE、預設存檔路徑，`-program-path 'C:\SECRET\START.EXE'`；空白鍵跳過標題、`p` 進主選單，見 [docs/re/003](docs/re/003-dosgolem-startup.md) |
 
@@ -66,8 +66,9 @@
 | 手札譯文 | 第 1–72 則修正譯文 `text/journal.zh-TW.tsv`；錯譯表 113 條通過 `tools/errata_check.py`（docs/re/006） |
 | 查驗題答案 | 30 題 `text/quiz-answers.tsv`，長度全與題目表相符（docs/re/005） |
 | 跨畫面盤點 | 鎮上 8 條服務路線、3D 探索 700 步、知識之井戰鬥到全滅，補譯後未命中 0（docs/re/011） |
-| 多語系 | 简中、日、韓、英（規格 015）；四語收據記憶體雜湊一致、缺字 0；日韓沒有手札與攻略面板 |
+| 多語系 | 简中、日、韓、英（規格 015）；四語收據記憶體雜湊一致、缺字 0；手札面板五語都有（英文為原版逐字稿），攻略面板沒有英文 |
 | 配樂 | 13 首（規格 014），`tools/music_compose.py` 產生，選曲表 `text/music-cues.tsv` |
+| 推廣影片 | 81 秒（規格 016），`tools/promo.sh` 錄製、`tools/promo-build.sh` 組裝，成品 `workplace/promo/sosb-promo.mp4` |
 | catalog | ui 1,453 筆（658 筆與克萊恩英豪雜湊相同）、ECL 1,528 筆 |
 
 ## 原始輸入

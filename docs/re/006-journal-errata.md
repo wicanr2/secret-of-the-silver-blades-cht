@@ -11,7 +11,7 @@
 
 | 步驟 | 工具與產物 | 位置 |
 |---|---|---|
-| 英文逐字稿 | 第 1–37 則對頁面圖轉錄；第 38–72 則以 `tools/journal_en_ocr.py` 由 OCR 逐字座標組成草稿，對照時改看頁面圖 | `workplace/journal/en/` |
+| 英文逐字稿 | 第 1–37 則對頁面圖轉錄；第 38–72 則以 `tools/journal_en_ocr.py` 的 OCR 草稿為底，逐欄對頁面圖（`en-cols/p35`–`p44`）校讀成正式稿；`tools/journal_en_build.py` 合併成 `text/journal.en.tsv` | `workplace/journal/en/` |
 | 珍056 文字 | 第 41–72 則對頁面圖轉錄；第 1–40 則以 PaddleOCR（`tools/ocr_batch.py`，黑暗之后的 `dqk-ocr:ppocr5-r1` 映像與模型快取，唯讀掛載）加 `tools/zh_ocr_journal.py` 組成草稿，再對頁面圖校讀 | `workplace/journal/zh056/` |
 | 逐則對照 | `tools/re/journal_pair.py` 並列兩邊；珍056 譯對的句子保留原文，只改錯處 | `workplace/journal/fix/` |
 | 正式譯文 | `text/journal.zh-TW.tsv`（entry、title、body、source） | repo |
@@ -61,5 +61,4 @@
 
 ## 未做
 
-- 英文第 38–72 則的逐字稿仍是 OCR 草稿，英文版手札面板（多語系，G10）前要校讀成正式稿。
 - 說明書其餘章節未對照。

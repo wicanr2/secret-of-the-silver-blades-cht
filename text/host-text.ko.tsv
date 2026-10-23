@@ -7,7 +7,7 @@ journal.page	{page}/{pages}쪽	克萊恩英豪規格 007 面板頁碼
 journal.none	기록된 일지가 없다 (F5로 닫기)	克萊恩英豪規格 007 翻閱模式沒有已讀手札時
 guide.title	공략: {title}	克萊恩英豪規格 008 面板第 1 列
 guide.page	{source} {page}/{pages}쪽	克萊恩英豪規格 008 面板末列
-guide.toc	크린의 용사들 공략 (소프트월드 잡지)	克萊恩英豪規格 008 目錄頁標題
+guide.toc	실버 블레이즈의 비밀 공략 (소프트월드 잡지)	克萊恩英豪規格 008 目錄頁標題
 guide.tocline	{n}. {title}	克萊恩英豪規格 008 目錄每章一列
 guide.tochint	→/← 장 이동, PgDn/PgUp 쪽 넘김, Esc 또는 F6 닫기. 줄거리와 수수께끼 정답이 들어 있으니 주의할 것.	克萊恩英豪規格 008 目錄頁說明
 map.unknown	(대응하는 지도 없음)	克萊恩英豪規格 009 地圖名稱查不到時

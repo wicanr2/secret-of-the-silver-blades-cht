@@ -11,10 +11,12 @@ for f in "$SRC/rounded/GenSenRounded2TW-M.otf" "$SRC/rounded/GenSenRounded2TW-B.
   test -f "$f" || { echo "缺字型來源 $f" >&2; exit 1; }
 done
 mkdir -p "$ROOT/workplace/font"
+# 繁中字集只收玩家看得到的表（明確清單，同克萊恩英豪；新表要顯示中文時加在這裡）
 cats=()
-for f in "$ROOT"/text/*.tsv; do
-  case "$(basename "$f")" in *.zh-CN.tsv|*.ja.tsv|*.ko.tsv|*.en.tsv|*-events.tsv|zhcn-fixes.tsv|errata.tsv|errata.tsv|glossary.tsv|term-avoid.tsv|walkthrough-terms.tsv|quiz-answers.tsv|translit-arpabet.tsv|translit-table.tsv|translit-names.tsv) continue ;; esac
-  cats+=("/text/$(basename "$f")")
+for f in ecl-text.zh-TW ui-text.zh-TW name.zh-TW composed-templates host-text.zh-TW journal.zh-TW journal-maps.zh-TW menu-masters \
+  translit-chars.zh-TW walkthrough.zh-TW map-guide.zh-TW map-geo map-titles; do
+  test -f "$ROOT/text/$f.tsv" || { echo "缺 text/$f.tsv" >&2; exit 1; }
+  cats+=("/text/$f.tsv")
 done
 while IFS= read -r f; do cats+=("/w/${f#"$ROOT/workplace/"}"); done < <(find "$ROOT/workplace/tr" "$ROOT/workplace/text-src/trial" -name '*.tsv' -path '*done*' -o -name '*.zh-TW.tsv' -path '*trial*' 2>/dev/null | sort)
 timeout 900 docker run --rm --network none -u "$(id -u):$(id -g)" --memory 2g --cpus 2 --pids-limit 32 \

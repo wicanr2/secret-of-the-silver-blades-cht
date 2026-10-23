@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """英文版字型（克萊恩英豪規格 015 §3.1，由該專案移植）：Courier Prime Bold 水平拉寬填滿原版方形字格，輸出 GOLEMFNT。
 
-每個可列印 ASCII 字先以 (cell×2/3)×cell 的窄格畫出（字高含上伸與下伸置中），再水平拉成 cell×cell，
+每個可列印 ASCII 字與破折號 U+2014 先以 (cell×2/3)×cell 的窄格畫出（字高含上伸與下伸置中），再水平拉成 cell×cell，
 以 50% 門檻轉成 1 bit。--cell 16 給 2 倍畫面（sosb-en.golemfnt），--cell 24 給 3 倍（sosb-en-3x.golemfnt）。
 GOLEMFNT：magic、LE W、H、字數，每字 u32 碼點＋u8 來源標記（6＝本工具）＋字模，碼點遞增。
 """
@@ -43,7 +43,7 @@ def main():
     if hashlib.sha256(b).hexdigest()[:16] != COURIER[1]:
         raise SystemExit(f'{a.ttf}：來源身份不符（需 {COURIER[0]}，SHA-256 {COURIER[1]}…）')
     font = ImageFont.truetype(a.ttf, round(a.cell * 26 / 24))
-    chars = [chr(c) for c in range(0x20, 0x7F)]
+    chars = [chr(c) for c in range(0x20, 0x7F)] + ['\u2014']  # 英文手札的破折號（text/journal.en.tsv）
     body = b''.join(struct.pack('<IB', ord(ch), 6) + glyph(font, ch, a.cell) for ch in chars)
     data = b'GOLEMFNT' + struct.pack('<HHI', a.cell, a.cell, len(chars)) + body
     Path(a.out).write_bytes(data)

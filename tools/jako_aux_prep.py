@@ -35,21 +35,27 @@ def main():
     src = {r['key']: r['original'] for r in read(a.root / 'workplace/text-src/ui-text-source.tsv')}
     inp = W / 'aux-input'
     # 組句模板
+    # 沿用前作譯文的條件：同 key，而且前作的繁中與本作相同（本作改過繁中的列重譯，例：guide.toc 的題名）
     zt = read(T / 'composed-templates.tsv')
+    pzt = {(r['template'], r['translation']) for r in read(a.prior / 'composed-templates.tsv')}
+    same = {r['template'] for r in zt if (r['template'], r['translation']) in pzt}
     for L in ('ja', 'ko'):
         prior = {r['template']: r['translation'] for r in read(a.prior / f'composed-templates.{L}.tsv')}
         write(W / f'aux-{L}' / 'reuse-composed-templates.tsv', ['template', 'translation'],
-              [[r['template'], prior[r['template']]] for r in zt if r['template'] in prior])
-    pj = {r['template'] for r in read(a.prior / 'composed-templates.ja.tsv')}
+              [[r['template'], prior[r['template']]] for r in zt if r['template'] in prior and r['template'] in same])
+    pj = {r['template'] for r in read(a.prior / 'composed-templates.ja.tsv')} & same
     write(inp / 'composed-templates.tsv', ['template', 'zh', 'note'],
           [[r['template'], r['translation'], r.get('note') or ''] for r in zt if r['template'] not in pj])
     # 選單母串
     zm = read(T / 'menu-masters.tsv')
+    pz = {(r['master'], r['index'], r['translation']) for r in read(a.prior / 'menu-masters.tsv')}
+    same_m = {(r['master'], r['index']) for r in zm if (r['master'], r['index'], r['translation']) in pz}
     for L in ('ja', 'ko'):
         prior = {(r['master'], r['index']): r['translation'] for r in read(a.prior / f'menu-masters.{L}.tsv')}
         write(W / f'aux-{L}' / 'reuse-menu-masters.tsv', ['master', 'index', 'translation'],
-              [[r['master'], r['index'], prior[(r['master'], r['index'])]] for r in zm if (r['master'], r['index']) in prior])
-    pm = {(r['master'], r['index']) for r in read(a.prior / 'menu-masters.ja.tsv')}
+              [[r['master'], r['index'], prior[(r['master'], r['index'])]] for r in zm
+               if (r['master'], r['index']) in prior and (r['master'], r['index']) in same_m])
+    pm = {(r['master'], r['index']) for r in read(a.prior / 'menu-masters.ja.tsv')} & same_m
     rows = []
     for r in zm:
         if (r['master'], r['index']) in pm:
@@ -59,11 +65,13 @@ def main():
     write(inp / 'menu-masters.tsv', ['master', 'index', 'en', 'zh', 'max_cells', 'en_line'], rows)
     # 前端文字
     zh = read(T / 'host-text.zh-TW.tsv')
+    pzh = {r['key']: r['translation'] for r in read(a.prior / 'host-text.zh-TW.tsv')}
+    same_h = {r['key'] for r in zh if pzh.get(r['key']) == r['translation']}
     for L in ('ja', 'ko'):
         prior = {r['key']: r['translation'] for r in read(a.prior / f'host-text.{L}.tsv')}
         write(W / f'aux-{L}' / 'reuse-host-text.tsv', ['key', 'translation'],
-              [[r['key'], prior[r['key']]] for r in zh if r['key'] in prior])
-    ph = {r['key'] for r in read(a.prior / 'host-text.ja.tsv')}
+              [[r['key'], prior[r['key']]] for r in zh if r['key'] in prior and r['key'] in same_h])
+    ph = {r['key'] for r in read(a.prior / 'host-text.ja.tsv')} & same_h
     write(inp / 'host-text.tsv', ['key', 'zh', 'note'],
           [[r['key'], r['translation'], r.get('note') or ''] for r in zh if r['key'] not in ph and r['key'] not in ('journal.ref', 'journal.refdot')])
     # 地圖名稱、地圖攻略點

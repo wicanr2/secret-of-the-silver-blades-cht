@@ -21,8 +21,8 @@ adapter 是由 `apps/cok` 複製的 `apps/sosb`。本表的狀態只算本作已
 | 012 發行包 | DRAFT | #12 | `cmd/sosb-play` 首次執行寫 `blades.cfg`（冷開機冒煙通過）；打包未開工 | docs/re/003、007 |
 | 013 玩家名音譯 | READY | #7 | 性別欄 +0x11F（強推論）；名字接受大小寫混合 | docs/re/007 |
 | 014 配樂 | READY | #11 | 原版只有標題曲、三聲道同一組音色；13 首以標題曲 4 個動機新編，使用者試聽通過（2026-10-23）；選曲字串取自本作盤點，勝利與強敵只有靜態證據 | `tools/music_compose.py`、`cmd/sosb-music-cues` |
-| 015 多語系 | READY | #11 | 简中 OpenCC 轉換、日韓機器翻譯（14 批）、英文原文加 Courier Prime；日韓沒有手札與攻略面板；四語收據記憶體雜湊一致、缺字 0；英文手札第 38–72 則仍是 OCR 草稿 | `tools/g10-lang-receipt.sh`、docs/re/006 |
-| 016 推廣影片 | DRAFT | #11 | 未開工 | — |
+| 015 多語系 | READY | #11 | 简中 OpenCC 轉換、日韓機器翻譯（14 批）、英文原文加 Courier Prime；日韓手札與攻略由繁中定稿翻譯；英文手札 1–72 則對頁面圖轉錄（`tools/journal_en_build.py`）；四語收據記憶體雜湊一致、缺字 0 | `tools/g10-lang-receipt.sh`、docs/re/006 |
+| 016 推廣影片 | READY | #11 | 標題曲要從冷開機 40M 步的狀態錄（狀態檔不含 OPL 暫存器）；81 秒成片待使用者觀看 | `tools/promo.sh`、`tools/promo-build.sh` |
 | 017 作弊：我方無敵 | READY | #17 | 串列頭 `DS:7D3C`；紀錄尾端欄位比克萊恩英豪多 0x1E（下一位 +0x19D、狀態 +0x1A6、陣營 +0x1A8、HP +0x1B5）、效果 +0xFB；有害效果類型沿用前作（假說） | docs/re/012、`tools/g10-cheat-receipt.sh` |
 | 018 開場 demo 控制 | CONFORMED | #13 | 選單逾時 `DS:8A63`、demo 旗標 `67E9`、ECL 停止 `59B4`、存活數 `87CC`；比照幽靈騎士規格 015 | `tools/g13-demo-receipt.sh` |
 | 019 CPU 模擬速度 | READY | #14 | 本作是 TP5 版 CRT Delay（`DS:A6E4`）；比照幽靈騎士規格 016；調節模式 8x 實得 3.5x、32x 實得 11.9x（主機負載高） | `tools/g14-delay-equiv.sh`、`g14-toolbar-receipt.sh`、`g14-perf.sh` |
