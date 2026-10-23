@@ -14,8 +14,9 @@ from PIL import Image
 
 FAMILY = [('TITLE', '標題畫面'), ('BIGPIC', '大圖'), ('PIC', '肖像與場景'), ('terrain', '戰鬥地形'),
           ('actor', '戰鬥怪物與人物'), ('encounter', '3D 遭遇圖'), ('effect', '戰鬥效果'), ('head', '頭像組件'),
-          ('body', '身體組件')]
-COMPACT = {'terrain', 'actor', 'encounter', 'effect', 'head', 'body'}  # 小圖：一列三組
+          ('body', '身體組件'), ('sky', '3D 天空與地面')]
+COMPACT = {'terrain', 'actor', 'encounter', 'effect', 'head', 'body', 'sky'}  # 小圖：一列三組
+SHEET = {'wall'}  # 8×8 牆面圖塊：每頁 64 組拼成一張圖
 # 目視時記下的差異與不收入主題的原因
 NOTES = {'pic3-016@1': '原版這一幀人物被閃光照成青白色；HD 保留閃電，人物維持正常膚色',
          'sprit1-001-00-00': '前景低於呈現器下限（至少 16 點、3 色），不收入主題，維持原版'}
@@ -29,6 +30,7 @@ def main():
     ap.add_argument('--out', required=True, type=Path)
     ap.add_argument('--batches', required=True)
     a = ap.parse_args()
+    sheets = []
     img = a.out / 'img'
     if img.exists():
         shutil.rmtree(img)
@@ -39,9 +41,24 @@ def main():
         val = {r['key']: r for r in json.loads((a.hd / b / 'validation.json').read_text())['items']}
         rp = a.hd / b / 'visual-review.json'
         rev = {r['key']: r for r in json.loads(rp.read_text())['items']} if rp.exists() else {}
+        walls = [it for it in man['items'] if it.get('kind') in SHEET]
+        for start in range(0, len(walls), 64):  # 拼圖頁：8 欄 × 8 列，每組原版 48 像素｜HD 48 像素
+            page = Image.new('RGB', (8 * 104, 8 * 56), (30, 30, 30))
+            for n, it in enumerate(walls[start:start + 64]):
+                x, y = n % 8 * 104, n // 8 * 56
+                page.paste(Image.open(a.req / b / it['reference_png']).convert('RGB').resize((48, 48), Image.NEAREST), (x, y))
+                page.paste(Image.open(a.hd / b / f'{it["key"]}.png').convert('RGB').resize((48, 48), Image.NEAREST), (x + 50, y))
+            name = f'{b}-sheet-{start // 64:02d}.png'
+            page.save(img / name)
+            keys = [it['key'] for it in walls[start:start + 64]]
+            sheets.append((name, keys[0], keys[-1], len(keys)))
         for it in man['items']:
             k = it['key']
             v, r = val.get(k, {}), rev.get(k, {})
+            if it.get('kind') in SHEET:
+                rows.append(dict(batch=b, key=k, family='wall', status='通過' if v.get('target_met') and r.get('approved')
+                                 else '維持原版', hd=True, sheet=True))
+                continue
             hd = a.hd / b / f'{k}.png'
             shutil.copyfile(a.req / b / it['reference_png'], img / f'{k}-orig.png')
             if hd.exists():
@@ -60,7 +77,8 @@ def main():
                              structure=v.get('structural_edge_overlap'), hue=v.get('median_hue_difference_degrees')))
     n_ok = sum(r['status'].startswith('通過') for r in rows)
     lines = ['# HD 重繪審閱', '',
-             '《銀色匕首之謎》HD：第一階段（標題、大圖、肖像與場景）與第二階段（戰鬥地形、怪物、遭遇圖、效果、頭身組件）。',
+             '《銀色匕首之謎》HD：第一階段（標題、大圖、肖像與場景）、第二階段（戰鬥地形、怪物、遭遇圖、效果、頭身組件）、',
+             '第三階段（3D 牆面圖塊、天空與地面）。',
              '每組左為原版（最近鄰放大），右為依原版手繪重畫的 HD；小圖以 6 倍顯示。',
              '生圖由 Codex 內建 image_gen；請求、驗收與接入見 [規格 010](../../docs/spec/010-hd-theme.md)。', '',
              f'共 {len(rows)} 項，通過 {n_ok} 項。數值閘門：結構分數 ≥ 0.40、色相差中位 < 30 度；另逐張目視。',
@@ -94,6 +112,11 @@ def main():
             hd = f'<img src="img/{r["key"]}-hd.jpg" width="{w}">' if r['hd'] else '（尚無）'
             lines.append(f'| {meta} | <img src="img/{r["key"]}-orig.png" width="{w}"> | {hd} |')
         lines.append('')
+    if sheets:
+        lines += ['## 3D 牆面圖塊', '', f'{sum(n for *_, n in sheets)} 個 8×8 圖塊，每頁 64 組，每組左為原版、右為 HD（各放大成 48 像素）。'
+                  '逐項的來源、分數與沿用紀錄在 `workplace/hd/requests/b13/manifest.json` 與 `out/b13/validation.json`。', '']
+        for name, first, last, n in sheets:
+            lines += [f'`{first}` 到 `{last}`（{n} 組）', '', f'<img src="img/{name}" width="832">', '']
     (a.out / 'README.md').write_text('\n'.join(lines))
     print(len(rows), '項', n_ok, '通過')
 

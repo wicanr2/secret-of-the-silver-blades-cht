@@ -1,10 +1,11 @@
 # HD 重繪審閱
 
-《銀色匕首之謎》HD：第一階段（標題、大圖、肖像與場景）與第二階段（戰鬥地形、怪物、遭遇圖、效果、頭身組件）。
+《銀色匕首之謎》HD：第一階段（標題、大圖、肖像與場景）、第二階段（戰鬥地形、怪物、遭遇圖、效果、頭身組件）、
+第三階段（3D 牆面圖塊、天空與地面）。
 每組左為原版（最近鄰放大），右為依原版手繪重畫的 HD；小圖以 6 倍顯示。
 生圖由 Codex 內建 image_gen；請求、驗收與接入見 [規格 010](../../docs/spec/010-hd-theme.md)。
 
-共 485 項，通過 483 項。數值閘門：結構分數 ≥ 0.40、色相差中位 < 30 度；另逐張目視。
+共 1738 項，通過 1735 項。數值閘門：結構分數 ≥ 0.40、色相差中位 < 30 度；另逐張目視。
 HD 圖為 JPEG 預覽，正式主題是無損 PNG。
 
 本目錄含原版圖，只放在 private repo 供審閱；repo 轉公開前必須連同歷史移除。
@@ -288,3 +289,95 @@ HD 圖為 JPEG 預覽，正式主題是無損 PNG。
 | `cbody-216-00-00`<br>結構 0.85、色相 7°<br>**通過（沿用克萊恩英豪）** | <img src="img/cbody-216-00-00-orig.png" width="144"> | <img src="img/cbody-216-00-00-hd.jpg" width="144"> | `cbody-217-00-00`<br>結構 0.81、色相 7°<br>**通過（沿用克萊恩英豪）** | <img src="img/cbody-217-00-00-orig.png" width="144"> | <img src="img/cbody-217-00-00-hd.jpg" width="144"> | `cbody-218-00-00`<br>結構 0.88、色相 3°<br>**通過（沿用克萊恩英豪）** | <img src="img/cbody-218-00-00-orig.png" width="144"> | <img src="img/cbody-218-00-00-hd.jpg" width="144"> |
 | `cbody-219-00-00`<br>結構 0.89、色相 2°<br>**通過（沿用克萊恩英豪）** | <img src="img/cbody-219-00-00-orig.png" width="144"> | <img src="img/cbody-219-00-00-hd.jpg" width="144"> | `cbody-220-00-00`<br>結構 0.81、色相 1°<br>**通過（沿用克萊恩英豪）** | <img src="img/cbody-220-00-00-orig.png" width="144"> | <img src="img/cbody-220-00-00-hd.jpg" width="144"> | `cbody-221-00-00`<br>結構 0.82、色相 3°<br>**通過（沿用克萊恩英豪）** | <img src="img/cbody-221-00-00-orig.png" width="144"> | <img src="img/cbody-221-00-00-hd.jpg" width="144"> |
 | `cbody-222-00-00`<br>結構 0.86、色相 4°<br>**通過（沿用克萊恩英豪）** | <img src="img/cbody-222-00-00-orig.png" width="144"> | <img src="img/cbody-222-00-00-hd.jpg" width="144"> | `cbody-223-00-00`<br>結構 0.82、色相 4°<br>**通過（沿用克萊恩英豪）** | <img src="img/cbody-223-00-00-orig.png" width="144"> | <img src="img/cbody-223-00-00-hd.jpg" width="144"> |  | |  |
+
+## 3D 天空與地面
+
+3 項。
+
+| 項目 | 原版 | HD | 項目 | 原版 | HD | 項目 | 原版 | HD |
+|---|---|---|---|---|---|---|---|---|
+| `sky-250-00`<br>結構 0.27、色相 44°<br>**維持原版**<br>88×16 遠山三次重畫都被畫小、輪廓內填入遮罩色；本作已量測的 3D 畫面沒有出現，維持原版 | <img src="img/sky-250-00-orig.png" width="288"> | <img src="img/sky-250-00-hd.jpg" width="288"> | `sky-251-00`<br>結構 0.97、色相 3°<br>**通過** | <img src="img/sky-251-00-orig.png" width="144"> | <img src="img/sky-251-00-hd.jpg" width="144"> | `sky-252-00`<br>結構 0.45、色相 0°<br>**通過** | <img src="img/sky-252-00-orig.png" width="288"> | <img src="img/sky-252-00-hd.jpg" width="288"> |
+
+## 3D 牆面圖塊
+
+1250 個 8×8 圖塊，每頁 64 組，每組左為原版、右為 HD（各放大成 48 像素）。逐項的來源、分數與沿用紀錄在 `workplace/hd/requests/b13/manifest.json` 與 `out/b13/validation.json`。
+
+`wall-1-019-00` 到 `wall-1-019-64`（64 組）
+
+<img src="img/b13-sheet-00.png" width="832">
+
+`wall-1-019-65` 到 `wall-1-071-59`（64 組）
+
+<img src="img/b13-sheet-01.png" width="832">
+
+`wall-1-071-60` 到 `wall-1-072-53`（64 組）
+
+<img src="img/b13-sheet-02.png" width="832">
+
+`wall-1-072-54` 到 `wall-1-101-51`（64 組）
+
+<img src="img/b13-sheet-03.png" width="832">
+
+`wall-1-101-53` 到 `wall-1-102-47`（64 組）
+
+<img src="img/b13-sheet-04.png" width="832">
+
+`wall-1-102-48` 到 `wall-1-211-04`（64 組）
+
+<img src="img/b13-sheet-05.png" width="832">
+
+`wall-1-211-05` 到 `wall-1-211-69`（64 組）
+
+<img src="img/b13-sheet-06.png" width="832">
+
+`wall-1-212-00` 到 `wall-1-212-63`（64 組）
+
+<img src="img/b13-sheet-07.png" width="832">
+
+`wall-1-212-64` 到 `wall-1-213-58`（64 組）
+
+<img src="img/b13-sheet-08.png" width="832">
+
+`wall-1-213-59` 到 `wall-2-006-57`（64 組）
+
+<img src="img/b13-sheet-09.png" width="832">
+
+`wall-2-006-60` 到 `wall-2-009-55`（64 組）
+
+<img src="img/b13-sheet-10.png" width="832">
+
+`wall-2-009-56` 到 `wall-2-011-51`（64 組）
+
+<img src="img/b13-sheet-11.png" width="832">
+
+`wall-2-011-52` 到 `wall-2-012-45`（64 組）
+
+<img src="img/b13-sheet-12.png" width="832">
+
+`wall-2-012-46` 到 `wall-2-151-43`（64 組）
+
+<img src="img/b13-sheet-13.png" width="832">
+
+`wall-2-151-44` 到 `wall-2-152-41`（64 組）
+
+<img src="img/b13-sheet-14.png" width="832">
+
+`wall-2-152-42` 到 `wall-3-031-37`（64 組）
+
+<img src="img/b13-sheet-15.png" width="832">
+
+`wall-3-031-38` 到 `wall-3-032-32`（64 組）
+
+<img src="img/b13-sheet-16.png" width="832">
+
+`wall-3-032-33` 到 `wall-3-033-38`（64 組）
+
+<img src="img/b13-sheet-17.png" width="832">
+
+`wall-3-033-39` 到 `wall-3-131-68`（64 組）
+
+<img src="img/b13-sheet-18.png" width="832">
+
+`wall-3-131-69` 到 `wall-3-132-67`（34 組）
+
+<img src="img/b13-sheet-19.png" width="832">
