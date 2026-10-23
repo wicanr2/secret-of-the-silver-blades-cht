@@ -20,7 +20,7 @@ a = ap.parse_args()
 for r in csv.DictReader(open(a.glossary, encoding='utf-8'), delimiter='\t', quoting=csv.QUOTE_NONE):
     gl.setdefault(norm(r['en']), r)
 LINE = re.compile(r'^\s*(?:\d{1,2}\s*[.．]?\s*)?[＊*※\u2731\u5a1f\u6e3e]?\s*([\u3400-\u9fff]{1,14})\s*[（(]\s*([A-Za-z][^）)]{1,45}?)\s*[)）]')
-FIX = {('9', '巨'): '巨鱷', ('10', '牛蛛精靈'): '半蛛精靈', ('11', '驚獅'): '鷲獅', ('12', '蛇髪女妖'): '蛇髮女妖', ('13', '巨蛞鹼'): '巨蛞蝓',
+FIX = {('9', '巨'): '巨鱷', ('10', '牛蛛精靈'): '半蛛精靈', ('12', '蛇髪女妖'): '蛇髮女妖', ('13', '巨蛞鹼'): '巨蛞蝓',
        ('13', '互蛇'): '巨蛇', ('19', '搜魔法物品'): '搜尋魔法物品', ('19', '互大術'): '巨大術', ('21', '牛徑十呎的隱形術'): '半徑十呎的隱形術', ('24', '牵制之咒'): '牽制之咒', ('24', '值測魔法'): '偵測魔法'}
 ENFIX = {'Hil1Giant': 'Hill Giant', 'B1ess': 'Bless', 'B1ink': 'Blink', 'S1ow': 'Slow', 'Fumb1e': 'Fumble',
          'Minor Globe of InvuInerabiIity': 'Minor Globe of Invulnerability'}

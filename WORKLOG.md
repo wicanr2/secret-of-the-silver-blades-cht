@@ -204,3 +204,13 @@
   遊戲內譯名多沿用前作，當時下冊章節未轉錄；是否改用珍056 譯名待使用者決定。
 - 最後抽驗（使用者：做完再抽驗）：`tools/g7-journal-receipt.sh` 的手札自動彈出、攻略、手札翻閱截圖雜湊與 docs/re/007 相同，
   地圖頁因 G8 攻略點而改變；`tools/g16-flash-receipt.sh` demo 與進金庫兩條閃現 0；四語收據缺字 0、記憶體雜湊一致。
+
+## 2026-10-23 剩餘項目（使用者：完成剩下的、打包三平台完整版）
+
+- 使用者對建議清單回「ok 可以喔」：遊戲內譯名維持現狀，推廣影片接受（CONTEXT 決策表）。
+- 換語言缺陷：dosgolem `41a0a7e`，xlate 新增 `Stamp.Hidden`（spec 202 §2.10），sosb 路徑 A 換語言查不到時隱藏而非移除；
+  重錄換語言段，切回繁中後隊員名恢復音譯。
+- 說明書錯譯表 `text/errata-manual.tsv` 7 條（Storm Giant、Cloud Giant、Ogre、Umber Hulk、Mastodon、Gargoyle／Margoyle 對調），`errata_check.py` 加 `--manual`。
+- 珍056 上冊與下冊 p.1–26 校讀完成，頁碼連續（docs/re/006）。
+- 勘誤：名稱表把 p.11 的「驚獅」當 OCR 錯字改成「鷲獅」；校讀者放大確認原書就印「驚獅」，改回照原書。教訓：「OCR 錯字」與「原書錯字」要放大到能分辨再改。
+- 校讀者回報讀圖時工具結果附帶避免重製受著作權內容的提醒；轉錄稿只在 workplace（不進 Git、不進發行包），供錯譯比對。
