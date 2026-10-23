@@ -94,3 +94,95 @@ takes {n} point of damage from Poison	受到 {n} 點毒素傷害	本作（demo �
 (from behind) Hitting for {n} point of damage	（背後攻擊）造成 {n} 點傷害	單數（推測，未觀測）
 (from behind) and Misses	（背後攻擊）但沒有命中	本作背刺落空（跨區盤點蓋加斯 2026-10-19）
 The party has found treasure!	隊伍找到了寶物！	寶物畫面（The party has found ＋ treasure! 兩段組成；本作 docs/re/007）
+takes {n} points of damage	受到 {n} 點傷害	本作龍息等沒有 from 的傷害（demo 盤點 2026-10-23）
+takes {n} point of damage	受到 {n} 點傷害	單數（推測，未觀測）
+breathes Fire	噴出火焰	本作戰鬥訊息接在名字後首字變小寫（demo 盤點 2026-10-23；字串表為 Breathes Fire）
+{name} , how can we help you?	{name}，有什麼需要幫忙的嗎？	神殿招呼（名字與問句整串印出，城鎮服務盤點 2026-10-23）
+How much Copper  will you take? 	要拿多少銅幣？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Copper will you trade? 	要交易多少銅幣？	同上，交易（推測）
+How much Copper will you deposit? 	要存多少銅幣？	同上，金庫存錢（推測）
+How much Copper will you drop? 	要丟棄多少銅幣？	同上，丟錢（推測）
+Copper {n}	銅幣 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Silver  will you take? 	要拿多少銀幣？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Silver will you trade? 	要交易多少銀幣？	同上，交易（推測）
+How much Silver will you deposit? 	要存多少銀幣？	同上，金庫存錢（推測）
+How much Silver will you drop? 	要丟棄多少銀幣？	同上，丟錢（推測）
+Silver {n}	銀幣 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Electrum  will you take? 	要拿多少金銀合金幣？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Electrum will you trade? 	要交易多少金銀合金幣？	同上，交易（推測）
+How much Electrum will you deposit? 	要存多少金銀合金幣？	同上，金庫存錢（推測）
+How much Electrum will you drop? 	要丟棄多少金銀合金幣？	同上，丟錢（推測）
+Electrum {n}	金銀合金幣 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Gold  will you take? 	要拿多少金幣？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Gold will you trade? 	要交易多少金幣？	同上，交易（推測）
+How much Gold will you deposit? 	要存多少金幣？	同上，金庫存錢（推測）
+How much Gold will you drop? 	要丟棄多少金幣？	同上，丟錢（推測）
+Gold {n}	金幣 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Platinum  will you take? 	要拿多少白金幣？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Platinum will you trade? 	要交易多少白金幣？	同上，交易（推測）
+How much Platinum will you deposit? 	要存多少白金幣？	同上，金庫存錢（推測）
+How much Platinum will you drop? 	要丟棄多少白金幣？	同上，丟錢（推測）
+Platinum {n}	白金幣 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Gems  will you take? 	要拿多少寶石？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Gems will you trade? 	要交易多少寶石？	同上，交易（推測）
+How much Gems will you deposit? 	要存多少寶石？	同上，金庫存錢（推測）
+How much Gems will you drop? 	要丟棄多少寶石？	同上，丟錢（推測）
+Gems {n}	寶石 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+How much Jewelry  will you take? 	要拿多少珠寶？	本作集中財物後取錢（How much ＋錢幣名＋ will you take?，城鎮服務盤點 2026-10-23；Gold 已觀測，其餘同式推測）
+How much Jewelry will you trade? 	要交易多少珠寶？	同上，交易（推測）
+How much Jewelry will you deposit? 	要存多少珠寶？	同上，金庫存錢（推測）
+How much Jewelry will you drop? 	要丟棄多少珠寶？	同上，丟錢（推測）
+Jewelry {n}	珠寶 {n}	本作錢幣列（神殿集中財物畫面 Gold 4 已觀測，其餘推測）
+Heal whom?  	要治療誰？	本作治療提示後補一格空白（檢視人物盤點 2026-10-23；字串表為 Heal whom? 單一空白）
+Cure whom?  	要醫治誰？	同上
+{name}  feels better	{name}覺得好多了	本作治療結果（名字與 feels better 整串印出，檢視人物盤點 2026-10-23）
+is Healed	已治癒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Affected	受到影響	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Unaffected	不受影響	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected	受到保護	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Blessed	受到祝福	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Cursed	受到詛咒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Harrassed by Snakes	受蛇騷擾	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Dispelling Evil	驅散邪惡	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Detecting Magic	偵測魔法	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Evil	免受邪惡傷害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Good	免受善良傷害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Resistant to Cold	具有抗凍能力	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Charmed	被迷惑	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Enlarged	已巨大化	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Barkskin	硬皮術	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Friendly	友善	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Slow Poison	緩毒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Reading Magic	閱讀魔法	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Shielded	有護盾	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Able to Find Traps	能搜尋陷阱	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Fire Resistant (spell)	抗火（法術）	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Silenced	被沉靜	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Carries Spiritual Hammer	持有心靈之槌	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Sees Invisible	能看見隱形物	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Invisible (spell)	隱形（法術）	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Befuddled	神智混亂	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Duplicated	被複製	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Weakened	虛弱	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Nauseated	噁心	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Blind	失明	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Diseased	染病	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Confused	混亂	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Accursed	被下咒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Blinking	閃爍中	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Strengthened	力量增強	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Hastened	動作加倍	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Normal Missiles	免受一般飛彈傷害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Slowed	被減速	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Evil, 10' Radius	半徑10呎內免受邪惡傷害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Protected from Good, 10' Radius	半徑10呎內免受善良傷害	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Affected by Prayer	受祈禱影響	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Fire Shield, Hot flames	防火盾牌，熱焰	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Held	被束縛	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Asleep	睡著了	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Fire Shield, Cold flames	防火盾牌，冷焰	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is POISONED	中毒	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Invisible (ring)	隱形（戒指）	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Enveloped in Globe of Invulnerability	被魔法防護罩包覆	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Fire Resistant (ring)	抗火（戒指）	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）
+is Within Minor Globe of Invulnerability	位於小型魔法防護罩內	本作戰鬥中狀態訊息（is ＋狀態名整串印出；Slowed、Protected 已觀測，其餘同式推測，城鎮外盤點 2026-10-23）

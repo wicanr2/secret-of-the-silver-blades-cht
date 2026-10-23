@@ -18,6 +18,8 @@ ui.05816dcff51e	受到詛咒	batch-editorial
 ui.059e3425ec44	硬皮術	batch-editorial
 ui.0653216d8920	施放	cok
 ui.067ef9857799	。請檢查安裝。	cok
+ui.06d4756679e5	中毒麻痺	g6-static
+ui.071557ce168d	變成了石頭	g6-static
 ui.072f005fc3f2	西南	cok
 ui.07467b84a7ed	短劍	cok
 ui.07d4f0d9ade4	將永遠消失	cok
@@ -36,10 +38,12 @@ ui.0b0d77b244a3	銀色匕首之謎	batch-editorial
 ui.0b99edb6aef7	你們已經在抄寫那個法術了	batch-editorial
 ui.0befe68474e9	你想接受訓練嗎？	cok
 ui.0c55eaf2db39	中和毒性	cok
+ui.0c68bd226716	看得見了！	g6-static
 ui.0c874f581a45	傷害力	cok
 ui.0d0ae56ee488	投降了	cok
 ui.0d20c6ca62b0	治療	cok
 ui.0d3f5e18425a	成交嗎？	cok
+ui.0d54be0b4ca6	醫治了沒有病的人	g6-static
 ui.0d841497863f	延遲爆炸火球	batch-editorial
 ui.0dc5be426a8c	搖桿開啟	cok
 ui.0df3981e1d69	無法讀取搖桿。	batch-editorial
@@ -50,6 +54,7 @@ ui.0f2958102b8f	撬鎖	cok
 ui.0f7b79cee0ba	備妥物品	cok
 ui.0ff3d2b8d663	位元組。	cok
 ui.1073293033b1	沒有可以集合的相同物品。	batch-editorial
+ui.107da4c02a25	當場死亡	g6-static
 ui.108040ac289a	紅寶石	cok
 ui.10be2c6fd6de	具有抗凍能力	batch-editorial
 ui.10e51a565fd3	中毒了	cok
@@ -107,6 +112,7 @@ ui.20691bd0739f	糟糕！	cok
 ui.20a26081e1d6	已抄寫	cok
 ui.2139983332ad	金銀合金幣	batch-editorial
 ui.218e607c02c8	戰斧	cok
+ui.221db9db7556	半徑10呎內免受善良傷害	g6-static
 ui.2246705b46f3	來自已儲存的遊戲	cok
 ui.22536f0953cf	牧師/戰士/魔法師	batch-editorial
 ui.22cd189987e0	殺生術	cok
@@ -143,6 +149,7 @@ ui.2e2018a16770	9級	batch-editorial
 ui.2e433cd6427d	覆蓋檔錯誤，程式中止！	cok
 ui.2e4aaf05df1c	額外	cok
 ui.2ec1e2815946	變賣物品	cok
+ui.2f7a8de1fa06	解體了	g6-static
 ui.2f7b8cbc24de	可愛的黃色金絲雀	batch-editorial
 ui.2fa787bb6baf	下一個	cok
 ui.2fabd8091e1d	虛弱	batch-editorial
@@ -296,6 +303,7 @@ ui.58814d4cbc04	變得狂暴	cok
 ui.58851b8fac82	牧師	cok
 ui.58f6ffe741db	紮營中	cok
 ui.59023abea680	崩解術	batch-editorial
+ui.594ae1732541	驚恐地逃走	g6-static
 ui.595ba83def48	傳送了	cok
 ui.5971145b42aa	超出負重，金錢將放入集中財物。	cok
 ui.59b74e17ac37	解除邪惡	cok
@@ -313,6 +321,8 @@ ui.5b3fdf6febd0	音效類型： [1] AdLib	batch-editorial
 ui.5b7ea832e1b1	卷軸上	cok
 ui.5c4b9d1c89bd	把棍子變成蛇	batch-editorial
 ui.5c4efffc1a54	已記憶	cok
+ui.5d14d08deb37	一件物品	g6-static
+ui.5d8c80c09ab0	麻痺了	g6-static
 ui.5db98e7af406	儲存中……請稍候	cok
 ui.5e88d3982ab7	遊戲速度：	cok
 ui.5e9fc445ff43	（用方向鍵）	cok
@@ -331,6 +341,7 @@ ui.624a5b72859b	法術已中止	cok
 ui.62620037164a	不受影響	batch-editorial
 ui.629ffe46b6a0	魔法關閉	cok
 ui.62a468d8a087	持有心靈之槌	batch-editorial
+ui.637308e94973	變得笨拙	g6-static
 ui.63783b1ec102	是 否	cok
 ui.637c8ce00e81	逃跑：	cok
 ui.63b579c5009b	被縮小了	cok
@@ -348,6 +359,8 @@ ui.65a856807cd8	牧師/賊	cok
 ui.65cb8bc4d032	全部停用	cok
 ui.6659c4ca6420	釘頭錘	cok
 ui.668f8131b2e8	巨人之力	cok
+ui.669cfb5fcba6	的遺體，尋找值錢的東西。	g6-static
+ui.670293c75557	位於小型魔法防護罩內	g6-static
 ui.6713d8d20402	安寧突然被打斷了！	batch-editorial
 ui.67927b5fa959	受到祝福	batch-editorial
 ui.67abe0afb7d7	部位 第一色 第二色 大小 離開	cok
@@ -381,6 +394,7 @@ ui.6d88eb730ffb	混亂的邪惡	cok
 ui.6ddb1b49d365	精靈鎖甲	cok
 ui.6e399f2787a0	祈禱	cok
 ui.6e8761a253a7	3 個法術	batch-editorial
+ui.6e9423cdd7c0	延時爆發火球爆炸了	g6-static
 ui.6ea2acf442bd	已解毒	batch-editorial
 ui.6eac636b81bf	儲存哪個遊戲：	cok
 ui.6f19a5aaf6ae	攜帶魔法石	batch-editorial
@@ -389,7 +403,9 @@ ui.6f5f6a7876cf	鬆了一口氣	cok
 ui.6f7418045e72	防護	cok
 ui.6fac432d6b5a	笨蛋！你得先把它們從捆裡拿出來！	batch-editorial
 ui.6fbc8cc1750a	穿著魔法靴	batch-editorial
+ui.6ffa6b8b1c9f	石	g6-static
 ui.700ceab2be74	滑鼠開啟	cok
+ui.7040944fe0f6	產生一團殺人雲	g6-static
 ui.7084340de831	半徑10呎內免受善良傷害	cok
 ui.70b0849a1046	滿足地打了個嗝	batch-editorial
 ui.714a926c9269	經驗：	batch-editorial
@@ -399,7 +415,9 @@ ui.71c095b134e2	三叉戟	cok
 ui.72114d9f7221	分半	cok
 ui.723749294549	靈藥	batch-editorial
 ui.72403cdf00a1	點傷害。	cok
+ui.72505b0ff17d	變年輕了	g6-static
 ui.72839726ec25	開始咳嗽	cok
+ui.7298a246841d	不受影響	g6-static
 ui.729dccf7638c	超出負重，金錢將放入集中財物。	cok
 ui.72e81feaa8a1	棍棒	cok
 ui.72f5a9907af4	交易給誰？	cok
@@ -440,6 +458,7 @@ ui.7c2da26ef6e0	確定嗎？	cok
 ui.7c6cfd76225a	備妥   動作	cok
 ui.7cbba619e3ba	狀況不佳，無法	cok
 ui.7d08b2536e65	記憶法術	cok
+ui.7d0be6a006b9	虛弱了	g6-static
 ui.7d16eda386e1	噁心	batch-editorial
 ui.7e4f7d7e6c00	搜尋隱形物品	cok
 ui.7e94675ff2de	頭盔	cok
@@ -465,18 +484,22 @@ ui.842c3f9a9151	複合長弓	cok
 ui.846ceffa185d	要從哪裡加入？	batch-editorial
 ui.84e79ec5c06b	金錢不足	cok
 ui.84efb3405723	傷害術	batch-editorial
+ui.851048823b87	被減速	g6-static
 ui.8533e0f4e54f	驅散邪惡	batch-editorial
 ui.85508313b762	法術書中	cok
 ui.858cd61e5d1e	復活術	cok
 ui.85cd61f8c3c8	被束縛	batch-editorial
 ui.86d864d10977	沒有寶石或珠寶	cok
+ui.8738105bdd25	吐出，但沒有命中	g6-static
 ui.87d6ec410a8b	小型魔法防護罩	cok
 ui.87e376689f8a	藍寶石	cok
 ui.8879ab4f6391	較慢	cok
 ui.88b3d8eed54f	詛咒術	cok
 ui.892b3e482474	投石索	cok
+ui.89db952e6b66	恢復為血肉之軀	g6-static
 ui.8a1e48f5104a	隊伍已被消滅	batch-editorial
 ui.8a21969b3d68	防護力 4	cok
+ui.8a72bfdf9031	不受影響	g6-static
 ui.8ab8ccf1ae88	毛球	batch-editorial
 ui.8b4c3701309d	飛彈	cok
 ui.8b862ba45dce	拾取	cok
@@ -494,15 +517,21 @@ ui.8ed9a61e8db6	使用者：請確認 NUMLOCK 已開啟。	batch-editorial
 ui.8f17aeef225d	失去一個幻影	cok
 ui.8f24e7e793e7	其他輸入裝置：  [1] 搖桿  [2] 滑鼠  [3] 無	cok
 ui.8f4a0aaa62c4	法術	cok
+ui.8fd1000fb601	本來要從那一捆抄寫	g6-static
 ui.901bc8dfb280	銅幣	cok
+ui.9031d5840eea	抵抗了驅散邪惡	g6-static
 ui.908881ec8eb9	智慧	cok
 ui.90d8d6de638c	輕弩	cok
 ui.90fade6fb78e	鏡	cok
+ui.912567158776	瞬間被消化了	g6-static
+ui.914120b2375c	變成了石頭	g6-static
 ui.91eb2681ef61	石化	batch-editorial
 ui.925f9d446890	選擇功能	cok
 ui.929433e4be1d	靴	cok
+ui.92cefa5523a8	沒有染病	g6-static
 ui.93022dfd9b34	緩毒	cok
 ui.9305d3a8e566	檢視人物 拾取 集中財物 均分	cok
+ui.9349e8fa6cf6	被魔法防護罩包覆	g6-static
 ui.934fc6d174a1	要治療誰？	batch-editorial
 ui.939473c4290e	迷惑術	cok
 ui.93f97649cdeb	偵測 離開	cok
@@ -530,6 +559,7 @@ ui.9a1cce7fcc35	職業不符	cok
 ui.9a4078ebe058	半精靈	batch-editorial
 ui.9a5253015a01	較快	cok
 ui.9ab184b85e05	將會消失	cok
+ui.9acf34320531	沒有中毒	g6-static
 ui.9ae5a4479a81	無法儲存。磁片空間不足。	cok
 ui.9b2bbce6c72d	受到保護	batch-editorial
 ui.9c87350ca200	法術	cok
@@ -549,6 +579,7 @@ ui.a10cae1e9c04	免疫龍息	batch-editorial
 ui.a123dd728a7a	易傷	cok
 ui.a1c1212619a3	巨大術	cok
 ui.a1e592fecee5	金錢 物品 離開	cok
+ui.a214ce0a26eb	茫然地凝視	g6-static
 ui.a24f89fb7eb3	防護力	cok
 ui.a26d873b3d51	抱歉，A 磁碟機不能有防寫保護。	cok
 ui.a29e9feca009	將搖桿 #1 推到最左上角位置，然後按下按鈕讀取搖桿	cok
@@ -581,10 +612,12 @@ ui.a95140d02db9	被殺死了	cok
 ui.aa433e0ea3c6	免受善良傷害	cok
 ui.aa537527975c	中止施法嗎？	cok
 ui.aa67752cdcbc	選擇人物	cok
+ui.aabda3b2731b	恢復視力	g6-static
 ui.ab741ba7a7a6	檢視人物資料	cok
 ui.ab80540d98d2	大	cok
 ui.ababed4823ab	頭髮	cok
 ui.ac08bed00d4d	（無力反抗）	cok
+ui.ac2798d7e85b	被殺死了	g6-static
 ui.ac461667a825	創造新人物	cok
 ui.ac7104fc4031	沒有可抄寫的卷軸	cok
 ui.accf5e41d3a8	受到1點傷害	cok
@@ -625,6 +658,8 @@ ui.b59528a9bc9f	寬刃劍	cok
 ui.b639c243cebd	鑽石	cok
 ui.b67514c6d13f	抗火術	cok
 ui.b6a899371ceb	免受	batch-editorial
+ui.b6e7d327076f	請插入另一張磁片。	g6-static
+ui.b75af7ef6c4d	隱形了	g6-static
 ui.b7a1040b39ad	你要存多少？	batch-editorial
 ui.b84f45ad29b0	存款	batch-editorial
 ui.b9267e64e341	丟棄嗎？	cok
@@ -652,6 +687,7 @@ ui.bd104d1b98d0	友好術	cok
 ui.bd89d0b81174	要回去取走你們的寶藏嗎？	cok
 ui.be547a8c19df	的位置，然後按下1號按鈕。	cok
 ui.bec2538a4c67	戰鬥 等待 逃跑 談判	cok
+ui.bed9952c236e	零	g6-static
 ui.bf2b55855742	沒有失明	batch-editorial
 ui.bf3654a9a3dd	迷惑	batch-editorial
 ui.c031b229eabd	找不到	cok
@@ -666,6 +702,7 @@ ui.c210bfdf28ce	儲存	cok
 ui.c21365c7ea5b	2級	batch-editorial
 ui.c2144e87fdf4	較快	cok
 ui.c2322227f700	醫治疾病	cok
+ui.c2498a142a32	恢復了智力	g6-static
 ui.c2753bcb60bc	交易	cok
 ui.c2dc3b498d2c	能看見隱形物	batch-editorial
 ui.c35ed1964164	生命力	cok
@@ -709,6 +746,7 @@ ui.cdbf2aad986c	金錢不足。	cok
 ui.ce732dd1274e	存檔資料路徑（預設 -	cok
 ui.ce73dcfe30dd	被整個吞下	batch-editorial
 ui.ce78afd0e6a2	學習	cok
+ui.cf0a9a5f4ab6	設下延時爆發火球。	g6-static
 ui.cf360b345efa	已治癒	batch-editorial
 ui.d004ff3c3b43	解除法術	cok
 ui.d0068ba429ec	Michael Mancuso   Mike Provenza	batch-editorial
@@ -750,6 +788,7 @@ ui.d6d123e2e8ce	免費訓練開啟	cok
 ui.d70f9fe84763	啟動滑鼠和搖桿	cok
 ui.d88ade772ab3	要重擲屬性嗎？	cok
 ui.d91e43895d60	戰鬥開始了……	cok
+ui.d9325e0936a5	已復活	g6-static
 ui.d9b72c6c8ed6	Dave Lucca,Cliff Mann,Rick Wilson,	batch-editorial
 ui.dae0896cbc2c	鎖甲	cok
 ui.daf064fe39bd	不省人事	cok
@@ -797,6 +836,7 @@ ui.e4cba1c76c15	的位置，然後按下1號按鈕。	cok
 ui.e5282f4df0a5	不能選自己為目標	cok
 ui.e52a3fb722bd	拾取：	cok
 ui.e57bab47cfc9	初學者 隨從 老手 熟練 優勝者	cok
+ui.e6174370bafa	已復活	g6-static
 ui.e66ad0bcb4ad	引發失明	cok
 ui.e6cd637f954b	遊俠	cok
 ui.e6f16936a01e	失去一個法術	cok
@@ -822,6 +862,7 @@ ui.ebb4cacf2286	獲得經驗！	cok
 ui.ebc583583e1a	按 <Enter> 鍵繼續	cok
 ui.ebe2888cf1da	待抄寫	cok
 ui.ec1d85c28e73	（0=最快 9=最慢）	cok
+ui.ec21c8afa7ed	次序 剔除 速度 造形 難度 離開	g6-static
 ui.ec56ff1c91f1	力量增強	batch-editorial
 ui.ec9b10a4a79c	死亡	cok
 ui.eca1db49d76e	SSI 特別	batch-editorial
@@ -833,6 +874,7 @@ ui.ee34c92a04df	沒有石化	batch-editorial
 ui.eed1d1805f7c	存款	batch-editorial
 ui.eeebd533ebee	腰帶	cok
 ui.ef2bec0e5f42	神智混亂	batch-editorial
+ui.ef64ecdd8805	魔法師/賊	g6-static
 ui.efa20443d02e	變回血肉之軀	batch-editorial
 ui.efb9cda48d9d	開始施法	cok
 ui.eff933a07fd2	已治癒	batch-editorial
@@ -851,6 +893,7 @@ ui.f24d5c357740	將搖桿 #1 推到最左上角位置，然後按下按鈕 #1。
 ui.f2fbdfd7c100	等級	cok
 ui.f348fb4839ff	位移	cok
 ui.f34a08403165	離開遊戲：	cok
+ui.f3dfbc1acc94	沒有受到詛咒	g6-static
 ui.f499c0e6f8ea	請將磁片 4 插入磁碟機	cok
 ui.f4ccae29e1bb	逃跑	cok
 ui.f528273db22b	請將磁片 5 放入磁碟機	batch-editorial
@@ -887,6 +930,7 @@ ui.fcdfcb21ab14	1 個法術	cok
 ui.fcfe1a334f70	食人魔之力	cok
 ui.fd5464131c57	請稍候 警告：儲存人物時發生問題	batch-editorial
 ui.fd5da56f78ed	倒下了	cok
+ui.fe3cf5b60934	噴出火焰	g6-static
 ui.fe5b48644212	戰士	cok
 ui.fe6c9d4d8e5b	啟動滑鼠和搖桿：	cok
 ui.fe95d23deff6	物品：	cok
