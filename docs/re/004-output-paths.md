@@ -84,9 +84,9 @@ adapter 是 dosgolem `apps/sosb/`（由 `apps/cok` 複製，`dosgolem/sosb` 分�
 
 | 常數 | 用途 | 重驗時機 |
 |---|---|---|
-| `players.go recordSexOff 0x109` | 玩家名音譯的性別 | G6 |
-| `automap.go geoPtrOff、partyXOff` | 地圖疊層 | G8 |
-| `cheat.go partyHead DS:609A` 與紀錄位移 | 作弊 | G10 |
+| `cheat.go partyHead DS:609A` 與紀錄位移 | 作弊 | G10（#17） |
+
+性別欄已重驗為 +0x11F（[007](007-g6-diagnostic-coverage.md)），地圖疊層的 `geoPtrOff`、`partyXOff` 已重驗為 `DS:89CE`、`DS:89D7`（[009](009-map-overlay.md)）。
 
 ## 未知
 
