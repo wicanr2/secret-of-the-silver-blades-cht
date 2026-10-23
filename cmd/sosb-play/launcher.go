@@ -306,6 +306,14 @@ func clearErrorLog() {
 	}
 }
 
+// releaseJournalMaps 回發行包內的手札地圖頁目錄（主專案規格 022；圖面由英文手札衍生，只在本機完整版）；沒有就回空字串。
+func releaseJournalMaps() string {
+	if p, err := resourcePath(filepath.Join("journal-maps", "01-1.png")); err == nil {
+		return filepath.Dir(p)
+	}
+	return ""
+}
+
 // releaseMusic 回發行模式的配樂目錄（含 music.tsv）；沒有就回空字串。
 func releaseMusic() string {
 	if p, err := resourcePath(filepath.Join("music", "music.tsv")); err == nil {

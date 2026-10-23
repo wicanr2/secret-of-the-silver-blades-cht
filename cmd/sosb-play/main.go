@@ -621,6 +621,9 @@ func main() {
 		if *musicDir == "" {
 			*musicDir = releaseMusic()
 		}
+		if *journalMaps == "" {
+			*journalMaps = releaseJournalMaps()
+		}
 		if gameDir, startName, err = prepareGame(*original, data); err != nil {
 			fail(err)
 		}
