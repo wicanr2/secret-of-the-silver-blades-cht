@@ -1,6 +1,6 @@
 # 目前真相
 
-更新：2026-10-22（Asia/Taipei）。規則見 [AGENTS.md](AGENTS.md)，歷程見 [WORKLOG.md](WORKLOG.md)。
+更新：2026-10-23（Asia/Taipei）。規則見 [AGENTS.md](AGENTS.md)，歷程見 [WORKLOG.md](WORKLOG.md)。
 
 ## 儲存庫
 
@@ -45,7 +45,7 @@
 
 | 項目 | 值 |
 |---|---|
-| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `a6e0254`，推到本 repo 的 `dosgolem/sosb` |
+| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `2d914f7`，推到本 repo 的 `dosgolem/sosb` |
 | Go／image | go1.24.13；`dosgolem-go-ebiten:1.24-r1` `sha256:8ed6bdee2bce…` |
 | 冷啟動 | 0 種缺服務；mode 0Dh；首次執行回答 EGA、AdLib、MOUSE、預設存檔路徑，`-program-path 'C:\SECRET\START.EXE'`；空白鍵跳過標題、`p` 進主選單，見 [docs/re/003](docs/re/003-dosgolem-startup.md) |
 
@@ -58,7 +58,7 @@
 | 譯文 | UI 891、ECL 1,498、名稱 788 筆；字型源泉圓體 2,245 字（`tools/font-dev.sh`） |
 | 玩家名音譯 | 性別欄 +0x11F（強推論），預建 6 人全部音譯 |
 | 查驗題 | 字序含標題，已證實 2 題（docs/re/004） |
-| 手札引用 | 鎮長對白後手札第 37 則自動彈出、F5 翻閱已有收據（docs/re/007） |
+| 手札引用 | 鎮長對白後手札第 37 則自動彈出、F5 翻閱已有收據（docs/re/007）；12 則地圖手札顯示圖面（規格 022） |
 | 攻略與地圖 | 攻略 40 段、F6 面板收據（docs/re/008）；地圖疊層 F7 位址已證實、17 塊地區名，攻略點未做（docs/re/009） |
 | 前端功能 | sosb-play 冷開機、存讀檔、demo 中止、CPU 速度 1x–32x、切換列字級；無敵停用待驗（#17） |
 | 閃爍 | 規格 021：閃現量尺 `-flash-audit`；demo 9000 格、手札＋鎮上進金庫 19500 格皆 0；殘影疊字處理原版還原顯存（docs/re/010、規格 021） |

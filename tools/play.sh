@@ -24,6 +24,9 @@ test -d /tmp/.X11-unix || { echo "找不到 /tmp/.X11-unix" >&2; exit 1; }
 mkdir -p "$DATA"
 HD=()
 if test -f "$THEME/theme.json"; then HD=(-v "$THEME":/hd:ro); HDFLAG=(-hd /hd); else HDFLAG=(); fi
+# 手札地圖頁（規格 022）：tools/journal_maps.py 產生的圖檔在就載入
+JMAPS="$ROOT/workplace/journal/maps/zh-TW"
+if test -f "$JMAPS/01-1.png"; then HD+=(-v "$JMAPS":/jmaps:ro); HDFLAG+=(-journal-maps /jmaps); fi
 (cd "$DG" && DOSGOLEM_TIMEOUT=10m tools/go.sh build -o /src/workplace/bin/sosb-play ./cmd/sosb-play)
 test -x "$DG/workplace/bin/sosb-play"
 exec timeout 12h docker run --rm --network none --memory 2g --cpus 2 --pids-limit 256 \

@@ -22,6 +22,8 @@ from eten_font import charset, load_unifont  # noqa: E402
 GENSEN = {  # 檔名：SHA-256 前 16 碼（github.com/ButTaiwan/gensen-font v2.100 GenSenRounded2TW-otf.zip）
     'GenSenRounded2TW-M.otf': 'b8286a42c534d31c', 'GenSenRounded2TW-B.otf': '050f9ebf394faab3',
 }
+# 雙線的『』在 50% 門檻下筆畫斷掉（16 格只剩幾點，主專案 #8 手札第 64 則），改用較低門檻
+THIN = {"『": 80, "』": 80}
 
 
 def to_bits(img, cell, thr):
@@ -92,7 +94,7 @@ def main():
         cell = a.cell
         img = Image.new('L', (cell * len(a.sample), cell), 0)
         for i, ch in enumerate(a.sample):
-            bm = half(font, ch, cell, a.threshold) if ord(ch) < 0x80 else full(font, ch, cell, a.threshold)
+            bm = half(font, ch, cell, a.threshold) if ord(ch) < 0x80 else full(font, ch, cell, min(a.threshold, THIN.get(ch, a.threshold)))
             rb = (cell + 7) // 8
             for y in range(cell):
                 for x in range(cell):
@@ -107,7 +109,7 @@ def main():
         if ord(ch) < 0x80:
             tag, bm = 7, half(font, ch, a.cell, a.threshold)
         elif cmap_ok(ch):
-            tag, bm = 7, full(font, ch, a.cell, a.threshold)
+            tag, bm = 7, full(font, ch, a.cell, min(a.threshold, THIN.get(ch, a.threshold)))
         elif ord(ch) in uni:
             tag, bm = 8, from_unifont(uni[ord(ch)], a.cell)
             fallback += 1

@@ -135,3 +135,12 @@
   教訓：腳本與一次性指令都在 `docker run` 前對每個 `-v` 的可寫目標 `mkdir -p` 並 `test -d`，不靠記得。
 - HD 主題以 `tools/hd_sync.py` 同步到 repo 的 `hd/theme/`（3,477 檔，42 MB，只帶 JSON 引用的檔），沿用克萊恩英豪的位置與 AGENTS.md 第 3 節例外；
   `g16-flash-receipt.sh` 加 `HD=1` 的 3 倍＋HD 輪。
+
+## 2026-10-23 G7 手札地圖頁與『』字形（#8）
+
+- 使用者指示依序做 G6、G7、G8、G4、G10，做完再抽驗。
+- 12 則地圖手札改顯示圖面（規格 022）：英文手札第 16–24 頁 300 dpi 裁圖，只留深藍墨線，抹掉英文標籤與圖例，中文標籤畫回原位、圖例改列右欄；
+  高瘦的 4 張切成兩頁，共 16 頁。標籤座標與譯文在 `text/journal-maps.zh-TW.tsv`，圖檔由原版衍生，放 `workplace/journal/maps/zh-TW/`，不進 Git。
+- dosgolem `2d914f7`：`LoadJournalMaps`、地圖頁面板 [8,312)×[8,192)、`-journal-maps`。收據 `tools/g7-journal-maps-receipt.sh`（第 1 則兩頁、第 32、72 則）。
+- 『』在 16 格 50% 門檻下雙線斷成幾個點（第 64 則），`tools/rounded_font.py` 對這兩字改用 80 門檻後重建字型。
+- 勘誤：新表的欄名用 `zh`，`tools/font-dev.sh` 掃 `text/*.tsv` 時找不到顯示欄而中止；改名 `label`。
