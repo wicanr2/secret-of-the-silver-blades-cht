@@ -17,7 +17,7 @@ adapter 是由 `apps/cok` 複製的 `apps/sosb`。本表的狀態只算本作已
 | 008 攻略面板 | READY | #9 | 來源《軟體世界》第 21–25 期，40 段；雜誌譯名依 `text/walkthrough-terms.tsv` 換成遊戲譯名 | docs/re/008 |
 | 009 地圖疊層 | READY | #9 | GEO 指標 `DS:89CE`、位置 `DS:89D7`（已證實）；17 塊地區名稱依同號 ECL 區塊；攻略點 8 張地圖 298 點（鎮上與知識之井已在遊戲內核對）；礦坑與地下城待分層 | docs/re/007、009、`tools/g8-map-guide-receipt.sh` |
 | 010 HD 主題 | READY | #10 | 生圖交 Codex，其餘 Claude；第一階段 89、戰鬥 394、牆面與天空 1,252（共 3 項維持原版）；demo 與鎮上 3 倍＋HD 閃現 0；審閱頁 `review/hd/`；標題流程 3 倍＋HD 閃現 0 | `tools/hd_*.py`、`g16-flicker-probe.sh`（`HD=1 SCALE=3`） |
-| 011 切換列 | DRAFT | #10 | 未在本作驗證 | — |
+| 011 切換列 | DRAFT | #10 | 倍率合成一項（「3倍」或「3倍HD」，不另列「無HD」，規格 019 第 17 列）；發行包的切換列顯示已驗，Linux 與 Wine 逐像素相同；滑鼠顯示與逐項點擊未在本作驗證 | `tools/release/smoke-toolbar.sh`、`g14-toolbar-receipt.sh` |
 | 012 發行包 | READY | #12 | `tools/package.sh` 由前作移植，字型由 `font-dev.sh` 產生；倚天字型借 3 個 Big5 沒有的字；手札地圖頁只進本機完整版；`v.1.0.0-20261023` 三平台完整版 Linux、Wine 冒煙截圖相同，macOS 驗結構；patch 包未打 | 規格 012、`tools/release/smoke-*.sh` |
 | 013 玩家名音譯 | READY | #7 | 性別欄 +0x11F（強推論）；名字接受大小寫混合 | docs/re/007 |
 | 014 配樂 | READY | #11 | 原版只有標題曲、三聲道同一組音色；13 首以標題曲 4 個動機新編，使用者試聽通過（2026-10-23）；選曲字串取自本作盤點，勝利與強敵只有靜態證據 | `tools/music_compose.py`、`cmd/sosb-music-cues` |

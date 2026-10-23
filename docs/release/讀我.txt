@@ -30,7 +30,7 @@ https://github.com/wicanr2/secret-of-the-silver-blades-cht
   F2   切換 2 倍／3 倍（HD 版的重繪圖只在 3 倍顯示）
   F3   靜音
   F4   遊戲中配樂開關
-  F5   翻閱已讀過的旅行手札（PgUp／PgDn 翻頁，←／→ 換則，Esc 關閉）；地圖手札顯示圖面
+  F5   翻閱已讀過的旅行手札（PgUp／PgDn 翻頁，←／→ 換則，Esc 關閉）；地圖手札在本機完整版顯示圖面
   F6   遊戲內攻略（內容有劇情與解謎答案）
   F7   地圖與攻略點（V 切換全圖／只看走過的格子）
   F8   切換語言（繁中、简中、日本語、한국어、English）
@@ -53,7 +53,7 @@ https://github.com/wicanr2/secret-of-the-silver-blades-cht
 五、版本
   SOSBCHT-<版本>-…：原版畫面加中文。
   SOSBCHT-<版本>-hd-…：另附 HD 重繪圖（3 倍時顯示），重繪圖由 AI 生成。
-  沒有 HD 素材時，切換列上的 HD 會停用並顯示「無HD」。
+  切換列的倍率項顯示目前倍率：有 HD 素材時 3 倍顯示「3倍HD」，沒有時顯示「3倍」。
   檔名含 with-data 的是本機完整版，內含原版遊戲，只供已擁有原版的人在自己的電腦上使用，
   請勿散布、上傳或分享。
 

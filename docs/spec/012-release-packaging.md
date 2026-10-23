@@ -31,12 +31,12 @@ macOS universal zip，各分原版與原版＋HD 兩包；本機完整版另附�
 
 | 檔案 | 位元組 | SHA-256 |
 |---|---|---|
-| `SOSBCHT-v.1.0.0-20261023-with-data-x86_64.AppImage` | 7,100,920 | `0d8caa81dc853947c9df898a112c25687efa17d410d06c85f8700e961464f515` |
-| `SOSBCHT-v.1.0.0-20261023-hd-with-data-x86_64.AppImage` | 37,231,096 | `55c745c1a1302ffc6c67d285f367f294e9d29f2d20355b0415a60938e5771985` |
-| `SOSBCHT-v.1.0.0-20261023-with-data-win64.zip` | 6,708,948 | `a8de5626750677c1ed1e717213e764ec6d84d62e5984d1222f95c2e14ca2f850` |
-| `SOSBCHT-v.1.0.0-20261023-hd-with-data-win64.zip` | 37,519,758 | `51a812927a7d6980e80bae688342dd3c98c7edf11ad1da66e549fdbdbb17b71c` |
-| `SOSBCHT-v.1.0.0-20261023-with-data-macos.zip` | 9,999,322 | `d3496f5ea84a7cb00fae34780d397e7dec89a454fcc44b19ea106a12b74ff2ea` |
-| `SOSBCHT-v.1.0.0-20261023-hd-with-data-macos.zip` | 41,025,706 | `1c9935ce5c2dc48992862328367ce0ffffcfd2ca1d4344c55277fe15a9360da1` |
+| `SOSBCHT-v.1.0.0-20261023-with-data-x86_64.AppImage` | 7,100,920 | `74e8ba561a9349b88ef6c55d5ec2c63748ce60cb83fba330f63080236011235b` |
+| `SOSBCHT-v.1.0.0-20261023-hd-with-data-x86_64.AppImage` | 37,231,096 | `c462c0f2faa17f07a42a1ad11c1bd481925cb7ada20c3db2905ec0c175237ff6` |
+| `SOSBCHT-v.1.0.0-20261023-with-data-win64.zip` | 6,708,967 | `5170f2e62a2d78a190446e79691c135f2bbb4c764e1fdde49a4ed18ff01a262b` |
+| `SOSBCHT-v.1.0.0-20261023-hd-with-data-win64.zip` | 37,519,777 | `52ae9b3608f2cb30f82fbb25015991f1e84a848feb91999622491bdb58f47823` |
+| `SOSBCHT-v.1.0.0-20261023-with-data-macos.zip` | 9,999,360 | `a7af4657adf42c6fb5beda5735238a8a65ab71dde2583d644f04903b0bf0a3e1` |
+| `SOSBCHT-v.1.0.0-20261023-hd-with-data-macos.zip` | 41,025,744 | `10c4e0a7de6f90957e516c1e64473d204c8581dcf6ee5dd8116d8f413a4ee44d` |
 
 冒煙（`dist-all/v.1.0.0-20261023/smoke/full-local/`）：
 
@@ -45,7 +45,7 @@ macOS universal zip，各分原版與原版＋HD 兩包；本機完整版另附�
 | Linux AppImage（容器內 `APPIMAGE_EXTRACT_AND_RUN`） | 兩包冷開機結束碼 0、匯入 `game/` 50 檔、缺字 0。標題截圖原版 `a7870e9f…`、HD `c4853181…`（差 560,850 像素，HD 有載入）；主選單兩包相同 `6af3a15f…` |
 | Windows zip（Wine 9.0） | 兩包冷開機結束碼 0、匯入 50 檔；`-lang zh-TW` 時標題與主選單截圖都與 Linux 逐像素相同。拿掉 `original/` 與 `game/` 後結束碼 1，留下 `sosb-error.log` |
 | Windows 語言自動選擇 | 不指定語言時 Wine 回報 en-US，依規格 015 選英文；遊戲畫面 `indexed_sha256` 與 Linux 相同，只有覆繪語言不同 |
+| 切換列（`tools/release/smoke-toolbar.sh`） | Linux、Wine 兩包在第 2400 格標題以 `bar` 常駐切換列、中字級：結束碼 0、缺字 0；切換列（上方 96 像素）兩平台逐像素相同（原版包 `95152f64…`、HD 包 `628a271d…`）；倍率項原版包顯示「3倍」、HD 包顯示「3倍HD」 |
 | macOS zip（只驗結構） | 兩包 universal（x86_64、arm64）、執行權限、版號、必要檔、HD 主題只在 HD 版、含原版、倚天字型、手札地圖頁與本機自用說明都通過 |
 
 未驗：macOS 實機執行、Windows 實機（只在 Wine 上跑）、可散布 patch 包（這次沒有打包，外洩掃描未跑）。
-打 patch 包前要改 `docs/release/讀我.txt` 的 F5 說明：地圖手札的圖面只在本機完整版。
