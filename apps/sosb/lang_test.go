@@ -10,7 +10,8 @@ import (
 	"github.com/wicanr2/dosgolem/xlate"
 )
 
-func TestPathARelangRetranslatesAndDropsOverlong(t *testing.T) {
+// 主專案規格 015、xlate spec 202 §2.10：放不下或查不到的疊字隱藏（露出原版）而不移除，換回查得到的語言時恢復。
+func TestPathARelangRetranslatesAndHidesOverlong(t *testing.T) {
 	m := make(fakeMem, 0x100000)
 	plantSignature(m, 0x62AA, 0)
 	layer := &xlate.Layer{}
@@ -27,11 +28,16 @@ func TestPathARelangRetranslatesAndDropsOverlong(t *testing.T) {
 	font2 := &xlate.Font{W: 16, H: 16, Glyphs: map[rune][]byte{}}
 	p.relang(catalogOf(t, "Human", "人类", "Exit", "离开这个画面"), font2, QuizFormat{})
 	r := quizRows(layer)
-	if r[8] != "人类" || r[10] != "" {
-		t.Fatalf("重譯結果 %q；放不下的要移除：%v", r[8], r)
+	if r[8] != "人类" {
+		t.Fatalf("重譯結果 %q：%v", r[8], r)
 	}
-	if len(layer.Stamps) != 1 || layer.Stamps[0].Font != font2 {
-		t.Fatal("留下的 Stamp 要換成新字型")
+	if len(layer.Stamps) != 2 || layer.Stamps[0].Font != font2 || layer.Stamps[0].Hidden || !layer.Stamps[1].Hidden {
+		t.Fatal("放得下的換新字型照常顯示，放不下的留在 Layer 但隱藏")
+	}
+	p.relang(catalogOf(t, "Human", "人類", "Exit", "離開"), font, QuizFormat{})
+	r = quizRows(layer)
+	if r[8] != "人類" || r[10] != "離開" || layer.Stamps[1].Hidden {
+		t.Fatalf("換回後隱藏的要恢復：%v", r)
 	}
 }
 

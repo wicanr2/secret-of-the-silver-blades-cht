@@ -23,7 +23,7 @@ type ghost struct {
 // （整塊純色無從判斷原文是否回來）。Layer 管理的疊字用定色時的指紋與錨定格（spec 202 §2.3）；
 // 呼叫端自行管理的（frozen）沒有那份紀錄，以這一幀的畫面記。
 func snapshotGhost(s *Stamp, frozen bool, indexed []uint8, w, h int) *ghost {
-	if s.Art || s.Cells <= 0 || s.State != Shown {
+	if s.Art || s.Hidden || s.Cells <= 0 || s.State != Shown { // 隱藏的不記殘影（spec 202 §2.10）
 		return nil
 	}
 	g := &ghost{s: s, hashes: s.hashes, anchors: s.anchors}

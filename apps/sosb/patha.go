@@ -275,14 +275,16 @@ func (p *PathA) PrepareFrame(indexed []uint8, w, h int) {
 	}
 }
 
-// relang 換語言後重譯仍在 Layer 上的路徑 A 疊字（主專案規格 015 §2）：新譯文放不下或查不到的移除，露出原版。
+// relang 換語言後重譯仍在 Layer 上的路徑 A 疊字（主專案規格 015 §2）：新譯文放不下或查不到的設為隱藏
+// （xlate spec 202 §2.10），露出原版但保留原文，換回查得到的語言時再顯示。
+// 不移除的理由：日韓英沒有隊員名音譯，移除後切回繁中，隊員名要等遊戲重印才恢復。
+// 隱藏期間原版內容換掉時，Layer 照常讓它失效，不會把舊譯文畫回新畫面。
 func (p *PathA) relang(cat Lookuper, font *xlate.Font, f QuizFormat) {
 	p.Catalog, p.Font, p.QuizFormat = cat, font, f
 	shown := map[*xlate.Stamp]bool{}
 	for _, s := range p.Layer.Stamps {
 		shown[s] = true
 	}
-	drop := map[*xlate.Stamp]bool{}
 	for st, key := range p.src {
 		if !shown[st] {
 			delete(p.src, st)
@@ -292,23 +294,13 @@ func (p *PathA) relang(cat Lookuper, font *xlate.Font, f QuizFormat) {
 		e, ok := cat.Lookup(key)
 		runes := p.pack(e.Translation)
 		if !ok || len(runes) > st.Cells {
-			drop[st] = true
-			delete(p.src, st)
+			st.Hidden = true
 			continue
 		}
 		for len(runes) < st.Cells {
 			runes = append(runes, ' ')
 		}
-		st.Text, st.Font = runes, font
-	}
-	if len(drop) > 0 {
-		keep := p.Layer.Stamps[:0]
-		for _, s := range p.Layer.Stamps {
-			if !drop[s] {
-				keep = append(keep, s)
-			}
-		}
-		p.Layer.Stamps = keep
+		st.Text, st.Font, st.Hidden = runes, font, false
 	}
 	p.relangQuiz()
 }

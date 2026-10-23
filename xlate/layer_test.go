@@ -817,3 +817,64 @@ func TestEarlyStampDrawsBeforeShown(t *testing.T) {
 		}
 	}
 }
+
+// spec 202 §2.10：隱藏的疊字不畫、取消隱藏後照畫，快照保存隱藏狀態。
+func TestHiddenStampNotDrawnUntilUnhidden(t *testing.T) {
+	g := make([]byte, 3*24)
+	g[0] = 0x80
+	font := &Font{W: 24, H: 24, Name: "cjk24", Glyphs: map[rune][]byte{'一': g}}
+	s := &Stamp{X: 8, Y: 112, Cells: 2, CellW: 8, CellH: 8, Font: font, Text: []rune("一 "), State: Shown,
+		FG: [3]uint8{1, 2, 3}, BG: [3]uint8{9, 9, 9}, Hidden: true}
+	l := &Layer{Stamps: []*Stamp{s}}
+	dst := make([]uint8, 4*960*600)
+	if l.Draw(dst, 3, nil) || !bytes.Equal(dst, make([]uint8, len(dst))) {
+		t.Fatal("隱藏的疊字不應畫出")
+	}
+	data, err := l.Snapshot()
+	if err != nil {
+		t.Fatal(err)
+	}
+	r := &Layer{}
+	if err := r.Restore(data, map[string]*Font{"cjk24": font}); err != nil || len(r.Stamps) != 1 || !r.Stamps[0].Hidden {
+		t.Fatalf("快照沒保存隱藏：%v", err)
+	}
+	s.Hidden = false
+	if !l.Draw(dst, 3, nil) {
+		t.Fatal("取消隱藏後應照畫")
+	}
+	if i := 4 * (336*960 + 24); dst[i] != 1 || dst[i+1] != 2 || dst[i+2] != 3 {
+		t.Fatalf("字模點顏色 %v", dst[i:i+3])
+	}
+}
+
+// spec 202 §2.10：隱藏期間底下的原版換掉，照常失效移除（之後不會把舊譯文畫回新畫面），也不記成殘影。
+func TestHiddenStampStillInvalidates(t *testing.T) {
+	idx := make([]uint8, DefaultScreenW*DefaultScreenH)
+	rgb := make([]uint8, 3*DefaultScreenW*DefaultScreenH)
+	idx[112*DefaultScreenW+9] = 11
+	idx[112*DefaultScreenW+17] = 11
+	l := &Layer{}
+	s := &Stamp{Key: "k", X: 8, Y: 112, Cells: 2, CellW: 8, CellH: 8, State: Pending}
+	l.Stamps = []*Stamp{s}
+	l.Frame(idx, rgb)
+	if s.State != Shown {
+		t.Fatal("定色後應該顯示")
+	}
+	s.Hidden = true
+	l.Frame(idx, rgb)
+	if len(l.prevShown) != 0 {
+		t.Fatal("隱藏的疊字不應記成殘影")
+	}
+	all := append([]uint8(nil), idx...)
+	for y := 112; y < 120; y++ {
+		for x := 8; x < 24; x++ {
+			all[y*DefaultScreenW+x] = 3
+		}
+	}
+	for i := 0; i < 3; i++ {
+		l.Frame(all, rgb)
+	}
+	if len(l.Stamps) != 0 {
+		t.Fatal("隱藏期間原版每格都變，應該照常移除")
+	}
+}

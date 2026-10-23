@@ -43,12 +43,15 @@ type Stamp struct {
 	Transparent []bool
 	// SwapColors 把定色的背景與前景對調（spec 202 §2.3）。用途：字比底密的區塊
 	// （字模填滿整條橫幅時，字的像素多於底），「最多的當背景」在那裡會反過來。
-	SwapColors        bool
-	State             State
-	FG                [3]uint8
-	BG                [3]uint8
+	SwapColors bool
+	State      State
+	FG         [3]uint8
+	BG         [3]uint8
 	// Early：呼叫端加入時已填 FG、BG，Draw 在 Printing、Pending 也照這組顏色畫（spec 202 §2.3.1）。
 	Early bool
+	// Hidden：不畫、不記殘影，其餘（定色、指紋、失效移除）照常（spec 202 §2.10）。
+	// 用途：換語言後新語言查不到這筆的譯文，露出原版；換回時清掉就能再顯示，原版內容換過的話它已照常失效。
+	Hidden            bool
 	fgIndex, bgIndex  uint8 // 顯示顏色追隨原版色盤；只存記憶體，快照格式不變
 	colorIndicesKnown bool
 	// seenFG／seenBG 是上一次在畫面上看到的那兩個色號的 RGB。色盤真的變了才改 FG／BG，
@@ -719,7 +722,7 @@ func (l *Layer) DrawWithBackground(dst []uint8, scale int, missing func(r rune),
 	W := l.width() * scale
 	ghosts := l.ghostsToDraw() // spec 202 §2.7：畫在現有疊字之前
 	for i, s := range append(ghosts, l.Stamps...) {
-		if i >= len(ghosts) && s.State != Shown && !s.Early {
+		if i >= len(ghosts) && (s.Hidden || s.State != Shown && !s.Early) {
 			continue
 		}
 		drew = true
@@ -766,7 +769,7 @@ func (l *Layer) DrawChecked(dst []byte, scale int, missing func(rune)) (bool, er
 	}
 	drew := false
 	for _, s := range l.Stamps {
-		if s.State != Shown && !s.Early {
+		if s.Hidden || s.State != Shown && !s.Early {
 			continue
 		}
 		drew = true
@@ -882,6 +885,7 @@ type stampSnapshot struct {
 	Text        string               `json:"text"`
 	Transp      []bool               `json:"transparent,omitempty"`
 	Swap        bool                 `json:"swap_colors,omitempty"`
+	Hidden      bool                 `json:"hidden,omitempty"` // spec 202 §2.10；舊快照沒有＝顯示
 	State       State                `json:"state"`
 	FG          [3]uint8             `json:"fg"`
 	BG          [3]uint8             `json:"bg"`
@@ -932,7 +936,7 @@ func (l *Layer) Snapshot() ([]byte, error) {
 		snap.Stamps[i] = stampSnapshot{
 			Key: s.Key, Owner: s.Owner, X: s.X, Y: s.Y, Cells: s.Cells, CellW: s.CellW, CellH: s.CellH,
 			Font: name, GlyphX: s.GlyphX, GlyphY: s.GlyphY, GlyphScale: s.GlyphScale,
-			Text: string(s.Text), Transp: s.Transparent, Swap: s.SwapColors, State: s.State, FG: s.FG, BG: s.BG,
+			Text: string(s.Text), Transp: s.Transparent, Swap: s.SwapColors, Hidden: s.Hidden, State: s.State, FG: s.FG, BG: s.BG,
 			Hashes: mustJSON(s.hashes), Misses: mustJSON(s.misses), Anchors: s.anchors, Changed: s.changed,
 		}
 		if s.PixelScale != 0 {
@@ -995,7 +999,7 @@ func (l *Layer) Restore(data []byte, fonts map[string]*Font) error {
 		s := &Stamp{
 			Key: ss.Key, Owner: ss.Owner, X: ss.X, Y: ss.Y, Cells: ss.Cells, CellW: ss.CellW, CellH: ss.CellH,
 			Font: font, GlyphX: ss.GlyphX, GlyphY: ss.GlyphY, GlyphScale: ss.GlyphScale,
-			Text: []rune(ss.Text), PixelScale: ss.PixelScale, Transparent: ss.Transp, SwapColors: ss.Swap, State: ss.State, FG: ss.FG, BG: ss.BG,
+			Text: []rune(ss.Text), PixelScale: ss.PixelScale, Transparent: ss.Transp, SwapColors: ss.Swap, Hidden: ss.Hidden, State: ss.State, FG: ss.FG, BG: ss.BG,
 			hashes: decodeHashes(ss.Hashes), misses: decodeMisses(ss.Misses), anchors: ss.Anchors, changed: ss.Changed,
 		}
 		for _, pg := range ss.PixelGlyphs {
