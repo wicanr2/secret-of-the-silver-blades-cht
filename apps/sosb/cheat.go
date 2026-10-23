@@ -2,29 +2,28 @@ package sosb
 
 import "fmt"
 
-// 作弊：我方無敵（主專案規格 017，欄位見主專案 docs/re/010）。開啟時，遊戲寫入我方紀錄的目前 HP 變小、
+// 作弊：我方無敵（主專案規格 017，欄位見主專案 docs/re/012）。開啟時，遊戲寫入我方紀錄的目前 HP 變小、
 // 健康狀態由 0 變成非 0、陣營由我方變成其他（魅惑），都立即還原；每格開頭把我方效果串列裡的有害效果
 // （麻痺、睡眠等）解除連結。回復、治療與有益效果照常。關閉時不監看、不改任何位址，與原版相同。
 
-// CheatVerified 為 false 時前端停用無敵（切換列灰色、F1 不動作）：下列位址與紀錄位移仍是克萊恩英豪值，
-// 本作角色紀錄版面不同（性別欄 +0x11F，克萊恩英豪 +0x109），走錯串列時 GuardWrite 會把還原寫到不相干的位址。
-// 依主專案 docs/re 驗證後才改成 true。
-const CheatVerified = false
+// CheatVerified 為 false 時前端停用無敵（切換列灰色、F1 不動作）。本作的串列頭與紀錄位移已在主專案 docs/re/012 以
+// 鎮上、建角與 demo 戰鬥的記憶體傾印證實（紀錄 0x1B7 bytes，串列尾端欄位比克萊恩英豪多 0x1E）。
+const CheatVerified = true
 
 const (
-	// 克萊恩英豪值，本作未驗（G10 作弊前重驗；本作 DS 為 0EF2）。
-	partyHead    = 0x0CD6*16 + 0x609A // DS:609A 隊伍串列頭（遠指標）
-	recNext      = 0x17F              // 下一位紀錄（遠指標）；戰鬥中會接到怪物
-	recAffects   = 0xE3               // 效果串列頭（遠指標）；每筆 9 bytes，+0 類型、+5 下一筆
+	// 主專案 docs/re/012（DS 為 0EF2）；括號內是克萊恩英豪的位移。
+	partyHead    = 0x0EF2*16 + 0x7D3C // DS:7D3C 隊伍串列頭（遠指標）；DS:7D38 是目前選取／行動的角色
+	recNext      = 0x19D              // 下一位紀錄（遠指標，0x17F）；戰鬥中會接到怪物
+	recAffects   = 0xFB               // 效果串列頭（遠指標，0xE3）；每筆 9 bytes，+0 類型、+5 下一筆
 	affectNext   = 5
 	maxAffects   = 64    // 防壞掉的串列
-	recStatus    = 0x188 // 健康狀態，0 正常
-	recTeam      = 0x18A // 陣營，我方 0
-	recHP        = 0x197 // 目前 HP
+	recStatus    = 0x1A6 // 健康狀態，0 正常（0x188）
+	recTeam      = 0x1A8 // 陣營，我方 0（0x18A）
+	recHP        = 0x1B5 // 目前 HP（0x197）
 	maxPartyRecs = 12    // 隊員 6 名加 NPC，留餘裕；也擋住壞掉的串列
 )
 
-// harmfulAffect 是要從我方移除的效果類型。0x34 麻痺為本作實機證實（docs/re/010）；其餘取自同引擎
+// harmfulAffect 是要從我方移除的效果類型。0x34 麻痺為克萊恩英豪實機證實（該專案 docs/re/010），本作沿用、未單獨觀測；其餘取自同引擎
 // 《詛咒藍符》反組譯（失能 0x1F、失明 0x21、緩慢 0x2A、蛇咒 0x33、睡眠 0x35），本作等級為假說。
 var harmfulAffect = map[uint8]bool{0x1F: true, 0x21: true, 0x2A: true, 0x33: true, 0x34: true, 0x35: true}
 
