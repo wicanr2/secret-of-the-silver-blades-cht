@@ -1,0 +1,376 @@
+{
+  "version": 1,
+  "scale": 3,
+  "kind": "combat-terrain",
+  "grid": [
+    8,
+    8,
+    7,
+    7,
+    24
+  ],
+  "background_index": 8,
+  "request_manifest_sha256": "1cecfe9539820a7d043167081d4d25b105d8ea5a3aef2b714363d85e807835f7",
+  "items": [
+    {
+      "key": "dungcom-001-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-00.png",
+      "png_sha256": "4180eaca1f595d32bb1ddf0c8e23cd5192c80f5b48b798a4595ce5f6213dc7d9",
+      "indexed": "dungcom-001-00-00.idx",
+      "indexed_sha256": "d08a6d48d5523f148d7619c58e0bcd8e09d0e2b91ba7d6e11181b8607eef8a67",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-01",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-01.png",
+      "png_sha256": "a7b344f6b60121d09b0a8ffe104207c0282922140679c3c5eb89b1f24526dc06",
+      "indexed": "dungcom-001-00-01.idx",
+      "indexed_sha256": "e12c21ebf87fbf86a73bd2f368970397652da59dbc9062492b2ce46fc380d090",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-02",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-02.png",
+      "png_sha256": "213d0d477d6e4c9ff90f869300ca1e1ded4f1fd390b05cdc90698c7ae88c725a",
+      "indexed": "dungcom-001-00-02.idx",
+      "indexed_sha256": "e6e947d7b06e912e5fa3d563cf1fb9986e4c4c372bce49b59b1474d8e8916fb4",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-03",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-03.png",
+      "png_sha256": "a8db740996d8088aaa4d472d274e05fcd4d4069bff751ea0944e6ddd49aa42d4",
+      "indexed": "dungcom-001-00-03.idx",
+      "indexed_sha256": "79c3eb31406c94ac350d8973a90beb2d412809d3464c5b7e8c63fb3db70af147",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-04",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-04.png",
+      "png_sha256": "901c96e77d038856dc9d2d717ca5f6b88763767081b3ba43b1b3a92a0cca88e9",
+      "indexed": "dungcom-001-00-04.idx",
+      "indexed_sha256": "b3e90826d2131be5be61f7fc85a2ad9bbae7330cdeaf97a1486a280dd6fe613d",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-05",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-05.png",
+      "png_sha256": "4c70e6c1dc0954e561c9eb1996b374469ab1819aa0ae20cc790586d38431476e",
+      "indexed": "dungcom-001-00-05.idx",
+      "indexed_sha256": "954fea509934ae3b14e96a148df3cb9210c414301663d45507f953aae29ced71",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-06",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-06.png",
+      "png_sha256": "0ddf9282805591b5d43bc11ae0a41ef74f883b5fc8289499e5ae0f5104c72c54",
+      "indexed": "dungcom-001-00-06.idx",
+      "indexed_sha256": "20a14a56d6122d02d151c8592ac694e240942a4297f9fdc98bad34e0c2854719",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-07",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-07.png",
+      "png_sha256": "3d58d3e3e6877c63ac22c3994b164e38d15a5d2c62e3a83dbbeb3511d56d04dc",
+      "indexed": "dungcom-001-00-07.idx",
+      "indexed_sha256": "b815b8cc0887dffa5a74f4b03e997f6d1394cc81fc5844e1445ae262517d527f",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-08",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-08.png",
+      "png_sha256": "a66240e451515e5e472d08b1fcb0674c2f2c4b1a8735794d01089e41c9e4184b",
+      "indexed": "dungcom-001-00-08.idx",
+      "indexed_sha256": "5d2f264b4ae0ccd7fe28003ea56a6345c12ec222dad33ca6d2dfa0335df992f5",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-09",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-09.png",
+      "png_sha256": "2c677453720293b991b89b266039583b2c0ae1145469ab84d2b186efb5550236",
+      "indexed": "dungcom-001-00-09.idx",
+      "indexed_sha256": "9716e56ecfe82a1d61f7014c81f4708e407bfbd68a5a2040521a26cfff0797ab",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-10",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-10.png",
+      "png_sha256": "d5bc5b6629e36eb991836e94db25ed37863aef9b7adcae5c45178a2033e4e55d",
+      "indexed": "dungcom-001-00-10.idx",
+      "indexed_sha256": "136324f904ac0004171a4f61276d2834376f0c4b94654e847faa4a3f3412d55f",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-11",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-11.png",
+      "png_sha256": "d3d595a627368c71458feb6c024f42bd48938402210f9356c98e98cd356ce717",
+      "indexed": "dungcom-001-00-11.idx",
+      "indexed_sha256": "cdb68ebb833e25eb63d1d6d20b732dc6bb4a5ea8c93b407337107fc176a192de",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-12",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-12.png",
+      "png_sha256": "6dbebcb0afa5cc6097f8ace636043f2f0a46b59ed99485b1a311e2fd5ee28edd",
+      "indexed": "dungcom-001-00-12.idx",
+      "indexed_sha256": "3bf19fb13d756cadd4e8b47991fb592bc59b3f2edbc8b27372b1c3316783fc12",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-13",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-13.png",
+      "png_sha256": "eedda768d336eb4eeefe8c4cc6a6a998f2de043f4eb1704676bc26e4627c07d4",
+      "indexed": "dungcom-001-00-13.idx",
+      "indexed_sha256": "30c927a79deb888f449da2d8bc0ff76953cc5da22f7bffa20207ed63adb440d2",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-14",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-14.png",
+      "png_sha256": "6cb0fbe6cc14340cee84516eba9ba1ac01c7ab8c7c51c743f23f7b33df37b0b1",
+      "indexed": "dungcom-001-00-14.idx",
+      "indexed_sha256": "2be5e0ff04123f344dbb73f7630b35870dd3511521a788fcd677215e0d6e1e09",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-15",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-15.png",
+      "png_sha256": "3d1886a64e207c3bd2add46b7e0bf83cc454bcba26347079db8d5c8547605a7c",
+      "indexed": "dungcom-001-00-15.idx",
+      "indexed_sha256": "94a5ac9da9473949bfc5c83480568ea2114e7ca23b41cdc1228a58336ca02951",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-16",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-16.png",
+      "png_sha256": "4f469d86ccabbbdd41acf16b21eaa5dd4c9aa8d2f80d4865293464d021f07e2b",
+      "indexed": "dungcom-001-00-16.idx",
+      "indexed_sha256": "be1480664b548157482ddfc2f02b9b903e94526baab9f5791644b155e9899a70",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-17",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-17.png",
+      "png_sha256": "16cbb75bdd299b6af0caf3795130afd30e1051f484423b15ad8c5f86aae3b4ca",
+      "indexed": "dungcom-001-00-17.idx",
+      "indexed_sha256": "0a46dfb71d3f3e5ffc2b4766b2f57b3d770767b8450c611f1175b8b92a56ccfd",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-18",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-18.png",
+      "png_sha256": "72885da5871538658ad579121bec8bbca247b641a371dac3daaa6525c0a68a9b",
+      "indexed": "dungcom-001-00-18.idx",
+      "indexed_sha256": "c20b9458c2c931ab94bebde58734b96231cf0765a30412944074e705c56eb2a7",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-19",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-19.png",
+      "png_sha256": "ae974ba981434579a5a6eb0b3afd274f802cacfe1a760056182db13314cc2acc",
+      "indexed": "dungcom-001-00-19.idx",
+      "indexed_sha256": "60daa44a2728bbf115aadf120af53862a51386d3c342966f3f18ffa2512f43cd",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-20",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-20.png",
+      "png_sha256": "a144f689274897c48e4cf1fb569241955feb4f7911cb95df56087daffaeb4dd2",
+      "indexed": "dungcom-001-00-20.idx",
+      "indexed_sha256": "14132aab1b5b806fe8cce07be13cb98806214d798f37720111c60c3a2a1ad039",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-21",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-21.png",
+      "png_sha256": "6bcf668fc56eabfc138f46791847a65e5a880302c57fd9cac1d73d7f97191f68",
+      "indexed": "dungcom-001-00-21.idx",
+      "indexed_sha256": "d1c87cc2bb297481010ae4c4aac68cf7d338e71a210afdedea08f1abcd4debbb",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-22",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-22.png",
+      "png_sha256": "0f0d5b7fbdc4f3bede1616e11456d48ac7c9512cf0722b26a6373cb7eb941cb7",
+      "indexed": "dungcom-001-00-22.idx",
+      "indexed_sha256": "fbdf93999e5fdc8d5d8b73b72739f562b4a9f63d75691de03fb57c8545fe98ad",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-23",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-23.png",
+      "png_sha256": "7efe6bdc86c1d225e858d457bb46862c777632ca61808591023aa4d4a8fc4c51",
+      "indexed": "dungcom-001-00-23.idx",
+      "indexed_sha256": "eae5e8ec50947c6a7211933e5f66fdf7ac65f45669bb547f75d18926e7b8360f",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "dungcom-001-00-24",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-24.png",
+      "png_sha256": "bced7c28fb26a6e95fd90076dbe673a12ecd8c7fa6e5cc385382c9da3a0976b1",
+      "indexed": "dungcom-001-00-24.idx",
+      "indexed_sha256": "31339635cca4c87770b26ee109e1f30c59b7bb577b62996d3cb11cd3260c7656",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-25",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-25.png",
+      "png_sha256": "bdc02ef98c20b21349d0a32423893b8714588818396c5cb95ecb59902252f23f",
+      "indexed": "dungcom-001-00-25.idx",
+      "indexed_sha256": "c9208bc9f2d59693cd7c4d66285f12c01d7d93f371ef84c5321f2c9b4b72d238",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-26",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-26.png",
+      "png_sha256": "89066269b3ca2b3825c5196ddb6396dacbf67ad9aa23e4ed0375e9875c52ab8e",
+      "indexed": "dungcom-001-00-26.idx",
+      "indexed_sha256": "583f6ca03baf7964d3123eb0fa73b15429c8958b8c98651e941547b4d5a7d8e8",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-27",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-27.png",
+      "png_sha256": "187da50719d5e1c7369b7df0c248746d8408396df380088f3cce5d7dc6f02568",
+      "indexed": "dungcom-001-00-27.idx",
+      "indexed_sha256": "48448fabc2887ea9612e83306c16c2beb63b61daa13241154a500318099a658f",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-28",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-28.png",
+      "png_sha256": "a394044c6d97c16d3b419db0e8b0ba3b479e1cec802522bfb6f80097e0e0f382",
+      "indexed": "dungcom-001-00-28.idx",
+      "indexed_sha256": "89e04f3cc97463756054b1927fb367c4c541708a23d6ab9ab39f5202989912d6",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "dungcom-001-00-29",
+      "size": [
+        24,
+        24
+      ],
+      "png": "dungcom-001-00-29.png",
+      "png_sha256": "71b4f4935fdc4282ead80fbf55a14334150aa41d232d32cdcfabc8a6d328a98b",
+      "indexed": "dungcom-001-00-29.idx",
+      "indexed_sha256": "710aa5f95ba71133085a016b485f8c634147a5a4d6181429cfe51fb45eeaa23d",
+      "runtime_evidence": "observed"
+    }
+  ]
+}

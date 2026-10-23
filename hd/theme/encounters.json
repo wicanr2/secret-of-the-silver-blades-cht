@@ -1,0 +1,1312 @@
+{
+  "version": 1,
+  "scale": 3,
+  "kind": "encounter-sprites",
+  "grid": [
+    8,
+    8,
+    7,
+    7,
+    24
+  ],
+  "background_index": 8,
+  "request_manifest_sha256": "12088f607c6f957abb375318846080bd87bb5aae7c877980b2abc19a8a01a167",
+  "items": [
+    {
+      "key": "sprit1-001-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-001-01-00.png",
+      "png_sha256": "04b1eb866836c74522faf5d8e0f46ca174f0147bf3be57dfc0fa6368cc5b3cfd",
+      "indexed": "sprit1-001-01-00.raw.idx",
+      "indexed_sha256": "130d1fcbe3dc90d3363a3d9087dee2be9bc0504e5baac49f6e01deb3edfb123c",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-001-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-001-02-00.png",
+      "png_sha256": "d277b65790c18ca06b4db7044cbe421f1feaca73155e44817310c964d455e563",
+      "indexed": "sprit1-001-02-00.raw.idx",
+      "indexed_sha256": "e805f776acbd64aec79132b8cc0308efa862e62a5d6aa88eb4a16f1f27a3b67b",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-003-00-00",
+      "size": [
+        56,
+        80
+      ],
+      "png": "sprit1-003-00-00.png",
+      "png_sha256": "3ee3a604d0923462446132ff53d971beabb7f30cf4435b018561f1e3131043e5",
+      "indexed": "sprit1-003-00-00.raw.idx",
+      "indexed_sha256": "d24ce7b8cf295bf8d1a66a5e6fdf2d23474caa4be55a5583cfa93509719e65ff",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-003-01-00",
+      "size": [
+        32,
+        73
+      ],
+      "png": "sprit1-003-01-00.png",
+      "png_sha256": "fbf52da13dd9da487ec8a0accc4ddc39f230571049a3d541dc5361514a44b887",
+      "indexed": "sprit1-003-01-00.raw.idx",
+      "indexed_sha256": "b0b396c267eb504885f1d99dd769badea2d011d7fc8cc35d73704e74e39d1158",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-003-02-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-003-02-00.png",
+      "png_sha256": "7272b44810839a09386f405b8318e95616534746d71ffc4f7428ae1cfda684b1",
+      "indexed": "sprit1-003-02-00.raw.idx",
+      "indexed_sha256": "8aeb49fef1f9b28a2c5ff44dd5d70b114f4995b8804a8a80222130b3a4ab7dc8",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-006-01-00",
+      "size": [
+        40,
+        73
+      ],
+      "png": "sprit1-006-01-00.png",
+      "png_sha256": "ffd0731970a627170119370c484ee8cc05da3703daa3f5b18a3d42be54bf87d1",
+      "indexed": "sprit1-006-01-00.raw.idx",
+      "indexed_sha256": "47ef27c13773e06374fc8d8f216fa4dffdae06e74bd481a7d128c3eda988fba0",
+      "runtime_evidence": "observed",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-006-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-006-02-00.png",
+      "png_sha256": "cce74f4fb5360453614a5eb1072a9fe9a46c149216f3e17fca0de4dd6bcb32f7",
+      "indexed": "sprit1-006-02-00.raw.idx",
+      "indexed_sha256": "31befb8224faf70d2292e0e8f5c6e8c62a6a82806129575c926a94396c23263b",
+      "runtime_evidence": "observed",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-008-01-00",
+      "size": [
+        48,
+        65
+      ],
+      "png": "sprit1-008-01-00.png",
+      "png_sha256": "31e2999cf793939e6c0bb0159ba9a53fab6a659f2ceea5fa02ad24b724785b60",
+      "indexed": "sprit1-008-01-00.raw.idx",
+      "indexed_sha256": "e63828351a55ee6ad40ea72f15eb788bbacbac486e84903ac7c87ee645dbef94",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-008-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-008-02-00.png",
+      "png_sha256": "633566a7cb44663993f5473638cb6c92f716158d48ee360b6420061b5ef6f585",
+      "indexed": "sprit1-008-02-00.raw.idx",
+      "indexed_sha256": "3a3c258ea371fdab7ac62ae2bb006e720481c04376c3ef758889736d8f1bb7e6",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-009-00-00",
+      "size": [
+        72,
+        80
+      ],
+      "png": "sprit1-009-00-00.png",
+      "png_sha256": "e06cd18802f920b862dd1b06e986e6817105901cabd7528d16f74fa57e3d0c57",
+      "indexed": "sprit1-009-00-00.raw.idx",
+      "indexed_sha256": "192bf44e34f8a701a9b744302ab6b97fb3e09c5d9aebae61cbf940903b61692f",
+      "runtime_evidence": "unobserved",
+      "position": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-009-01-00",
+      "size": [
+        56,
+        65
+      ],
+      "png": "sprit1-009-01-00.png",
+      "png_sha256": "4515279453affcd27d5db93385fed85bba861c58d8f35fbaf14883ec7caca6bb",
+      "indexed": "sprit1-009-01-00.raw.idx",
+      "indexed_sha256": "8ea7b3aaaf952570cb85d340b3df540ffc1c4dec720223cb241ba5ff7d15d10f",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-009-02-00",
+      "size": [
+        32,
+        57
+      ],
+      "png": "sprit1-009-02-00.png",
+      "png_sha256": "d62cf06a8da19fe542bd641d79a15cf502b211cf35dc76aea0a5ae65e33c50b6",
+      "indexed": "sprit1-009-02-00.raw.idx",
+      "indexed_sha256": "d46890a765c36ad581b66d4e5f5aabb9a14582f2f28f8c1109f81716652539f2",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-012-01-00",
+      "size": [
+        40,
+        73
+      ],
+      "png": "sprit1-012-01-00.png",
+      "png_sha256": "6b900e15e27f0fe038ac2e090067b83ee3b55269574c8d964c060d613aea3065",
+      "indexed": "sprit1-012-01-00.raw.idx",
+      "indexed_sha256": "5b6b65d06dc9e5bcaaa4a0081819fe9b8b5546f26e8bef81e900349997c90ce3",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-012-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-012-02-00.png",
+      "png_sha256": "6f39f37cc7f4cb5807db83eec3101101b42a5ad63dea7cffabc7aa797038120e",
+      "indexed": "sprit1-012-02-00.raw.idx",
+      "indexed_sha256": "bba62c497ee87d420e72afa11669bf14650e4243b7d54c010d86d69dc2ac9015",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-013-00-00",
+      "size": [
+        56,
+        80
+      ],
+      "png": "sprit1-013-00-00.png",
+      "png_sha256": "53c4de7196832d2c15eeac89b0486a163750311d818c49aac1800158ab50997c",
+      "indexed": "sprit1-013-00-00.raw.idx",
+      "indexed_sha256": "851bda9b231f6f0f1ba19cc9f52fdf39bd7073e0c0fa2a8d8a41d77cc71a7d37",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-013-01-00",
+      "size": [
+        48,
+        65
+      ],
+      "png": "sprit1-013-01-00.png",
+      "png_sha256": "d5035e9f8c92b9263bc8cf3c3344ec2c43f70581969a9aa14cbe3c104e92b216",
+      "indexed": "sprit1-013-01-00.raw.idx",
+      "indexed_sha256": "15092e936e64442a280a12b89925e9a0e35f98ffbeffdfa05cc4163aa1016eda",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-013-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-013-02-00.png",
+      "png_sha256": "68d84c2229c012db947f4e429c69e3e05dcb81defee6daa87728da349ac1bdb6",
+      "indexed": "sprit1-013-02-00.raw.idx",
+      "indexed_sha256": "86fdcccc17fa5a3a66327dd96ce44793d9c9de46c4e39a75ac7963ccf7fea12d",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-014-01-00",
+      "size": [
+        32,
+        73
+      ],
+      "png": "sprit1-014-01-00.png",
+      "png_sha256": "53c60ee6c67a29fa56f4da35b5acb373e326bffd55683b3bde29efaf32f8db3d",
+      "indexed": "sprit1-014-01-00.raw.idx",
+      "indexed_sha256": "2c98b86238c90915d357e1996e88808a20eba5f5dc387333b961e71fec3f80a4",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-014-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-014-02-00.png",
+      "png_sha256": "24f4fa137c57ee324a450dec038c915b4deb0fa32a185e71fdee530e606e76f5",
+      "indexed": "sprit1-014-02-00.raw.idx",
+      "indexed_sha256": "cc91cb213854f9fdf4ee7f2a0c17a5ee8a2a744a592ab1dd10b0850ecfff73b2",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-016-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-016-01-00.png",
+      "png_sha256": "81add7ebf93131fb96db37a355cf41dfaba89ce0a5dae89b463fe8203708deae",
+      "indexed": "sprit1-016-01-00.raw.idx",
+      "indexed_sha256": "50386db08c220ee0604b40616c6cd6e4ca09ed9f2096bfcd6fe4d8b4a8a65a62",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-016-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-016-02-00.png",
+      "png_sha256": "269faa4db5fd17987c30a70df9d4b3aa47aabc1ce8438882eacabba012f0028b",
+      "indexed": "sprit1-016-02-00.raw.idx",
+      "indexed_sha256": "e809a6590843ba7fd7039610940f6d56e1d83f9bb513ad82dbd616d9172c97b1",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-017-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-017-01-00.png",
+      "png_sha256": "34575a533bd6a8257c7611a4e42cabbf01eda432c0b15ea850692d62aff8799a",
+      "indexed": "sprit1-017-01-00.raw.idx",
+      "indexed_sha256": "98eaf5f8c8fb689f3e779e2cd59d8d69605dd7c46567df2bd27c15e34b568685",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-017-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-017-02-00.png",
+      "png_sha256": "287531579e9b5887880f4330b1f5df3172bb63f92fe16e47e04f60b6b9e30ff5",
+      "indexed": "sprit1-017-02-00.raw.idx",
+      "indexed_sha256": "4707975453321765230a7c00d5df911303fb6255175a9f834e566970c6ce1fda",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-018-00-00",
+      "size": [
+        56,
+        80
+      ],
+      "png": "sprit1-018-00-00.png",
+      "png_sha256": "bc28d73c68b20e28a24dd2091015666d43f2ef96f22d60a5d13324bb1ab3e4e2",
+      "indexed": "sprit1-018-00-00.raw.idx",
+      "indexed_sha256": "a6722cf1260874bb0e8ecfea79b905614d90cd5b134ce2e29a3c9af9ef6ebf8a",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-018-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-018-01-00.png",
+      "png_sha256": "c365945953a9e866af566ab8a209d54f448193f6811e1de51e2d396153a88011",
+      "indexed": "sprit1-018-01-00.raw.idx",
+      "indexed_sha256": "0bf1398a94f488049bdb56ef70a8e9207f41019ccdc01afe72c22c69de471f48",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-018-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-018-02-00.png",
+      "png_sha256": "471f92d078b27d42ba34a5b313df00b3049fb2602f1e6f7c20b34bbc70850bdf",
+      "indexed": "sprit1-018-02-00.raw.idx",
+      "indexed_sha256": "42aac5d641e471d9ae2a9966383c3a92800e27c7f432860c5d5ce57c489a580a",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-019-01-00",
+      "size": [
+        32,
+        73
+      ],
+      "png": "sprit1-019-01-00.png",
+      "png_sha256": "925635b64c1e40ce33ab1880b88626c4efd2e1893fe2d86a5de8efffc372528f",
+      "indexed": "sprit1-019-01-00.raw.idx",
+      "indexed_sha256": "82a9bebbe5609dd654ce56d66cf22b510586930fc231dca08a9813eee6fd3fc4",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-019-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-019-02-00.png",
+      "png_sha256": "c1afff8bd5eec7c1926c237b5a3884b63a33e0d28058e12ba321ed0b3641432d",
+      "indexed": "sprit1-019-02-00.raw.idx",
+      "indexed_sha256": "9944cf370d055e69bdb3fe07152486a0946aee345364ef1f4383194dda35de9f",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-020-00-00",
+      "size": [
+        40,
+        80
+      ],
+      "png": "sprit1-020-00-00.png",
+      "png_sha256": "736a490464d8ca8f33a590c970bad6f0f945dd2ba0cfeb5f2bd8c0c7048a30e5",
+      "indexed": "sprit1-020-00-00.raw.idx",
+      "indexed_sha256": "f287b1f64ebcfe87b92f5c0f3d20d33edcab8c0ef2297c2d8890e6608a4ffc5c",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-020-01-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-020-01-00.png",
+      "png_sha256": "b3d9d4c7bbf279930f1ad6e417eda2b1ae0aa556c6717eafe0476dbff4f6ec67",
+      "indexed": "sprit1-020-01-00.raw.idx",
+      "indexed_sha256": "e754e6f71b6b226f57172447677ee95686541d4f7d907a07e51a33ca162a8eed",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-020-02-00",
+      "size": [
+        24,
+        49
+      ],
+      "png": "sprit1-020-02-00.png",
+      "png_sha256": "e26475e28a7b291698c9ef37f3a9658ae3b8fa1599dded56417a4a6b23c9aa7f",
+      "indexed": "sprit1-020-02-00.raw.idx",
+      "indexed_sha256": "c2a639c31d5f2171c760ca8f70252d16e1f9cdbba7242808996b257fed87f6ba",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-021-00-00",
+      "size": [
+        72,
+        80
+      ],
+      "png": "sprit1-021-00-00.png",
+      "png_sha256": "bc61a7e96b34582ff24d45233786308c551d9f5b5cbc9969b1ecb857c758c537",
+      "indexed": "sprit1-021-00-00.raw.idx",
+      "indexed_sha256": "b638e3f520428df31519fa4ad610400beaa269417ee5000e24b9a440ac8e8342",
+      "runtime_evidence": "unobserved",
+      "position": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-021-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-021-01-00.png",
+      "png_sha256": "02679b51e38b90a893b95ebd2e15a68758e05b9b125d6f9d9271b317fa3e9e44",
+      "indexed": "sprit1-021-01-00.raw.idx",
+      "indexed_sha256": "e88c187985da4803884afe79d4408e41ecbbadea85b5842c133016ce2a46fd1b",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-021-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-021-02-00.png",
+      "png_sha256": "c0ca2debb1d46a2e1ba0d6b5e9eda030547be42db4b504a5df8c19157aa283be",
+      "indexed": "sprit1-021-02-00.raw.idx",
+      "indexed_sha256": "a9dd941a1cfa6fc563f0c27149b3b7cf29264f58643a294e9ab5b679c66f793d",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-027-01-00",
+      "size": [
+        56,
+        65
+      ],
+      "png": "sprit1-027-01-00.png",
+      "png_sha256": "81899103c64af23768ccd5490cbf2ca10cbeaaafe6cb5218ef00e2b2cdd57b3c",
+      "indexed": "sprit1-027-01-00.raw.idx",
+      "indexed_sha256": "5c566f61df115812cbee70aaf6ec7c1f127b78603ebe00e94f0de73aa3770137",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-027-02-00",
+      "size": [
+        40,
+        57
+      ],
+      "png": "sprit1-027-02-00.png",
+      "png_sha256": "779255d1d6ab12c9676f74890d82a64db082bfd3f27c73e4aad4700d54fb25f9",
+      "indexed": "sprit1-027-02-00.raw.idx",
+      "indexed_sha256": "3f679584eafecbf3fb77486e3c6fe344c4c045309af5005ba951a3f020816df4",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-028-00-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-028-00-00.png",
+      "png_sha256": "a9bf878299ea850b4e42a3d78586d8532058ae88720d083da33aae5c20d59123",
+      "indexed": "sprit1-028-00-00.raw.idx",
+      "indexed_sha256": "890dd8a7eeee544a3aab88ee3ffa8e8a6bc62b5f0c1984ef3f92c1f7d2b463ec",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-028-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-028-02-00.png",
+      "png_sha256": "eb68f3fe5c988b442b44ee44cfc2eb0c04fc9c1e257db95e627df025ca6dfac6",
+      "indexed": "sprit1-028-02-00.raw.idx",
+      "indexed_sha256": "4f1b3a8afaf43b5e47bf74c31bac0b3a9890cf0804f1304536798c53023baa67",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-030-00-00",
+      "size": [
+        56,
+        80
+      ],
+      "png": "sprit1-030-00-00.png",
+      "png_sha256": "4d72f51bf5bdbbf15c8f2da04c5cbf667ac86440798612ca1b6b2fc82459d062",
+      "indexed": "sprit1-030-00-00.raw.idx",
+      "indexed_sha256": "889c600d8098f14a03a908c153ad78c8398d3665bea92bdec4cba26912a19ad3",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-030-01-00",
+      "size": [
+        32,
+        65
+      ],
+      "png": "sprit1-030-01-00.png",
+      "png_sha256": "5406092e15be81be4065118f99a2c84c9f9aebe8b937a2d16b4775335a9e22be",
+      "indexed": "sprit1-030-01-00.raw.idx",
+      "indexed_sha256": "9661e73968e4a9111fab8a802261bf72c1852ae95ce0988d329d33e611a966b0",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-030-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-030-02-00.png",
+      "png_sha256": "8cddc61120318d7ffd783651ee068e80f72891991cdb4543108f51dee2b492be",
+      "indexed": "sprit1-030-02-00.raw.idx",
+      "indexed_sha256": "19e7a4117198792fcb3364b2e7322683066d8c6aa6ca5bde134f235202079b1e",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-031-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-031-01-00.png",
+      "png_sha256": "2f00d173b56e970e039d063faea7d4607bd10e8d20178e88292cb677aca6d590",
+      "indexed": "sprit1-031-01-00.raw.idx",
+      "indexed_sha256": "82083f88fc461b183514682086c907e4146c3b7257fcdf8e4b29a3777eb55d6f",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-031-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-031-02-00.png",
+      "png_sha256": "be246a337b15d066e69a6e393d5d1807a1986bc0799f241ddc55bf6b0684919f",
+      "indexed": "sprit1-031-02-00.raw.idx",
+      "indexed_sha256": "ac09606898915e6fb79c04619f0f87d2443c62e0cae01ccfab0221a257ce1e54",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-033-00-00",
+      "size": [
+        32,
+        80
+      ],
+      "png": "sprit1-033-00-00.png",
+      "png_sha256": "b9484a6d97e5cd2ef16d225bbfaa68d669d176700e9da8f646cbf09fc250f6fb",
+      "indexed": "sprit1-033-00-00.raw.idx",
+      "indexed_sha256": "72e47a3ff677c51ccd14f4b3e1490f552a0e3cd080afb91bedac9f0f15108247",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-033-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-033-01-00.png",
+      "png_sha256": "cf18654376c45c66a879959004d9b424192e074b30c83f0c985dd708fccc45a5",
+      "indexed": "sprit1-033-01-00.raw.idx",
+      "indexed_sha256": "e24982a0ab110e1ddd96955c2e926fb00b2256085c5693b0e443289ecbb3eafb",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-034-00-00",
+      "size": [
+        64,
+        80
+      ],
+      "png": "sprit1-034-00-00.png",
+      "png_sha256": "4c567dfdaae7d45609d381c5b37f3e1ee599e20e561b8cfe540d057b8f387988",
+      "indexed": "sprit1-034-00-00.raw.idx",
+      "indexed_sha256": "07f0da86ec2c67bfa44818779d6a111a3917bf3f471145ef53fe1d263218277a",
+      "runtime_evidence": "unobserved",
+      "position": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-034-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-034-01-00.png",
+      "png_sha256": "c8f5142409ddb926f086de34c6a34c53e60f582f07588aafe1071708538bc1f9",
+      "indexed": "sprit1-034-01-00.raw.idx",
+      "indexed_sha256": "12913b8731e96ce43b15cb644b854354cdb4ab8d8d1c5c70b55bc3e94883b958",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-034-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-034-02-00.png",
+      "png_sha256": "322edc5e6547a40550d8513f60ae2c3a14322fbc0c0fa30b0901aebc1859b73a",
+      "indexed": "sprit1-034-02-00.raw.idx",
+      "indexed_sha256": "33d4d76951f37e751db7942e5212c474f9156a5a38fc5b9cf09a97a7f6484c9f",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-035-00-00",
+      "size": [
+        40,
+        80
+      ],
+      "png": "sprit1-035-00-00.png",
+      "png_sha256": "bc3768e9d8d538ef0e38b98cfdede8166f1bc7dc7ce89ddf7263d86befacfa1f",
+      "indexed": "sprit1-035-00-00.raw.idx",
+      "indexed_sha256": "eef36a70230011e194143b524891d8069300c760ea3b0f932a74e9c8a9672766",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-035-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-035-01-00.png",
+      "png_sha256": "2105e8d97f5f78f05340023e5d508af15e10dff3181267ad286d35d94b2ff6f4",
+      "indexed": "sprit1-035-01-00.raw.idx",
+      "indexed_sha256": "78cc45f3cf0da621247043307df85d495d0f95aeed95eca8691116be396f830c",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-035-02-00",
+      "size": [
+        24,
+        49
+      ],
+      "png": "sprit1-035-02-00.png",
+      "png_sha256": "0d579fdef7c6c51c13207c0981bc757f3e0b94a3820538ed898c0c72d78fdfec",
+      "indexed": "sprit1-035-02-00.raw.idx",
+      "indexed_sha256": "b14ddffa855ad0e259f3169147a18248bf2a4a1b13c3f7ef5efd9d3d21c67f0a",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-036-00-00",
+      "size": [
+        72,
+        80
+      ],
+      "png": "sprit1-036-00-00.png",
+      "png_sha256": "cc689041898b1a9a9bd75ecc06d00a0c0ef3fe982fd12be9d90de6178f8d757d",
+      "indexed": "sprit1-036-00-00.raw.idx",
+      "indexed_sha256": "a334f8d87f6b4befbe798cae8a6a7e3a91d3908b7609986652bec866c50a51c8",
+      "runtime_evidence": "unobserved",
+      "position": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-036-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-036-01-00.png",
+      "png_sha256": "b731d63f46629d75e7d240506ecdd832b68118d7e692a456f7aca653e0672be4",
+      "indexed": "sprit1-036-01-00.raw.idx",
+      "indexed_sha256": "e4304b2edbf8a4de511e071a44439a21e060edf93387e1fab43214b320140eb1",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-036-02-00",
+      "size": [
+        24,
+        49
+      ],
+      "png": "sprit1-036-02-00.png",
+      "png_sha256": "27d60bd6f471ea814fc506eb0f5dc90f91d5efe2ef194c6d61851e27bdf1b534",
+      "indexed": "sprit1-036-02-00.raw.idx",
+      "indexed_sha256": "880bdc41f4d7e7848b8fcaca5c864cf87f2f58e9b4c978a3db193c534dd631cb",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-038-00-00",
+      "size": [
+        56,
+        80
+      ],
+      "png": "sprit1-038-00-00.png",
+      "png_sha256": "3fe403160879306ead031eaa2aeb6850b11f3b73a49b4cd44fa482cfe7c436a4",
+      "indexed": "sprit1-038-00-00.raw.idx",
+      "indexed_sha256": "b865d2e93855cdad5045980be51bcf2eff4267ceba7462e423d1f3e10463c8dc",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-038-01-00",
+      "size": [
+        48,
+        65
+      ],
+      "png": "sprit1-038-01-00.png",
+      "png_sha256": "0d2ed0b4caed1b49f7a0a21b503288ad0d18732c745bacbced71fe60631ff547",
+      "indexed": "sprit1-038-01-00.raw.idx",
+      "indexed_sha256": "954551ca70a2933db9a81c9137a9e0d04065e0a7e856300f8aabbd079743ae25",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-038-02-00",
+      "size": [
+        32,
+        57
+      ],
+      "png": "sprit1-038-02-00.png",
+      "png_sha256": "ff1bcd955de7e41c108e02e98b85b0ca25970f6572d99bc1999d30ed5bcb9794",
+      "indexed": "sprit1-038-02-00.raw.idx",
+      "indexed_sha256": "ec74de58d555ef06ee3fcc2afb56db59d3b85501fa35b9ad6bffe1e00fa132c8",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-040-01-00",
+      "size": [
+        56,
+        65
+      ],
+      "png": "sprit1-040-01-00.png",
+      "png_sha256": "a7feea483e03a301e62fcf8cc64cfbe77846696562003750b8f06da289eac340",
+      "indexed": "sprit1-040-01-00.raw.idx",
+      "indexed_sha256": "9d297c60dc9855cbf17a15f8a1c2c48be3220d67647f121d0684b61dfdfde0d6",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-040-02-00",
+      "size": [
+        40,
+        57
+      ],
+      "png": "sprit1-040-02-00.png",
+      "png_sha256": "8c0ea17eece62aaaca5fa9e19de452abed4ad30ea8c2c607140a79bda84751e5",
+      "indexed": "sprit1-040-02-00.raw.idx",
+      "indexed_sha256": "86fa1b680b0fbd1ba108fa9b6e1285aad1fa4ac8ea7aa3c282136ed938679986",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-041-01-00",
+      "size": [
+        56,
+        65
+      ],
+      "png": "sprit1-041-01-00.png",
+      "png_sha256": "3ebb6da864b1d98026ead3659fc8a973f519c919d10ea91b49811576d4d6dff2",
+      "indexed": "sprit1-041-01-00.raw.idx",
+      "indexed_sha256": "b508598238eeed4e4b02b6594746a93c93bd139c186f66b33d20cc11c9a1151b",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-041-02-00",
+      "size": [
+        40,
+        57
+      ],
+      "png": "sprit1-041-02-00.png",
+      "png_sha256": "35cf41d06437dbd5a074613a08efde3e8b706268605ca056fe8a99682195345c",
+      "indexed": "sprit1-041-02-00.raw.idx",
+      "indexed_sha256": "38a3182b7b1e13c8a0311c3c836463e658c7f51ed89438177c0564bd0f6f70f6",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-045-00-00",
+      "size": [
+        72,
+        80
+      ],
+      "png": "sprit1-045-00-00.png",
+      "png_sha256": "4ecc7eff7cba144d13a4a6bc5d3347557ede6c8cd3c95a1d371a2820836667ba",
+      "indexed": "sprit1-045-00-00.raw.idx",
+      "indexed_sha256": "7afb06228ae07a7c5f93f6bf083974e7420631222fdd2a7fc3440b54d02a557b",
+      "runtime_evidence": "unobserved",
+      "position": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-045-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-045-01-00.png",
+      "png_sha256": "2545b40de9e9b69cbef5d6c64f85baa11ca4f516ae858157872124077d091f8c",
+      "indexed": "sprit1-045-01-00.raw.idx",
+      "indexed_sha256": "52da521753e217f676564c5c6983356c0f9698e96609b6d9ba3e4846ceec3a19",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-045-02-00",
+      "size": [
+        24,
+        49
+      ],
+      "png": "sprit1-045-02-00.png",
+      "png_sha256": "86ea985cac8064ae310e1babb4a530cd73135344e88179e8e5d2a9aed06480a7",
+      "indexed": "sprit1-045-02-00.raw.idx",
+      "indexed_sha256": "7924b96915046b797455bcb5c1f3f318e02284e6e481d9cfbb7d9dbd9dac6b90",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-046-01-00",
+      "size": [
+        40,
+        65
+      ],
+      "png": "sprit1-046-01-00.png",
+      "png_sha256": "60b81c695ba4f5b0af81301681ae043afe38342ce55b29bfbe48109cf01f2bd7",
+      "indexed": "sprit1-046-01-00.raw.idx",
+      "indexed_sha256": "2a09e98795ab33d83e1c26d2cfc5081e1e9487e585677e91f7bc3c11b1520745",
+      "runtime_evidence": "unobserved",
+      "position": [
+        48,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-046-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-046-02-00.png",
+      "png_sha256": "64eac171756e286c1569907e67604482e8ca714247b08872e559e7626164215c",
+      "indexed": "sprit1-046-02-00.raw.idx",
+      "indexed_sha256": "c3edd27d7e9eae9007212ff5a6938d99c84a1b3d5863cad710732b96923582a1",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-048-00-00",
+      "size": [
+        72,
+        80
+      ],
+      "png": "sprit1-048-00-00.png",
+      "png_sha256": "0c007d3f0917a049de7d1b9e8de02b8179e73696df4f4b7df6acb505184d0599",
+      "indexed": "sprit1-048-00-00.raw.idx",
+      "indexed_sha256": "011964775714d0765a760dec5c81cc7d906f0cd9e102d25c737726157cd1c954",
+      "runtime_evidence": "unobserved",
+      "position": [
+        32,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-048-01-00",
+      "size": [
+        48,
+        65
+      ],
+      "png": "sprit1-048-01-00.png",
+      "png_sha256": "ab4039609ebef70fdacbda692a4aa0bf770d3d462af66f9e4bea801314da71be",
+      "indexed": "sprit1-048-01-00.raw.idx",
+      "indexed_sha256": "5cd903f7089843430f13d7688a34dc117fa11b40b185b33f6cd9498fa99d34f0",
+      "runtime_evidence": "unobserved",
+      "position": [
+        40,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-048-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-048-02-00.png",
+      "png_sha256": "2ed12957f472fda4974a7cb09e37e0f1cacf1f705bdfcd05576759c925cc0f9e",
+      "indexed": "sprit1-048-02-00.raw.idx",
+      "indexed_sha256": "c36f3e82103f1b90fe131cbc5c8b0b76eb5d4b7ef910586a389052df9b4a0714",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-066-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-066-01-00.png",
+      "png_sha256": "ca081090a58e8c0093d9a28d4f87ce453e2c5facb7be1ba13a9f3e5db59572f9",
+      "indexed": "sprit1-066-01-00.raw.idx",
+      "indexed_sha256": "e2953553498b29288e30baf0cc24f8f35176c9373d7a0b2746686523443db0aa",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-066-02-00",
+      "size": [
+        24,
+        49
+      ],
+      "png": "sprit1-066-02-00.png",
+      "png_sha256": "f2c6b088033e4abcd4bc5704097b35edf29f859167fa667e797ca0aa90a0b36d",
+      "indexed": "sprit1-066-02-00.raw.idx",
+      "indexed_sha256": "ef9204951b6e54b4a4225d8b1c75d20ffffbad194d78e3648db1362d4e31ad58",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-069-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-069-01-00.png",
+      "png_sha256": "9a00528afe6aca67385ab0209a893ae1011016c34e25d83d2e02491875e7341e",
+      "indexed": "sprit1-069-01-00.raw.idx",
+      "indexed_sha256": "3d0665d108ba8abc6e176cf82cc550d9c34cb34afb2f6a03b68fd9c57c4c45a5",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-069-02-00",
+      "size": [
+        16,
+        57
+      ],
+      "png": "sprit1-069-02-00.png",
+      "png_sha256": "fc88a8169bb32232d21b4b24dea60c05306e27112f5d4ef8cb424e3e717e8b8b",
+      "indexed": "sprit1-069-02-00.raw.idx",
+      "indexed_sha256": "be37839f044366e82a32ccb9a88d3950da7333f8a1bda0da68530a151ccacee4",
+      "runtime_evidence": "unobserved",
+      "position": [
+        64,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-071-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-071-01-00.png",
+      "png_sha256": "0bd669bfc15301de3b81c904339c2945be0b3f77c119054e14dcf5455d57a1dc",
+      "indexed": "sprit1-071-01-00.raw.idx",
+      "indexed_sha256": "567b74a0d6a5990ed51bb0c7aae90faffdaf61e21f3a7801485ca3b716dfacc4",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-071-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-071-02-00.png",
+      "png_sha256": "6e53c327c71967564b44c290db430f1de1a707eea0145fccff058df7fcbac17e",
+      "indexed": "sprit1-071-02-00.raw.idx",
+      "indexed_sha256": "8aa5061828e99adb8ccae8b28210a57c8781a517016bd3b47aa492502504a10c",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-072-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-072-01-00.png",
+      "png_sha256": "a6c08294e8b9ce9583802f0b5f3c88db6c26c55b6a42fbf9db725a23fbe2a239",
+      "indexed": "sprit1-072-01-00.raw.idx",
+      "indexed_sha256": "dffb23eddc83a7b30f11388701d5be9c58b605fd7e26a6ec6066bc529442eeec",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-072-02-00",
+      "size": [
+        16,
+        57
+      ],
+      "png": "sprit1-072-02-00.png",
+      "png_sha256": "8aa4050c7411e70cf0dfd669a685660a0f12c7d2b475e141e767a00735bfa0bf",
+      "indexed": "sprit1-072-02-00.raw.idx",
+      "indexed_sha256": "308c9644c01108fee36d70194821f61e1ab2ca9a922a9a62b8b6132c5e36f9e8",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-073-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-073-01-00.png",
+      "png_sha256": "4a489479723c6f8ba289e494c1039b6f33341627ede1cc261a92ab248b36b7cf",
+      "indexed": "sprit1-073-01-00.raw.idx",
+      "indexed_sha256": "beec0f0b7b926952f5a3385726fa53483ef6c73cc1c24797acb4523806931f1c",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-073-02-00",
+      "size": [
+        24,
+        57
+      ],
+      "png": "sprit1-073-02-00.png",
+      "png_sha256": "5a25f064616e7302adea3b7805fdfc4ac8ec2ae84a9b2525830e32f1e92d6e40",
+      "indexed": "sprit1-073-02-00.raw.idx",
+      "indexed_sha256": "51df7995be1b13e58f43dd12dc52a77a82aa0446cfecd0396a17bbfa22261c0a",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-075-01-00",
+      "size": [
+        24,
+        65
+      ],
+      "png": "sprit1-075-01-00.png",
+      "png_sha256": "405a46237c4f9a13563e6f61a223dcef5d62abf7f06ad7a399a5341e5bba8d47",
+      "indexed": "sprit1-075-01-00.raw.idx",
+      "indexed_sha256": "b292b528973b83996025b183b7c6e4e235f87e8393e1c2284ef1c26c5a6bcb55",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    },
+    {
+      "key": "sprit1-075-02-00",
+      "size": [
+        16,
+        57
+      ],
+      "png": "sprit1-075-02-00.png",
+      "png_sha256": "be634e59f6a063f5f9f3d4ebf6434934a4d5777b8359c9a917660e50be2b23dd",
+      "indexed": "sprit1-075-02-00.raw.idx",
+      "indexed_sha256": "2c2cf55d44295c043f7e03b61d9412111bd356b15cf338e25e28e728092d9411",
+      "runtime_evidence": "unobserved",
+      "position": [
+        56,
+        32
+      ]
+    }
+  ]
+}

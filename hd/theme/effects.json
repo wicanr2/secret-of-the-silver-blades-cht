@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "scale": 3,
+  "kind": "combat-effects",
+  "grid": [
+    8,
+    8,
+    7,
+    7,
+    24
+  ],
+  "background_index": 8,
+  "request_manifest_sha256": "9019999c4988f1eb918fe7a3259653c7131a33f1cc3daa791d5a7a1a03725d87",
+  "items": [
+    {
+      "key": "comspr-000-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-000-00-00.png",
+      "png_sha256": "bea0c1836ceb841a9fb1e3da0b1ab680a16b18cf47028850f2016edc7f8bdea0",
+      "indexed": "comspr-000-00-00.idx",
+      "indexed_sha256": "cfb8ed22c4234147775e4f8d4f5418f48c4bdcdbf27443e1d0fa2695f292ecd8",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-001-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-001-00-00.png",
+      "png_sha256": "2c16e8ea477a97fee5c931578b26e77e3bd9b5c65d595af145ab044f2eede075",
+      "indexed": "comspr-001-00-00.idx",
+      "indexed_sha256": "2bb1a2b47ae09644b1cca90cf3ddf802c7e991bb776f0aedad1da3de263b88a0",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-002-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-002-00-00.png",
+      "png_sha256": "1460970f1baf49eec9de382d1988a462eda931d1b8e1d57fa2f1adabfe1da62e",
+      "indexed": "comspr-002-00-00.idx",
+      "indexed_sha256": "c2f490f369588b48942fa9e8e46b6b0e54fd87ed35d78a64972c37c8d2b9051c",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-003-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-003-00-00.png",
+      "png_sha256": "4ab9a0c2250d0144078cd12d67e53ba7b1fc838cc4d0906e85c04a70b0b5815d",
+      "indexed": "comspr-003-00-00.idx",
+      "indexed_sha256": "16d3352529f846e730e2e511f6934b5913005f2af18fa21f1be431a396570a5a",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-004-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-004-00-00.png",
+      "png_sha256": "4ae6c325b4089081a1efd2411704b7dc95a12cff15b625b913fc6cb7cc479ebb",
+      "indexed": "comspr-004-00-00.idx",
+      "indexed_sha256": "3c38b62da72a878c741f61c1a784b47465f1cd8bacd37607e5cb9a453e3551f3",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-005-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-005-00-00.png",
+      "png_sha256": "100d1d3bb4410ffbd8d29d1db123d22c57bfe97678e0de9f2acb4ada73ae5f3f",
+      "indexed": "comspr-005-00-00.idx",
+      "indexed_sha256": "92e8a3756a3b9ae39e1aeb587b29bd19085f253839f2ceb5f5e797d82b6cc0f4",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-006-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-006-00-00.png",
+      "png_sha256": "9a940e25d8a6d610e6030a1df5377c83447651955463e213df70dafc4b5edc4c",
+      "indexed": "comspr-006-00-00.idx",
+      "indexed_sha256": "e03d9d133a945da0d84d974e118935ef9c22747c5d7208cec9004c82304def7d",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-007-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-007-00-00.png",
+      "png_sha256": "6092bfa4118d0d68ec230f6404d43723d6f4391ce2106e34814c844eb41f3816",
+      "indexed": "comspr-007-00-00.idx",
+      "indexed_sha256": "805ca2082cd30360ca1a714c55500ff485eac41829e454198d745bf0483105b4",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-008-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-008-00-00.png",
+      "png_sha256": "1e50fb4b49a079f9cc23c8429dc4444167ca05211b8a1259c35c1f7309343125",
+      "indexed": "comspr-008-00-00.idx",
+      "indexed_sha256": "c860daf6754ef4fcf8012615223e632aaa6242aa2a4e5c9ba5c5fda87c2854d5",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-009-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-009-00-00.png",
+      "png_sha256": "f0812f86555aa06bf92ea71adb7d8de65201812c4d911fa947a6f690ed26cfab",
+      "indexed": "comspr-009-00-00.idx",
+      "indexed_sha256": "96e61fb6f7eec17b1646dd91b16f3889dabf48ed3cb716881eaa1b51c7b9cd9f",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-010-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-010-00-00.png",
+      "png_sha256": "d1c6d4ef3f076111e9484d0aa067b097b07cce0bd9300f57c11812e0d693917c",
+      "indexed": "comspr-010-00-00.idx",
+      "indexed_sha256": "3469fe33e706e4ecdc84fc8b92f1e83f3584d52de107ad7cb64c8c1973034dcd",
+      "runtime_evidence": "observed"
+    },
+    {
+      "key": "comspr-011-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-011-00-00.png",
+      "png_sha256": "87d04714c5d44f59816247ea5678cf773a1e03da191c1ad16bc3a4c5813cc0f3",
+      "indexed": "comspr-011-00-00.idx",
+      "indexed_sha256": "9e590e35d79b07e0c45baf3cbf68f6add8c8e2520d5f90ad3460b019a5d230f8",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-025-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-025-00-00.png",
+      "png_sha256": "b7c4d14fadbdea2890d29a5f176c1509f6668c2a549717e049a841c00cccdb59",
+      "indexed": "comspr-025-00-00.idx",
+      "indexed_sha256": "1280ecd76417f1c55ac51e04284476d3d88f2906afa18c1547478af7a21eacad",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-128-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-128-00-00.png",
+      "png_sha256": "63fd39cb2c9e0695e06772d93b16a1b7a1aa8751fc1c8ed45435e6fe9df526a2",
+      "indexed": "comspr-128-00-00.idx",
+      "indexed_sha256": "7963628c5811d90169bc16b5fc518821d8406925df853b26ef3e22672eb2e73f",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-129-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-129-00-00.png",
+      "png_sha256": "7364bd79d2714af238da115d71069747632dffba31487f722167c28adf05d3e2",
+      "indexed": "comspr-129-00-00.idx",
+      "indexed_sha256": "18cdbcf83da4f7e78f1ae6c4cc7ddfb065d152e67b9256408d70e7c8a985edc7",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-130-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-130-00-00.png",
+      "png_sha256": "6bf071a2417d9e1a8f40d48c0ccfaef3de1ac63282d6464cd715ad80634f338d",
+      "indexed": "comspr-130-00-00.idx",
+      "indexed_sha256": "33a7596224041270f21361262e78452b9f7b5c8f107df748ce3f8a9d7d52bc6f",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-131-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-131-00-00.png",
+      "png_sha256": "aa6f069bebfa7ddd1036a84b79cd199ff5b59d9204e2d22e4eaad60c5a2cd5da",
+      "indexed": "comspr-131-00-00.idx",
+      "indexed_sha256": "07287631b50f9714116b9abaec3916fef51074356d5295ac6dcb6dccb0de28ed",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-132-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-132-00-00.png",
+      "png_sha256": "3c80f135dc265c938c6ac1f8fb09c80ab39cf8272f757a34f7f08928eea23b9f",
+      "indexed": "comspr-132-00-00.idx",
+      "indexed_sha256": "5484235bf472a7ae7061f65902eecdd54f1ac7e39041c0552d6fae12bdb92375",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-133-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-133-00-00.png",
+      "png_sha256": "962be2b9ac433bb955f8f3364397b29b06d1bcdd7c44a9f38ebfde3979837e41",
+      "indexed": "comspr-133-00-00.idx",
+      "indexed_sha256": "0afd5b0019d55a5f88cd16ef5369ad6d6b62d8551a59a30f045c166c6daabff0",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-134-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-134-00-00.png",
+      "png_sha256": "ea50f829f8ca2c5303edf2e0e9bb26e080bbc605e666ef83d57a21d082e300b8",
+      "indexed": "comspr-134-00-00.idx",
+      "indexed_sha256": "72b04cdf1f6d70eec3198d3bb01db6246c4a10ee88dbd19a553dacb43e406bb6",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-135-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-135-00-00.png",
+      "png_sha256": "38a3e72b7806c5bf3c460d3ab0f83c29bc6d691b3b8119776631abee4b0a6acf",
+      "indexed": "comspr-135-00-00.idx",
+      "indexed_sha256": "bc73dec9f4a374c5f1d59f94570d48d2f58c96831770aa407b5b31445eedf785",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-136-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-136-00-00.png",
+      "png_sha256": "2fc40a437ec2ee487e7a701b22b7faeab9ce1dca15487daa3dad3a8438d47a94",
+      "indexed": "comspr-136-00-00.idx",
+      "indexed_sha256": "44646f1ae608b91824ff19e99b49d79b1843850fbcc740f77941fcd8b75919e7",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-137-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-137-00-00.png",
+      "png_sha256": "1f994c55c37515fc5ef421bfe960342ff2e06ea2961ca4c83ad5c27121acf6da",
+      "indexed": "comspr-137-00-00.idx",
+      "indexed_sha256": "e9acb8d8add73d51c29bbbcffe904455fb0f54947221daa9f21e3f6313878669",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-138-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-138-00-00.png",
+      "png_sha256": "7501861cf582c3997afacd813abe4090346eab15cd376c3e6fc9776ac67fb0de",
+      "indexed": "comspr-138-00-00.idx",
+      "indexed_sha256": "42b6dea31d8dc8a10e108fa24c84ff658e4de1c4d670ab90bc179f6c175b7e13",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-139-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-139-00-00.png",
+      "png_sha256": "028d50ca292660733e30319c23d3eb83c0a5f2dcffd5e4a98d9f7f911eadeb5b",
+      "indexed": "comspr-139-00-00.idx",
+      "indexed_sha256": "df182e1fa274c3b7c28ee8a13f0bf21c584bd5a26347e7e624913cacd9f306e8",
+      "runtime_evidence": "unobserved"
+    },
+    {
+      "key": "comspr-153-00-00",
+      "size": [
+        24,
+        24
+      ],
+      "png": "comspr-153-00-00.png",
+      "png_sha256": "7852520984de8048f0ea0d00dfb273d3cf7dfd9a69082094730eefb8704b789a",
+      "indexed": "comspr-153-00-00.idx",
+      "indexed_sha256": "485fb94257960288790f736f0701e465da162f2caa1e50db2bfccbf5636fb131",
+      "runtime_evidence": "unobserved"
+    }
+  ]
+}
