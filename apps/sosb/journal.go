@@ -3,6 +3,7 @@ package sosb
 import (
 	"bytes"
 	"fmt"
+	"image"
 	"regexp"
 	"sort"
 	"strconv"
@@ -161,10 +162,12 @@ type JournalPanel struct {
 	Format  JournalFormat
 	Seen    map[int]bool
 	OnSeen  func(n int) // 第一次讀到某則時呼叫（前端存已讀清單）
+	Maps    map[int][]*image.RGBA // 地圖則的圖頁（規格 022）；有圖的手札只顯示圖頁
 
 	open, browse bool
 	n, page      int
 	pages        [][][]rune
+	maps         []*image.RGBA // 目前這則的圖頁；nil 表示文字頁
 	head         uint16 // 自動模式開啟時的 BDA 鍵盤 head
 	last         int    // 最近一次自動開過的手札
 }
@@ -174,7 +177,12 @@ func (j *JournalPanel) Open() bool     { return j != nil && j.open }
 func (j *JournalPanel) Browsing() bool { return j.Open() && j.browse }
 
 func (j *JournalPanel) show(n int) {
-	j.n, j.page, j.pages = n, 0, JournalPages(j.Entries[n])
+	j.n, j.page = n, 0
+	if m := j.Maps[n]; len(m) > 0 {
+		j.maps, j.pages = m, make([][][]rune, len(m))
+		return
+	}
+	j.maps, j.pages = nil, JournalPages(j.Entries[n])
 }
 
 // OpenAuto 依原版訊息開面板（規格 007 §2.4）；n 不在表中回 false。
@@ -230,7 +238,7 @@ func (j *JournalPanel) ToggleBrowse() {
 			n = s[len(s)-1]
 		}
 	}
-	j.n, j.page, j.pages = n, 0, nil
+	j.n, j.page, j.pages, j.maps = n, 0, nil, nil
 	if n != 0 {
 		j.show(n)
 	}
@@ -305,6 +313,10 @@ var (
 // Draw 把面板畫進 scale 倍的 RGBA（320×200 原版畫面）。
 func (j *JournalPanel) Draw(dst []uint8, scale int, font *xlate.Font, missing func(rune)) {
 	if !j.Open() || font == nil || scale <= 0 {
+		return
+	}
+	if j.n != 0 && j.maps != nil && j.page < len(j.maps) {
+		j.drawMapPage(dst, scale, font, missing)
 		return
 	}
 	w := 320 * scale

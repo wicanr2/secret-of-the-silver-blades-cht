@@ -81,6 +81,8 @@ func main() {
 	outDir := flag.String("out", "", "輸出目錄")
 	hideAnswers := flag.Bool("hide-answers", false, "隱藏查驗題答案（規格 006）")
 	journalPreview := flag.Int("journal-preview", 0, "以翻閱模式開啟這一則手札（規格 007 版面檢查；需 -text-dir）")
+	journalPage := flag.Int("journal-page", 1, "翻閱模式開在第幾頁（地圖則多頁時用，規格 022）")
+	journalMaps := flag.String("journal-maps", "", "手札地圖頁目錄（NN-K.png，規格 022）")
 	guidePreview := flag.String("guide-preview", "", "以 `章:頁` 開啟攻略面板（規格 008 版面檢查；0 章是目錄；需 -text-dir）")
 	mapPreview := flag.String("map-preview", "", "開地圖疊層（規格 009）：`走過` 只畫走過的格子、`全圖` 全畫（需 -text-dir）")
 	noOverlay := flag.Bool("no-overlay", false, "不掛攔截點（同一套送鍵跑出原版畫面，比對色號雜湊用）")
@@ -178,9 +180,15 @@ func main() {
 		if live.Journal, err = sosb.LoadJournalDir(*textDir); err != nil {
 			fail(err)
 		}
+		if *journalMaps != "" {
+			if live.Journal.Maps, err = sosb.LoadJournalMaps(*journalMaps); err != nil {
+				fail(err)
+			}
+		}
 		if *journalPreview != 0 {
 			live.Journal.Seen[*journalPreview] = true
 			live.Journal.ToggleBrowse()
+			live.Journal.TurnPage(*journalPage - 1)
 		}
 	}
 	if *textDir != "" && *guidePreview != "" {
@@ -329,7 +337,7 @@ func capture(m *machine.Machine, live *sosb.HDLive, s shot, dir string) shotResu
 		}
 		r.DiffPixels++
 		x, y := (i/4)%(320*scale)/scale, (i/4)/(320*scale)/scale
-		inside := journal && sosb.InJournalPanel(x, y) || guide && sosb.InGuidePanel(x, y) || live.HDAllowed(x, y)
+		inside := journal && live.Journal.Contains(x, y) || guide && sosb.InGuidePanel(x, y) || live.HDAllowed(x, y)
 		for _, st := range layer.Stamps {
 			x0, y0, x1, y1 := st.Rect()
 			if x >= x0 && x < x1 && y >= y0 && y < y1 {

@@ -557,6 +557,7 @@ func main() {
 	original := flag.String("original", "", "唯讀原版目錄（含 START.EXE）")
 	save := flag.String("save", "", "可寫存檔目錄：不存在或為空時由原版複製；已有 START.EXE（雜湊相符）則沿用，存檔保留")
 	textDir := flag.String("text-dir", "", "譯文目錄（ui-text-*、ecl-text-* TSV）")
+	journalMaps := flag.String("journal-maps", "", "手札地圖頁目錄（NN-K.png，主專案規格 022）；不指定時地圖則只顯示正文")
 	fontPath := flag.String("font", "", "16×16 GOLEMFNT")
 	frames := flag.Int("frames", 0, "自動模式：跑這麼多畫格後結束（0＝互動）")
 	script := flag.String("script", "", "自動模式腳本：畫格:動作[,…]（鍵名、單一字元、toggle）")
@@ -701,6 +702,11 @@ func main() {
 	}
 	if live.Journal, err = sosb.LoadJournalDir(*textDir); err != nil {
 		fail(err)
+	}
+	if *journalMaps != "" {
+		if live.Journal.Maps, err = sosb.LoadJournalMaps(*journalMaps); err != nil {
+			fail(err)
+		}
 	}
 	if live.Guide, err = sosb.LoadGuideDir(*textDir); err != nil {
 		fail(err)
