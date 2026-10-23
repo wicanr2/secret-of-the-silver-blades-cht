@@ -161,15 +161,15 @@ type JournalPanel struct {
 	Entries map[int]JournalEntry
 	Format  JournalFormat
 	Seen    map[int]bool
-	OnSeen  func(n int) // 第一次讀到某則時呼叫（前端存已讀清單）
+	OnSeen  func(n int)           // 第一次讀到某則時呼叫（前端存已讀清單）
 	Maps    map[int][]*image.RGBA // 地圖則的圖頁（規格 022）；有圖的手札只顯示圖頁
 
 	open, browse bool
 	n, page      int
 	pages        [][][]rune
 	maps         []*image.RGBA // 目前這則的圖頁；nil 表示文字頁
-	head         uint16 // 自動模式開啟時的 BDA 鍵盤 head
-	last         int    // 最近一次自動開過的手札
+	head         uint16        // 自動模式開啟時的 BDA 鍵盤 head
+	last         int           // 最近一次自動開過的手札
 }
 
 // Open 回面板是否顯示中；Browsing 回是否為翻閱模式。

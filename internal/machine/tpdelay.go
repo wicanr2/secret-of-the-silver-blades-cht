@@ -21,11 +21,11 @@ var tpDelayForms = []tpDelayForm{
 }
 
 type tpDelay struct {
-	loop, count uint32 // DelayLoop 與 DelayCnt 的線性位址；loop 為 0 表示未登記
+	loop, count uint32       // DelayLoop 與 DelayCnt 的線性位址；loop 為 0 表示未登記
 	form        *tpDelayForm // 登記時依 loop 上的位元組判斷；兩種都不符時為 nil，不快轉
-	baseCount   uint16 // 登記時的 DelayCnt
-	basePct     int    // 登記時的時脈比例
-	lastSteps   uint64 // 上一次抵達 loop 的 Steps 與 Cycles
+	baseCount   uint16       // 登記時的 DelayCnt
+	basePct     int          // 登記時的時脈比例
+	lastSteps   uint64       // 上一次抵達 loop 的 Steps 與 Cycles
 	lastCycles  uint64
 	cycPerLoop  uint64 // 實測一圈的週期數；0 表示還沒量到
 }
