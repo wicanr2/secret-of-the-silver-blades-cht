@@ -133,6 +133,7 @@ func main() {
 
 	m := machine.New()
 	d := dos.New(m, *root)
+	m.PortLogKeep, d.Mouse.LogKeep = 1<<16, 4096 // 長跑不留完整的埠與滑鼠紀錄（主專案 WORKLOG 2026-10-23）
 	d.Install()
 	d.Scratch = *scratch
 	if err := state.Load(*statePath, m, d); err != nil {

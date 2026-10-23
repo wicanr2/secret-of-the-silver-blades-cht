@@ -354,6 +354,10 @@ type Machine struct {
 
 	Ports   map[uint16]uint8
 	PortLog []PortWrite
+	// PortLogKeep 大於 0 時 PortLog 只留最近這麼多筆（長到兩倍時捨去較舊的一半）。
+	// 0 是預設，全部留著，對拍與收據要完整序列。互動前端與長時間探索不讀這份紀錄，
+	// 不設上限的話每次埠寫入都留下，跑幾萬畫格就是數百 MB（主專案 secret-of-the-silver-blades-cht WORKLOG 2026-10-23）。
+	PortLogKeep int
 
 	// PortsIn 是每個埠被讀了幾次。**輪詢埠的次數會很大**，那是正常的。
 	PortsIn map[uint16]uint64
@@ -1129,6 +1133,9 @@ func (m *Machine) In8(port uint16) uint8 {
 func (m *Machine) Out8(p uint16, v uint8) {
 	m.Ports[p] = v
 	m.PortLog = append(m.PortLog, PortWrite{Port: p, Val: v, Step: m.Steps, Cycles: m.CPU.Cycles})
+	if k := m.PortLogKeep; k > 0 && len(m.PortLog) >= 2*k {
+		m.PortLog = append(m.PortLog[:0], m.PortLog[len(m.PortLog)-k:]...)
+	}
 
 	if m.soundBlasterPresent {
 		if m.soundBlaster.Out8(p, v) {

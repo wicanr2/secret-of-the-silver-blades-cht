@@ -130,6 +130,11 @@ type Mouse struct {
 	// Events 是實際送出去的回呼（Buttons 欄位放事件旗標）。
 	// **0 次與「遊戲不看事件」長得一樣**，所以要留清單不是只留計數。
 	Events []Poll
+
+	// LogKeep 大於 0 時 Polls、Sets、PressReads、Events 各只留最近這麼多筆（長到兩倍時捨去較舊的一半）。
+	// 0 是預設，全部留著：診斷「點了沒反應」要完整紀錄。遊戲每幀都問 AX=3，互動前端與長時間探索
+	// 不設上限的話幾萬畫格就是上百 MB（主專案 secret-of-the-silver-blades-cht WORKLOG 2026-10-23）。
+	LogKeep int
 }
 
 // PressRead 是一次回報出去的按鍵統計。
@@ -1108,3 +1113,11 @@ func setCH(c *cpu.CPU, v uint8) { c.R[cpu.CX] = c.R[cpu.CX]&0x00FF | uint16(v)<<
 func setCL(c *cpu.CPU, v uint8) { c.R[cpu.CX] = c.R[cpu.CX]&0xFF00 | uint16(v) }
 func setDH(c *cpu.CPU, v uint8) { c.R[cpu.DX] = c.R[cpu.DX]&0x00FF | uint16(v)<<8 }
 func setDL(c *cpu.CPU, v uint8) { c.R[cpu.DX] = c.R[cpu.DX]&0xFF00 | uint16(v) }
+
+// keepLast 在 k 大於 0、s 長到 2k 時只留最後 k 筆（Mouse.LogKeep、machine.PortLogKeep 的同一種上限）。
+func keepLast[T any](s []T, k int) []T {
+	if k > 0 && len(s) >= 2*k {
+		return append(s[:0], s[len(s)-k:]...)
+	}
+	return s
+}

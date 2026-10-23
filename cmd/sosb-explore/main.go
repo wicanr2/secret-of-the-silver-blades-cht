@@ -16,6 +16,8 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"runtime"
+	"runtime/pprof"
 	"strconv"
 	"strings"
 
@@ -69,6 +71,7 @@ func main() {
 	pick := flag.String("pick", "", "其他選單優先選這些選項（逗號分隔，例 `Attack`），沒有才用預設的不開打、能離開的選項")
 	overland := flag.String("overland", "", "大地圖（沒有座標列）依序循環送這些方向鍵，逗號分隔（例 `Right,Right,Up`：主專案往斯拉托）")
 	picsDir := flag.String("pics-dir", "", "視窗圖 (24,24) 88×88 或大圖 (8,8) 304×120 出現沒見過、且連續兩次取樣不變的內容時，把整張色號畫面存成 <步數>.bin（HD 抽樣，主專案規格 010）")
+	memProfile := flag.String("memprofile", "", "結束時把 heap profile 寫到這個檔（查記憶體成長用）")
 	flag.Parse()
 	if *statePath == "" || *root == "" || *fontPath == "" || *textDir == "" || *outDir == "" || *until == "" {
 		fail(fmt.Errorf("state、root、font、text-dir、until、out 均為必填"))
@@ -85,6 +88,7 @@ func main() {
 	}
 	m := machine.New()
 	d := dos.New(m, *root)
+	m.PortLogKeep, d.Mouse.LogKeep = 1<<16, 4096 // 長跑不留完整的埠與滑鼠紀錄（主專案 WORKLOG 2026-10-23）
 	d.Install()
 	d.Scratch = *scratch
 	if err := state.Load(*statePath, m, d); err != nil {
@@ -397,6 +401,13 @@ func main() {
 		plan = append(turnTo(next), "Up")
 	}
 	say("結束：位置 %v 方向 %c，造訪 %d 格，送鍵 %d", cur, dirNames[dir], len(visited), actions)
+	if *memProfile != "" {
+		runtime.GC()
+		if f, err := os.Create(*memProfile); err == nil {
+			_ = pprof.WriteHeapProfile(f)
+			f.Close()
+		}
+	}
 	snapshot()
 	fmt.Printf("steps=%d pos=%v dir=%c visited=%d actions=%d stopped=%v\n", m.Steps, cur, dirNames[dir], len(visited), actions, stopAt != 0)
 }

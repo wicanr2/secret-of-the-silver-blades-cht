@@ -292,6 +292,7 @@ func (d *DOS) int33(c *cpu.CPU) {
 		// 「送到了但答錯」的唯一辦法——兩者的畫面表現一模一樣。
 		m.Polls = append(m.Polls, Poll{X: m.X, Y: m.Y, Buttons: m.Buttons,
 			Step: d.M.Steps})
+		m.Polls = keepLast(m.Polls, m.LogKeep)
 		c.R[cpu.BX] = m.Buttons
 		c.R[cpu.CX] = m.X * xs
 		c.R[cpu.DX] = m.Y
@@ -305,6 +306,7 @@ func (d *DOS) int33(c *cpu.CPU) {
 		// 我們與真機就分家了。不發事件——真機的 `AX=4` 不觸發回呼。
 		m.X, m.Y = m.clamp(x, c.R[cpu.DX], xs)
 		m.Sets = append(m.Sets, Poll{X: m.X, Y: m.Y, Step: d.M.Steps})
+		m.Sets = keepLast(m.Sets, m.LogKeep)
 
 	case 0x0005, 0x0006: // 按下／放開的統計
 		// **BX 進來是「問哪一個鍵」**（0 左／1 右／2 中），出去才是次數。
@@ -331,6 +333,7 @@ func (d *DOS) int33(c *cpu.CPU) {
 			m.PressReads = append(m.PressReads, PressRead{Fn: fn, Button: btn,
 				Count: c.R[cpu.BX], X: at[0], Y: at[1], Step: d.M.Steps,
 				CS: c.Seg[cpu.CS], IP: c.IP})
+			m.PressReads = keepLast(m.PressReads, m.LogKeep)
 		}
 
 	case 0x0007: // 設水平範圍（虛擬座標）
@@ -755,6 +758,7 @@ func (d *DOS) fireMouseEventMickeys(mask uint16, dx, dy int16) {
 		return
 	}
 	m.Events = append(m.Events, Poll{X: m.X, Y: m.Y, Buttons: mask, Step: d.M.Steps})
+	m.Events = keepLast(m.Events, m.LogKeep)
 	d.M.QueueCallback(machine.QueuedCall{
 		Seg: m.Handler.Seg, Off: m.Handler.Off,
 		AX: mask, BX: m.Buttons,

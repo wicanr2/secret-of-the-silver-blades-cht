@@ -180,6 +180,8 @@ func New(cfg Config) (*Owner, error) {
 	}
 	m := machine.New()
 	d := dos.New(m, "")
+	// 互動前端不讀埠與滑鼠的觀測紀錄；不設上限的話玩一小時就是數 GB（主專案 secret-of-the-silver-blades-cht WORKLOG 2026-10-23）
+	m.PortLogKeep, d.Mouse.LogKeep = 1<<16, 4096
 	// DOS.Install must follow LoadEXE.  This narrow owner has no original
 	// boot yet, so Booting deliberately does not install DOS or permit steps.
 	// A future private boot must LoadEXE, then Install, then enter Running.
