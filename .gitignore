@@ -51,3 +51,6 @@ Thumbs.db
 
 # HD 審閱頁的 HD 預覽（AGENTS.md 第 3 節例外；轉公開前連同歷史移除）。
 !/review/hd/img/*.jpg
+
+# README 展示用截圖（AGENTS.md「截圖入 repo」：放 docs/screenshots/）；大圖與事件圖的原版／HD 對照存成 JPEG。
+!/docs/screenshots/*.jpg
