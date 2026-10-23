@@ -45,7 +45,7 @@
 
 | 項目 | 值 |
 |---|---|
-| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `2d914f7`，推到本 repo 的 `dosgolem/sosb` |
+| commit | 基底 `8742fa9`（克萊恩英豪 `dosgolem/cok`）；本作分支頂端 `9d2f4f2`，推到本 repo 的 `dosgolem/sosb` |
 | Go／image | go1.24.13；`dosgolem-go-ebiten:1.24-r1` `sha256:8ed6bdee2bce…` |
 | 冷啟動 | 0 種缺服務；mode 0Dh；首次執行回答 EGA、AdLib、MOUSE、預設存檔路徑，`-program-path 'C:\SECRET\START.EXE'`；空白鍵跳過標題、`p` 進主選單，見 [docs/re/003](docs/re/003-dosgolem-startup.md) |
 
@@ -60,7 +60,7 @@
 | 查驗題 | 字序含標題，已證實 2 題（docs/re/004） |
 | 手札引用 | 鎮長對白後手札第 37 則自動彈出、F5 翻閱已有收據（docs/re/007）；12 則地圖手札顯示圖面（規格 022） |
 | 攻略與地圖 | 攻略 40 段、F6 面板收據（docs/re/008）；地圖疊層 F7 位址已證實、17 塊地區名，攻略點 8 張地圖 298 點，礦坑與地下城待分層（docs/re/009） |
-| 前端功能 | sosb-play 冷開機、存讀檔、demo 中止、CPU 速度 1x–32x、切換列字級；無敵停用待驗（#17） |
+| 前端功能 | sosb-play 冷開機、存讀檔、demo 中止、CPU 速度 1x–32x、切換列字級；我方無敵（F1，docs/re/012） |
 | 閃爍 | 規格 021：閃現量尺 `-flash-audit`；demo 9000 格、手札＋鎮上進金庫 19500 格皆 0；殘影疊字處理原版還原顯存（docs/re/010、規格 021） |
 | 手札譯文 | 第 1–72 則修正譯文 `text/journal.zh-TW.tsv`；錯譯表 113 條通過 `tools/errata_check.py`（docs/re/006） |
 | 查驗題答案 | 30 題 `text/quiz-answers.tsv`，長度全與題目表相符（docs/re/005） |
