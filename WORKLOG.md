@@ -229,3 +229,9 @@
   `hd_theme.py`、`hd_review_md.py` 加 `--observed`；請求清單不動（`hd_theme.py` 會核對清單雜湊與數值驗收一致）。重組的 theme.json 與原本相比只有證據欄位不同；審閱頁只有 README 改變。
   勘誤：第一次重組照 b01–b06 的順序，項目順序與原檔不同；原本的批次順序是 b01、b06、b02–b05，從現有 theme.json 推回後重跑。
 - README 加推廣文「重返冰封山谷」（使用者：這是光芒之池第三作），出處為開場劇情、手札第 25、47、48 則與攻略章節。重新打包三平台完整版，全部冒煙通過。
+
+## 2026-10-23 結案
+
+- Issue #5、#7–#12 留結案說明（完成項與缺口）後關閉，#1–#17 全部關閉；缺口表記在 CONTEXT「結案」一節。
+- workplace 清理（使用者選定）：刪 pkg-stage、pkg-gocache、readme-shots、play-smoke、根目錄 log，推廣片錄製畫格 promo/seg、build、check；保留 sosb-promo.mp4（雜湊 f6e0dbac… 與規格 016 相同）。5.5 GB → 2.6 GB。
+- CONTEXT 勘誤：dosgolem 分支頂端由 41f6c7f 更正為 d6c0a4b。
