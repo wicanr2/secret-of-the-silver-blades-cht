@@ -14,10 +14,10 @@ HD 圖為 JPEG 預覽，正式主題是無損 PNG。
 
 | 項目 | 原版 | HD |
 |---|---|---|
-| `title-ssi`<br>組圖：TITLE.DAX:1@0,0<br>畫面證據：已觀測<br>結構 0.65<br>色相 6.5°<br>**通過** | <img src="img/title-ssi-orig.png" width="456"> | <img src="img/title-ssi-hd.jpg" width="456"> |
-| `title-bg`<br>組圖：TITLE.DAX:2@0,0<br>畫面證據：已觀測<br>結構 0.67<br>色相 18.0°<br>**通過** | <img src="img/title-bg-orig.png" width="456"> | <img src="img/title-bg-hd.jpg" width="456"> |
-| `title-fr`<br>組圖：TITLE.DAX:2@0,0+TITLE.DAX:3@16,40<br>畫面證據：已觀測<br>結構 0.79<br>色相 18.4°<br>**通過** | <img src="img/title-fr-orig.png" width="456"> | <img src="img/title-fr-hd.jpg" width="456"> |
-| `title`<br>組圖：TITLE.DAX:2@0,0+TITLE.DAX:4@40,40<br>畫面證據：已觀測<br>結構 0.75<br>色相 18.7°<br>**通過** | <img src="img/title-orig.png" width="456"> | <img src="img/title-hd.jpg" width="456"> |
+| `title`<br>組圖：TITLE.DAX:2@0,0+TITLE.DAX:4@40,40<br>畫面證據：已觀測（推廣片 title:000940:hd）<br>結構 0.75<br>色相 18.7°<br>**通過** | <img src="img/title-orig.png" width="456"> | <img src="img/title-hd.jpg" width="456"> |
+| `title-ssi`<br>組圖：TITLE.DAX:1@0,0<br>畫面證據：已觀測（推廣片 title:000024:hd）<br>結構 0.65<br>色相 6.5°<br>**通過** | <img src="img/title-ssi-orig.png" width="456"> | <img src="img/title-ssi-hd.jpg" width="456"> |
+| `title-bg`<br>組圖：TITLE.DAX:2@0,0<br>畫面證據：已觀測（推廣片 title:000155:hd）<br>結構 0.67<br>色相 18.0°<br>**通過** | <img src="img/title-bg-orig.png" width="456"> | <img src="img/title-bg-hd.jpg" width="456"> |
+| `title-fr`<br>組圖：TITLE.DAX:2@0,0+TITLE.DAX:3@16,40<br>畫面證據：已觀測（推廣片 title:000539:hd）<br>結構 0.79<br>色相 18.4°<br>**通過** | <img src="img/title-fr-orig.png" width="456"> | <img src="img/title-fr-hd.jpg" width="456"> |
 
 ## 大圖
 
@@ -26,7 +26,7 @@ HD 圖為 JPEG 預覽，正式主題是無損 PNG。
 | `bigpic1-112`<br>BIGPIC1.DAX 區塊 112 幀 0/1<br>畫面證據：未觀測<br>結構 0.63<br>色相 21.7°<br>**通過** | <img src="img/bigpic1-112-orig.png" width="456"> | <img src="img/bigpic1-112-hd.jpg" width="456"> |
 | `bigpic1-113`<br>BIGPIC1.DAX 區塊 113 幀 0/1<br>畫面證據：未觀測<br>結構 0.42<br>色相 27.0°<br>**通過** | <img src="img/bigpic1-113-orig.png" width="456"> | <img src="img/bigpic1-113-hd.jpg" width="456"> |
 | `bigpic2-114`<br>BIGPIC2.DAX 區塊 114 幀 0/1<br>畫面證據：未觀測<br>結構 0.48<br>色相 15.9°<br>**通過** | <img src="img/bigpic2-114-orig.png" width="456"> | <img src="img/bigpic2-114-hd.jpg" width="456"> |
-| `bigpic2-119`<br>BIGPIC2.DAX 區塊 119 幀 0/1<br>畫面證據：未觀測<br>結構 0.41<br>色相 19.1°<br>**通過** | <img src="img/bigpic2-119-orig.png" width="456"> | <img src="img/bigpic2-119-hd.jpg" width="456"> |
+| `bigpic2-119`<br>BIGPIC2.DAX 區塊 119 幀 0/1<br>畫面證據：已觀測（推廣片 open:000000:hd）<br>結構 0.41<br>色相 19.1°<br>**通過** | <img src="img/bigpic2-119-orig.png" width="456"> | <img src="img/bigpic2-119-hd.jpg" width="456"> |
 | `bigpic3-115`<br>BIGPIC3.DAX 區塊 115 幀 0/1<br>畫面證據：未觀測<br>結構 0.52<br>色相 15.7°<br>**通過** | <img src="img/bigpic3-115-orig.png" width="456"> | <img src="img/bigpic3-115-hd.jpg" width="456"> |
 | `bigpic3-116`<br>BIGPIC3.DAX 區塊 116 幀 0/1<br>畫面證據：未觀測<br>結構 0.47<br>色相 22.1°<br>**通過** | <img src="img/bigpic3-116-orig.png" width="456"> | <img src="img/bigpic3-116-hd.jpg" width="456"> |
 | `bigpic3-117`<br>BIGPIC3.DAX 區塊 117 幀 0/1<br>畫面證據：未觀測<br>結構 0.60<br>色相 20.0°<br>**通過** | <img src="img/bigpic3-117-orig.png" width="456"> | <img src="img/bigpic3-117-hd.jpg" width="456"> |
@@ -40,7 +40,7 @@ HD 圖為 JPEG 預覽，正式主題是無損 PNG。
 | `pic1-082`<br>PIC1.DAX 區塊 82 幀 0/1<br>畫面證據：已觀測<br>結構 0.74<br>色相 13.1°<br>**通過** | <img src="img/pic1-082-orig.png" width="264"> | <img src="img/pic1-082-hd.jpg" width="264"> |
 | `pic1-072`<br>PIC1.DAX 區塊 72 幀 0/1<br>畫面證據：未觀測<br>結構 0.67<br>色相 2.3°<br>**通過** | <img src="img/pic1-072-orig.png" width="264"> | <img src="img/pic1-072-hd.jpg" width="264"> |
 | `pic1-075`<br>PIC1.DAX 區塊 75 幀 0/1<br>畫面證據：未觀測<br>結構 0.61<br>色相 13.1°<br>**通過** | <img src="img/pic1-075-orig.png" width="264"> | <img src="img/pic1-075-hd.jpg" width="264"> |
-| `pic1-080`<br>PIC1.DAX 區塊 80 幀 0/1<br>畫面證據：未觀測<br>結構 0.52<br>色相 19.6°<br>**通過** | <img src="img/pic1-080-orig.png" width="264"> | <img src="img/pic1-080-hd.jpg" width="264"> |
+| `pic1-080`<br>PIC1.DAX 區塊 80 幀 0/1<br>畫面證據：已觀測（推廣片 open:000334:hd）<br>結構 0.52<br>色相 19.6°<br>**通過** | <img src="img/pic1-080-orig.png" width="264"> | <img src="img/pic1-080-hd.jpg" width="264"> |
 | `pic1-081`<br>PIC1.DAX 區塊 81 幀 0/1<br>畫面證據：未觀測<br>結構 0.52<br>色相 15.3°<br>**通過** | <img src="img/pic1-081-orig.png" width="264"> | <img src="img/pic1-081-hd.jpg" width="264"> |
 | `pic1-086@0`<br>PIC1.DAX 區塊 86 幀 0/2<br>畫面證據：未觀測<br>結構 0.48<br>色相 20.8°<br>**通過** | <img src="img/pic1-086@0-orig.png" width="264"> | <img src="img/pic1-086@0-hd.jpg" width="264"> |
 | `pic1-086@1`<br>PIC1.DAX 區塊 86 幀 1/2<br>畫面證據：未觀測<br>結構 0.58<br>色相 20.7°<br>**通過** | <img src="img/pic1-086@1-orig.png" width="264"> | <img src="img/pic1-086@1-hd.jpg" width="264"> |
@@ -99,8 +99,8 @@ HD 圖為 JPEG 預覽，正式主題是無損 PNG。
 | `pic4-006@4`<br>PIC4.DAX 區塊 6 幀 4/8<br>畫面證據：未觀測<br>結構 0.65<br>色相 4.8°<br>**通過（沿用克萊恩英豪）** | <img src="img/pic4-006@4-orig.png" width="264"> | <img src="img/pic4-006@4-hd.jpg" width="264"> |
 | `pic4-006@5`<br>PIC4.DAX 區塊 6 幀 5/8<br>畫面證據：未觀測<br>結構 0.63<br>色相 4.8°<br>**通過（沿用克萊恩英豪）** | <img src="img/pic4-006@5-orig.png" width="264"> | <img src="img/pic4-006@5-hd.jpg" width="264"> |
 | `pic4-006@6`<br>PIC4.DAX 區塊 6 幀 6/8<br>畫面證據：未觀測<br>結構 0.59<br>色相 4.7°<br>**通過（沿用克萊恩英豪）** | <img src="img/pic4-006@6-orig.png" width="264"> | <img src="img/pic4-006@6-hd.jpg" width="264"> |
-| `pic4-059`<br>PIC4.DAX 區塊 59 幀 0/1<br>畫面證據：未觀測<br>結構 0.68<br>色相 10.7°<br>**通過** | <img src="img/pic4-059-orig.png" width="264"> | <img src="img/pic4-059-hd.jpg" width="264"> |
-| `pic4-060`<br>PIC4.DAX 區塊 60 幀 0/1<br>畫面證據：未觀測<br>結構 0.68<br>色相 23.0°<br>**通過** | <img src="img/pic4-060-orig.png" width="264"> | <img src="img/pic4-060-hd.jpg" width="264"> |
+| `pic4-059`<br>PIC4.DAX 區塊 59 幀 0/1<br>畫面證據：已觀測（推廣片 town:000024:hd）<br>結構 0.68<br>色相 10.7°<br>**通過** | <img src="img/pic4-059-orig.png" width="264"> | <img src="img/pic4-059-hd.jpg" width="264"> |
+| `pic4-060`<br>PIC4.DAX 區塊 60 幀 0/1<br>畫面證據：已觀測（推廣片 open:000978:hd）<br>結構 0.68<br>色相 23.0°<br>**通過** | <img src="img/pic4-060-orig.png" width="264"> | <img src="img/pic4-060-hd.jpg" width="264"> |
 | `pic4-066`<br>PIC4.DAX 區塊 66 幀 0/1<br>畫面證據：未觀測<br>結構 0.82<br>色相 8.7°<br>**通過** | <img src="img/pic4-066-orig.png" width="264"> | <img src="img/pic4-066-hd.jpg" width="264"> |
 | `pic4-069`<br>PIC4.DAX 區塊 69 幀 0/1<br>畫面證據：未觀測<br>結構 0.66<br>色相 4.6°<br>**通過** | <img src="img/pic4-069-orig.png" width="264"> | <img src="img/pic4-069-hd.jpg" width="264"> |
 | `pic4-071`<br>PIC4.DAX 區塊 71 幀 0/1<br>畫面證據：未觀測<br>結構 0.54<br>色相 20.3°<br>**通過** | <img src="img/pic4-071-orig.png" width="264"> | <img src="img/pic4-071-hd.jpg" width="264"> |

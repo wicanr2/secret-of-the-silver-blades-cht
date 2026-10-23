@@ -46,6 +46,7 @@
 | 目視 | 並列比較頁 | 綁定 PNG SHA-256；未目視或雜湊改變不得接入 |
 | 主題 | `tools/hd_theme.py` | `workplace/hd/theme/theme.json`（第一階段 89 項） |
 | 審閱頁 | `tools/hd_review_md.py` | `review/hd/README.md`：原版 3 倍與 HD 預覽並列，private repo 審閱用 |
+| 執行期證據 | `tools/hd_observe.py` | `workplace/hd/observed.json`：錄好的 3 倍畫格裡，項目位置逐像素等於 HD 圖或原版色號 3 倍的畫格；`hd_theme.py`、`hd_review_md.py` 以 `--observed` 讀入（請求清單不改） |
 
 風格參考圖：克萊恩英豪已定版的 `workplace/hd/out/b01/camp.png`（複製到 `workplace/hd/style/krynn-b01-camp.png`），只取筆觸。
 
@@ -54,6 +55,7 @@
 - dosgolem `apps/sosb/hd.go` 的圖面 watcher（由克萊恩英豪移植，已在本作分支）：整塊原版色號吻合才畫 HD，只在 3 倍。
 - 主題圖 watcher 設 `Sticky`（dosgolem 規格 204 §6），並以 `Hold`（202 §2.8）保留正在畫的已知圖，見規格 021 §4.1。
 - 主題由 `tools/hd_theme.py` 組成 `workplace/hd/theme/`，sosb-play `-hd` 載入。
+- 推廣片畫格（2026-10-23，title、open、town、battle 等 9 段 7,528 格）補上 4 項執行期證據：開場山谷 `bigpic2-119`、鎮長 `pic1-080`、紮營夜景 `pic4-059`、寶物 `pic4-060`，都是 HD 圖逐像素吻合；標題 4 項另記畫格。第一階段 89 項中已觀測 10 項。
 
 ## 5. 驗收
 

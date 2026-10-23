@@ -4,7 +4,7 @@
 
 輸出 `<out>/README.md` 與 `<out>/img/`：原版 `<key>-orig.png`（最近鄰 3 倍）、HD `<key>-hd.jpg`（JPEG 品質 90 預覽；
 正式主題是 workplace/hd/theme 的無損 PNG）。原版圖屬原版素材，repo 轉公開前必須連同歷史移除（AGENTS.md 第 4 節）。
-每項附來源、畫面證據、數值閘門（結構分數、色相差中位）與目視狀態。
+每項附來源、畫面證據、數值閘門（結構分數、色相差中位）與目視狀態。畫面證據另讀 `--observed`（tools/hd_observe.py 的輸出）。
 """
 import argparse
 import json
@@ -29,7 +29,9 @@ def main():
     ap.add_argument('--hd', required=True, type=Path)
     ap.add_argument('--out', required=True, type=Path)
     ap.add_argument('--batches', required=True)
+    ap.add_argument('--observed', type=Path, help='tools/hd_observe.py 的輸出：{key: [畫格…]}')
     a = ap.parse_args()
+    obs = json.loads(a.observed.read_text()) if a.observed else {}
     sheets = []
     img = a.out / 'img'
     if img.exists():
@@ -73,7 +75,8 @@ def main():
             fam = it.get('family') or it.get('kind')
             rows.append(dict(batch=b, key=k, family=fam, desc=it['description'],
                              w=it['size'][0] * (6 if fam in COMPACT else 3),
-                             evidence=it['runtime_evidence'], status=status, hd=hd.exists(),
+                             evidence='observed' if k in obs else it['runtime_evidence'], frame=obs.get(k, [''])[0],
+                             status=status, hd=hd.exists(),
                              structure=v.get('structural_edge_overlap'), hue=v.get('median_hue_difference_degrees')))
     n_ok = sum(r['status'].startswith('通過') for r in rows)
     lines = ['# HD 重繪審閱', '',
@@ -107,7 +110,7 @@ def main():
         for r in part:
             w = min(r['w'], 456)
             score = (f"結構 {r['structure']:.2f}<br>色相 {r['hue']:.1f}°" if r['structure'] is not None else '')
-            meta = (f"`{r['key']}`<br>{r['desc']}<br>畫面證據：{'已觀測' if r['evidence'] == 'observed' else '未觀測'}"
+            meta = (f"`{r['key']}`<br>{r['desc']}<br>畫面證據：{'已觀測' if r['evidence'] == 'observed' else '未觀測'}{'（推廣片 ' + r['frame'] + '）' if r.get('frame') else ''}"
                     f"<br>{score}<br>**{r['status']}**" + (f"<br>備註：{NOTES[r['key']]}" if r['key'] in NOTES else ''))
             hd = f'<img src="img/{r["key"]}-hd.jpg" width="{w}">' if r['hd'] else '（尚無）'
             lines.append(f'| {meta} | <img src="img/{r["key"]}-orig.png" width="{w}"> | {hd} |')

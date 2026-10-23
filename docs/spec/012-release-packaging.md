@@ -31,12 +31,12 @@ macOS universal zip，各分原版與原版＋HD 兩包；本機完整版另附�
 
 | 檔案 | 位元組 | SHA-256 |
 |---|---|---|
-| `SOSBCHT-v.1.0.0-20261023-with-data-x86_64.AppImage` | 7,100,920 | `74e8ba561a9349b88ef6c55d5ec2c63748ce60cb83fba330f63080236011235b` |
-| `SOSBCHT-v.1.0.0-20261023-hd-with-data-x86_64.AppImage` | 37,231,096 | `c462c0f2faa17f07a42a1ad11c1bd481925cb7ada20c3db2905ec0c175237ff6` |
+| `SOSBCHT-v.1.0.0-20261023-with-data-x86_64.AppImage` | 7,100,920 | `0dddbce3dfbc605461708e3759ce543121b10bed50691e5616c11d6e1a407b2f` |
+| `SOSBCHT-v.1.0.0-20261023-hd-with-data-x86_64.AppImage` | 37,231,096 | `deed10a207ea5ba15bf93f69abb026d0396c59d09ef220afa4151f7248a58668` |
 | `SOSBCHT-v.1.0.0-20261023-with-data-win64.zip` | 6,708,967 | `5170f2e62a2d78a190446e79691c135f2bbb4c764e1fdde49a4ed18ff01a262b` |
-| `SOSBCHT-v.1.0.0-20261023-hd-with-data-win64.zip` | 37,519,777 | `52ae9b3608f2cb30f82fbb25015991f1e84a848feb91999622491bdb58f47823` |
+| `SOSBCHT-v.1.0.0-20261023-hd-with-data-win64.zip` | 37,519,954 | `7d49bad16b283d74b4a7273e950ed6abd1ccfadebac71397924eaf3f7e3f6198` |
 | `SOSBCHT-v.1.0.0-20261023-with-data-macos.zip` | 9,999,360 | `a7af4657adf42c6fb5beda5735238a8a65ab71dde2583d644f04903b0bf0a3e1` |
-| `SOSBCHT-v.1.0.0-20261023-hd-with-data-macos.zip` | 41,025,744 | `10c4e0a7de6f90957e516c1e64473d204c8581dcf6ee5dd8116d8f413a4ee44d` |
+| `SOSBCHT-v.1.0.0-20261023-hd-with-data-macos.zip` | 41,025,921 | `3a48b1ead3d9d4a8be17d42f3501c574a6a89140530a2db3ae900b9013a55f44` |
 
 冒煙（`dist-all/v.1.0.0-20261023/smoke/full-local/`）：
 

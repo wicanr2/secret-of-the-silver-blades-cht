@@ -3,6 +3,7 @@
 
 只收數值閘門（validation.json）與目視（visual-review.json）都通過、且圖片與請求在驗收後沒有改變的項目。
 先全部檢查再寫檔：`<out>/<key>.png`、`<key>.idx`、`theme.json`（dosgolem apps/sosb LoadHDTheme 讀取）。
+`--observed`（tools/hd_observe.py 的輸出）列出的項目標為 observed 並記下畫格；請求清單不改，數值驗收的雜湊照樣成立。
 """
 import argparse
 import hashlib
@@ -25,7 +26,9 @@ def main():
     ap.add_argument('--hd', required=True, type=Path)
     ap.add_argument('--out', required=True, type=Path)
     ap.add_argument('--batches', required=True)
+    ap.add_argument('--observed', type=Path, help='tools/hd_observe.py 的輸出：{key: [畫格…]}')
     a = ap.parse_args()
+    obs = json.loads(a.observed.read_text()) if a.observed else {}
     items, prepared, seen, skipped = [], [], set(), []
     for batch in a.batches.split(','):
         man_b = (a.req / batch / 'manifest.json').read_bytes()
@@ -58,9 +61,12 @@ def main():
             if len(idx) != W * H or sha(idx) != it['indexed_sha256']:
                 sys.exit(f'{key}：色號基準與請求不符')
             prepared.append((src, key, idx))
-            items.append(dict(key=key, batch=batch, screen_rect=[X, Y, W, H], png=f'{key}.png', png_sha256=png_sha,
-                              indexed=f'{key}.idx', indexed_sha256=it['indexed_sha256'],
-                              runtime_evidence=it['runtime_evidence']))
+            row = dict(key=key, batch=batch, screen_rect=[X, Y, W, H], png=f'{key}.png', png_sha256=png_sha,
+                       indexed=f'{key}.idx', indexed_sha256=it['indexed_sha256'],
+                       runtime_evidence='observed' if key in obs else it['runtime_evidence'])
+            if key in obs:
+                row['evidence_frames'] = obs[key]
+            items.append(row)
     a.out.mkdir(parents=True, exist_ok=True)
     for src, key, idx in prepared:
         shutil.copyfile(src, a.out / f'{key}.png')
