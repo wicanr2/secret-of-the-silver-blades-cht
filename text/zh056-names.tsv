@@ -1,0 +1,132 @@
+page	kind	en	zh056	game	game_source	result
+9	monster	Basilisk	石化蜥蜴	八腳蜥蜴	por	異名
+9	monster	Cockatrice	雞蛇	雞蛇獸	sosb	異名
+9	monster	GiantCrocodile	巨鱷	巨鱷	sosb	同名
+9	monster	DisplacerBeast	投影獸	移位獸	coab	異名
+9	monster	RedDragon	赤龍	紅龍	cok	異名
+9	monster	WhiteDragon	白龍	白龍	cok	同名
+10	monster	Drider	半蛛精靈	半蜘精靈	zh056	異名
+10	monster	Ettin	雙頭怪	雙頭巨魔	coab	異名
+10	monster	Gargoyle	石像怪	石像鬼	sosb	異名
+10	monster	CloudGiant	煙霧巨人	雲巨人	sosb	異名
+10	monster	FireGiant	火焰巨人	火巨人	por	異名
+10	monster	FrostGiant	寒霜巨人	寒霜巨人	zh056	同名
+10	monster	Hill Giant	山丘巨人	山丘巨人	sosb	同名
+11	monster	StormGiant	狂暴巨人	風暴巨人	zh056	異名
+11	monster	Golem	魔像	魔像	cok	同名
+11	monster	Griffon	鷲獅	獅鷲	coab	異名
+11	monster	HellHound	地獄之犬	地獄獵犬	cok	異名
+11	monster	Hippogriff	鷹頭馬	鷹馬	coab	異名
+11	monster	Hydra	多頭龍	九頭蛇	sosb	異名
+11	monster	Lich	巫妖	巫妖	cok	同名
+11	monster	LizardMen	蜥蜴人			術語表無
+12	monster	Margoyle	石像鬼	大石像鬼	sosb	異名
+12	monster	Mastodon	長毛象	乳齒象	sosb	異名
+12	monster	Medusa	蛇髮女妖	蛇髮女妖	zh056	同名
+12	monster	Megalo—Centipede	大蜈蚣			術語表無
+12	monster	Minotaur	牛頭人	牛頭人	cok	同名
+12	monster	Mobat	巨蝙蝠	魔蝠	cok	異名
+12	monster	Neo—Otyugh	巨型觸手怪	新奧提尤格	coab	異名
+12	monster	Ogre	巨魔	食人魔	cok	異名
+13	monster	Phase Spider	時空轉移蜘蛛	相位蜘蛛	coab	異名
+13	monster	PurpleWorm	紫蟲	紫蟲	sosb	同名
+13	monster	Remorhaz	火焰蟲	雷莫哈茲	sosb	異名
+13	monster	GiantSlug	巨蛞蝓	巨鼻涕蟲	coab	異名
+13	monster	GiantSnake	巨蛇	巨蛇	sosb	同名
+13	monster	Sphinx	人面獅身獸	獅身人面獸	sosb	異名
+13	monster	Giant Spider	巨蜘蛛	巨蜘蛛	coab	同名
+13	monster	UmberHulk	地底熊	土巨怪	sosb	異名
+14	monster	Warg	豺狼			術語表無
+14	spell	Bless	祝福術	祝福術	cok	同名
+14	spell	Curse	詛咒術			術語表無
+14	spell	CureLightWounds	治療輕傷	治療輕傷	cok	同名
+14	spell	CauseLightWounds	引起輕傷	引發輕傷	cok	異名
+14	spell	DetectMagic	搜尋魔法物品	搜尋魔法物品	cok	同名
+14	spell	ProtectionFromEvil	免受邪惡侵害	免受邪惡傷害	cok	異名
+15	spell	ProtectFromGood	免受善良侵害			術語表無
+15	spell	ResistCold	抗凍術	抗凍術	cok	同名
+15	spell	FindTrap	搜尋陷阱			術語表無
+15	spell	HoldPerson	束縛敵人	束縛術	cok	異名
+15	spell	ResistFire	抗火術	抗火術	cok	同名
+15	spell	SlowPoison	緩毒術	緩毒術	cok	同名
+16	spell	SnakeCharm	蛇魅術	蛇魅術	cok	同名
+16	spell	SpiritualHammer	心靈之鎚	心靈之槌	cok	異名
+16	spell	BestowCurse	散佈詛咒	施以詛咒	cok	異名
+16	spell	CauseBlindness	引起失明	引發失明	cok	異名
+16	spell	CureBlindness	醫治失明	醫治失明	cok	同名
+16	spell	CauseDisease	引起疾病	引發疾病	cok	異名
+16	spell	CureDisease	醫治疾病	醫治疾病	cok	同名
+16	spell	DispelMagic	解咒術	解除法術	cok	異名
+16	spell	Prayer	祈禱	祈禱	cok	同名
+17	spell	RemoveCurse	除去詛咒	解除詛咒	cok	異名
+17	spell	CureSeriousWounds	治療重傷	治療重傷	cok	同名
+17	spell	Cause Serious Wounds	引起重傷	引發重傷	cok	異名
+17	spell	NeutralizePoison	中和毒性	中和毒性	cok	同名
+17	spell	Poison	毒擊術	毒術	cok	異名
+17	spell	SticksToSnakes	弄蛇術	弄蛇術	cok	同名
+17	spell	Cure Critical Wounds	治療致命傷勢	治療致命傷	cok	異名
+18	spell	CauseCriticalWounds	引起致命傷勢	引發致命傷	cok	異名
+18	spell	DispelEvil	驅邪術	解除邪惡	cok	異名
+18	spell	FlameStrike	火焰之擊	火焰打擊	cok	異名
+18	spell	RaiseDead	復活術	復活術	cok	同名
+18	spell	SlayLiving	殺傷術	殺生術	cok	異名
+18	spell	Harm	傷害術	傷害術	cok	同名
+18	spell	Heal	治傷術	治療	cok	異名
+18	spell	BurningHands	燃燒之手	燃燒的手	cok	異名
+18	spell	CharmPerson	迷惑術	迷惑術	cok	同名
+19	spell	DetectMagic	搜尋魔法物品	搜尋魔法物品	cok	同名
+19	spell	Enlarge	巨大術	巨大術	cok	同名
+19	spell	Reduce	縮小術	縮小術	cok	同名
+19	spell	Friends	友好術	友好術	cok	同名
+19	spell	MagicMissile	魔法飛彈	魔法飛彈	cok	同名
+19	spell	ProtectionFromEvil	免受邪惡侵害	免受邪惡傷害	cok	異名
+19	spell	ProtectionFromGood	免受善良侵害	免受善良傷害	cok	異名
+19	spell	ReadMagic	閱讀魔法	閱讀魔法	cok	同名
+20	spell	Shield	魔盾術	盾牌	cok	異名
+20	spell	ShockingGrasp	電擊術	電擊術	cok	同名
+20	spell	Sleep	催眠術	催眠術	cok	同名
+20	spell	DetectInvisibility	偵測隱形敵人	搜尋隱形物品	cok	異名
+20	spell	Invisibility	隱形術	隱形術	cok	同名
+20	spell	Knock	踢開術	踢開術	cok	同名
+20	spell	MirrorImage	幻影術	幻影術	cok	同名
+20	spell	RayofEnfeeblement	衰弱術	衰弱術	cok	同名
+21	spell	StinkingCloud	臭雲術	臭雲術	cok	同名
+21	spell	Strength	大力術	大力術	cok	同名
+21	spell	Blink	閃爍術	閃爍術	cok	同名
+21	spell	DispelMagic	解除法術	解除法術	cok	同名
+21	spell	Fireball	火球術	火球	cok	異名
+21	spell	Haste	加倍術	加倍術	cok	同名
+21	spell	HoldPerson	束縛敵人	束縛術	cok	異名
+21	spell	Invisibility，10Radius	半徑十呎的隱形術	半徑10呎內隱形	cok	異名
+21	spell	LightningBolt	閃電術	閃電術	cok	同名
+22	spell	Protection From Evil	免受邪惡傷害	免受邪惡傷害	cok	同名
+22	spell	Protection From Good	免受善良傷害	免受善良傷害	cok	同名
+22	spell	Slow	減緩術	緩慢術	cok	異名
+22	spell	CharmMonster	迷惑敵人			術語表無
+22	spell	Confusion	混淆術	混淆術	cok	同名
+23	spell	DimensionDoor	時空之門	時空之門	cok	同名
+23	spell	Fear	威嚇術	恐懼術	cok	異名
+23	spell	FireShield	火焰之盾	防火盾牌	cok	異名
+23	spell	Fumble	笨拙術	笨拙術	cok	同名
+23	spell	IceStorm	冰雪風暴	冰雪風暴	cok	同名
+23	spell	Minor Globe of Invulnerability	小型魔法防護罩	小型魔法防護罩	cok	同名
+23	spell	RemoveCurse	除詛咒	解除詛咒	cok	異名
+23	spell	CloudKill	死亡之雲	殺人雲	cok	異名
+23	spell	ConeofCold	冷凍光束	冰錐術	cok	異名
+23	spell	Feeblemind	弱智術	弱智術	cok	同名
+24	spell	HoldMonster	束縛敵人			術語表無
+24	spell	DeathSpell	致死術	死亡法術	cok	異名
+24	spell	Disintigrate	分解術			術語表無
+24	spell	FreshtoStone	石化術			術語表無
+24	spell	GlobeofInvulnerability	魔法防護罩	魔法防護罩	cok	同名
+24	spell	StonetoFlesh	治療石化	化石還原術	cok	異名
+24	spell	DelayedBlastFireball	延遲爆炸術			術語表無
+24	spell	MassInvisibility	群體隱身術	多人隱形術	cok	異名
+24	spell	PowerWord，Stun	牽制之咒	暈迷術	cok	異名
+24	spell	DetectMagic	偵測魔法	搜尋魔法物品	cok	異名
+25	spell	Entangle	牽絆術	糾纏	cok	異名
+25	spell	FaerieFire	仙境之火	魔光	cok	異名
+25	spell	InvisibilitytoAnimal	動物隱形術			術語表無
+25	spell	Barkskin	鐵皮術	硬皮術	cok	異名
+25	spell	Charm Person or Mammel	迷惑人類或哺乳動物			術語表無
+25	spell	CureLightWound	治療輕傷			術語表無

@@ -194,3 +194,13 @@
 - 勘誤：新增的 `text/music-cues.tsv` 沒有顯示欄，`tools/font-dev.sh` 掃 `text/*.tsv` 時中止；加進略過清單（第二次同類，前一次是 journal-maps 的 `zh` 欄）。
 - 勘誤：日韓攻略目錄標題顯示「クリンの勇者たち／크린의 용사들 攻略」。`tools/jako_aux_prep.py` 沿用前作譯文只比 key，本作改過繁中的 `guide.toc` 也被沿用。
   改成前作繁中與本作相同才沿用（三種表都套），`guide.toc` 重譯。教訓：沿用譯文的條件是「原文與繁中都相同」，key 相同不夠。
+
+## 2026-10-23 G4 說明書其餘章節、最後抽驗
+
+- 珍056 PDF 第 1–18 頁以 300 dpi 重轉、切成 106 格、PaddleOCR 出逐格草稿（`tools/zh_manual_split.py`、`zh_manual_draft.py`）。
+  勘誤：切線第一版在頁高 25–42% 找空白，抓到安裝說明頁的頁內留白，把上一頁頁碼切進來；改成均分線前後 80 像素內找。
+  勘誤：PaddleX 要在 HOME 寫暫存，HOME 設在容器內 `/tmp/h` 時掛載點父目錄由 docker 以 root 建立、不能寫；改用工作區自建的 paddle-home 並先建好掛載點。
+- 下冊怪物與法術清單的「中文名（English）」逐格對圖後與術語表比對（`tools/zh056_names.py`、`text/zh056-names.tsv`）：131 組，異名 63。
+  遊戲內譯名多沿用前作，當時下冊章節未轉錄；是否改用珍056 譯名待使用者決定。
+- 最後抽驗（使用者：做完再抽驗）：`tools/g7-journal-receipt.sh` 的手札自動彈出、攻略、手札翻閱截圖雜湊與 docs/re/007 相同，
+  地圖頁因 G8 攻略點而改變；`tools/g16-flash-receipt.sh` demo 與進金庫兩條閃現 0；四語收據缺字 0、記憶體雜湊一致。
