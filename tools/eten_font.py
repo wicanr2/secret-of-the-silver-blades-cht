@@ -7,6 +7,7 @@
 - raw 0..407 取 SPCFONT.15；471..5871 取 STDFONT.15[raw-471]；6280..13972 取 STDFONT.15[5401+raw-6280]。
 - top-pad：輸出第 0 列為零，來源 15 列放在第 1..15 列。
 - 其他分區、codec 失敗、全零字模（空白除外）一律失敗，不 fallback。
+- 例外只有 BIG5_ALIAS 明列的字：Big5 沒有這個碼點，借同形字的 Big5 碼取倚天字模（只影響倚天字型；Unifont 照原碼點）。
 
 輸出：GOLEMFNT magic、LE W=16、H=16、字數，每字 u32 碼點＋u8 來源標記＋32 bytes，碼點遞增。
 字元集合取自一或多份 TSV 中表頭為 translation、title、body、label、summary 的欄（譯文、手札、攻略、地圖攻略點），另加 --extra 字元。
@@ -41,13 +42,18 @@ def column(lo):
     raise ValueError(f'非法 trail byte {lo:#x}')
 
 
+# 譯文用到、Big5 沒有的字 → 借用的同形字。CPython big5 把 A145 解成 U+2022、A1E3 解成 U+223C；
+# cp950 的 A145 是 U+2027（置中的分隔點，倚天字模置中；A150 的點偏左）、A1E3 是 U+FF5E
+BIG5_ALIAS = {'・': '•', '裏': '裡', '～': '∼'}
+
+
 def glyph(ch, asc, spc, std):
     cp = ord(ch)
     if cp <= 0xFF and ch.isascii():
         rows = asc[cp * 15:(cp + 1) * 15]
         out = b'\x00\x00' + b''.join(struct.pack('>H', r << 4) for r in rows)
         return 1, out
-    enc = ch.encode('big5')
+    enc = BIG5_ALIAS.get(ch, ch).encode('big5')
     if len(enc) != 2:
         raise ValueError(f'{ch!r} 不是兩 bytes Big5')
     raw = (enc[0] - 0xA1) * 157 + column(enc[1])

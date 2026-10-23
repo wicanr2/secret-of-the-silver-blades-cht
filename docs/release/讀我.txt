@@ -1,0 +1,72 @@
+銀色匕首之謎（繁體中文化）
+SSI《Secret of the Silver Blades》DOS 英文版 1.30 的繁體中文輸出覆繪
+https://github.com/wicanr2/secret-of-the-silver-blades-cht
+
+一、原版遊戲
+  檔名含 with-data 的本機完整版已附原版遊戲（original 資料夾），直接啟動即可。
+  其他版本不附原版，請自備合法取得的 DOS 英文版原版遊戲。程式會核對下列兩個檔的
+  SHA-256，只支援這個版本：
+    START.EXE  b6c08c3b0a6e0a6ebac76406f2d9abba7d7a3c8d62d4b0ac121778b9c9136036
+    GAME.OVR   9b01e970b87e32fe1de608e5c431a83bd1739b7a7fe4acea1231eebf15ff1703
+
+二、第一次啟動
+  不附原版的版本：把原版遊戲資料夾（含 START.EXE、GAME.OVR 等全部檔案）複製成本程式
+  旁邊的 original 資料夾：
+    Windows：與 SOSBCHT.exe 同一層
+    macOS：與 SOSBCHT.app 同一層
+    Linux：與 AppImage 檔同一層
+  也可以用 -original 指定原版資料夾的位置。
+  第一次啟動會把原版複製到使用者資料目錄的 game 資料夾，之後就不再需要
+  original 資料夾；遊戲存檔也寫在 game 資料夾裡：
+    Windows：%APPDATA%\SOSBCHT
+    macOS：~/Library/Application Support/SOSBCHT
+    Linux：~/.local/share/sosb-cht（或 $XDG_DATA_HOME/sosb-cht）
+  出錯時同一個目錄會留下 sosb-error.log。截圖存在同一個目錄的 screenshots。
+  原版第一次執行會在文字模式詢問顯示卡與音效，程式已代為選好 EGA、AdLib 與滑鼠。
+  原版附的預建隊伍在遊戲目錄裡，主選單選 LOAD SAVED GAME 即可載入。
+
+三、按鍵
+  F1   我方無敵（作弊）：HP 不減少，昏迷、中毒等不良狀態會被解除，預設關
+  F2   切換 2 倍／3 倍（HD 版的重繪圖只在 3 倍顯示）
+  F3   靜音
+  F4   遊戲中配樂開關
+  F5   翻閱已讀過的旅行手札（PgUp／PgDn 翻頁，←／→ 換則，Esc 關閉）；地圖手札顯示圖面
+  F6   遊戲內攻略（內容有劇情與解謎答案）
+  F7   地圖與攻略點（V 切換全圖／只看走過的格子）
+  F8   切換語言（繁中、简中、日本語、한국어、English）
+  F9   查驗題答案顯示開關
+  F10  截圖
+  F11  全螢幕
+  F12  譯文／英文原版切換
+  滑鼠移到視窗頂端會出現切換列，點項目等同按對應的鍵；遊戲速度與切換列字級只在切換列調整。
+  其餘按鍵照原版送進遊戲。
+
+四、語言
+  繁體中文為人工翻譯，旅行手札依英文原版修正了珍藏版說明書的錯譯。簡體中文由繁體中文
+  自動轉換。日文、韓文為機器翻譯，未經母語者校對。英文版保留原文，改用較清楚的字型重繪，
+  並可在遊戲內閱讀英文旅行手札。
+  繁體中文使用源泉圓體（GenSenRounded2，SIL OFL 1.1）轉成的點陣字型，2 倍與 3 倍各有一套。
+  第一次啟動依作業系統的語言設定選擇，其他語系用英文，偵測不到時用繁中。之後最後選的語言
+  會記住，下次啟動沿用；也可以用 -lang 指定（zh-TW、zh-CN、ja、ko、en）。
+  原版只有標題曲；遊戲中的 13 首配樂是以標題曲為基礎的新編曲，可用 F4 關閉。
+
+五、版本
+  SOSBCHT-<版本>-…：原版畫面加中文。
+  SOSBCHT-<版本>-hd-…：另附 HD 重繪圖（3 倍時顯示），重繪圖由 AI 生成。
+  沒有 HD 素材時，切換列上的 HD 會停用並顯示「無HD」。
+  檔名含 with-data 的是本機完整版，內含原版遊戲，只供已擁有原版的人在自己的電腦上使用，
+  請勿散布、上傳或分享。
+
+六、已知限制
+  礦坑與孿生城堡地下城的地圖攻略點尚未標示（多層共用同一張地圖，還沒找到分層的方法）。
+  冰河裂縫與廢墟一帶的雜誌地圖沒有格線，也沒有攻略點。
+
+七、macOS 第一次開啟
+  本程式沒有 Apple 簽章。第一次請在 Finder 對 SOSBCHT.app 按右鍵選「打開」，
+  或到「系統設定 → 隱私權與安全性」允許開啟。
+
+八、授權
+  本程式採 RRSAL-1.0（LICENSE），非商業免費。第三方元件見 THIRD-PARTY.md、
+  LICENSE-dosgolem、COPYING.LGPL 與 font/ 內的字型授權。
+  旅行手札譯自 SSI 英文版 Adventurer's Journal 並參照軟體世界珍藏版 056 說明書，攻略內容取自
+  《軟體世界》雜誌第 21–25 期，著作權屬原權利人。原版遊戲的著作權屬原權利人。

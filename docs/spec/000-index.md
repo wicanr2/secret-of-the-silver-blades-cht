@@ -18,7 +18,7 @@ adapter 是由 `apps/cok` 複製的 `apps/sosb`。本表的狀態只算本作已
 | 009 地圖疊層 | READY | #9 | GEO 指標 `DS:89CE`、位置 `DS:89D7`（已證實）；17 塊地區名稱依同號 ECL 區塊；攻略點 8 張地圖 298 點（鎮上與知識之井已在遊戲內核對）；礦坑與地下城待分層 | docs/re/007、009、`tools/g8-map-guide-receipt.sh` |
 | 010 HD 主題 | READY | #10 | 生圖交 Codex，其餘 Claude；第一階段 89、戰鬥 394、牆面與天空 1,252（共 3 項維持原版）；demo 與鎮上 3 倍＋HD 閃現 0；審閱頁 `review/hd/`；標題流程 3 倍＋HD 閃現 0 | `tools/hd_*.py`、`g16-flicker-probe.sh`（`HD=1 SCALE=3`） |
 | 011 切換列 | DRAFT | #10 | 未在本作驗證 | — |
-| 012 發行包 | DRAFT | #12 | `cmd/sosb-play` 首次執行寫 `blades.cfg`（冷開機冒煙通過）；打包未開工 | docs/re/003、007 |
+| 012 發行包 | READY | #12 | `tools/package.sh` 由前作移植，字型由 `font-dev.sh` 產生；倚天字型借 3 個 Big5 沒有的字；手札地圖頁只進本機完整版；`v.1.0.0-20261023` 三平台完整版 Linux、Wine 冒煙截圖相同，macOS 驗結構；patch 包未打 | 規格 012、`tools/release/smoke-*.sh` |
 | 013 玩家名音譯 | READY | #7 | 性別欄 +0x11F（強推論）；名字接受大小寫混合 | docs/re/007 |
 | 014 配樂 | READY | #11 | 原版只有標題曲、三聲道同一組音色；13 首以標題曲 4 個動機新編，使用者試聽通過（2026-10-23）；選曲字串取自本作盤點，勝利與強敵只有靜態證據 | `tools/music_compose.py`、`cmd/sosb-music-cues` |
 | 015 多語系 | READY | #11 | 简中 OpenCC 轉換、日韓機器翻譯（14 批）、英文原文加 Courier Prime；日韓手札與攻略由繁中定稿翻譯；英文手札 1–72 則對頁面圖轉錄（`tools/journal_en_build.py`）；四語收據記憶體雜湊一致、缺字 0 | `tools/g10-lang-receipt.sh`、docs/re/006 |
