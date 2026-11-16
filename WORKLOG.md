@@ -246,3 +246,4 @@
 ## 2026-11-16 重複檔改唯讀硬連結
 
 依使用者要求清理空間，只處理git未追蹤、4096 bytes以上、不在巢狀git repo內的檔案。連結前在Docker重新計算兩端SHA-256並核對大小與擁有者，共21041個檔案改成硬連結，省下482212580 bytes，略過0個。路徑與內容不變；共用檔已移除寫入權限，原地改寫會報錯而不會同時改到其他路徑。收據與工具在`workplace/cleanup-20261116-dedup/`。要解除時，用`cp`複製成獨立檔案再補回寫入權限。原始輸入、程式來源、研究紀錄與dist-all內容都沒有刪除。
+- 依使用者要求打包git未追蹤的本機資料，不含dist-all與頂層.git，供放上Google Drive：`~/Downloads/golden_box-backup-20261116/secret-of-the-sliver-blader-backup-20261116.zip`，981636919 bytes，SHA-256 `5bbcbbd5d8a4f210aa6c46e6e5b36e8263f27658645110d032f08646a568579b`。包內附SHA256SUMS、符號連結清單與還原說明，打包後重新讀取逐檔比對SHA全部相符。
