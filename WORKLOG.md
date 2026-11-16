@@ -235,3 +235,10 @@
 - Issue #5、#7–#12 留結案說明（完成項與缺口）後關閉，#1–#17 全部關閉；缺口表記在 CONTEXT「結案」一節。
 - workplace 清理（使用者選定）：刪 pkg-stage、pkg-gocache、readme-shots、play-smoke、根目錄 log，推廣片錄製畫格 promo/seg、build、check；保留 sosb-promo.mp4（雜湊 f6e0dbac… 與規格 016 相同）。5.5 GB → 2.6 GB。
 - CONTEXT 勘誤：dosgolem 分支頂端由 41f6c7f 更正為 d6c0a4b。
+
+
+## 2026-11-11 可重建產物清理
+
+清除可重建的快取、編譯執行檔，移除 6,958 個檔案，合計約 0.661 GiB。原始輸入、程式來源、正式素材、存檔、研究紀錄、影片與現行封包保留。
+
+保留檔案逐檔核對 SHA-256、大小、權限、擁有權及修改時間，並核對 Git 狀態。巢狀儲存庫的 rich2.test 曾誤列清理，已由 Git 物件還原，SHA-256、大小、擁有權及修改時間與清理前相同；執行權限依 Git，未取得原始完整權限位元。其他保留檔案的內容與上述屬性均相同。本節於核對後追加。Docker image 刪除及 volume 管理遭目前執行權限拒絕，未刪除映像或 volume；本次容器使用 --rm，未新增映像或 volume。未提交或推送。
